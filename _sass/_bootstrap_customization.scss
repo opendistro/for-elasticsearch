@@ -1,0 +1,31 @@
+// Flatly 4.2.1
+// Bootswatch
+// Variables ===================================================================
+
+$web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700" !default;
+@import url($web-font-path);
+
+// Navbar =======================================================================
+.bg-light {
+  background-color: $white !important;
+}
+
+// Removes the rounded corner
+.jumbotron {
+  border-radius: 0 !important;
+}
+
+// Buttons =====================================================================
+.btn {
+  &-outline-primary {
+    border: 1px solid $white;
+    color: $white;
+  }
+  &-primary {
+    background-color: $primary
+  }
+  &-primary:hover {
+    background-color: $white;
+    color: $distro-pink;
+  }
+}

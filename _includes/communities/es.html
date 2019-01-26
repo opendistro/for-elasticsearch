@@ -1,0 +1,43 @@
+{% comment %}
+<!--
++------------------------------------------------------------------+
+|                                                                  |
+|                                         +-----------------+      |
+|   +---------------------------------+   |                 |      |
+|   |                                 |   +-----------------+      |
+|   |     This is intro text          |                            |
+|   |                                 |   +------------------+     |
+|   +---------------------------------+   |                  |     |
+|                                         +------------------+     |
++------------------------------------------------------------------+
+-->
+{% endcomment %}
+
+<div
+  class="container d-flex align-items-center justify-content-center p-4"
+  style="background-color: #F3F3F3;"
+>
+  <div class="row d-flex align-items-center">
+    <div class="col-12 col-md-6">
+      <h4>
+          {{site.data.communities.es.title}}
+      </h4>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="row">
+        <div class="col">
+          <a class="btn btn-primary btn-lg btn-block" href="{{site.data.communities.es.github.url}}" role="button"
+            >{{site.data.communities.es.github.text}}</a
+          >
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col">
+          <a class="btn btn-primary btn-lg btn-block" href="{{site.data.communities.es.slack.url}}" role="button"
+            >{{site.data.communities.es.slack.text}}</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

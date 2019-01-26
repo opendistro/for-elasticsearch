@@ -1,0 +1,7 @@
+social:
+  - slack: 
+    text: Join our Slack community 
+    url: 'http://slack.com'
+  - github: 
+    text: Join our Github community 
+    url: 'http://github.com'

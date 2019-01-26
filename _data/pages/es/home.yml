@@ -1,0 +1,54 @@
+banner:
+  title: Open Distro for 
+  product: Elasticsearch
+  text: A free and open Elasticsearch distribution
+  actions:
+    primary: 
+      text: 'Contribute'
+      url: '#'
+    secondary:
+      text: 'Deploy'
+      url: '#'
+partners:
+  - alt_text: 'AWS'
+    featured: true,
+    img_url: "assets/media/logos/partners/aws.svg"
+  - alt_text: 'VM ware'
+    featured: true,
+    img_url: "assets/media/logos/partners/vmware.svg"
+  - alt_text: 'Netflix'
+    featured: true,
+    img_url: "assets/media/logos/partners/Netflix.svg"
+  - alt_text: 'Lyft'
+    featured: true,
+    img_url: "assets/media/logos/partners/lyft.svg"
+  
+
+
+
+intro:
+  title: Open Distro For Elasticsearch
+  content: OpenES provides a free and open source Elasticsearch-based stack that fills critical feature gaps previously only addressed with commercially licensed software such as security, alerting health monitoring and SQL support. OpenES is centered around building a strong community of users and contributors from across the industry to participation in building, advancing, and maintaining an Elasticsearch compatible stack with the confidence that it will always be open and free to use.
+  img: "assets/media/Content_Img.png"
+#Text for all benefits maximum to 3
+benefits:
+  title: 'Benefits'
+  items:
+    - title: 'Benefit 1'
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+      color: "#251CB2"
+      action:
+        text: 'Who is backing OpenES ?'
+        url: 'http://action.com'
+    - title: 'Benefit 2'
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+      color: "#7621A9"
+      action:
+        text: 'More about features'
+        url: 'http://action.com'
+    - title: 'Benefit 3'
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+      color: "#BD34A3"
+      action:
+        text: 'Align your deplyoments'
+        url: 'http://action.com'

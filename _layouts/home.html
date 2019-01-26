@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{% capture hero_content %}
+  <div class="row">
+    <div class="col-12"><h4>{{site.data.pages.es.home.banner.title}}</h4></div>
+  </div>
+  <div class="row">
+    <div class="col-12"><h2>{{site.data.pages.es.home.banner.product}}</h2></div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <h5>{{site.data.pages.es.home.banner.text}}</h5>
+    </div>
+  </div>
+  <div class="pt-2 row justify-content-start">
+    <div class="col-12 col-md-3">
+      <a class="btn btn-primary btn-lg btn-block" href="#" role="button"
+        >{{site.data.pages.es.home.banner.actions.primary.text}}</a
+      >
+    </div>
+    <div class="col-12 pt-3 pt-md-0 col-md-3">
+      <a
+        class="btn btn-outline-primary btn-lg btn-block"
+        href="#"
+        role="button"
+        >{{site.data.pages.es.home.banner.actions.secondary.text}}</a
+      >
+    </div>
+  </div>
+{% endcapture %}
+{%- include hero.html content=hero_content -%}
+<!-- Supporter Starts 
+<div class="d-flex justify-content-center align-items-center" style="background-color: lightgray">
+  <div class="row p-x-3 p-y-3">
+    {% for partner in site.data.pages.es.home.partners %}
+        <div class="col">
+          <img src="{{ partner.img_url }}" alt="{{ partner.alt }}" height="50" width="200" class="featured-partner-icon" />
+        </div>
+    {% endfor %}
+  </div>
+</div>
+-->
+<!-- Supporter Ends -->
+<!-- Intro content Starts -->
+{% capture intro_title %}{{site.data.pages.es.home.intro.title}}{% endcapture %}
+{% capture intro_content %}{{site.data.pages.es.home.intro.content}}{% endcapture %}
+{% capture intro_img %}{{site.data.pages.es.home.intro.img}}{% endcapture %}
+<div class="pt-5"/>
+{%- include full-width-content.html title=intro_title content=intro_content img=intro_img -%}
+<!-- Intro content ends -->
+<div class="pt-5"/>
+<!-- Community Starts -->
+{%- include communities/es.html -%}
+<!-- Community Ends -->
+<!-- Benefits Starts -->
+<div class="pt-5"/>
+{% capture benefit_title %}{{site.data.pages.es.home.benefits.title}}{% endcapture %}
+{% capture benefits_content %}
+  <div class="row">
+    {% for benefit in site.data.pages.es.home.benefits.items %}
+      <div class="col-12 col-md-4 px-4 py-5" style="background-color:{{benefit.color}};color:white">
+        <h4>{{ benefit.title }}</h4>
+        <div>{{ benefit.content }}</div>
+        <div class="row">
+          <a class="btn btn-link pt-3" href="#" role="button"> {{ benefit.action.text }}</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endcapture %}
+{%- include text-content.html title=benefit_title content=benefits_content -%}
+<!-- Benefits Ends -->

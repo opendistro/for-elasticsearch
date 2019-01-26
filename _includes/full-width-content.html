@@ -1,0 +1,29 @@
+{% comment %}
+<!--
++-----------------------------------------------------------------+
+|                         Title                                   |
++-----------------------------------------------------------------+
+|                                                                 |
+|                                                                 |
+|                          Content                                |
++-----------------------------------------------------------------+
+|                          Full width Image                       |
+|                                                                 |
++-----------------------------------------------------------------+
+-->
+{% endcomment %}
+<div class="container">
+  <div class="row text-center">
+    <div class="col"><h1>{{include.title}}</h1></div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p>
+        {{include.content}}
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col"><image src="{{include.img}}" width="100%"></image></div>
+  </div>
+</div>
