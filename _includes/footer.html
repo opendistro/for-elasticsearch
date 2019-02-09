@@ -1,6 +1,61 @@
-<footer class="container-fluid page-footer">
+<!-- <footer class="container page-footer">
   <p class="h5 mb-3">{{ site.title | escape }}</p>
   <div class="row">
+    <div class="col-sm">
+      <ul class="list-unstyled">
+        <li>
+          {%- if site.author -%}
+            {{ site.author | escape }}
+          {%- else -%}
+            {{ site.title | escape }}
+          {%- endif -%}
+        </li>
+        {%- if site.email -%}
+          <li>
+            <a href="mailto:{{ site.email }}">
+              {{ site.email }}
+            </a>
+          </li>
+        {%- endif -%}
+      </ul>
+    </div>
+    <div class="col-sm">
+      <ul class="list-unstyled">
+        <li>
+          {%- if site.author -%}
+            {{ site.author | escape }}
+          {%- else -%}
+            {{ site.title | escape }}
+          {%- endif -%}
+        </li>
+        {%- if site.email -%}
+          <li>
+            <a href="mailto:{{ site.email }}">
+              {{ site.email }}
+            </a>
+          </li>
+        {%- endif -%}
+      </ul>
+    </div>
+    <div class="col-sm text-right">
+      <p>{{- site.description | escape -}}</p>
+    </div>
+  </div>
+</footer> -->
+
+<footer class="container page-footer">
+  <p class="h5 mb-3">{{ site.title | escape }}</p>
+  <div class="row">
+    {% for section in site.data.pages.es.home.siteMap.sections %}
+    <div class="col-sm">
+      <ul class="list-unstyled">
+        {% for menu in sections.contents %}
+          <li>
+            {{ menu.menu_item }}
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
     <div class="col-sm">
       <ul class="list-unstyled">
         <li>
@@ -24,3 +79,22 @@
     </div>
   </div>
 </footer>
+
+
+<div class="container">
+  <div class="row" >
+    {% for section in site.data.pages.es.home.siteMap.sections %}
+      <div class="col-12 col-md-4 px-4 py-5" style="background-color:{{benefit.color}};color:white">
+        <h4>{{ section.title }}</h4>
+        {% for menu in sections.contents %}
+           <div>{{ menu.menu_item }}</div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</div> 
+
+
+
+
+

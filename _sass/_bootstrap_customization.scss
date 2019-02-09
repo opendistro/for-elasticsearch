@@ -21,6 +21,11 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,
     border: 1px solid $white;
     color: $white;
   }
+  &-outline-primary:hover {
+    border: 1px solid $white;
+    background-color: $white;
+    color: $blue;
+  }
   &-primary {
     background-color: $primary
   }
@@ -28,4 +33,12 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,
     background-color: $white;
     color: $distro-pink;
   }
+  &-secondary {
+    background-color: $midnightblue;
+    color: $white;
+  }
+}
+
+.btn-round{
+  border-radius: 17px;
 }

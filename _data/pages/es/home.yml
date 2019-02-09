@@ -1,13 +1,13 @@
 banner:
-  title: Open Distro for 
+  title: Open Distro for Elasticsearch
   product: Elasticsearch
-  text: A free and open Elasticsearch distribution
+  text: A more secure, flexible, and reliable Elasticsearch
   actions:
     primary: 
       text: 'Contribute'
       url: '#'
     secondary:
-      text: 'Deploy'
+      text: 'Downloads'
       url: '#'
 partners:
   - alt_text: 'AWS'
@@ -24,31 +24,98 @@ partners:
     img_url: "assets/media/logos/partners/lyft.svg"
   
 
-
-
 intro:
-  title: Open Distro For Elasticsearch
-  content: OpenES provides a free and open source Elasticsearch-based stack that fills critical feature gaps previously only addressed with commercially licensed software such as security, alerting health monitoring and SQL support. OpenES is centered around building a strong community of users and contributors from across the industry to participation in building, advancing, and maintaining an Elasticsearch compatible stack with the confidence that it will always be open and free to use.
+  title: Why Open Distro for Elasticsearch?
+  content: Open Distro for Elasticsearch is a free and open source Elasticsearch-based distribution that provides critical features asuch as security, even monitoring and alerting, performance analysis, and SQL querying, previously only available with commercially licensed software. Built using open-source projects like Easticsearch and Kibana, Open Distro for Elasticsearch is centered around building a strong community of users and cotributors, allowin you to participate in maintaining and advancing an Elastisearch compatible stack with the confidence that it will always be open and free to use.
   img: "assets/media/Content_Img.png"
 #Text for all benefits maximum to 3
 benefits:
   title: 'Benefits'
   items:
-    - title: 'Benefit 1'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+    - title: 'Open distribution'
+      content: 'Join a growing community of innovators including Nefflix, Lyft, Expedia, Samsung, T-Mobile, and others to maintain and improve Elasticsearch.'
       color: "#251CB2"
       action:
         text: 'Who is backing OpenES ?'
         url: 'http://action.com'
-    - title: 'Benefit 2'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+    - title: 'Enterprise-ready'
+      content: 'Get access to advanced features such as encryption in-transit, role-based access control, event monitoring and alerting, performance analysis, and SQL support.'
       color: "#7621A9"
       action:
         text: 'More about features'
         url: 'http://action.com'
-    - title: 'Benefit 3'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'
+    - title: 'Flexible'
+      content: 'Search, analyze, and visualize all your data types for log analytics, application monitoring, root cause analysis, and security analytics.'
       color: "#BD34A3"
       action:
         text: 'Align your deplyoments'
         url: 'http://action.com'
+included:
+   title: What's included?
+   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+   img: "assets/media/Content_Img.png"
+
+partners:
+  title: Who are our partners?
+  content: Companies that support and contribute to Open Distro for Elasticsearch. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+  img: "assets/media/Content_Img.png"
+  items: 
+    - alt_text: 'AWS'
+      featured: true,
+      img_url: "assets/media/logos/partners/aws.svg"
+    - alt_text: 'VM ware'
+      featured: true,
+      img_url: "assets/media/logos/partners/vmware.svg"
+    - alt_text: 'Netflix'
+      featured: true,
+      img_url: "assets/media/logos/partners/Netflix.svg"
+    - alt_text: 'Lyft'
+      featured: true,
+      img_url: "assets/media/logos/partners/lyft.svg"
+    - alt_text: 'AWS'
+      featured: true,
+      img_url: "assets/media/logos/partners/aws.svg"
+    - alt_text: 'VM ware'
+      featured: true,
+      img_url: "assets/media/logos/partners/vmware.svg"
+    - alt_text: 'Netflix'
+      featured: true,
+      img_url: "assets/media/logos/partners/Netflix.svg"
+    - alt_text: 'Lyft'
+      featured: true,
+      img_url: "assets/media/logos/partners/lyft.svg"
+    - alt_text: 'AWS'
+      featured: true,
+      img_url: "assets/media/logos/partners/aws.svg"
+    - alt_text: 'VM ware'
+      featured: true,
+      img_url: "assets/media/logos/partners/vmware.svg"
+    - alt_text: 'Netflix'
+      featured: true,
+      img_url: "assets/media/logos/partners/Netflix.svg"
+    - alt_text: 'Lyft'
+      featured: true,
+      img_url: "assets/media/logos/partners/lyft.svg"    
+
+siteMap:
+  sections:
+    - title: 'OPEN DISTRO FEATURES'
+      contents: 
+       - menu_item: "Elasticsearch"
+       - menu_item: "Kibana"
+       - menu_item: "Alerting"
+       - menu_item: "security"
+       - menu_item: "SQL Support"
+       - menu_item: "Performance Analyzer"
+    - title: 'COMMUNITY'
+      contents: 
+       - menu_item: "About"
+       - menu_item: "Contribute"
+       - menu_item: "GitHub"
+       - menu_item: "#Slack"
+    - title: 'DISCOVER'
+      contents: 
+       - menu_item: "Documentation"
+       - menu_item: "Deployment"
+       
+

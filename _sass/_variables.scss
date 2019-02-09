@@ -15,6 +15,7 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 
 $blue:    #2C3E50 !default;
+$midnightblue: #0a1f72 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -28,6 +29,7 @@ $distro-pink: #DA00B1 !default;
 
 
 $primary:       #750EAD !default;
+$primary:       $white !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
