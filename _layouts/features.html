@@ -11,7 +11,7 @@ layout: default
           <h7>{{feature.title}}</h7>
         </div>
         <div class="row pt-4 justify-content-center align-items-center">
-          <a href={{ feature.url | relative_url }}> <img src={{ feature.icon }} height="42" width="42"></a>
+          <a href={{ feature.url | relative_url }}> <img src={{ feature.icon }} height="42" width="42" style="fill:{{feature.color}};"></a>
         </div>  
       </div> 
     {% endfor %}  

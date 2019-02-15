@@ -12,22 +12,23 @@ banner:
 # Features
 featuresLink:
   - title: Elasticsearch
-    icon: "/assets/media/logos/partners/aws.svg"
+    icon: "/assets/media/icons/elasticsearch_64px.svg"
     url: "features/elasticsearch.html"
+    color: "#0000ff"
   - title: Kibana
-    icon: "/assets/media/logos/partners/aws.svg" 
+    icon: "/assets/media/icons/kibana_64px.svg" 
     url: "features/kibana.html"
   - title: Security
-    icon: "/assets/media/logos/partners/aws.svg" 
+    icon: "/assets/media/icons/security_64px.svg" 
     url: "features/security.html"
   - title: Alerting
-    icon: "/assets/media/logos/partners/aws.svg" 
+    icon: "/assets/media/icons/alerting_64px.svg" 
     url: "features/alerting.html"
   - title: SQL Support
-    icon: "/assets/media/logos/partners/aws.svg" 
+    icon: "/assets/media/icons/SQL_support_64px.svg" 
     url: "features/sqlSupport.html"
   - title: Performance Analyzer
-    icon: "/assets/media/logos/partners/aws.svg"   
+    icon: "/assets/media/icons/performance_analyzer_64px.svg"   
     url: "features/analyzer.html"        
 
 #Text for all open source software
@@ -44,7 +45,7 @@ openSource:
       action_download:
         text: 'Download'
         url: 'downloads.html'
-      icon: "/assets/media/logos/partners/aws.svg" 
+      icon: "/assets/media/icons/elasticsearch_64px_w.svg" 
       alt_text: 'Elasticsearch'   
     - title: 'Kibana'
       content: 'Open Distro for Elastisearch uses Apache 2.0 licensed Kibana as its primary visualization tool and dashboard. Integrated with Elasticsearch, Kibana offers powerful yet easy-to-use features such as interactive charts, histograms, pre-built aggregations and filters, and built-in geospatial support.'
@@ -57,7 +58,7 @@ openSource:
       action_download:
         text: 'Download'
         url: 'downloads.html' 
-      icon: "/assets/media/logos/partners/aws.svg"
+      icon: "/assets/media/icons/kibana_64px_w.svg"
       alt_text: 'Kibana'
 
 #Security
@@ -102,7 +103,7 @@ performanceAnalyzer:
       action_download:
         text: 'Downloads'
         url: 'downloads.html'
-      icon: "/assets/media/logos/partners/aws.svg" 
+      icon: "/assets/media/icons/performance_analyzer_64px_w.svg" 
       alt_text: 'Elasticsearch'   
     - title: 'SQL Support'
       content: "Opend Distro for Elasticsearch provides SQL support, allowing users to access and query data using a language they are familiar with, while still benefitting from the performance Elasticsearch has to offer. Open Distro for Elasticsearch's SQL support also inclues a JDBC driver, so you can easily connect your Java applications with Elasticsearch."
@@ -115,7 +116,7 @@ performanceAnalyzer:
       action_download:
         text: 'Downloads'
         url: 'downloads.html' 
-      icon: "/assets/media/logos/partners/aws.svg"
+      icon: "/assets/media/icons/SQL_support_64px_w.svg"
       alt_text: 'Kibana'   
 
 #Text for Contribute
