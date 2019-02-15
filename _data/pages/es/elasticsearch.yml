@@ -2,7 +2,7 @@ banner:
   title: Elasticsearch
   subtitle: Open Distro for
   content: Open Distro for Elasticsearch is built on top of the Apache 2.0 licensed Elasticsearch, distributed search and analytics engine.
-  icon: "/assets/media/logos/partners/aws.svg"
+  icon: "/assets/media/icons/elasticsearch_64px_w.svg"
 
 intro:
   title: RESTful search & analytics engine
