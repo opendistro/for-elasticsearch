@@ -1,0 +1,250 @@
+---
+layout: default
+---
+
+<!-- Features icons -->
+<div class="container features feature-icons-container">
+  <div class="row">
+    {% for feature in site.data.pages.es.features.featuresLink%}
+      <div class="col-12 col-md-2 px-4 py-3">
+        <div class="row feature-icon-title justify-content-center align-items-center">
+          <h7>{{feature.title}}</h7>
+        </div>
+        <div class="row pt-4 justify-content-center align-items-center">
+          <a href={{ feature.url | relative_url }}> <img src={{ feature.icon }} height="42" width="42"></a>
+        </div>  
+      </div> 
+    {% endfor %}  
+  </div>
+</div>
+
+<div class="pt-5"/>
+
+<!-- Intro -->
+<div class="container">
+  <div>
+    
+	<div class="pt-5 row text-center features feature-title">
+	    <div class="col-12"><h4>{{site.data.pages.es.features.banner.title}}</h4></div>
+	</div>
+	<div class="row justify-content-center text-center features feature-intro">
+	    <div class="col-12 col-md-5">
+	      <h6>{{site.data.pages.es.features.banner.text}}</h6>
+	    </div>
+	</div>
+	<div class="pt-5 row justify-content-center text-center">
+	    <div class="col-12 col-md-3">
+	      <a class="btn btn-outline-third btn-round btn-block" href="#" role="button"
+	        >{{site.data.pages.es.features.banner.actions.primary.text}}</a
+	      >
+	    </div>
+	    <div class="col-12 col-md-3">
+	      <a
+	        class="btn btn-outline-third btn-round btn-block"
+	        href="#"
+	        role="button"
+	        >{{site.data.pages.es.features.banner.actions.secondary.text}}</a
+	      >
+	    </div>
+	</div>
+  </div>
+</div>  
+<!-- Ends -->
+
+<div class="pt-5"/>
+
+<!-- Elasticsearch - Kibana -->
+{% capture openSource_content %}
+<div class="container">
+  <div class="row" style="height:500px;">
+    {% for item in site.data.pages.es.features.openSource.items %}
+      <div class="col-12 col-md-6 py-5 elasticsearchSquare" style="position:relative; background: url({{ item.background }}) no-repeat; background-size: cover; color:white">
+        <h4>{{ item.title }}</h4>
+        <h6>{{ item.subtitle }}</h6>
+        <div class="pt-3">{{ item.content }}</div>
+        <div class="row" style="display: inline; position:absolute; bottom:150px;">
+          <a class="btn btn-link pt-3 features feature-link" href="{{ item.action_learn.url | relative_url }}" role="button"> {{ item.action_learn.text }} <b> > </b></a>
+          <a class="btn btn-link pt-3 features feature-link"  href="{{ item.action_download.url | relative_url }}" role="button"> {{ item.action_download.text }} <b> > </b></a>
+        </div>
+        <div class="row pt-5" >
+          <div class="offset-md-10 col-md-2" style="position:absolute; bottom:20px; right:80px;">
+            <img src={{ item.icon }}  height="100" width="100">
+          </div>  
+        </div>
+         
+      </div>
+    {% endfor %}
+  </div>
+</div>  
+{% endcapture %}
+{%- include text-content.html content=openSource_content -%}
+<!-- Ends -->
+
+<div class="pt-5"/>
+
+<!-- Security -->
+<div class="container">
+  <div class="px-3">
+    
+    <!-- Title -->
+	<div class="pt-5 row justify-content-center text-center features feature-title">
+	    <div class="col-12"><h4>{{site.data.pages.es.features.security.title}}</h4></div>
+	</div>
+
+	<!-- Subtitle -->
+	<div class="row justify-content-center text-center features feature-intro">
+	    <div class="col-12">
+	      <h6>{{site.data.pages.es.features.security.text}}</h6>
+	    </div>
+	</div>
+
+	<!-- Links -->
+	<div class="pt-3 row justify-content-center text-center">
+	    <div class="col-12 col-md-3">
+	      <a class="features feature-security-link" href="#">
+	        {{site.data.pages.es.features.security.actions.primary.text}}
+	      </a>
+	      &nbsp;&nbsp;&nbsp;&nbsp;
+	      <a class="features feature-security-link" href="#">
+	        {{site.data.pages.es.features.security.actions.secondary.text}}
+	      </a>
+	    </div>
+	</div>
+	
+	<!-- Img  -->
+	<div class="row">
+      <div class="col"><image src="{{site.data.pages.es.features.security.img}}" width="100%"></image></div>
+    </div>
+    
+    <!-- Content -->
+	<div class="pt-3 row">
+	    <div class="col">
+	      <p>
+	        {{site.data.pages.es.features.security.content}}
+	      </p>
+	    </div>
+    </div>
+  
+  </div>
+  
+</div>  
+
+<!-- Ends -->
+
+<div class="pt-5"/>
+
+<!-- Alerting -->
+<div class="container">
+  <div class="px-3 features feature-alert-box">
+    
+    <!-- Title -->
+	<div class="pt-5 row justify-content-center text-center">
+	    <div class="col-12"><h4>{{site.data.pages.es.features.alert.title}}</h4></div>
+	</div>
+
+	<!-- Subtitle -->
+	<div class="row justify-content-center text-center features feature-intro">
+	    <div class="col-12">
+	      <h6>{{site.data.pages.es.features.alert.text}}</h6>
+	    </div>
+	</div>
+
+	<!-- Links -->
+	<div class="pt-5 row justify-content-center text-center">
+	    <div class="col-12 col-md-3">
+	      <a href="#" class="features feature-alert-link">
+	        {{site.data.pages.es.features.alert.actions.primary.text}}
+	      </a>
+	      &nbsp;&nbsp;&nbsp;&nbsp;
+	      <a href="#" class="features feature-alert-link">
+	        {{site.data.pages.es.features.alert.actions.secondary.text}}
+	      </a>
+	    </div>
+	</div>
+	
+	<!-- Img  -->
+	<div class="row pt-5 justify-content-center text-center">
+      <div class="col"><image src="{{site.data.pages.es.features.alert.img}}" width="80%"></image></div>
+    </div>
+    
+    <!-- Content -->
+	<div class="row px-5 py-5">
+	    <div class="col">
+	      <p>
+	        {{site.data.pages.es.features.alert.content}}
+	      </p>
+	    </div>
+    </div> 
+
+  </div> 
+</div>
+<!-- Ends -->
+
+<!-- Performance Analyzer -->
+{% capture performance_content %}
+<div class="container">
+  <div class="row" style="height:500px;">
+    {% for item in site.data.pages.es.features.performanceAnalyzer.items %}
+      <div class="col-12 col-md-6 px-5 py-5" style="position:relative; background: url({{ item.background }}) no-repeat; background-size: cover; color:white">
+        <h4>{{ item.title }}</h4>
+        <h6>{{ item.subtitle }}</h6>
+        <div class="pt-3">{{ item.content }}</div>
+        <div class="row" style="display: inline; position:absolute; bottom:150px;">
+          <a class="btn btn-link pt-3 features feature-link" href="{{ item.action_learn.url | relative_url }}" role="button"> {{ item.action_learn.text }} <b> > </b></a>
+          <a class="btn btn-link pt-3 features feature-link"  href="{{ item.action_download.url | relative_url }}" role="button"> {{ item.action_download.text }} <b> > </b></a>
+        </div>
+        <div class="row pt-5" >
+          <div class="offset-md-10 col-md-2" style="position:absolute; bottom:20px; right:80px;">
+            <img src={{ item.icon }}  height="100" width="100">
+          </div>  
+        </div>
+         
+      </div>
+    {% endfor %}
+  </div>
+</div>  
+{% endcapture %}
+{%- include text-content.html content=performance_content -%}
+<!-- Ends -->
+
+<!-- Contribute -->
+<div class="container">
+  <div class="px-3 pt-5 features feature-alert-box">
+    
+    <!-- Title -->
+	<div class="pt-5 row justify-content-center text-center">
+	    <div class="col-12"><h4>{{site.data.pages.es.features.contribute.title}}</h4></div>
+	</div>
+
+	<!-- Content -->
+	<div class="row px-5 py-3">
+	    <div class="col">
+	      <p>
+	        {{site.data.pages.es.features.contribute.content}}
+	      </p>
+	    </div>
+    </div> 
+
+	<!-- Links -->
+	<div class="row justify-content-center text-center">
+	    <div class="col-12 col-md-3">
+	      <a href="#" class="features feature-alert-link">
+	        {{site.data.pages.es.features.contribute.action.text}}
+	      </a>
+	      
+	    </div>
+	</div>
+
+	<div class="pt-5">
+    
+  </div> 
+</div>
+<!-- Ends -->
+
+<!-- Community Starts -->
+<div class="container">
+  {%- include communities/es.html -%}
+</div>  
+<!-- Community Ends -->
+
+

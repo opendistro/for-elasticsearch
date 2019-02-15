@@ -37,8 +37,39 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,
     background-color: $midnightblue;
     color: $white;
   }
+  &-outline-secondary {
+    border: 1px solid $midnightblue;
+    color: $midnightblue;
+  }
+  &-outline-secondary:hover {
+    background-color: $midnightblue;
+    color: $white;
+  }
+  &-outline-third {
+    border: 1px solid $midnightblue;
+    color: $midnightblue;
+  }
+
+  &-outline-third:hover {
+    background-color: $midnightblue;
+    color: $white;
+  }
+  &-blue-button {
+    color: $white;
+    background-color: $midnightblue;
+  }
+  &-link {
+    color: $white;
+  }
 }
 
 .btn-round{
   border-radius: 17px;
 }
+
+.container {
+  font-family: Open Sans; 
+}
+
+
+

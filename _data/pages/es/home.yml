@@ -9,6 +9,7 @@ banner:
     secondary:
       text: 'Downloads'
       url: '#'
+      
 partners:
   - alt_text: 'AWS'
     featured: true,

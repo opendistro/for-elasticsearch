@@ -42,46 +42,29 @@
     </div>
   </div>
 </footer> -->
-
+<div class="container">
 <footer class="container page-footer">
-  <p class="h5 mb-3">{{ site.title | escape }}</p>
-  <div class="row">
+  <div class="row d-flex justify-content-around">
     {% for section in site.data.pages.es.home.siteMap.sections %}
-    <div class="col-sm">
-      <ul class="list-unstyled">
-        {% for menu in sections.contents %}
-          <li>
-            {{ menu.menu_item }}
-          </li>
-        {%- endfor -%}
-      </ul>
+    <div class="col-md-4 px-5 py-5 d-block justify-content-center" style="padding-left:20px;">
+
+        <div>{{ section.title }}</div>
+      
+        <ul class="list-unstyled">
+          {% for menu in section.contents %}
+            <li>
+              {{ menu.menu_item }}
+            </li>
+          {% endfor %}
+        </ul>
+      
     </div>
-    <div class="col-sm">
-      <ul class="list-unstyled">
-        <li>
-          {%- if site.author -%}
-            {{ site.author | escape }}
-          {%- else -%}
-            {{ site.title | escape }}
-          {%- endif -%}
-        </li>
-        {%- if site.email -%}
-          <li>
-            <a href="mailto:{{ site.email }}">
-              {{ site.email }}
-            </a>
-          </li>
-        {%- endif -%}
-      </ul>
-    </div>
-    <div class="col-sm text-right">
-      <p>{{- site.description | escape -}}</p>
-    </div>
+    {% endfor %}
   </div>
 </footer>
 
-
-<div class="container">
+</div>
+<!-- <div class="container">
   <div class="row" >
     {% for section in site.data.pages.es.home.siteMap.sections %}
       <div class="col-12 col-md-4 px-4 py-5" style="background-color:{{benefit.color}};color:white">
@@ -92,7 +75,7 @@
       </div>
     {% endfor %}
   </div>
-</div> 
+</div>  -->
 
 
 

@@ -34,7 +34,17 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
+
+$midnightblue: #00007c !default;
+$cobaltblue: #0000ff !default;
+$lightblue: #2797f4 !default;
+$purple: #9600ff !default;
+$violet: #ed20eb !default;
+$mulberry: #ff006b !default;
+
 $blue:    #007bff !default;
+$mediumblue: #091fe3 !default;
+$waterblue: #30c3dd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -253,6 +263,8 @@ $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
+$h7-font-size:                $font-size-base * 0.25 !default;
+$h8-font-size:                $font-size-base * 0.10 !default;
 
 $headings-margin-bottom:      ($spacer / 2) !default;
 $headings-font-family:        inherit !default;
@@ -622,7 +634,7 @@ $navbar-padding-x:                  $spacer !default;
 
 $navbar-nav-link-padding-x:         .5rem !default;
 
-$navbar-brand-font-size:            $font-size-lg !default;
+$navbar-brand-font-size:            $font-size-base !default;
 // Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
 $nav-link-height:                   ($font-size-base * $line-height-base + $nav-link-padding-y * 2) !default;
 $navbar-brand-height:               $navbar-brand-font-size * $line-height-base !default;
@@ -873,8 +885,8 @@ $breadcrumb-margin-bottom:          1rem !default;
 
 $breadcrumb-bg:                     $gray-200 !default;
 $breadcrumb-divider-color:          $gray-600 !default;
-$breadcrumb-active-color:           $gray-600 !default;
-$breadcrumb-divider:                quote("/") !default;
+$breadcrumb-active-color:           $lightblue !default;
+$breadcrumb-divider:                quote(">") !default;
 
 $breadcrumb-border-radius:          $border-radius !default;
 

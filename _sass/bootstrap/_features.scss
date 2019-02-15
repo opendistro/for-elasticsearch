@@ -1,0 +1,38 @@
+
+.feature-icons-container {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: lightgrey;
+}
+
+.feature-icon-title {
+  color: $midnightblue;	
+  font-style: bold;
+}
+
+.feature-intro {
+  font-weight: none;  
+}
+
+.feature-title {
+  color: $midnightblue;
+  font-weight: bold;	
+}
+
+.feature-link {
+  float: none;
+}
+
+.feature-security-link {
+  color: $waterblue;
+}
+
+.feature-alert-box {
+  background-color: #444444;
+  color: $white;
+}
+
+.feature-alert-link {
+  color: $white;
+  font-weight: none; 	
+}

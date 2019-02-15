@@ -4,8 +4,11 @@
   padding: $breadcrumb-padding-y $breadcrumb-padding-x;
   margin-bottom: $breadcrumb-margin-bottom;
   list-style: none;
-  background-color: $breadcrumb-bg;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: lightgrey;
   @include border-radius($breadcrumb-border-radius);
+  background-color: $white;
 }
 
 .breadcrumb-item {
@@ -27,9 +30,10 @@
   //
   // To trick IE into suppressing the underline, we give the pseudo-element an
   // underline and then immediately remove it.
-  + .breadcrumb-item:hover::before {
-    text-decoration: underline;
-  }
+  //+ .breadcrumb-item:hover::before {
+  //  text-decoration: underline;
+  //}
+
   // stylelint-disable-next-line no-duplicate-selectors
   + .breadcrumb-item:hover::before {
     text-decoration: none;
@@ -39,3 +43,20 @@
     color: $breadcrumb-active-color;
   }
 }
+
+.sticky {
+  position: fixed;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.active-link {
+    color: $breadcrumb-active-color;
+  }
+

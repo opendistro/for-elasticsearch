@@ -1,6 +1,4 @@
 ---
-layout: page
+layout: contribute
 title: Contribute
 ---
-
-Hello world Contribute

@@ -1,0 +1,29 @@
+banner:
+  title: Install this distribution
+  text: "La nebbia agli irti colli piovigginando sale e sotto il maestrale urla e biancheggia il mar. Ma per le vie del borgo dal ribollir dei pini va l'aspro odor dei vini le anime a rallegrar."
+  
+software:
+  items :
+    - title: Elasticsearch 1.0
+      description: Open Distro for Elasticsearch is built on top of the popular Apache 2.0 licensed Elasticsearch, distributed search and analytics engine.  
+      action:
+        url: "#"
+    - title: Kibana 1.0
+      description: Open Distro for Elasticsearch's primary visualization tool and dashboard is the popular Alache 2.0 licensed Kibana interface.
+      action:
+        url: "#" 
+    - title: Security 1.0
+      action:
+        url: "#"
+    - title: Alerting 1.0
+      action:
+        url: "#"
+    - title: SQL Support 1.0
+      action:
+        url: "#"
+    - title: Performance Analyzer 1.0
+      action:
+        url: "#"
+    - title: Perftops 1.0
+      action:
+        url: "#"

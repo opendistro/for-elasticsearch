@@ -1,0 +1,128 @@
+banner:
+  title: Open Distro for Elasticsearch Features
+  text: Open Distro for Elasticsearch is built on top of the Apache 2.0 licensed Elasticsearch and Kibana.
+  actions:
+    primary: 
+      text: 'Downloads'
+      url: '#'
+    secondary:
+      text: 'Documentation'
+      url: '#'
+
+# Features
+featuresLink:
+  - title: Elasticsearch
+    icon: "/assets/media/logos/partners/aws.svg"
+    url: "features/elasticsearch.html"
+  - title: Kibana
+    icon: "/assets/media/logos/partners/aws.svg" 
+    url: "features/kibana.html"
+  - title: Security
+    icon: "/assets/media/logos/partners/aws.svg" 
+    url: "features/security.html"
+  - title: Alerting
+    icon: "/assets/media/logos/partners/aws.svg" 
+    url: "features/alerting.html"
+  - title: SQL Support
+    icon: "/assets/media/logos/partners/aws.svg" 
+    url: "features/sqlSupport.html"
+  - title: Performance Analyzer
+    icon: "/assets/media/logos/partners/aws.svg"   
+    url: "features/analyzer.html"        
+
+#Text for all open source software
+openSource:
+  items:
+    - title: 'Elasticsearch'
+      subtitle: 'RESTful distributed and search analytics'
+      content: 'Elasticsearch is an open source, RESTful, distributed search and analytics engine built on Apache Lucene. Its support for various languages (Java, Python, Ruby and more), schema-free json documents, and ability to process large volume of data, has made Elasticsearch a popular choice for log analytics, full-text search, and operational intelligence user cases.'
+      color: "#091fe3"
+      background: "/assets/media/backgrounds/blueSquare.svg"
+      action_learn:
+        text: 'Learn more'
+        url: 'http://action.com'
+      action_download:
+        text: 'Download'
+        url: 'downloads.html'
+      icon: "/assets/media/logos/partners/aws.svg" 
+      alt_text: 'Elasticsearch'   
+    - title: 'Kibana'
+      content: 'Open Distro for Elastisearch uses Apache 2.0 licensed Kibana as its primary visualization tool and dashboard. Integrated with Elasticsearch, Kibana offers powerful yet easy-to-use features such as interactive charts, histograms, pre-built aggregations and filters, and built-in geospatial support.'
+      subtitle: 'Data visualization and dashboard GUI'
+      color: "#f34b93"
+      background: "/assets/media/backgrounds/pinkSquare.svg"
+      action_learn:
+        text: 'Learn more'
+        url: 'http://action.com'
+      action_download:
+        text: 'Download'
+        url: 'downloads.html' 
+      icon: "/assets/media/logos/partners/aws.svg"
+      alt_text: 'Kibana'
+
+#Security
+security:
+  title: Security
+  text: Protect your data and business
+  content: "Powered by Search Guard, Open Distro for Elasticsearch provides you the security layer you need to run a secure and complaint environment. These features include: encryption at-rest and in-transit, native Active Directory, LDAP, OpenId authentication, role-based and granular access control, and comprehensive audit logging."
+  img: "/assets"
+  actions:
+    primary: 
+      text: 'Learn more >'
+      url: '#'
+    secondary:
+      text: 'All Plug-ins >'
+      url: '#'
+
+#Alerting
+alert:
+  title: Alerting
+  text: Get alerts on your data
+  content: "Using an easy-to-use, extensible and powerful REST API and Kibana interface, Open Distro for Elasticsearch allows users to generate event-based alerts and share them across the organization for fast and effective monitoring and troubleshooting. With the alerting feature, you can detect and get notified when data from one or more of your Elasticsearch indices meets certain conditions."
+  img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  actions:
+    primary: 
+      text: 'Learn more >'
+      url: '#'
+    secondary:
+      text: 'Downloads >'
+      url: '#'
+
+#Text for Performance Analyzer - SQL support
+performanceAnalyzer:
+  items:
+    - title: 'Performance Analyzer'
+      subtitle: 'Optimize Elasticsearch'
+      content: 'Performance Analyzer is a REST API that allows you to query numerous performance metrics of your cluster, including aggregations of those metrics, independent of the Java Virtual machine (JVM).'
+      color: "#091fe3"
+      background: "/assets/media/backgrounds/lightBlueSquare.svg"
+      action_learn:
+        text: 'Learn more'
+        url: 'http://action.com'
+      action_download:
+        text: 'Downloads'
+        url: 'downloads.html'
+      icon: "/assets/media/logos/partners/aws.svg" 
+      alt_text: 'Elasticsearch'   
+    - title: 'SQL Support'
+      content: "Opend Distro for Elasticsearch provides SQL support, allowing users to access and query data using a language they are familiar with, while still benefitting from the performance Elasticsearch has to offer. Open Distro for Elasticsearch's SQL support also inclues a JDBC driver, so you can easily connect your Java applications with Elasticsearch."
+      subtitle: 'Data visualization and dashboard GUI'
+      color: "#f34b93"
+      background: "/assets/media/backgrounds/lightPurpleSquare.svg"
+      action_learn:
+        text: 'Learn more'
+        url: 'http://action.com'
+      action_download:
+        text: 'Downloads'
+        url: 'downloads.html' 
+      icon: "/assets/media/logos/partners/aws.svg"
+      alt_text: 'Kibana'   
+
+#Text for Contribute
+contribute:
+  title: 'We are just getting started' 
+  content: 'Open Distro for Elasticsearch provides a comprehensive range of free and open-source features, without requiring any special license. We are just gettin started. There are many new features we are excited to build and develop with the community to create a feature-rich Elasticsearch distribution. Get started today.'
+  action:
+    text: 'Contribute >'
+    url: 'contribute.html'
+

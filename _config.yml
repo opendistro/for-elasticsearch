@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Open Distro
+subtitle: for Elasticsearch
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Open Distro for Elasticsearch
@@ -32,7 +33,7 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
   - features.md
-  - deploy.md
+  - downloads.md
   - contribute.md
   - about.md
 # Exclude from processing.
@@ -42,3 +43,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+
+collections:
+  features:
+    permalink: /:features/:name
+
+# used in _includes/footer_scripts
+
+#google_analytics_tracking_id: UA-60112281-1

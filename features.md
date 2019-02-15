@@ -1,6 +1,4 @@
 ---
-layout: page
+layout: features
 title: Features
 ---
-
-Hello world Features 

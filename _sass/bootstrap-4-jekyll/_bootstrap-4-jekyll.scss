@@ -10,10 +10,52 @@
 }
 
 .distro-hero {
-  background: url('media/backgrounds/homehero.svg') no-repeat;
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
   min-height: 400px;
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
+}
+
+.distro-white {
+  background: url('/assets/media/backgrounds/whiteRec.svg') no-repeat;
+  background-size: cover;
+  color: $midnightblue;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.text-on-white {
+  color: #777777;
+}
+
+.title-on-white {
+  color: $midnightblue;
+}
+
+.software-download {
+  color: $lightblue;
+}
+
+.vcenter {
+    align-items: center;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.elasticsearchBanner {
+  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }

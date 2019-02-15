@@ -1,8 +1,8 @@
 title: Open Distro for Elasticsearch is an open-sourced under Apache version 2.0.
-slack: 
-  footerText: Slack
-  text: Join our Slack community 
-  url: 'http://slack.com'
+gitter: 
+  footerText: Gitter
+  text: Join our Gitter community 
+  url: 'http://gitter.im'
 github: 
   footerText: Github
   text: Join our Github community 

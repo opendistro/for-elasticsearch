@@ -1,8 +1,24 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
   <div class="container">
     <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
-      <img src="assets/media/logos/OpenDistro-logo.png" hight="30" width="30">
-      {{ site.title | escape }}
+      <div class="row" >
+        <div class="col-md-4" style="vertical-align: middle;">
+          <img src= "/assets/media/logos/OpenDistro-logo.png" style="vertical-align: middle;" hight="30" width="30">
+        </div>
+        <div class="col-md-4 d-block text-center">
+        <!-- <div class="d-block"> -->
+          <div class="row">
+            {{ site.title | escape }} 
+          </div>
+          <div class="row">  
+            {{ site.subtitle | escape }}
+          </div>  
+        </div>
+          <!-- <div >
+            {{ site.subtitle | escape }}
+          </div> -->
+        <!-- </div>   -->
+      </div>
     </a>
     
     {%- assign page_paths = site.header_pages -%}
@@ -25,7 +41,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ site.github.repository_url }}">
-            <img src="assets/media/logos/Github-logo.png">
+            <img src="/assets/media/logos/Github-logo.png">
           </a>
         </li>
       </ul>
