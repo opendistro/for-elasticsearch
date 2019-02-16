@@ -2,7 +2,7 @@ banner:
   title: Elasticsearch
   subtitle: Open Distro for
   content: Open Distro for Elasticsearch is built on top of the Apache 2.0 licensed Elasticsearch, distributed search and analytics engine.
-  icon: "/assets/media/logos/partners/aws.svg"
+  icon: "/assets/media/icons/elasticsearch_64px_w.svg"
 
 intro:
   title: RESTful search & analytics engine
@@ -25,4 +25,4 @@ features:
     content: Ei fu siccome immobile dato il mortal sospiro, stette la  spoglia immemore orba di tanto spiro, cosi percossa, attonita la terra al nunzio sta, muta pensando all'ultima ora dell'uom fatale;   
   
   - title: Reliable
-    content: Elasticsearch is distributed, so that it can manage to data repication, which means having multiple copies of data in your cluster, This enabbles high availability.
+    content: Elasticsearch is distributed, so that it can manage to data replTheication, which means having multiple copies of data in your cluster, This enabbles high availability.
