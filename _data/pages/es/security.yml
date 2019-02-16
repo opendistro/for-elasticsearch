@@ -1,0 +1,69 @@
+banner:
+  title: Security
+  subtitle: Open Distro for
+  content: Silvia rimembri ancora quel tempo della tua vita mortale quando beltá splendea negli occhi tuoi ridenti e fuggitivi.
+  icon: "/assets/media/logos/partners/aws.svg"
+
+intro:
+  title: Comprehensive security features
+  content: Powered by Search Guard, Open Distro for Elasticsearch provides you a comprehensive set of features to keep your data in the Elasticsearch cluster secure and stay compliant with regulations like GDPR, HIPAA, PCI, ISO and SOX. Whether you want to encrypt data at rest and in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or montor and log any malicious access attempts, Open Distro for Elasticsearch has you covered.  
+
+features:
+  - title: Encryption
+    content: Using Search Guard, Open Distro for Elsticsearch offers encryption for data at rest and in transit (to, from, and within Elasticsearch cluster), allowing your to prevent any unauthorized access to your data and host workloads with stringent compliance requirements. 
+
+  - title: Authentication
+    content: With Open Distro for Elasticsearch, you can leverage your existing industry standard authentication techniques such as Kerberos, KDAP/Active Direcotry, JSON web tokesn, TLS certificates, and Proxy authentication/SSO fr user authentication.
+
+  - title: Role-based access control
+    content: Open Distro for Elasticsearch provides granular, role-based access, enabling you to control the actions a user can perform on your Elasticsearch cluster. You can define roles and configure permissions like READ, WRITE, and DELETE based on roles to control access to your cluster.
+
+  - title: Audit Logging
+    content: Audit logging helps you remain compliant with government and industry refulations such as GDPR, HIPAA, PCI,  ISO and SOZ. With audit logging, you can record and track all the actions taken by a user in your Elasticsearch cluster and monitor any suspicious activity.
+
+featureList:
+  title: Features
+  sections:
+    - content:
+       - feature_item: "REST - and Transport Layer encryption"
+       - feature_item: "Support for encryption at rest"
+       - feature_item: "Role-based access control"
+       - feature_item: "Index-Level security"
+       - feature_item: "Internal/Native authentication"
+       - feature_item: "HTTP Basic authentication"
+       - feature_item: "Proxy & PKI authentication"
+       - feature_item: "Pre-defined permission sets"
+       - feature_item: "Single permissions"
+       - feature_item: "Kibana Session Management"
+       - feature_item: "Anonymous access"
+       - feature_item: "Certificate Revocation Lists"
+  
+    - content:
+       - feature_item: "Configuration hot-reload"
+       - feature_item: "Cross Cluster Search support"
+       - feature_item: "Active Directory"
+       - feature_item: "LDAP"
+       - feature_item: "Kerberos / SPNEGO"
+       - feature_item: "JSON web token authentication"
+       - feature_item: "SAML"
+       - feature_item: "OpenID / JWKS"
+       - feature_item: "Custom authenticators"
+       - feature_item: "REST management API"
+       - feature_item: "Document-level security"
+       - feature_item: "Field-level security"
+  
+    - content:
+       - feature_item: "Audit Logging"
+       - feature_item: "Kibana SSO"
+       - feature_item: "Kibana multitenancy"
+       - feature_item: "Configuration GUI"
+       - feature_item: "Read history audit logging"
+       - feature_item: "Write history audit logging"
+       - feature_item: "Field anonymization"
+       - feature_item: "Immutable indices"
+       - feature_item: "Event routing"
+       - feature_item: "Elasticsearch installation monitoring"
+       - feature_item: "Search Guard configuration monitoring"
+
+
+

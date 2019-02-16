@@ -59,3 +59,31 @@
   border-radius: 0;
   padding: 80px 80px 30px 80px;
 }
+
+.kibanaBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.securityBanner {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.securityFeaturesContainer {
+  background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+

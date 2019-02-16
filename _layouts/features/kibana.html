@@ -2,24 +2,101 @@
 layout: default
 ---
 <!-- Breadcrumbs -->
+
 <div class="container">
   <div class="row">
 	{% include breadcrumbs.html %}
   </div>
 </div>
 
+
 <div class="container">
-  <div class="jumbotron distro-white">
+  <div class="kibanaBanner">
     
-	  <div class="row text-center">
-	    <div class="col-12"><h4>{{site.data.pages.es.downloads.banner.title}}</h4></div>
+      <div class="row text-left">
+	    <div class="col-12"><h7>{{site.data.pages.es.kibana.banner.subtitle}}</h7></div>
+	  </div>
+
+	  <div class="row text-left">
+	    <div class="col-12"><h4>{{site.data.pages.es.kibana.banner.title}}</h4></div>
 	  </div>
 	  
-	  <div class="row pt-3 justify-content-center text-center text-on-white">
+	  <div class="row pt-3 text-left">
 	    <div class="col-12 col-md-6">
-	      <p>{{site.data.pages.es.downloads.banner.text}}</p>
+	      <h8>{{site.data.pages.es.kibana.banner.content}}</h8>
 	    </div>
 	  </div>
+
+      <div class="row" >
+        <div class="offset-md-10 col-md-2" style="float:right;">
+            <img src={{ site.data.pages.es.elasticsearch.banner.icon }}  height="100" width="100"/>
+        </div>  
+      </div>
 	  
   </div>
 </div>
+
+
+<!-- Intro -->
+<div class="container">
+  <div class="px-3">
+    
+    <!-- Title -->
+	<div class="pt-5 row justify-content-center text-center features feature-title">
+	    <div class="col-12"><h4>{{site.data.pages.es.kibana.intro.title}}</h4></div>
+	</div>
+
+	<!-- Subtitle -->
+	<div class="row justify-content-center text-center py-3">
+	    <div class="col-12 col-md-7">
+	      <h7>{{site.data.pages.es.kibana.intro.content}}</h7>
+	    </div>
+	</div>
+
+	<!-- Img -->
+	<div class="row justify-content-center text-center py-3">
+	   <div class="col">
+	      <img src={{ site.data.pages.es.kibana.intro.img }} width="100%" />
+	      <p class="text-left py-3"> {{site.data.pages.es.kibana.intro.subtext}}</p>
+	   </div>
+	</div>
+  </div>  
+</div> 
+
+<div class="pt-5"/>
+
+<div class="container">
+  <div class="px-3">
+	  {% for feature in site.data.pages.es.kibana.features %}
+		  <div class="row vcenter px-3 py-3">
+		    <div class="col-12 col-md-6" >
+		      <div class="row">
+		        <div class="col-12 col-md-12 title-on-white">
+		          <h5>{{feature.title}}</h5>
+		        </div>  
+		       </div>
+		       <div class="row">
+		        <div class="col-12 col-md-12">
+		          <p>{{feature.content}}</p>
+		        </div>  
+		       </div>
+		    </div>
+
+		    <div class="col-12 col-md-6 text-left">
+		     <img src={{feature.img}} width="100%"></img>
+		    </div>
+		  </div>
+
+	  {% endfor %}
+
+  </div>
+
+</div>
+
+<!-- Features -->
+
+<!-- Community Starts -->
+<div class="container">
+  {%- include communities/es.html -%}
+</div>  
+<!-- Community Ends -->
