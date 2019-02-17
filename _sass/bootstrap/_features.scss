@@ -36,3 +36,14 @@
   color: $white;
   font-weight: none; 	
 }
+
+btn-outline-primary {
+    border: 1px solid $white;
+    color: $white;
+}
+
+btn-outline-primary:hover {
+    border: 1px solid $white;
+    background-color: $white;
+    color: $blue;
+ }

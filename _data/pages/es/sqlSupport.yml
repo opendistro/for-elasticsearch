@@ -1,0 +1,10 @@
+banner:
+  title: SQL
+  subtitle: Open Distro for Elasticsearch
+  content: Some text
+  icon: "/assets/media/icons/performance_analyzer_64px_w.svg"
+
+intro:
+  title: Benefits
+  content: Some text
+  

@@ -5,20 +5,29 @@ banner:
 software:
   items :
     - title: Open Distro for Elasticsearch - Elasticsearch v0.7
-      description: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4"
+      description_1: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4"
       description_2: "Open Distro for Elasticsearch included plugins: Security, Alerting, SQL, and Performance Analyzer." 
       description_3: "Performance Analyzer agent"
-      action:
-        url: "#"
+      actions:
+        - url: "#"
+          label: RPM 64-BIT
+        - url: "#"
+          label: Docker 
     - title: Open Distro for Elasticsearch - Kibana v0.7
       description: Kibana (Apache 2.0 licenssed code only) - 6.5.4
       description_2: "Open Distro for Elasticsearch - Kibana included plugins: Security and Alerting."
-      action:
-        url: "#" 
+      actions:
+        - url: "#"
+          label: RPM 64-BIT
+        - url: "#"
+          label: Docker 
     - title: Open Distro for Elasticsearch - Perf-Top CLI v0.7
-      action:
-        url: "#"
+      actions:
+        - url: "#"
+          label: Download
+        
     - title: Open Distro for Elasticsearch - SQL JDBC client
-      action:
-        url: "#"
+      actions:
+        - url: "#"
+          label: Driver
     

@@ -2,7 +2,7 @@ banner:
   title: Kibana
   subtitle: Open Distro for
   content: Open Distro for Elasticsearch's primary visualization tool and dashboard is the popular Apache 2.0 licensed Kibana interface.
-  icon: "/assets/media/logos/partners/aws.svg"
+  icon: "/assets/media/icons/kibana_64px_w.svg"
   
 intro:
   title: Create powerful dashboards

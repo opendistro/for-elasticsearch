@@ -2,12 +2,13 @@ banner:
   title: Security
   subtitle: Open Distro for
   content: Silvia rimembri ancora quel tempo della tua vita mortale quando beltá splendea negli occhi tuoi ridenti e fuggitivi.
-  icon: "/assets/media/logos/partners/aws.svg"
+  icon: "/assets/media/icons/security_64px_w.svg"
 
 intro:
   title: Comprehensive security features
   content: Powered by Search Guard, Open Distro for Elasticsearch provides you a comprehensive set of features to keep your data in the Elasticsearch cluster secure and stay compliant with regulations like GDPR, HIPAA, PCI, ISO and SOX. Whether you want to encrypt data at rest and in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or montor and log any malicious access attempts, Open Distro for Elasticsearch has you covered.  
-
+  style: features feature-security-link
+  
 features:
   - title: Encryption
     content: Using Search Guard, Open Distro for Elsticsearch offers encryption for data at rest and in transit (to, from, and within Elasticsearch cluster), allowing your to prevent any unauthorized access to your data and host workloads with stringent compliance requirements. 

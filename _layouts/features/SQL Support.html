@@ -9,9 +9,13 @@ layout: default
 </div>
 
 <!-- Banner -->
-<div class="container alertingBanner">
-  {%- include banner.html banner=site.data.pages.es.alerting.banner -%}
+<div class="container sqlSupportBanner">
+  {%- include banner.html banner=site.data.pages.es.sqlSupport.banner -%}
 </div>
+
+<!-- Intro -->
+{%- include intro.html intro=site.data.pages.es.sqlSupport.intro -%}
+<!-- End -->
 
 <!-- Community -->
 {%- include communities/es.html -%}

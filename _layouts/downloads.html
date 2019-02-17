@@ -5,7 +5,7 @@ layout: default
   <div class="jumbotron distro-white">
     
 	  <div class="row text-center">
-	    <div class="col-12"><h4>{{site.data.pages.es.downloads.banner.title}}</h4></div>
+	    <div class="col-12"><h4 class="title-on-white">{{site.data.pages.es.downloads.banner.title}}</h4></div>
 	  </div>
 	  
 	  <div class="row pt-3 justify-content-center text-center text-on-white">
@@ -26,26 +26,41 @@ layout: default
     
           <div class="col-12 col-md-8">
             <div class="row">
-              <div class="col-12 col-md-5">
-                <h4 class="title-on-white">{{software.title}}</h4>
-              </div>
-              <div class="col-12 col-md-6">  
-                <h8 class="text-on-white">{{software.description}}</h8>
-              </div> 
+              <!-- <div class="col-12 col-md-5"> -->
+                <h5 class="title-on-white">{{software.title}}</h5>
+            </div>
+             <!-- <div class="col-12 col-md-6">   -->
+            <div class="row">
+                <h8 class="text-on-white">{{software.description_1}}</h8>
+              <!-- </div>  -->
+            </div>
+            <div class="row">
+                <h8 class="text-on-white">{{software.description_2}}</h8>
+              <!-- </div>  -->
+            </div>
+            <div class="row">
+                <h8 class="text-on-white">{{software.description_3}}</h8>
+              <!-- </div>  -->
             </div>
           </div>
 
           <div class="col-12 col-md-4 text-on-white">
             <div class="row">
-              <div class="col-12 col-md-4 software-download">
-                <h7>RPM 64-BIT</h7>
+            {% for action in software.actions %}
+              <div class="col-12 col-md-6 software-download">
+                 <a href="{action.url}" class="software-download">
+                   <span class="glyphicon glyphicon-download-alt"></span>
+                   <h7>{{action.label}}</h7>
+                 </a>
               </div>
-              <div class="col-12 col-md-4 software-download">
-                <h7>Docker</h7>
-              </div>
-              <div class="col-12 col-md-4 software-download">
-                <h7>Documentation</h7>
-              </div>
+            {% endfor%}
+              <!-- <div class="col-12 col-md-6 software-download">
+                <a href="#" class="software-download"><i class="fas fa-download"></i>
+                   <span class="glyphicon glyphicon-download-alt"></span>
+                   <h7>Docker</h7>
+                </a>
+              </div> -->
+              
             </div>   
             
           </div>
@@ -55,9 +70,6 @@ layout: default
    </div>
 </div>
 
-
 <!-- Community Starts -->
-<div class="container">
-  {%- include communities/es.html -%}
-</div>  
+{%- include communities/es.html -%}
 <!-- Community Ends -->

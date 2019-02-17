@@ -42,10 +42,10 @@
     </div>
   </div>
 </footer> -->
-<div class="container">
+<!-- <div class="container"> -->
 <footer class="container page-footer">
   <div class="row d-flex justify-content-around">
-    {% for section in site.data.pages.es.home.siteMap.sections %}
+    {% for section in site.data.pages.es.footer.siteMap.sections %}
     <div class="col-md-4 px-5 py-5 d-block justify-content-center" style="padding-left:20px;">
 
         <div>{{ section.title }}</div>
@@ -53,7 +53,7 @@
         <ul class="list-unstyled">
           {% for menu in section.contents %}
             <li>
-              {{ menu.menu_item }}
+              <a href="{{menu.url}}">{{ menu.menu_item }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -63,7 +63,7 @@
   </div>
 </footer>
 
-</div>
+<!-- </div> -->
 <!-- <div class="container">
   <div class="row" >
     {% for section in site.data.pages.es.home.siteMap.sections %}

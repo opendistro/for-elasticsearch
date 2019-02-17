@@ -1,0 +1,37 @@
+<div class="container">
+	{% for feature in include.features%}
+	  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+	  {%if thecycle == 'odd' %}
+	    <div class="row px-5 pt-5">
+	      <div class="col col-md-6">
+	        {% if feature.subtitle %}
+	           <div class="row title-on-white" >
+		         <div class="col col-md-12 px-5"><h7 class="title-on-white">{{ feature.subtitle }}</h7></div>
+		       </div>
+	        {% endif %}
+		       <div class="row title-on-white" >
+		         <div class="col col-md-12 px-5"><h5 class="title-on-white">{{ feature.title }}</h5></div>
+		       </div>
+		       <div class="row">
+		         <div class="col col-md-12 py-3 px-5">{{ feature.content }}</div>
+		       </div>  
+	      </div>
+	  {% else %}
+	      <div class="col col-md-6">
+	      {% if feature.subtitle %}
+	           <div class="row title-on-white" >
+		         <div class="col col-md-12 px-5"><h7 class="title-on-white">{{ feature.subtitle }}</h7></div>
+		       </div>
+	        {% endif %}
+		       <div class="row title-on-white">
+		         <div class="col col-md-12 px-5"><h5 class="title-on-white">{{ feature.title }}</h5></div>
+		       </div>
+		       <div class="row">
+		         <div class="col col-md-12 px-5 py-3">{{ feature.content }}</div>
+		       </div>  
+	      </div> 
+	     </div>
+	  {% endif %}
+	  
+	{% endfor %} 
+</div>

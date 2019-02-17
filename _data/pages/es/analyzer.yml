@@ -1,0 +1,34 @@
+banner:
+  title: Performance Analyzer
+  subtitle: Open Distro for Elasticsearch
+  content: Our alerting features give you the full power of the Elasticsearch query language to identify changes in your data that are interesting to you
+  icon: "/assets/media/icons/performance_analyzer_64px_w.svg"
+
+intro:
+  title: PerfTop
+  content: Visualize your Elasticsearch cluster state
+  links:
+    - url: "#"
+      label: Learn More >
+    - url: "contribute.html"
+      label: Deploy >
+  img: "/assets/media/screenshots/kibana_dashboard_1.png"
+
+features:
+  - title: System Health
+    subtitle: Independent
+    content: Performance analyzer is a system health agent that is independent of JVM. System metrics are recorded in 5 second snapshots and stored separate to the Elasticsearch runtime environment.
+
+  - title: Deep Instrumentation
+    subtitle: REST API for
+    content: Metrics are intelligently rolled up into diagnostic metrics. Easily access these metrics through a RESTful endpoint.
+  
+performances:
+  - title: Cluster Performance Overview
+    img:
+  - title: High Level Cluster Performance
+    img:
+  - title: Low Level Cluster Performance
+    img:
+  - title: Node Level Cluster Performance
+    img:

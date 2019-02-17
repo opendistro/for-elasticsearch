@@ -1,0 +1,32 @@
+siteMap:
+  sections:
+    - title: 'OPEN DISTRO FEATURES'
+      contents: 
+       - menu_item: "Elasticsearch"
+         url: "features/elasticsearch"
+       - menu_item: "Kibana"
+         url: "features/kibana"
+       - menu_item: "Alerting"
+         url: "features/alerting"
+       - menu_item: "Security"
+         url: "features/security"
+       - menu_item: "SQL Support"
+         url: "features/sqlSupport"
+       - menu_item: "Performance Analyzer"
+         url: "features/analyzer"
+    - title: 'COMMUNITY'
+      contents: 
+       - menu_item: "About"
+         url: "about"
+       - menu_item: "Contribute"
+         url: "contribute"
+       - menu_item: "GitHub"
+         url: "https://github.com"
+       - menu_item: "Gitter"
+         url: "https://gitter.im"
+    - title: 'DISCOVER'
+      contents: 
+       - menu_item: "Documentation"
+         url: "#"
+       - menu_item: "Deployment"
+         url: "download"

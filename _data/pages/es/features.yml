@@ -26,7 +26,7 @@ featuresLink:
     url: "features/alerting.html"
   - title: SQL Support
     icon: "/assets/media/icons/SQL_support_64px.svg" 
-    url: "features/sqlSupport.html"
+    url: "features/SQL%20Support.html"
   - title: Performance Analyzer
     icon: "/assets/media/icons/performance_analyzer_64px.svg"   
     url: "features/analyzer.html"        

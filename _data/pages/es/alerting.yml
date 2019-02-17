@@ -1,0 +1,11 @@
+banner:
+  title: Alerting
+  subtitle: Open Distro for Elasticsearch
+  content: Our alerting features give you the full power of the Elasticsearch query language to identify changes in your data that are interesting to you
+  icon: "/assets/media/icons/alerting_64px_w.svg"
+
+intro:
+  title: Monitor your data
+  content: A complete history of all alert executions is indexed into Elasticsearch for easy tracking and visualization in Kibana. Are my alerts executing? How often are my conditions being met? What actions were taken? Your alert history also enables nested alerts.
+  img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  subtext: La donzelletta vien dalla campagna in sul calar del sole, onde siccome suole ornare ella si appresta domani nel di di festa il petto ed il cor.

@@ -9,13 +9,18 @@
   color: $white;
 }
 
-.distro-hero {
+.page-footer a {
+  color: $white;
+}
+
+.homeBanner {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
   min-height: 400px;
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }
 
 .distro-white {
@@ -32,6 +37,7 @@
 
 .title-on-white {
   color: $midnightblue;
+  font-weight: 900;
 }
 
 .software-download {
@@ -80,6 +86,33 @@
 
 .securityFeaturesContainer {
   background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.alertingBanner {
+  background: url('/assets/media/backgrounds/pinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
   background-size: cover;
   color: $white;
   margin-bottom: 0;
