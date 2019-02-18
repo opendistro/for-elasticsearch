@@ -13,6 +13,15 @@ intro:
     - url: "contribute.html"
       label: Deploy >
   img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  miniImgs:
+  - title: Cluster Performance Overview
+    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  - title: High Level Cluster Performance
+    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  - title: Low Level Cluster Performance
+    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  - title: Node Level Cluster Performance
+    img: "/assets/media/screenshots/kibana_dashboard_1.png"
 
 features:
   - title: System Health
@@ -23,12 +32,3 @@ features:
     subtitle: REST API for
     content: Metrics are intelligently rolled up into diagnostic metrics. Easily access these metrics through a RESTful endpoint.
   
-performances:
-  - title: Cluster Performance Overview
-    img:
-  - title: High Level Cluster Performance
-    img:
-  - title: Low Level Cluster Performance
-    img:
-  - title: Node Level Cluster Performance
-    img:

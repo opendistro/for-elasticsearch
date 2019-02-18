@@ -13,44 +13,16 @@ layout: default
   {%- include banner.html banner=site.data.pages.es.kibana.banner -%}
 </div>
 
+<div class="pt-5"/>
 <!-- Intro -->
 {%- include intro.html intro=site.data.pages.es.kibana.intro -%}
 <!-- End -->
 
 <div class="pt-5"/>
+<!-- Features  -->
+{%- include text-img-blocks.html features=site.data.pages.es.kibana.features -%}
 
-<div class="container">
-  <div class="px-3">
-	  {% for feature in site.data.pages.es.kibana.features %}
-		  <div class="row vcenter px-3 py-3">
-		    <div class="col-12 col-md-6" >
-		      <div class="row">
-		        <div class="col-12 col-md-12 title-on-white">
-		          <h5>{{feature.title}}</h5>
-		        </div>  
-		       </div>
-		       <div class="row">
-		        <div class="col-12 col-md-12">
-		          <p>{{feature.content}}</p>
-		        </div>  
-		       </div>
-		    </div>
-
-		    <div class="col-12 col-md-6 text-left">
-		     <img src={{feature.img}} width="100%"></img>
-		    </div>
-		  </div>
-
-	  {% endfor %}
-
-  </div>
-
-</div>
-
-<!-- Features -->
-
+<div class="pt-5"/>
 <!-- Community Starts -->
-<div class="container">
-  {%- include communities/es.html -%}
-</div>  
+{%- include communities/es.html -%}
 <!-- Community Ends -->

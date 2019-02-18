@@ -8,3 +8,75 @@ intro:
   title: Benefits
   content: Some text
   
+features:
+  - title: Query data in a familiar way
+    content: Elasticsearch has the speed, scale and flexibility your data needs - and it speaks SQL. Use traditional database syntax to unlock non-traditional performance, like full text search across petabytes of data with real-time results.
+  - title: Translate SQL to JSON
+    content: Elasticsearch has the speed, scale and flexibility your data needs - and it speaks SQL. Use traditional database syntax to unlock non-traditional performance, like full text search across petabytes of data with real-time results.
+  - title: Streamline development
+    content: With Open Distro for Elasticsearch SQL support you can access that full text search, blazing speed, and effortless scalability with a familiar query syntax.
+
+dataTypes:
+  title: Supported Data Types
+  sections:
+    - content: 
+      - item: "null"
+      - item: boolean
+      - item: byte
+      - item: short
+    - content: 
+      - item: integer
+      - item: long
+      - item: double
+      - item: float
+    - content: 
+      - item: half_float
+      - item: scaled_float
+      - item: keyword
+      - item: text
+    - content: 
+      - item: binary
+      - item: date
+      - item: object
+      - item: nested
+
+sqlCommands:
+  title: Supported Commands
+  sections:
+  - content: 
+    - item: DESCRIBE
+    - item: SELECT
+    - item: SHOW COLUMNS
+    - item: SHOW FUNCTIONS
+    - item: SHOW TABLES
+    - item: UPDATE
+    - item: DELETE
+    - item: INSERT INTO
+  - content: 
+    - item: CREATE TABLE
+    - item: ALTER TABLE
+    - item: DROP TABLE
+    - item: ABS
+    - item: CBRT
+    - item: CEIL
+    - item: E
+    - item: PI
+  - content:
+    - item: ROUND
+    - item: FLOOR
+    - item: LOG
+    - item: LOG10
+    - item: SQRT
+    - item: EXP
+    - item: EXPM1
+    - item: AVG 
+  - content:
+    - item: COUNT
+    - item: COUNT (DISTINCT)
+    - item: MAX
+    - item: MIN
+    - item: SUM
+    - item: LAST
+    - item: STATS
+    - item: PERCENTILES (Pxx)
+    - item: EXTENDED_STATS

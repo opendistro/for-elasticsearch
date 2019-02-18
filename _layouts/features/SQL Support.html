@@ -17,5 +17,20 @@ layout: default
 {%- include intro.html intro=site.data.pages.es.sqlSupport.intro -%}
 <!-- End -->
 
+
+{%- include text-three-col.html features= site.data.pages.es.sqlSupport.features -%}
+
+<div class="pt-5"/>
+
+<!-- List Data type -->
+<div class="container sqlSupportBox">
+ {%- include list-in-col.html list= site.data.pages.es.sqlSupport.dataTypes -%}
+</div> 
+
+<!-- List SQL Command -->
+<div class="container greyBox">
+ {%- include list-in-col.html list= site.data.pages.es.sqlSupport.sqlCommands -%}
+</div> 
+
 <!-- Community -->
 {%- include communities/es.html -%}

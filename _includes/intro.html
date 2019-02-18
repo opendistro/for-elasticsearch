@@ -28,7 +28,20 @@
       <div class="row justify-content-center text-center py-3">
         {% for link in include.intro.links %}
 		   <div class="col-12 col-md-2">
-		      <a class="features feature-security-link" href="{{link.url}}">{{link.label}}</a>
+		      <a class="link-on-white" href="{{link.url}}">{{link.label}}</a>
+		   </div>     
+	    {% endfor %} 
+	  </div>
+	{% endif %}
+
+	 <!-- Buttons -->
+    {% if include.intro.buttons %}
+      <div class="row justify-content-center text-center py-3">
+        {% for button in include.intro.buttons %}
+		   <div class="col-12 col-md-2">
+		      <a class="btn btn-outline-third btn-round btn-block" href="{{button.url}}" role="button"
+	        >{{button.label}}</a
+	      >
 		   </div>     
 	    {% endfor %} 
 	  </div>
@@ -36,12 +49,24 @@
 
     <!-- Img -->
 	{% if include.intro.img %}
-	<div class="row justify-content-center text-center py-3">
+	<div class="row justify-content-center text-center">
 	   <div class="col">
 	      <img src={{ include.intro.img }} width="100%" />
 	      <p class="text-left py-3"> {{include.intro.subtext}}</p>
 	   </div>
 	</div>
 	{% endif %}
+
+    <!-- Mini img -->
+    {% if include.intro.miniImgs %}
+	<div class='row justify-content-center text-center px-3'>
+	   {% for img in include.intro.miniImgs %}
+	    <div class="col-12 col-md-3" style="display:block;">
+	       <img src="/assets/media/screenshots/kibana_dashboard_1.png" style="padding-bottom:20px; width:100%" />
+	       <p>{{img.title}}</p>
+	    </div>
+	   {% endfor %}
+	 </div>
+	{% endif %} 
   </div>  
 </div> 

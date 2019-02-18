@@ -1,0 +1,78 @@
+<div class="container">
+  <div class="px-3">
+	  {% for feature in include.features %}
+	    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+	    {%if thecycle == 'odd' %}
+		  <div class="row vcenter px-3 py-5">
+		  <!-- Text -->
+		    <div class="col-12 col-md-6" >
+		      
+		      <!-- Title -->
+		      <div class="row px-5">
+		        <div class="col-12 col-md-12">
+		          <h5 class="title-on-white">{{feature.title}}</h5>
+		        </div>  
+		       </div>
+
+		       <!-- Content 1 -->
+		       <div class="row px-5">
+		        <div class="col-12 col-md-12">
+		          <p>{{feature.content}}</p>
+		        </div>  
+		       </div>
+
+		       <!-- Content 2 -->
+               {% if feature.content_2 %}
+		       <div class="row px-5 pt-3">
+		        <div class="col-12 col-md-12">
+		          <p>{{feature.content_2}}</p>
+		        </div>  
+		       </div>
+		       {% endif %}
+		    </div>
+
+          <!-- Image -->
+		    <div class="col-12 col-md-6 text-left px-5">
+		     <img src="{{feature.img}}" width="100%"></img>
+		    </div>
+		  </div>
+
+		 {% else %}
+		 <div class="row vcenter px-3 py-5">
+		    <!-- Image -->
+		    <div class="col-12 col-md-6 text-left px-5">
+		      <img src="{{feature.img}}" width="100%"></img>
+		    </div>
+            
+            <!-- Text -->
+		    <div class="col-12 col-md-6" >
+		      
+		      <!-- Title -->
+		       <div class="row  px-5">
+		         <div class="col-12 col-md-12">
+		           <h5 class="title-on-white">{{feature.title}}</h5>
+		         </div>  
+		       </div>
+		      
+		       <!-- Content 1 -->
+		       <div class="row  px-5">
+		        <div class="col-12 col-md-12">
+		          <p>{{feature.content}}</p>
+		        </div>  
+		       </div>
+		       
+		       <!-- Content 2 -->
+		       {% if feature.content_2 %}
+		       <div class="row px-5 pt-3">
+		        <div class="col-12 col-md-12">
+		          <p>{{feature.content_2}}</p>
+		        </div>  
+		       </div>
+
+		       {% endif %}
+		    </div>		    
+		  </div>
+		 {% endif %} 
+	  {% endfor %}
+  </div>
+</div>

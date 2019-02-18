@@ -9,7 +9,7 @@
 				  {% if forloop.last %}
 				    {{ crumb | replace:'-',' ' | url_decode | remove:'.html' | capitalize }}
 				  {% else %}
-				    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}" class="active-link">
+				    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}" class="link-on-white">
 				    	{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
 				    </a> &nbsp; > &nbsp;
 				  {% endif %}
@@ -29,35 +29,4 @@
 
 </div> 
 
-<!-- <div class="container vcenter" style="border-color:green; border-style: solid; border-width: 1px;" id="pippo">
-
-	<div id="breadcrumbs" class="row breadcrumb vcenter" style="vertical-align:middle; display:block; border-color:yellow; border-style: solid; 
-	border-width: 1px;">
-	    
-	        <div style="float:left;">
-				{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-				<!-- <a href="/">Home</a> -->
-				<!-- {% for crumb in crumbs offset: 1 %}
-				  {% if forloop.last %}
-				    {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }} &nbsp; > &nbsp;
-				  {% else %}
-				    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
-				    	{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-				    </a> &nbsp; > &nbsp;
-				  {% endif %}
-				{% endfor %}
-			</div>	
-
-			<div style="float:right; margin-left:30px;">
-		      <a
-		        class="btn btn-blue-button btn-round btn-block"
-		        href="./downloads.html"
-		        role="button"
-		        >{{site.data.pages.es.home.banner.actions.secondary.text}}
-		      </a>
-		    </div>
-		   
-	</div>
-
-</div> -->
 

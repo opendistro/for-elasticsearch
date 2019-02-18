@@ -1,12 +1,10 @@
-banner:
+intro:
   title: Open Distro for Elasticsearch Features
-  text: "The 100% open-source Elasticsearch distribution thath extends Elasticsearch and Kibana to include advanced features includingL Security, Alertin, SQL, and Perormance Analyzer"
-  actions:
-    primary: 
-      text: 'Downloads'
+  text: "The 100% open-source Elasticsearch distribution that extends Elasticsearch and Kibana to include advanced features including Security, Alertin, SQL, and Perormance Analyzer"
+  buttons:
+    - label: 'Downloads'
       url: '#'
-    secondary:
-      text: 'Documentation'
+    - label: 'Documentation'
       url: '#'
 
 # Features
@@ -124,6 +122,6 @@ contribute:
   title: 'We are just getting started' 
   content: 'There are many new features we are excited to build and develop with the community to create a feature-rich Elasticsearch distribution. Get started today.'
   action:
-    text: 'Contribute >'
+    text: 'Contribute'
     url: 'contribute.html'
 

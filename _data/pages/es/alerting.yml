@@ -9,3 +9,16 @@ intro:
   content: A complete history of all alert executions is indexed into Elasticsearch for easy tracking and visualization in Kibana. Are my alerts executing? How often are my conditions being met? What actions were taken? Your alert history also enables nested alerts.
   img: "/assets/media/screenshots/kibana_dashboard_1.png"
   subtext: La donzelletta vien dalla campagna in sul calar del sole, onde siccome suole ornare ella si appresta domani nel di di festa il petto ed il cor.
+
+features:
+  - title: Create monitors
+    content: Create monitors using any Elasticsearch query. Also create them visually based off of an index metrics.
+    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  - title: Set Multiple Trigger conditions
+    content: Our alerting features give you the full power of the Elasticsearch query language to identify changes in your data that are interesting to you. 
+    content_2: In other words if you can query something in Elasticsearch, you can alert on it. For instance you can be notified when the same user has logged in from 3 different locations within an hour, so that you can proactively address possible intrusion attempts.  
+    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  - title: Get notified
+    content: How would you like to be notified? Pick from many alerting options with built-in integrations for email, Chime and Slack. It also comes with a powerful webhook output for integration with your existing monitoring infrastructure or any third-party system.
+    content_2: It is also configurable to include relevant information from your search in the notifications and ships with simple template support.
+    img: "/assets/media/screenshots/kibana_dashboard_1.png"

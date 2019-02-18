@@ -40,6 +40,15 @@
   font-weight: 900;
 }
 
+.link-on-white {
+  color: $waterblue;  
+}
+
+.link-on-white:hover {
+  color: $midnightblue;
+  text-decoration: none;  
+}
+
 .software-download {
   color: $lightblue;
 }
@@ -113,6 +122,24 @@
 
 .sqlSupportBanner {
   background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.greyBox {
+  background-color: #444444;
   background-size: cover;
   color: $white;
   margin-bottom: 0;

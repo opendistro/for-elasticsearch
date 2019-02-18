@@ -6,29 +6,23 @@ layout: default
 <div class="container homeBanner">
   {%- include banner-with-buttons.html banner=site.data.pages.es.home.banner -%} 
 </div>  
+<!-- End Banner -->
 
 <div class="pt-5"/>
 
 <!-- Intro -->
 {%- include intro.html intro=site.data.pages.es.home.intro -%}
-<!-- End -->
+<!-- End Intro-->
 
 <div class="pt-5"/>
-
-<!-- Intro content Starts -->
-<!-- {% capture intro_title %}{{site.data.pages.es.home.intro.title}}{% endcapture %}
-{% capture intro_content %}{{site.data.pages.es.home.intro.content}}{% endcapture %}
-<div class="pt-5"/>
-{%- include full-width-content.html title=intro_title content=intro_content -%} -->
-<!-- Intro content ends -->
 
 <!-- Benefits Starts -->
 {% capture benefits_content %}
 <div class="container">
   <div class="row" >
     {% for benefit in site.data.pages.es.home.benefits.items %}
-      <div class="col-12 col-md-4 px-4 py-5" style="background: url({{ benefit.background }}) no-repeat; background-size: cover; color:white">
-        <h4>{{ benefit.title }}</h4>
+      <div class="col-12 col-md-4 px-5 py-5" style="background: url({{ benefit.background }}) no-repeat; background-size: cover; color:white">
+        <h5>{{ benefit.title }}</h5>
         <div>{{ benefit.content }}</div>
       </div>
     {% endfor %}
@@ -38,62 +32,23 @@ layout: default
 {%- include text-content.html content=benefits_content -%}
 <!-- Benefits Ends -->
 
-<!-- What's included Starts-->
-{% capture included_title %}{{site.data.pages.es.home.included.title}}{% endcapture %}
-{% capture included_content %}{{site.data.pages.es.home.included.content}}{% endcapture %}
-{% capture included_img %}{{site.data.pages.es.home.included.img}}{% endcapture %}
 <div class="pt-5"/>
-{%- include full-width-content.html title=included_title content=included_content img=included_img-%}
+
+<!-- What's included Starts-->
+{%- include text-img-link.html intro=site.data.pages.es.home.included -%}
 <!-- What's included Ends-->
 
-<!-- Community Starts -->
 <div class="pt-5"/>
-<div class="container">
-  {%- include communities/es.html -%}
-</div>  
-<!-- Community Ends -->
 
 <!-- Partners Starts-->
-{% capture partners_title %}{{site.data.pages.es.home.partners.title}}{% endcapture %}
-{% capture partners_content %}{{site.data.pages.es.home.partners.content}}{% endcapture %}
-
-<div class="pt-5"/>
-{%- include full-width-content.html title=partners_title content=partners_content %}
-
-<div class="container">
-  <div class="d-flex justify-content-center align-items-center">
-    <div class="row px-3 py-3">
-      {% for partner in site.data.pages.es.home.partners.items %}
-          <div class="col" style="padding-top:20px; padding-bottom:20px;">
-            <img src="{{ partner.img_url }}" alt="{{ partner.alt }}" height="50" width="200" class="featured-partner-icon" />
-          </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-<div class="pt-5"/>
-
+<div class="container homeBanner">
+  {%- include banner-with-buttons.html banner=site.data.pages.es.home.partners -%} 
+</div>  
 <!-- Partners Ends-->
 
-<!-- Site Map Starts-->
-<!-- {% capture siteMap_content %}
-<div class="container">
-  <div class="row" >
-    {% for section in site.data.pages.es.home.siteMap.sections %}
-      <div class="col-12 col-md-4 px-4 py-5" style="background-color:{{benefit.color}};color:white">
-        <h4>{{ section.title }}</h4>
-        {% for menu in sections.contents %}
-           <div>{{ menu.menu_item }}</div>
-        {% endfor %}
-      </div>
-    {% endfor %}
-  </div>
-</div>  
-{% endcapture %}
-{%- include text-content.html content=siteMap_content -%}
+<!-- Community Starts -->
+  {%- include communities/es.html -%}
+<!-- Community Ends -->
 
-<!-- Site Map Ends-->
 
-<!-- <div class="pt-5"/> -->
  

@@ -1,0 +1,40 @@
+<div class="container">
+	{% for feature in include.features%}
+	
+	  {% capture thecycle%}{% cycle 'one', 'two', 'three' %}{% endcapture %} 
+	  {% if thecycle == 'one' %}
+	    <div class="row px-2 pt-5">
+	      <div class="col col-md-4">
+	        {% if feature.subtitle %}
+	           <div class="row title-on-white" >
+		         <div class="col col-md-12 px-5"><h7 class="title-on-white">{{ feature.subtitle }}</h7></div>
+		       </div>
+	        {% endif %}
+		       <div class="row title-on-white" >
+		         <div class="col col-md-12 px-5"><h6 class="title-on-white">{{ feature.title }}</h6></div>
+		       </div>
+		       <div class="row">
+		         <div class="col col-md-12 py-3 px-5">{{ feature.content }}</div>
+		       </div>  
+	      </div>
+	  {% else %}
+	      <div class="col col-md-4">
+	      {% if feature.subtitle %}
+	           <div class="row title-on-white" >
+		         <div class="col col-md-12 px-5"><h7 class="title-on-white">{{ feature.subtitle }}</h7></div>
+		       </div>
+	        {% endif %}
+		       <div class="row title-on-white">
+		         <div class="col col-md-12 px-5"><h6 class="title-on-white">{{ feature.title }}</h6></div>
+		       </div>
+		       <div class="row">
+		         <div class="col col-md-12 px-5 py-3">{{ feature.content }}</div>
+		       </div>  
+	      </div> 
+		    {% if thecycle == 'three' %}
+		       </div>
+		    {% endif %}   
+	  {% endif %}
+	  
+	{% endfor %} 
+</div>
