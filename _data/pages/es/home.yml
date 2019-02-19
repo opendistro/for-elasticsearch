@@ -5,10 +5,10 @@ banner:
   actions:
     primary: 
       text: 'Downloads'
-      url: '#'
+      url: 'downloads.html'
     secondary:
       text: 'Contribute'
-      url: '#'
+      url: 'contribute.html'
 
 partners:
   - alt_text: 'AWS'
@@ -51,14 +51,14 @@ benefits:
 included:
    title: What's included?
    text: "The foundation of Open Distro for Elasticsearch, is of course, Elasticsearch and Kibana. Open Distro for Elasticsearch includes 100% open source builds of Elasticsearch and Kibana, that have been scrubbed of all proprietary code and references. Each version is re-based from source and includes all updates to the Apache code-base, making it compatible with open-source APIs and tools. The advanced Open Distro for Elasticsearch components include: Security, Alerting, SQL and Performance Analyzer."
-   img: "assets/media/Content_Img.png"
+   img: "assets/media/illustrations/included.png"
    links:
      - url: 
        label: Learn more
 
 partners:
   title: Community partners
-  content: Companies that support and contribute to Open Distro for Elasticsearch. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.    
+  content: Open Distro for Elasticsearch is committed to being the best-in-class, robust and scalable open source project for Elasticsearch developers. As its feature set grows, Open Distro for Elasticsearch is and will remain 100% open and Apache licensed and will accept community contributions with Apache or Apache compatible licenses. And as we grow the community around Open Distro, we welcome you on behalf of the project to come join, participate and contribute.
 
        
 

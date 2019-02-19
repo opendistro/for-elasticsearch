@@ -17,15 +17,29 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,
 
 // Buttons =====================================================================
 .btn {
-  &-outline-primary {
+  line-height: 1;
+
+  &-outline-test {
     border: 1px solid $white;
     color: $white;
   }
+  &-outline-test:hover {
+    border: 1px solid $white;
+    color: $white;
+  }
+
+  &-outline-primary {
+    border: 1px solid $white;
+    background-color: $white;
+    color: $blue;
+  }
+
   &-outline-primary:hover {
     border: 1px solid $white;
     background-color: $white;
     color: $blue;
   }
+
   &-primary {
     background-color: $primary
   }
@@ -60,6 +74,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,
   }
   &-link {
     color: $white;
+    text-decoration: none; 
   }
 }
 
@@ -68,7 +83,8 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,
 }
 
 .container {
-  font-family: Open Sans; 
+  font-family: Open Sans;
+  font-weight: lighter; 
 }
 
 

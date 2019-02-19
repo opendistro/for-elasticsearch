@@ -43,7 +43,7 @@
   </div>
 </footer> -->
 <!-- <div class="container"> -->
-<footer class="container page-footer">
+<footer class="container-fluid page-footer">
   <div class="row d-flex justify-content-around">
     {% for section in site.data.pages.es.footer.siteMap.sections %}
     <div class="col-md-4 px-5 py-5 d-block justify-content-center" style="padding-left:20px;">
@@ -63,19 +63,24 @@
   </div>
 </footer>
 
-<!-- </div> -->
-<!-- <div class="container">
-  <div class="row" >
-    {% for section in site.data.pages.es.home.siteMap.sections %}
-      <div class="col-12 col-md-4 px-4 py-5" style="background-color:{{benefit.color}};color:white">
-        <h4>{{ section.title }}</h4>
-        {% for menu in sections.contents %}
-           <div>{{ menu.menu_item }}</div>
-        {% endfor %}
-      </div>
-    {% endfor %}
-  </div>
-</div>  -->
+<!-- Add sticky class to breadcrumbs -->
+<script type="text/javascript">
+  window.onscroll = function() {myFunction()};
+  
+  var breadcrumbs = document.getElementById("breadcrumbs");
+  var sticky = breadcrumbs.offsetTop;
+
+  function myFunction() {
+
+    if (window.pageYOffset >= sticky) {
+      breadcrumbs.classList.add("sticky")
+    } else {
+      console.log("Remove sticky");
+      breadcrumbs.classList.remove("sticky");
+    }
+  }
+</script>
+
 
 
 

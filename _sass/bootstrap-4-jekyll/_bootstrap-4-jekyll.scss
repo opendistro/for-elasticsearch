@@ -16,11 +16,20 @@
 .homeBanner {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
-  min-height: 400px;
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
-  padding: 80px 80px 30px 80px;
+  padding: 80px 80px 80px 80px;
+}
+
+.homeBannerBottom {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 80px 80px;
 }
 
 .distro-white {
@@ -35,9 +44,61 @@
   color: #777777;
 }
 
+.title {
+  font-size: 1.80rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.title-on-dark {
+  font-size: 1.80rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: $white;
+}
+
 .title-on-white {
   color: $midnightblue;
-  font-weight: 900;
+}
+
+.title-in-box {
+ font-size: 1.25rem;
+ font-weight: bold;
+ margin-bottom: 1.4rem;
+ color: $white;
+}
+
+.text { 
+   font-size: 1.2rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #666;
+}
+
+.text-on-dark { 
+   font-size_: 1.2rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: $white;
+}
+
+.text-in-box {
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #fff;
+   font-weight: 100;
+   color: $white;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.a {
+  text-decoration: none; 
 }
 
 .link-on-white {

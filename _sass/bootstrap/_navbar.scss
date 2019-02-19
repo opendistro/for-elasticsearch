@@ -68,6 +68,7 @@
   .nav-link {
     padding-right: 0;
     padding-left: 0;
+    margin: 0 20px;
   }
 
   .dropdown-menu {
@@ -210,7 +211,6 @@
 
       @include hover-focus {
         color: $navbar-light-hover-color;
-        font-weight: bold;
       }
 
       &.disabled {

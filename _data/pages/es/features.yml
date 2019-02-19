@@ -1,6 +1,6 @@
 intro:
   title: Open Distro for Elasticsearch Features
-  text: "The 100% open-source Elasticsearch distribution that extends Elasticsearch and Kibana to include advanced features including Security, Alertin, SQL, and Perormance Analyzer"
+  content: "The 100% open-source Elasticsearch distribution that extends Elasticsearch and Kibana to include advanced features including Security, Alerting, SQL, and Performance Analyzer"
   buttons:
     - label: 'Downloads'
       url: '#'
@@ -76,7 +76,7 @@ security:
 #Alerting
 alert:
   title: Alerting
-  text: Get alerts on your data
+  text: Get notified automatically
   content: "Open Distro for Elasticsearch Alerting provides a powerful easy to use event monitoring and alerting system. Alerting enables you to monitor your data and send alert notifications automatically to your stakeholders. With an intuitive Kibana interace and powerful API, it is easy to set up and manage alerts. Morever, Open Distro for Elstisearch Alerting exposes Elasticsearch's full query language and scripting capabilities, so you can craft highly specific alert conditions."
   img: "/assets/media/screenshots/kibana_dashboard_1.png"
   actions:

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Banner -->
-<div class="container homeBanner">
+<div class="container-fluid homeBanner">
   {%- include banner-with-buttons.html banner=site.data.pages.es.home.banner -%} 
 </div>  
 <!-- End Banner -->
@@ -21,9 +21,9 @@ layout: default
 <div class="container">
   <div class="row" >
     {% for benefit in site.data.pages.es.home.benefits.items %}
-      <div class="col-12 col-md-4 px-5 py-5" style="background: url({{ benefit.background }}) no-repeat; background-size: cover; color:white">
-        <h5>{{ benefit.title }}</h5>
-        <div>{{ benefit.content }}</div>
+      <div class="col-12 col-md-4 px-5 py-5" style="background: url({{ benefit.background }}) no-repeat; background-size: cover; ">
+        <h2 class="title-in-box">{{ benefit.title }}</h2>
+        <p class="text-in-box">{{ benefit.content }}</p>
       </div>
     {% endfor %}
   </div>
@@ -41,7 +41,7 @@ layout: default
 <div class="pt-5"/>
 
 <!-- Partners Starts-->
-<div class="container homeBanner">
+<div class="container-fluid homeBanner">
   {%- include banner-with-buttons.html banner=site.data.pages.es.home.partners -%} 
 </div>  
 <!-- Partners Ends-->

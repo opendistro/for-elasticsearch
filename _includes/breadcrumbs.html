@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container-fluid">
 
 	<div id="breadcrumbs" class="row breadcrumb">
-	    <div class="row vcenter" style="width:100%;">
+	    <div class="row vcenter">
 	        <div class="col-12 col-md-10">
 				{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 				
@@ -10,7 +10,7 @@
 				    {{ crumb | replace:'-',' ' | url_decode | remove:'.html' | capitalize }}
 				  {% else %}
 				    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}" class="link-on-white">
-				    
+
 				    	{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
 				    </a> &nbsp; > &nbsp;
 				  {% endif %}
