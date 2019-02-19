@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<!-- Banner -->
+<div class="container">
+  <div class="jumbotron distro-white">
+    
+	  <div class="row text-center">
+	    <div class="col-12"><h4 class="title-on-white">{{site.data.pages.es.contribute.banner.title}}</h4></div>
+	  </div>
+	  
+	  <div class="row pt-3 justify-content-center text-center text-on-white">
+	    <div class="col-12 col-md-11">
+	      <p>{{site.data.pages.es.contribute.banner.text}}</p>
+	    </div>
+	  </div>
+
+  </div>
+</div>
+
+<div class="pt-5"/>
+<!-- Paragraphs -->
+<div class="container px-5">
+  {% for contribution in site.data.pages.es.contribute.contributions %}
+   <div class="pt-3"/>
+    <h5 class="title-on-white">{{contribution.title}}</h5>
+    <div class="py-3 link-on-white-paragraph"/>
+    {% for item in contribution.content %}
+        {{item.paragraph | markdownify}}
+    {% endfor%} 
+   
+  {% endfor %}
+ 
+</div>
+
+<div class="pt-5"/>
+
+<!-- Community Starts -->
+{%- include communities/es.html -%}
+<!-- Community Ends -->

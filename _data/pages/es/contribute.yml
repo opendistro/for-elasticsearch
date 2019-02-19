@@ -1,0 +1,25 @@
+banner:
+  title: Contribute to Open Distro for Elasticsearch
+  text: "Open Distro for Elasticsearch is committed to being the best-in-class, robust and scalable open source project for Elasticsearch developers. As its feature set grows, Open Distro for Elasticsearch is and will remain 100% open and Apache licensed and will accept community contributions with Apache or Apache compatible licenses. And as we grow the community around Open Distro, we welcome you on behalf of the project to come join, participate and contribute."
+
+contributions:
+  - title: There are many ways to participate in the Open Distro project.
+    content: 
+     - paragraph: Follow us on GitHub, answer Open Distro questions on StackOverflow or chat with us on Gitter. You can also contribute as a developer or other technologist, as a company or organization. Participation and contribution can range from writing technical documentation to bug fixing to writing code.
+     - paragraph: "A good way to begin is to check out the issues at [https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues/](https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues/). Here all of the project's issues are documented: they are listed, labelled and their status identified. It's a great place to develop an understanding of the current activity of the project and to look for ways to jump in and contribute."
+
+  - title: Contribute Code
+    content: 
+     - paragraph: To create a feature proposal or to fix a bug for Open Distro, open an issue on the issue tracker at <http://github.com/opendistroforelasticsearch/elasticsearch-oss/issues> and ask our release team to add an appropriate label for your proposal. Examples of labels can be found at <https://opendistro.com/issues/labels>. You can search the issue tracker for any similar feature or bug fix proposals. Consider joining the discussion about the issue. For new features or fixes, you may want to start a discussion about our proposal and perhaps ask for comments of help. Our community team will be happy to chat ith you about your ideas.
+     - paragraph: "When ready, you may submit a merge request with the feature or bug fix. Appropriate tests and documentation should be submitted with the merge request. The specific steps to follow are at <https://github.com/opendistroforelasticsearch/elasticsearch-oss/merge_requests (https://opendistro.com/merge_requests)>"
+    
+  - title: Contribute documentation
+    content:
+      - paragraph: Great documentation is always welcome on open source projects and helps everyone use the software to maximum benefit. Documentation contributions can include fixes for mistakes or changes that add examples, how-tos and tutorials, or that address areas needing deeper understanding.
+      - paragraph: See our documentation style guide at <https://opendistroforelasticsearch/elasticsearch-oss/documentation_styleguide.md>
+
+  - title: Getting help
+    content:
+      - paragraph: Keep up-to-date via our mailing list at <xxx (mailto:mail@opendistro.com)>.
+      - paragraph: Ask questions in our chat room on our Open Distro for Elasticsearch Community Gitter channel.
+      - paragraph: Join discussions in areas you are interested in. You can reach out to project team members as indentified on the Open Distro team page <https://opendistro.com/team_members>.

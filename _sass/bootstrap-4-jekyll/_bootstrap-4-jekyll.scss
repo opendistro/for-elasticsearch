@@ -44,6 +44,12 @@
   color: $waterblue;  
 }
 
+.link-on-white-paragraph p a {
+ 
+  color: $waterblue; 
+  word-break: break-all; 
+}
+
 .link-on-white:hover {
   color: $midnightblue;
   text-decoration: none;  
@@ -146,4 +152,5 @@
   border-radius: 0;
   padding: 80px 80px 30px 80px;
 }
+
 

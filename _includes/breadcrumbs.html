@@ -10,6 +10,7 @@
 				    {{ crumb | replace:'-',' ' | url_decode | remove:'.html' | capitalize }}
 				  {% else %}
 				    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}" class="link-on-white">
+				    
 				    	{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
 				    </a> &nbsp; > &nbsp;
 				  {% endif %}

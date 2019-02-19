@@ -48,7 +48,7 @@ layout: default
             <div class="row">
             {% for action in software.actions %}
               <div class="col-12 col-md-6 software-download">
-                 <a href="{action.url}" class="software-download">
+                 <a href="{action.url}" class="software-download"><i class="fas fa-download"></i>
                    <span class="glyphicon glyphicon-download-alt"></span>
                    <h7>{{action.label}}</h7>
                  </a>
@@ -69,6 +69,7 @@ layout: default
     {% endfor %} 
    </div>
 </div>
+
 
 <!-- Community Starts -->
 {%- include communities/es.html -%}
