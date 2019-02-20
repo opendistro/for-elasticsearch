@@ -48,10 +48,10 @@
   position: fixed;
   position: -webkit-sticky;
   top: 0;
-  width: 100%;
   z-index: 2;
   right:0;
-  left:0;
+  left:10px;
+  box-shadow: 5px 1px lightgrey;
 }
 
 .sticky + .content {

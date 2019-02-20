@@ -2,7 +2,7 @@ intro:
   title: Open Distro for Elasticsearch Features
   content: "The 100% open-source Elasticsearch distribution that extends Elasticsearch and Kibana to include advanced features including Security, Alerting, SQL, and Performance Analyzer"
   buttons:
-    - label: 'Downloads'
+    - label: 'Download'
       url: '#'
     - label: 'Documentation'
       url: '#'
@@ -22,7 +22,7 @@ featuresLink:
   - title: Alerting
     icon: "/assets/media/icons/alerting_64px.svg" 
     url: "features/alerting.html"
-  - title: SQL Support
+  - title: SQL
     icon: "/assets/media/icons/SQL_support_64px.svg" 
     url: "features/SQL%20Support.html"
   - title: Performance Analyzer
@@ -84,7 +84,7 @@ alert:
       text: 'Learn more >'
       url: '#'
     secondary:
-      text: 'Downloads >'
+      text: 'Download >'
       url: '#'
 
 #Text for Performance Analyzer - SQL support
@@ -99,7 +99,7 @@ performanceAnalyzer:
         text: 'Learn more'
         url: 'http://action.com'
       action_download:
-        text: 'Downloads'
+        text: 'Download'
         url: 'downloads.html'
       icon: "/assets/media/icons/performance_analyzer_64px_w.svg" 
       alt_text: 'Elasticsearch'   
@@ -112,7 +112,7 @@ performanceAnalyzer:
         text: 'Learn more'
         url: 'http://action.com'
       action_download:
-        text: 'Downloads'
+        text: 'Download'
         url: 'downloads.html' 
       icon: "/assets/media/icons/SQL_support_64px_w.svg"
       alt_text: 'Kibana'   
