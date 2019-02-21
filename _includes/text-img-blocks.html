@@ -1,13 +1,15 @@
-<div class="container">
-  
+
+<div class="container-fluid">
+  <div class="px-3">
+
 	  {% for feature in include.features %}
         
 	    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 	    {%if thecycle == 'odd' %}
 
-		  <div class="row px-3 py-5">
+		  <div class="row vcenter px-3 py-6" style="padding:50px;">
 		  <!-- Text -->
-		    <div class="col-12 col-md-6" >
+		    <div class="col-12 col-md-5">
 		      
 		      <!-- Title -->
 		      <div class="row px-5">
@@ -34,20 +36,20 @@
 		    </div>
 
           <!-- Image -->
-		    <div class="col-12 col-md-6 text-left px-5">
+		    <div class="col-12 col-md-7 text-left ">
 		     <img src="{{feature.img}}" width="100%"></img>
 		    </div>
 		  </div>
 
 		 {% else %}
-		 <div class="row vcenter px-3 py-5">
+		 <div class="row vcenter px-3 py-5" style="margin-top:100px">
 		    <!-- Image -->
-		    <div class="col-12 col-md-6 text-left px-5">
+		    <div class="col-12 col-md-7 text-left ">
 		      <img src="{{feature.img}}" width="100%"></img>
 		    </div>
             
             <!-- Text -->
-		    <div class="col-12 col-md-6" >
+		    <div class="col-12 col-md-5" >
 		      
 		      <!-- Title -->
 		       <div class="row  px-5">

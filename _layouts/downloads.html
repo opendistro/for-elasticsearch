@@ -5,12 +5,12 @@ layout: default
   <div class="jumbotron distro-white">
     
 	  <div class="row text-center">
-	    <div class="col-12"><h4 class="title-on-white">{{site.data.pages.es.downloads.banner.title}}</h4></div>
+	    <div class="col-12"><h1 class="title">{{site.data.pages.es.downloads.banner.title}}</h1></div>
 	  </div>
 	  
 	  <div class="row pt-3 justify-content-center text-center text-on-white">
-	    <div class="col-12 col-md-6">
-	      <p>{{site.data.pages.es.downloads.banner.text}}</p>
+	    <div class="col-12 col-md-8">
+	      <p class="text">{{site.data.pages.es.downloads.banner.text}}</p>
 	    </div>
 	  </div>
 	  
@@ -27,19 +27,19 @@ layout: default
           <div class="col-12 col-md-8">
             <div class="row">
               <!-- <div class="col-12 col-md-5"> -->
-                <h5 class="title-on-white">{{software.title}}</h5>
+                <h2 class="subtitle-on-white">{{software.title}}</h2>
             </div>
              <!-- <div class="col-12 col-md-6">   -->
             <div class="row">
-                <h8 class="text-on-white">{{software.description_1}}</h8>
+                <p class="text">{{software.description_1}}</p>
               <!-- </div>  -->
             </div>
             <div class="row">
-                <h8 class="text-on-white">{{software.description_2}}</h8>
+                <p class="text">{{software.description_2}}</p>
               <!-- </div>  -->
             </div>
             <div class="row">
-                <h8 class="text-on-white">{{software.description_3}}</h8>
+                <p class="text">{{software.description_3}}</p>
               <!-- </div>  -->
             </div>
           </div>
@@ -48,9 +48,8 @@ layout: default
             <div class="row">
             {% for action in software.actions %}
               <div class="col-12 col-md-6 software-download">
-                 <a href="{action.url}" class="software-download"><i class="fas fa-download"></i>
-                   <span class="glyphicon glyphicon-download-alt"></span>
-                   <h7>{{action.label}}</h7>
+                 <a href="{action.url}" class="software-download link-on-white">
+                   <h7 class="link-on-white">{{action.label}}</h7>
                  </a>
               </div>
             {% endfor%}
