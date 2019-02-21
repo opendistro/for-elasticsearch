@@ -1,32 +1,29 @@
+<div id="breadcrumbs" class="row vcenter breadcrumb" style="width:100%">
+    <div class="col-12 col-md-10  text">
+		{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+		
+		{% for crumb in crumbs offset: 1 %}
+		  {% if forloop.last %}
+		    {{ crumb | replace:'-',' ' | url_decode | remove:'.html' | capitalize }}
+		  {% else %}
+		    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}" class="link-on-white">
 
+		    	{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+		    </a> &nbsp; > &nbsp;
+		  {% endif %}
+		{% endfor %}
+	</div>	
 
-	<div id="breadcrumbs" class="row breadcrumb">
-	    <div class="row vcenter" style="width:100%">
-	        <div class="col-12 col-md-10">
-				{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-				
-				{% for crumb in crumbs offset: 1 %}
-				  {% if forloop.last %}
-				    {{ crumb | replace:'-',' ' | url_decode | remove:'.html' | capitalize }}
-				  {% else %}
-				    <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}" class="link-on-white">
-
-				    	{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-				    </a> &nbsp; > &nbsp;
-				  {% endif %}
-				{% endfor %}
-			</div>	
-
-			<div class="col-12 col-md-2">
-		      <a
-		        class="btn btn-blue-button btn-round btn-block"
-		        href="../downloads.html"
-		        role="button"
-		        >{{site.data.pages.es.home.banner.actions.secondary.text}}
-		      </a>
-		    </div>
-		</div>    
-	</div>
+	<div class="col-12 col-md-2">
+      <a
+        class="btn btn-blue-button btn-round btn-block"
+        href="../downloads.html"
+        role="button"
+        >{{site.data.pages.es.home.banner.actions.secondary.text}}
+      </a>
+    </div>
+</div>    
+	
 
 
 

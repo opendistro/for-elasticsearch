@@ -1,10 +1,12 @@
 <div class="container">
 	<div class="row">
 	{% for item in include.items %}
-	    <div class="col-12 col-md-6 px-5 py-5" style="background: url({{ item.background }}) no-repeat; background-size: cover; color:white">
+	    
+	    <div class="col-12 col-md-6 px-5 py-5" style="background: url({{ item.background }}) no-repeat; background-size: cover; color:white;">
+	        
 	        <!-- Title -->
 		      <div class="row text-left">
-			    <div class="col-12"><h4>{{item.title}}</h4></div>
+			    <div class="col-12"><h2>{{item.title}}</h2></div>
 			  </div>
 
             <!-- Subtitle -->
@@ -13,7 +15,7 @@
 			  </div>
 			
 			<!-- Content -->
-			  <div class="row pt-3 text-left">
+			  <div class="row pt-5 text-left">
 			    <div class="col-12">
 			      <p class="text-on-dark">{{item.content}}</p>
 			    </div>
@@ -21,17 +23,20 @@
 
             <!-- Links -->
 			  <div class="row text-left" style="display: inline;">
-		          <a class="btn btn-link pt-3" href="{{ item.action_learn.url | relative_url }}" role="button"> {{ item.action_learn.text }} <b> > </b></a>
-		          <a class="btn btn-link pt-3"  href="{{ item.action_download.url | relative_url }}" role="button"> {{ item.action_download.text }} <b> > </b></a>
+		          <a class="btn btn-link pt-5 link-on-dark" href="{{ item.action_learn.url | relative_url }}" role="button"> {{ item.action_learn.text }} <b> > </b></a>
+		          <a class="btn btn-link pt-5 link-on-dark"  href="{{ item.action_download.url | relative_url }}" role="button"> {{ item.action_download.text }} <b> > </b></a>
 	          </div>
-
+	        
+	       
+	        
 	         <!-- Icon -->
 		      <div class="row pt-5" style="float:bottom; padding-right:50px;" >
 		        <div class="offset-md-10 col-md-2" style="float:right;">
 		            <img src={{ item.icon }}  height="100" width="100"/>
 		        </div>  
 		      </div>
-		</div>      
+            
+		</div>     
 	{% endfor %}
 	</div>
 </div>

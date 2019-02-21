@@ -49,6 +49,7 @@
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 1px;
+  color: $midnightblue;
 }
 
 .title-on-dark {
@@ -59,7 +60,17 @@
   color: $white;
 }
 
-.title-on-white {
+.overtitle-on-white {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $midnightblue;
+  margin-bottom: 0.9rem;
+}
+
+.subtitle-on-white {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
   color: $midnightblue;
 }
 
@@ -74,7 +85,7 @@
    font-size: 1.2rem;
    letter-spacing: 1px;
    line-height: 1.6;
-   color: #666;
+   color: #333;
 }
 
 .text-on-dark { 
@@ -82,6 +93,7 @@
    letter-spacing: 1px;
    line-height: 1.6;
    color: $white;
+   font-weight: lighter;
 }
 
 .text-in-box {
@@ -105,14 +117,23 @@
   color: $waterblue;  
 }
 
+.link-on-white:hover {
+  color: $waterblue; 
+  text-decoration: none;  
+}
+
 .link-on-white-paragraph p a {
- 
   color: $waterblue; 
   word-break: break-all; 
 }
 
-.link-on-white:hover {
-  color: $midnightblue;
+.link-on-dark {
+  color: $white;
+  font-weight: none;  
+}
+
+.link-on-dark:hover {
+  color: $white;
   text-decoration: none;  
 }
 

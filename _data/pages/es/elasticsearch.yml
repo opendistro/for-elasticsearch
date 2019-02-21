@@ -13,7 +13,7 @@ features:
     content: Provide a low-latency, high-throughput, personalized search experience for your users across e-commerce applications, website, data lake catalogs, and other curated applications.  
 
   - title: Schema-Free
-    content: Fields(name, value pairs) for schema do not have to be defined before. When you index a data, elasticsearch coan create schema automatically at runtime, like a magic.
+    content: Fields (name, value pairs) for schema do not have to be defined before. When you index a data, elasticsearch coan create schema automatically at runtime, like a magic.
 
   - title: Powerful Query DSL
     content: Elasticsearch offers us, JSON interface for reading and writing queries top on the Lucene. Thanks to Elasticsearch, so that you can write complex queries without knowing Lucene syntax.

@@ -2,10 +2,10 @@ intro:
   title: Open Distro for Elasticsearch Features
   content: "The 100% open-source Elasticsearch distribution that extends Elasticsearch and Kibana to include advanced features including Security, Alerting, SQL, and Performance Analyzer"
   buttons:
-    - label: 'Download'
-      url: '#'
-    - label: 'Documentation'
-      url: '#'
+    label_primary: 'Download'
+    url_primary: 'download.html'
+    label_secondary: 'Documentation'
+    url_secondary: '#'
 
 # Features
 featuresLink:
@@ -85,14 +85,14 @@ alert:
       url: '#'
     secondary:
       text: 'Download >'
-      url: '#'
+      url: 'downloads.html'
 
 #Text for Performance Analyzer - SQL support
 performanceAnalyzer:
   items:
     - title: 'Performance Analyzer'
       subtitle: 'Get deep diagnostic insights'
-      content: 'Open Distro for Elasticsearch Perormance Analyzer enables you to perform diagnostics, independent of Elasticsearch, even when your cluster is under duress. With a powerful RES API for querying Elasticsearch metrics alongside detailed network, disk and operating system stats, Performance Analyzer enables unprecedented visibility into system bottlenecks. Check out the Perf-Top CLI for Performance Analyzer to begin diving into your system.'
+      content: 'Open Distro for Elasticsearch Performance Analyzer enables you to perform diagnostics, independent of Elasticsearch, even when your cluster is under duress. With a powerful RES API for querying Elasticsearch metrics alongside detailed network, disk and operating system stats, Performance Analyzer enables unprecedented visibility into system bottlenecks. Check out the Perf-Top CLI for Performance Analyzer to begin diving into your system.'
       color: "#091fe3"
       background: "/assets/media/backgrounds/lightBlueSquare.svg"
       action_learn:
