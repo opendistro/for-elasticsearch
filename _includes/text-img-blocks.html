@@ -1,23 +1,25 @@
 <div class="container">
-  <div class="px-3">
+  
 	  {% for feature in include.features %}
+        
 	    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 	    {%if thecycle == 'odd' %}
-		  <div class="row vcenter px-3 py-5">
+
+		  <div class="row px-3 py-5">
 		  <!-- Text -->
 		    <div class="col-12 col-md-6" >
 		      
 		      <!-- Title -->
 		      <div class="row px-5">
 		        <div class="col-12 col-md-12">
-		          <h5 class="title-on-white">{{feature.title}}</h5>
+		          <h2 class="subtitle-on-white">{{feature.title}}</h2>
 		        </div>  
 		       </div>
 
 		       <!-- Content 1 -->
 		       <div class="row px-5">
 		        <div class="col-12 col-md-12">
-		          <p>{{feature.content}}</p>
+		          <p class="text">{{feature.content}}</p>
 		        </div>  
 		       </div>
 
@@ -25,7 +27,7 @@
                {% if feature.content_2 %}
 		       <div class="row px-5 pt-3">
 		        <div class="col-12 col-md-12">
-		          <p>{{feature.content_2}}</p>
+		          <p class="text">{{feature.content_2}}</p>
 		        </div>  
 		       </div>
 		       {% endif %}
@@ -50,14 +52,14 @@
 		      <!-- Title -->
 		       <div class="row  px-5">
 		         <div class="col-12 col-md-12">
-		           <h5 class="title-on-white">{{feature.title}}</h5>
+		           <h2 class="subtitle-on-white">{{feature.title}}</h2>
 		         </div>  
 		       </div>
 		      
 		       <!-- Content 1 -->
 		       <div class="row  px-5">
 		        <div class="col-12 col-md-12">
-		          <p>{{feature.content}}</p>
+		          <p class="text">{{feature.content}}</p>
 		        </div>  
 		       </div>
 		       
@@ -65,7 +67,7 @@
 		       {% if feature.content_2 %}
 		       <div class="row px-5 pt-3">
 		        <div class="col-12 col-md-12">
-		          <p>{{feature.content_2}}</p>
+		          <p class="text">{{feature.content_2}}</p>
 		        </div>  
 		       </div>
 
@@ -74,5 +76,5 @@
 		  </div>
 		 {% endif %} 
 	  {% endfor %}
-  </div>
+  
 </div>

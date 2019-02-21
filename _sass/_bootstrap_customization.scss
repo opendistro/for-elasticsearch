@@ -19,15 +19,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,
 .btn {
   line-height: 1;
 
-  &-outline-test {
-    border: 1px solid $white;
-    color: $white;
-  }
-  &-outline-test:hover {
-    border: 1px solid $white;
-    color: $white;
-  }
-
   &-outline-primary {
     border: 1px solid $white;
     background-color: $white;
@@ -40,38 +31,57 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,
     color: $blue;
   }
 
-  &-primary {
-    background-color: $primary
-  }
-  &-primary:hover {
-    background-color: $white;
-    color: $distro-pink;
-  }
-  &-secondary {
-    background-color: $midnightblue;
+  &-outline-secondary {
+    border: 1px solid $white;
     color: $white;
   }
-  &-outline-secondary {
+  
+  &-outline-secondary:hover {
+    border: 1px solid $white;
+    color: $white;
+  }
+
+  &-outline-primary-on-white {
+    border: 1px solid $midnightblue;
+    color: $white;
+    background-color: $midnightblue;
+  }
+  
+  &-outline-primary-on-white:hover {
+    border: 1px solid $midnightblue;
+    color: $white;
+    background-color: $midnightblue;
+  }
+
+  &-outline-secondary-on-white {
     border: 1px solid $midnightblue;
     color: $midnightblue;
   }
-  &-outline-secondary:hover {
-    background-color: $midnightblue;
-    color: $white;
-  }
-  &-outline-third {
+  
+  &-outline-secondary-on-white:hover {
     border: 1px solid $midnightblue;
     color: $midnightblue;
   }
 
-  &-outline-third:hover {
+  &-primary {
+    background-color: $primary
+  }
+
+  &-primary:hover {
+    background-color: $white;
+    color: $distro-pink;
+  }
+
+  &-secondary {
     background-color: $midnightblue;
     color: $white;
   }
+
   &-blue-button {
     color: $white;
     background-color: $midnightblue;
   }
+
   &-link {
     color: $white;
     text-decoration: none; 

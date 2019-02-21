@@ -6,28 +6,28 @@
 	      <div class="col col-md-6">
 	        {% if feature.subtitle %}
 	           <div class="row title-on-white" >
-		         <div class="col col-md-12 px-5"><h7 class="text title-on-white text-bold">{{ feature.subtitle }}</h7></div>
+		         <div class="col col-md-12 px-3"><h7 class="text text-bold">{{ feature.subtitle }}</h7></div>
 		       </div>
 	        {% endif %}
-		       <div class="row title-on-white" >
-		         <div class="col col-md-12 px-5"><h5 class="title-on-white">{{ feature.title }}</h5></div>
+		       <div class="row title-on-white" style="margin-bottom: 0px;">
+		         <div class="col col-md-12 px-3"><h2 class="subtitle-on-white">{{ feature.title }}</h2></div>
 		       </div>
 		       <div class="row">
-		         <div class="col col-md-12 py-3 px-5">{{ feature.content }}</div>
+		         <div class="col col-md-12 px-3"><p class="text">{{ feature.content }}</p></div>
 		       </div>  
 	      </div>
 	  {% else %}
 	      <div class="col col-md-6">
 	      {% if feature.subtitle %}
 	           <div class="row title-on-white" >
-		         <div class="col col-md-12 px-5"><p class="text title-on-white">{{ feature.subtitle }}</p></div>
+		         <div class="col col-md-12 px-3"><p class="text text-bold">{{ feature.subtitle }}</p></div>
 		       </div>
 	        {% endif %}
-		       <div class="row title-on-white">
-		         <div class="col col-md-12 px-5"><h5 class="title-on-white">{{ feature.title }}</h5></div>
+		       <div class="row title-on-white" style="margin-bottom: 0px;">
+		         <div class="col col-md-12 px-3"><h2 class="subtitle-on-white">{{ feature.title }}</h2></div>
 		       </div>
 		       <div class="row">
-		         <div class="col col-md-12 px-5 py-3">{{ feature.content }}</div>
+		         <div class="col col-md-12 px-3"><p class="text">{{ feature.content }}</p></div>
 		       </div>  
 	      </div> 
 	     </div>
