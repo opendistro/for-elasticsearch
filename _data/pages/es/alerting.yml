@@ -7,7 +7,7 @@ banner:
 intro:
   title: Monitor your data
   content: A complete history of all alert executions is indexed into Elasticsearch for easy tracking and visualization in Kibana. Are my alerts executing? How often are my conditions being met? What actions were taken? Your alert history also enables nested alerts.
-  img: "/assets/media/screenshots/screan4.png"
+  img: "/assets/media/screenshots/alert_screen_1.png"
   subtext: La donzelletta vien dalla campagna in sul calar del sole, onde siccome suole ornare ella si appresta domani nel di di festa il petto ed il cor.
 
 features:

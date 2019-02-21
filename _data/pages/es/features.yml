@@ -64,7 +64,7 @@ security:
   title: Security
   text: Keep your data secure
   content: "Open Distro for Elasticsearch Security secures your Elasticsearch cluster by providing a comprehensive set of advanced security features including authentication options via LDAP/Active Directory, Kerberos, SAML and JSON web tokens, encryption in-flight, fine-grained index, document and field-level access control, detailed audit logging, advanced compliance features, and more."
-  img: "/assets"
+  img: "/assets/media/illustrations/security_diagram.svg"
   actions:
     primary: 
       text: 'Learn more >'
@@ -78,7 +78,7 @@ alert:
   title: Alerting
   text: Get notified automatically
   content: "Open Distro for Elasticsearch Alerting provides a powerful easy to use event monitoring and alerting system. Alerting enables you to monitor your data and send alert notifications automatically to your stakeholders. With an intuitive Kibana interace and powerful API, it is easy to set up and manage alerts. Morever, Open Distro for Elstisearch Alerting exposes Elasticsearch's full query language and scripting capabilities, so you can craft highly specific alert conditions."
-  img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  img: "/assets/media/screenshots/alert_screen_1.png"
   actions:
     primary: 
       text: 'Learn more >'
