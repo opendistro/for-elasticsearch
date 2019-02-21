@@ -2,32 +2,32 @@
 	{% for feature in include.features%}
 	  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 	  {%if thecycle == 'odd' %}
-	    <div class="row px-5 pt-5">
+	    <div class="row" style="padding-top:40px; padding-bottom:4rem;">
 	      <div class="col col-md-6">
 	        {% if feature.subtitle %}
 	           <div class="row title-on-white" >
-		         <div class="col col-md-12 px-3"><h7 class="text text-bold">{{ feature.subtitle }}</h7></div>
+		         <div class="col col-md-12 px-5"><h7 class="text text-bold">{{ feature.subtitle }}</h7></div>
 		       </div>
 	        {% endif %}
 		       <div class="row title-on-white" style="margin-bottom: 0px;">
-		         <div class="col col-md-12 px-3"><h2 class="subtitle-on-white">{{ feature.title }}</h2></div>
+		         <div class="col col-md-12 px-5"><h2 class="subtitle-on-white">{{ feature.title }}</h2></div>
 		       </div>
 		       <div class="row">
-		         <div class="col col-md-12 px-3"><p class="text">{{ feature.content }}</p></div>
+		         <div class="col col-md-12 px-5"><p class="text">{{ feature.content }}</p></div>
 		       </div>  
 	      </div>
 	  {% else %}
 	      <div class="col col-md-6">
 	      {% if feature.subtitle %}
 	           <div class="row title-on-white" >
-		         <div class="col col-md-12 px-3"><p class="text text-bold">{{ feature.subtitle }}</p></div>
+		         <div class="col col-md-12 px-5"><p class="text text-bold">{{ feature.subtitle }}</p></div>
 		       </div>
 	        {% endif %}
 		       <div class="row title-on-white" style="margin-bottom: 0px;">
-		         <div class="col col-md-12 px-3"><h2 class="subtitle-on-white">{{ feature.title }}</h2></div>
+		         <div class="col col-md-12 px-5"><h2 class="subtitle-on-white">{{ feature.title }}</h2></div>
 		       </div>
 		       <div class="row">
-		         <div class="col col-md-12 px-3"><p class="text">{{ feature.content }}</p></div>
+		         <div class="col col-md-12 px-5"><p class="text">{{ feature.content }}</p></div>
 		       </div>  
 	      </div> 
 	     </div>

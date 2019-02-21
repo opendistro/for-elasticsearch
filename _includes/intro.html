@@ -6,12 +6,23 @@
 	    <div class="col-12"><h1 class="title">{{include.intro.title}}</h1></div>
 	</div>
 
-	<!-- Content -->
-	<div class="row justify-content-center text-center py-2">
-	    <div class="col-12 col-md-8">
-	      <p class="text text-center">{{include.intro.content}}</p>
-	    </div>
-	</div>
+    {% if include.intro.content %}
+		<!-- Content -->
+		<div class="row justify-content-center text-center py-2">
+		    <div class="col-12 col-md-8">
+		      <p class="text text-center">{{include.intro.content}}</p>
+		    </div>
+		</div>
+	{% endif %}
+
+    {% if include.intro.ext_content %}
+		<!-- Extended Content -->
+		<div class="row justify-content-center text-center py-2">
+		   <div class="col-12 col-md-12">
+		      <p class="text text-center">{{include.intro.ext_content}}</p>
+		   </div>
+		</div>
+    {% endif %}
 
 	<!-- Text -->
 	{% if include.intro.text %}
@@ -20,7 +31,6 @@
 		      <p class="text">{{include.intro.text}}</p>
 		    </div>
 		</div>
-
     {% endif %}
 
     <!-- Links -->
