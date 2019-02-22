@@ -12,16 +12,16 @@ intro:
       label: Learn More >
     - url: "contribute.html"
       label: Deploy >
-  img: "/assets/media/screenshots/kibana_dashboard_1.png"
+  img: "/assets/media/screenshots/perftop1.png"
   miniImgs:
   - title: Cluster Performance Overview
-    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+    img: "/assets/media/screenshots/perftop1.png"
   - title: High Level Cluster Performance
-    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+    img: "/assets/media/screenshots/perftop2.png"
   - title: Low Level Cluster Performance
-    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+    img: "/assets/media/screenshots/perftop3.png"
   - title: Node Level Cluster Performance
-    img: "/assets/media/screenshots/kibana_dashboard_1.png"
+    img: "/assets/media/screenshots/perftop4.png"
 
 features:
   - title: System Health
