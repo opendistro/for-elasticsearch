@@ -1,7 +1,6 @@
 <div id="breadcrumbs" class="row vcenter breadcrumb" style="width:100%">
     <div class="col-12 col-md-10  text">
 
-    <p>{{page.url}}</p>
 		{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 		
 		{% for crumb in crumbs offset: 1 %}

@@ -6,7 +6,7 @@
   border-style: solid;
   border-width: 1px 0px 0px 0px;
   border-color: lightgrey;
-  @include border-radius($breadcrumb-border-radius);
+  
   background-color: $white;
 }
 
@@ -45,12 +45,9 @@
 
 .sticky {
   position: fixed;
-  position: -webkit-sticky;
   top: 0;
   z-index: 2;
-  right:0;
-  left:10px;
-  box-shadow: 5px 1px lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
 .sticky + .content {

@@ -46,7 +46,7 @@ exclude:
 
 collections:
   features:
-    permalink: /:features/:name
+    permalink: /:features/:name/
 
 # gems:
 #   - jekyll-font-awesome-sass
