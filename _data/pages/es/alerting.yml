@@ -14,6 +14,9 @@ features:
   - title: Create monitors
     content: Create monitors using any Elasticsearch query. Also create them visually based off of an index metrics.
     img: "/assets/media/screenshots/screen1.png"
+  - title: Create monitors
+    content: Create monitors using any Elasticsearch query. Also create them visually based off of an index metrics.
+    img: "/assets/media/screenshots/screen4.png"
   - title: Set Multiple Trigger conditions
     content: Our alerting features give you the full power of the Elasticsearch query language to identify changes in your data that are interesting to you. 
     content_2: In other words if you can query something in Elasticsearch, you can alert on it. For instance you can be notified when the same user has logged in from 3 different locations within an hour, so that you can proactively address possible intrusion attempts.  
