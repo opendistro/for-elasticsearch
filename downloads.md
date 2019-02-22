@@ -1,4 +1,4 @@
 ---
 layout: downloads
-title: Downloads
+title: Download
 ---

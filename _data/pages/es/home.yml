@@ -4,7 +4,7 @@ banner:
   text: A more secure, flexible, and reliable Elasticsearch
   actions:
     primary: 
-      text: 'Downloads'
+      text: 'Download'
       url: 'downloads.html'
     secondary:
       text: 'Contribute'

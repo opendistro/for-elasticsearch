@@ -1,4 +1,4 @@
-<div class="row text-left vcenter">
+<!-- <div class="row text-left vcenter">
 	<div class="col-12"><p class="subtitle-in-banner">{{include.banner.subtitle}}</p></div>
 </div>
 
@@ -16,4 +16,17 @@
 	<div class="offset-md-10  col-md-2 text-right" style="float:right;">
 	    <img src={{ include.banner.icon }} width="100%"/>
 	</div>  
+</div> -->
+
+
+<div class="row py-5 text-left vcenter justify-content-between">
+	<div class="col-6 py-5">
+	  <p class="subtitle-in-banner">{{include.banner.subtitle}}</p>
+	  <h1 class="title-in-banner">{{include.banner.title}}</h1>
+	  <p class="text-in-banner pt-3">{{include.banner.content}}</p>
+	</div>
+    <div class="col-md-2 col-md-push-8 align-bottom pt-5" style="display: table-cell;">
+	    <img src={{ include.banner.icon }} width="80%" class="align-bottom pt-5"/>
+	</div>  
 </div>
+

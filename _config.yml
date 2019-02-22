@@ -33,7 +33,7 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
   - features.md
-  - downloads.md
+  - downloads .md
   - contribute.md
   - community.md
 # Exclude from processing.

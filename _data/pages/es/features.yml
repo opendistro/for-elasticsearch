@@ -5,7 +5,7 @@ intro:
     label_primary: 'Download'
     url_primary: 'download.html'
     label_secondary: 'Documentation'
-    url_secondary: '#'
+    url_secondary: 'http://ettea.aka.corp.amazon.com/opendist/'
 
 # Features
 featuresLink:
