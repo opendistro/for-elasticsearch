@@ -51,7 +51,7 @@ benefits:
 included:
    title: What's included?
    text: "The foundation of Open Distro for Elasticsearch, is of course, Elasticsearch and Kibana. Open Distro for Elasticsearch includes 100% open source builds of Elasticsearch and Kibana, that have been scrubbed of all proprietary code and references. Each version is re-based from source and includes all updates to the Apache code-base, making it compatible with open-source APIs and tools. The advanced Open Distro for Elasticsearch components include: Security, Alerting, SQL and Performance Analyzer."
-   img: "assets/media/illustrations/included.png"
+   img: "assets/media/illustrations/opendistro_elastic.svg"
    links:
      - url: 
        label: Learn more
