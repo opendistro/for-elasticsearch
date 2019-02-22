@@ -60,6 +60,14 @@
   color: $white;
 }
 
+.title-in-banner {
+  font-size: 3.0rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: $white;
+}
+
 .overtitle-on-white {
   font-size: 1rem;
   font-weight: bold;
@@ -72,6 +80,14 @@
   font-weight: bold;
   margin-bottom: 1.4rem;
   color: $midnightblue;
+}
+
+.subtitle-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   font-weight: 300;
+   margin-bottom:0;
 }
 
 .title-in-box {
@@ -103,6 +119,14 @@
    color: #fff;
    font-weight: 100;
    color: $white;
+}
+
+.text-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   line-height: 1.6;
+   font-weight: 300;
 }
 
 .text-bold {

@@ -12,9 +12,21 @@
 		       <div class="row title-on-white" style="margin-bottom: 0px;">
 		         <div class="col col-md-12 px-5"><h2 class="subtitle-on-white">{{ feature.title }}</h2></div>
 		       </div>
+
+		       <!-- Content bold -->
+               {% if feature.subContent %}
+			       <div class="row">
+			        <div class="col-12 col-md-12 px-5">
+			          <p class="text text-bold">{{feature.subContent}}</p>
+			        </div>  
+			       </div>
+		       {% endif %}
+
+		       <!-- Content -->
 		       <div class="row">
 		         <div class="col col-md-12 px-5"><p class="text">{{ feature.content }}</p></div>
 		       </div>  
+		       
 	      </div>
 	  {% else %}
 	      <div class="col col-md-6">
@@ -26,9 +38,19 @@
 		       <div class="row title-on-white" style="margin-bottom: 0px;">
 		         <div class="col col-md-12 px-5"><h2 class="subtitle-on-white">{{ feature.title }}</h2></div>
 		       </div>
+
+		       <!-- Content bold -->
+               {% if feature.subContent %}
+			       <div class="row">
+			        <div class="col col-md-12 px-5"><p class="text text-bold">{{feature.subContent}}</p></div>  
+			       </div>
+		       {% endif %}
+
+               <!-- Content -->
 		       <div class="row">
 		         <div class="col col-md-12 px-5"><p class="text">{{ feature.content }}</p></div>
-		       </div>  
+		       </div> 
+		        
 	      </div> 
 	     </div>
 	  {% endif %}
