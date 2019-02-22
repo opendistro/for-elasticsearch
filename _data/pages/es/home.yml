@@ -27,38 +27,38 @@ partners:
 
 intro:
   title: Why Open Distro for Elasticsearch?
-  text: Elasticsearch has become an essential technology for search and machine generated data analytics. Developers and engineers world-wide rely on open-source Elasticsearch to gain timely insights into their applications, infrastructure and security. As Elasticsearch has evolved, there has been significant intermingling of proprietary code into the project creating a lack of clarity as to what developers who care about open-source can depend on. Open Distro for Elasticsearch ensures that open-source Elasticsearch innovation continues to thrive by providing a fully features open-source, community-driven distribution that makes it easy for everyone to use, collaborate, and contribute to-without restrictions.
+  text: Elasticsearch has become an essential technology for search and machine generated data analytics. Developers and engineers world-wide rely on open-source Elasticsearch to gain timely insights into their applications, infrastructure and security. As Elasticsearch has evolved, an increasing amount of new feature innovation has shifted towards proprietary software, both free and for pay. Open Distro for Elasticsearch seeks to provide an opportunity for individuals and organizations to collaborate on innovating on fully open source advanced features. Open Distro for Elasticsearch ensures that open-source Elasticsearch innovation continues to thrive by providing a fully featured open-source, community-driven distribution that makes it easy for everyone to use, collaborate, and contribute to-without restrictions. 
 
 #Text for all benefits maximum to 3
 benefits:
   title: 'Benefits'
   items:
-    - title: '100% open-source'
-      content: 'Making Elasticsearch free for everyone to use, in any environment, with no restrictions.'
+    - title: 'Fully open-source'
+      content: 'Making an Elasticsearch distro that is free to use, change, and share in any environment'
       color: "#251CB2"
       background: "/assets/media/backgrounds/blueSquare.svg"
 
     - title: 'Community-driven'
-      content: 'Bringing together developers to collaborate and innovate to ensure open source Elasticsearch continues to advance.'
+      content: 'Bringing together developers and organizations to collaborate and innovate and accelerate open source Elasticsearch innovation.'
       color: "#7621A9"
       background: "/assets/media/backgrounds/darkPurpleSquare.svg"
     
-    - title: 'Secure and innovative'
-      content: 'Extends open source Elasticsearfch to include advanced features including: security, event monitoring and alerting, performance analysis and SQL support.'
+    - title: 'Secure and enterprise-grade'
+      content: 'Extends open source Elasticsearch to include advanced features including: security, event monitoring and alerting, performance analysis and SQL support.'
       color: "#BD34A3"
       background: "/assets/media/backgrounds/pinkSquare.svg"
 
 included:
    title: What's included?
-   text: "The foundation of Open Distro for Elasticsearch, is of course, Elasticsearch and Kibana. Open Distro for Elasticsearch includes 100% open source builds of Elasticsearch and Kibana, that have been scrubbed of all proprietary code and references. Each version is re-based from source and includes all updates to the Apache code-base, making it compatible with open-source APIs and tools. The advanced Open Distro for Elasticsearch components include: Security, Alerting, SQL and Performance Analyzer."
+   text: "The foundation of Open Distro for Elasticsearch, is of course, open source Elasticsearch and Kibana. Open Distro for Elasticsearch includes open source Elasticsearch and Kibana. Each version is built source and includes all updates to the Apache code-base, making it compatible with open-source APIs and tools. The advanced Open Distro for Elasticsearch components include: Security, Alerting, SQL and Performance Analyzer."
    img: "assets/media/illustrations/opendistro_elastic.svg"
    links:
      - url: 
        label: Learn more
 
 partners:
-  title: Community partners
-  content: Open Distro for Elasticsearch is committed to being the best-in-class, robust and scalable open source project for Elasticsearch developers. As its feature set grows, Open Distro for Elasticsearch is and will remain 100% open and Apache licensed and will accept community contributions with Apache or Apache compatible licenses. And as we grow the community around Open Distro, we welcome you on behalf of the project to come join, participate and contribute.
+  title: Community Driven
+  content: Open Distro for Elasticsearch is committed to being an open, collaborative, community-driven project. Our goal is for Open Distro for Elasticsearch to be fully open source and Apache licensed. We welcome you on behalf of the project to come join, participate and contribute to added value features for Elasticsearch. We also plan on contributing back upstream all enhancements to the base open source Elasticsearch project.
 
        
 
