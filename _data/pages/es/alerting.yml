@@ -1,27 +1,30 @@
 banner:
   title: Alerting
   subtitle: Open Distro for Elasticsearch
-  content: Our alerting features give you the full power of the Elasticsearch query language to identify changes in your data that are interesting to you
+  content: Gives you the full power of Elasticsearch to notify you of changes in your data
   icon: "/assets/media/icons/alerting_64px_w.svg"
 
 intro:
   title: Monitor your data
-  content: A complete history of all alert executions is indexed into Elasticsearch for easy tracking and visualization in Kibana. Are my alerts executing? How often are my conditions being met? What actions were taken? Your alert history also enables nested alerts.
-  img: "/assets/media/screenshots/alert_screen_1.png"
-  subtext: La donzelletta vien dalla campagna in sul calar del sole, onde siccome suole ornare ella si appresta domani nel di di festa il petto ed il cor.
+  content: Open Distro for Elasticsearch Alerting provides a powerful easy to use event monitoring and alerting system. Alerting enables you to monitor your data and send alert notifications automatically to your stakeholders. With an intuitive Kibana interace and powerful API, it is easy to set up and manage alerts. Morever, Open Distro for Elstisearch Alerting exposes Elasticsearch's full query language and scripting capabilities, so you can craft highly specific alert conditions.
+  img: 
+  subtext: 
 
 features:
   - title: Create monitors
-    content: Create monitors using any Elasticsearch query. Also create them visually based off of an index metrics.
+    content: Create monitors using the Kibana UI with our simple visual editor or by using the Elasticsearch query DSL giving you the full power of the Elasticsearch query language to identify changes in your data that are interesting to you. In other words if you can query something in Elasticsearch, you can monitor and alert on it. For instance you can be notified when the same user has logged in from 3 different locations within an hour, so that you can proactively address possible intrusion attempts.
     img: "/assets/media/screenshots/screen1.png"
-  - title: Create monitors
-    content: Create monitors using any Elasticsearch query. Also create them visually based off of an index metrics.
-    img: "/assets/media/screenshots/screen4.png"
   - title: Set Multiple Trigger conditions
-    content: Our alerting features give you the full power of the Elasticsearch query language to identify changes in your data that are interesting to you. 
-    content_2: In other words if you can query something in Elasticsearch, you can alert on it. For instance you can be notified when the same user has logged in from 3 different locations within an hour, so that you can proactively address possible intrusion attempts.  
+    content: Trigger conditions enable you to define the thresholds and severity to alert on. Each monitor can have multiple trigger conditions enabling your to query the data once and generate the appropriate action given the severity of the trigger condition met. Triggers, like monitors, are highly customizable and can be created using a simple visual editor or sophisticated Painless scripts.  
+    content_2: 
     img: "/assets/media/screenshots/screen3.png"
   - title: Get notified
-    content: How would you like to be notified? Pick from many alerting options with built-in integrations for email, Chime and Slack. It also comes with a powerful webhook output for integration with your existing monitoring infrastructure or any third-party system.
-    content_2: It is also configurable to include relevant information from your search in the notifications and ships with simple template support.
+    content: How would you like to be notified? Open Distro for Alerting provides multiple alerting options with built-in integrations for email, Amazon Chime and Slack. It also comes with a powerful webhook output for integration with your existing monitoring infrastructure or any third-party system.
+    content_2: Alerts are also configurable to include relevant information about the monitor and trigger in the notifications and ships with simple template support.
     img: "/assets/media/screenshots/screen2.png"
+  - title: View your alerts
+    content: A complete history of all alert executions is indexed into Elasticsearch for easy tracking and visualization in Kibana. What are my active alerts? How frequently has this monitor been in alert? Are my alerts executing? What actions were taken? All of this information is easily accessible from the Open Distro for Elasticsearch Alerting UI in Kibana.
+    img: "/assets/media/screenshots/alert_screen_1.png"
+
+
+    

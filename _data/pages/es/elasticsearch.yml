@@ -1,28 +1,33 @@
 banner:
   title: Elasticsearch
-  subtitle: Open Distro for
-  content: Open Distro for Elasticsearch is built on top of the Apache 2.0 licensed Elasticsearch, distributed search and analytics engine.
+  subtitle: Open Distro for Elasticsearch
+  content: Open Distro for Elasticsearch is built on top of the Apache 2.0 licensed Elasticsearch, distributed analytics and search engine.
   icon: "/assets/media/icons/elasticsearch_64px_w.svg"
 
 intro:
-  title: RESTful search & analytics engine
-  content: Open Distro for Elasticsearch is a ditributed, RESTful search and analytics engine capable of solving a growing number of use cases.  
+  title: RESTful distributed analytics and search engine
+  content: Elasticsearch is a distributed, RESTful analytics and search engine built on Apache Lucene. Its support for various languages (Java, Python, Ruby and more), schema-free JSON documents, and ability to process large volumes of data has made it the leading choice for log analytics, full-text search, and operational intelligence use cases. 
 
 features:
-  - title: Full Text search
-    content: Provide a low-latency, high-throughput, personalized search experience for your users across e-commerce applications, website, data lake catalogs, and other curated applications.  
+  - title: Fast Time-to-Value
+    content: Elasticsearch offers simple REST based APIs, a simple HTTP interface, and uses schema-free JSON documents, making it easy to get started and quickly build applications for a variety of use-cases.  
 
-  - title: Schema-Free
-    content: Fields (name, value pairs) for schema do not have to be defined before. When you index a data, elasticsearch coan create schema automatically at runtime, like a magic.
+  - title: High Performance
+    content: The distributed nature of Elasticsearch enables it to process large volumes of data in parallel, quickly finding the best matches for your queries.
 
-  - title: Powerful Query DSL
-    content: Elasticsearch offers us, JSON interface for reading and writing queries top on the Lucene. Thanks to Elasticsearch, so that you can write complex queries without knowing Lucene syntax.
+  - title: Near Real-Time Operations
+    content: Elasticsearch operations such as reading or writing data usually take less than a second to complete. This lets you use Elasticsearch for near real-time use cases such as application monitoring and anomaly detection.
 
-  - title: Scalable lucene index
-    content: Elasticsearch is built over Lucene and provides a JSON based REST API to refer to Lucene features. Though it's Lucene who is doing the actual work beneath, Elasticsearch provides us a cpnvenient layer over Lucene.    
+  - title: Complimentary tooling
+    content: Elasticsearch comes integrated with Kibana, a popular visualization and reporting tool. It also offers integration with Beats and Logstash, enabling you to easily transform source data and load it into your Elasticsearch cluster.  
+ 
+  - title: Easy Aplication Developement 
+    content: Elasticsearch provides support for various languages including Java, Python, PHP, JavaScript, Node.js, Ruby, and many more.    
 
-  - title: Responsive
-    content: Ei fu siccome immobile dato il mortal sospiro, stette la  spoglia immemore orba di tanto spiro, cosi percossa, attonita la terra al nunzio sta, muta pensando all'ultima ora dell'uom fatale;   
+  - title: Complimentary Plugins
+    content: You can also use a number of open-source Elasticsearch plugins such as language analyzers and suggesters to add rich functionality to your applications.
+
+
+
   
-  - title: Reliable
-    content: Elasticsearch is distributed, so that it can manage to data replTheication, which means having multiple copies of data in your cluster, This enabbles high availability.
+  
