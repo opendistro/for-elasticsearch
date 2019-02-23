@@ -1,1 +1,47 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 505 482"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:url(#linear-gradient);}.cls-4{fill:url(#linear-gradient-2);}</style><clipPath id="clip-path"><rect class="cls-1" x="0.29" y="-0.14" width="504.55" height="482.03" transform="translate(505.13 481.74) rotate(180)"/></clipPath><linearGradient id="linear-gradient" x1="911.08" y1="405.67" x2="-275.93" y2="405.67" gradientTransform="translate(-9.78 -2.66) rotate(0.1)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9600ff"/><stop offset="0.03" stop-color="#a200ef"/><stop offset="0.11" stop-color="#ba00cc"/><stop offset="0.19" stop-color="#d000ae"/><stop offset="0.28" stop-color="#e10095"/><stop offset="0.38" stop-color="#ef0082"/><stop offset="0.5" stop-color="#f80075"/><stop offset="0.65" stop-color="#fd006d"/><stop offset="0.95" stop-color="#ff006b"/></linearGradient><linearGradient id="linear-gradient-2" x1="399.85" y1="221.25" x2="-243.34" y2="864.44" gradientTransform="translate(-9.78 -2.66) rotate(0.1)" gradientUnits="userSpaceOnUse"><stop offset="0.05" stop-color="#ff006b"/><stop offset="0.33" stop-color="#fd006d"/><stop offset="0.48" stop-color="#f80075"/><stop offset="0.6" stop-color="#ee0083"/><stop offset="0.71" stop-color="#e00097"/><stop offset="0.81" stop-color="#ce00b0"/><stop offset="0.9" stop-color="#b800cf"/><stop offset="0.98" stop-color="#9e00f3"/><stop offset="1" stop-color="#9600ff"/></linearGradient></defs><title>pink square</title><g class="cls-2"><polygon class="cls-3" points="816.31 903.75 -300.85 901.84 -299.17 -94.9 817.99 -94.9 816.31 903.75"/><circle class="cls-4" cx="120.66" cy="487.38" r="416.37"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 505 482" style="enable-background:new 0 0 505 482;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{fill:url(#SVGID_4_);}
+</style>
+<title>pink square</title>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-9.7" y="-8.1" width="525.7" height="499.1"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="939.0883" y1="72.7568" x2="-297.691" y2="72.7568" gradientTransform="matrix(1 1.745328e-03 1.745328e-03 -1 -10.8726 482.0905)">
+			<stop  offset="0" style="stop-color:#9600FF"/>
+			<stop  offset="3.000000e-02" style="stop-color:#A200EF"/>
+			<stop  offset="0.11" style="stop-color:#BA00CC"/>
+			<stop  offset="0.19" style="stop-color:#D000AE"/>
+			<stop  offset="0.28" style="stop-color:#E10095"/>
+			<stop  offset="0.38" style="stop-color:#EF0082"/>
+			<stop  offset="0.5" style="stop-color:#F80075"/>
+			<stop  offset="0.65" style="stop-color:#FD006D"/>
+			<stop  offset="0.95" style="stop-color:#FF006B"/>
+		</linearGradient>
+		<polygon class="st1" points="840.5,927.9 -323.5,925.9 -321.7,-106.3 842.3,-106.3 		"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="405.5687" y1="264.579" x2="-262.5408" y2="-403.5305" gradientTransform="matrix(1 1.745328e-03 1.745328e-03 -1 -10.8726 482.0905)">
+			<stop  offset="5.000000e-02" style="stop-color:#FF006B"/>
+			<stop  offset="0.33" style="stop-color:#FD006D"/>
+			<stop  offset="0.48" style="stop-color:#F80075"/>
+			<stop  offset="0.6" style="stop-color:#EE0083"/>
+			<stop  offset="0.71" style="stop-color:#E00097"/>
+			<stop  offset="0.81" style="stop-color:#CE00B0"/>
+			<stop  offset="0.9" style="stop-color:#B800CF"/>
+			<stop  offset="0.98" style="stop-color:#9E00F3"/>
+			<stop  offset="1" style="stop-color:#9600FF"/>
+		</linearGradient>
+		<ellipse class="st2" cx="115.7" cy="496.7" rx="433.8" ry="431.2"/>
+	</g>
+</g>
+</svg>
