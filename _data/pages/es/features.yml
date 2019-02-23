@@ -39,7 +39,7 @@ openSource:
       background: "/assets/media/backgrounds/blueSquare.svg"
       action_learn:
         text: 'Learn more'
-        url: 'https://github.com/mauve-hedgehog/opendistro-docs/tree/pre-release/Elasticsearch'
+        url: 'http://ettea.aka.corp.amazon.com/opendist/docs/elasticsearch/'
       action_download:
         text: 'Download'
         url: 'downloads.html'
@@ -52,7 +52,7 @@ openSource:
       background: "/assets/media/backgrounds/pinkSquare.svg"
       action_learn:
         text: 'Learn more'
-        url: 'http://action.com'
+        url: 'http://ettea.aka.corp.amazon.com/opendist/docs/kibana/'
       action_download:
         text: 'Download'
         url: 'downloads.html' 
@@ -68,7 +68,7 @@ security:
   actions:
     primary: 
       text: 'Learn more >'
-      url: '#'
+      url: 'http://ettea.aka.corp.amazon.com/opendist/'
     secondary:
       text: 'All Plug-ins >'
       url: '#'
@@ -82,7 +82,7 @@ alert:
   actions:
     primary: 
       text: 'Learn more >'
-      url: '#'
+      url: 'http://ettea.aka.corp.amazon.com/opendist/docs/alerting/'
     secondary:
       text: 'Download >'
       url: 'downloads.html'
@@ -97,7 +97,7 @@ performanceAnalyzer:
       background: "/assets/media/backgrounds/lightBlueSquare.svg"
       action_learn:
         text: 'Learn more'
-        url: 'http://action.com'
+        url: 'http://ettea.aka.corp.amazon.com/opendist/docs/pa/'
       action_download:
         text: 'Download'
         url: 'downloads.html'
@@ -110,7 +110,7 @@ performanceAnalyzer:
       background: "/assets/media/backgrounds/lightPurpleSquare.svg"
       action_learn:
         text: 'Learn more'
-        url: 'http://action.com'
+        url: 'http://ettea.aka.corp.amazon.com/opendist/docs/sql/'
       action_download:
         text: 'Download'
         url: 'downloads.html' 

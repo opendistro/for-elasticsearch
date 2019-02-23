@@ -8,7 +8,7 @@ intro:
   title: PerfTop
   content: Visualize your Elasticsearch cluster state
   links:
-    - url: "#"
+    - url: "http://ettea.aka.corp.amazon.com/opendist/docs/pa/"
       label: Learn More >
     - url: "contribute.html"
       label: Deploy >

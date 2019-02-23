@@ -33,12 +33,13 @@
 }
 
 .distro-white {
-  background: url('/assets/media/backgrounds/whiteRec.svg') no-repeat;
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
-  color: $midnightblue;
+  color: $white;
   margin-bottom: 0;
   border-radius: 0;
   padding: 80px 80px 80px 80px;
+  min-height: 300px;
 }
 
 .text-on-white {

@@ -1,0 +1,31 @@
+banner:
+  title: Open Distro For Elasticsearch Community
+  text: 
+
+contributions:
+  - title: Engaging with our Community
+    content: 
+     - paragraph: The Open Distro for Elasticsearch project has been started by AWS. Its success is driven by the community’s participation, contribution and innovation to the project.
+     - paragraph: "Here are some ways you can follow and engage with us."
+
+  - title: "GitHub"
+    content: 
+     - paragraph: "The project’s code repos are all available on GitHub. We invite you to contribute to the different plugins like Alerting <https://github.com/opendistroforelasticsearch/alerting>, SQL <https://github.com/opendistroforelasticsearch/sql>, Performance Analyzer <https://github.com/opendistroforelasticsearch/performance-analyzer>, PerfTop <https://github.com/opendistroforelasticsearch/perftop> as well as documentation <https://opendistro.github.io/forelasticsearch/docs/>."
+     - paragraph: "If you find a problem, you can file an issue here. <https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues>."
+     - paragraph: If you just have a question, use one of the other resources listed here.
+  
+  - title: "Gitter"
+    content:
+      - paragraph: The community chat room to ask questions, get answers, solve point problems. 
+
+  - title: "Stack Overflow"
+    content:
+      - paragraph: "Questions and discussions on Open Distro for Elasticsearch and components like Alerting <https://opendistro.github.io/forelasticsearch/features/alerting>, SQL <https://opendistro.github.io/forelasticsearch/features/SQL>, Performance Analyzer <https://opendistro.github.io/forelasticsearch/features/PerformanceAnalyzer>, PerfTop <https://opendistro.github.io/forelasticsearch/features/PerfTop>."
+  
+  - title: Events and Meetups
+    content:
+      - paragraph: If you're interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please reach out to us at opendistroforelasticsearch@amazon.com. 
+
+  - title: Code of Conduct
+    content: 
+    - paragraph: "The Open Distro community values respect and being professional in interacting with everyone on the project whether on CRs, comments in code. We enforce a Code of Conduct <https://aws.github.io/code-of-conduct.html> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting opensource-codeofconduct@amazon.com. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances."

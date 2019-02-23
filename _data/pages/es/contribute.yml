@@ -1,8 +1,10 @@
 banner:
   title: Contribute to Open Distro for Elasticsearch
-  text: "Open Distro for Elasticsearch is committed to being the best-in-class, robust and scalable open source project for Elasticsearch developers. As its feature set grows, Open Distro for Elasticsearch is and will remain 100% open and Apache licensed and will accept community contributions with Apache or Apache compatible licenses. And as we grow the community around Open Distro, we welcome you on behalf of the project to come join, participate and contribute."
+  text: "Open Distro for Elasticsearch is committed to being the best-in-class, robust and scalable open source project for Elasticsearch developers. "
 
 contributions:
+  - content:
+    - paragraph: As its feature set grows, Open Distro for Elasticsearch is and will remain 100% open and Apache licensed and will accept community contributions with Apache or Apache compatible licenses. And as we grow the community around Open Distro, we welcome you on behalf of the project to come join, participate and contribute.
   - title: There are many ways to participate in the Open Distro project.
     content: 
      - paragraph: Follow us on GitHub, answer Open Distro questions on StackOverflow or chat with us on Gitter. You can also contribute as a developer or other technologist, as a company or organization. Participation and contribution can range from writing technical documentation to bug fixing to writing code.
