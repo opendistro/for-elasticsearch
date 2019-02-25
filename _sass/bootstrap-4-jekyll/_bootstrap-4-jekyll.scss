@@ -82,6 +82,17 @@
   font-weight: bold;
   margin-bottom: 1.4rem;
   color: $midnightblue;
+  .a:hover{
+  text-decoration: none; 
+  }
+}
+
+.subtitle-on-white:hover {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+  color: $midnightblue;
+  text-decoration: none; 
 }
 
 .subtitle-in-banner { 

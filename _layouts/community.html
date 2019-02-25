@@ -18,25 +18,25 @@ layout: default
 </div>
 
 <div class="pt-5"/>
+
 <!-- Paragraphs -->
 <div class="container px-5">
   {% for contribution in site.data.pages.es.community.contributions %}
-   <div class="pt-5"/>
-    
-    <!-- Title -->
-    <h2 class="subtitle-on-white">{{contribution.title | markdownify}}</h2>
-    
-    <!-- Content -->
-    <div class="link-on-white-paragraph text">
-      {% for item in contribution.content %}
-          {{item.paragraph | markdownify}}
-      {% endfor %} 
-    </div>
-  
+	   <div class="pt-5"></div>
+	    
+	    <!-- Title -->
+	    <h2 class="subtitle-on-white">{{contribution.title | markdownify}}</h2>
+	    
+	    <!-- Content -->
+	    <div class="link-on-white-paragraph text">
+	      {% for item in contribution.content %}
+	          {{item.paragraph | markdownify}}
+	      {% endfor %} 
+	    </div>
   {% endfor %}
 </div>
 
-<div class="pt-5"/>
+<div class="pt-5"></div>
 
 <!-- Community Starts -->
 {%- include communities/es.html -%}

@@ -8,24 +8,24 @@ contributions:
      - paragraph: The Open Distro for Elasticsearch project has been started by AWS. Its success is driven by the community’s participation, contribution and innovation to the project.
      - paragraph: "Here are some ways you can follow and engage with us."
 
-  - title: "GitHub"
+  - title: "<a href='https://github.com/opendistroforelasticsearch/' class='subtitle-on-white'>GitHub</a>"
     content: 
-     - paragraph: "The project’s code repos are all available on GitHub. We invite you to contribute to the different plugins like Alerting <https://github.com/opendistroforelasticsearch/alerting>, SQL <https://github.com/opendistroforelasticsearch/sql>, Performance Analyzer <https://github.com/opendistroforelasticsearch/performance-analyzer>, PerfTop <https://github.com/opendistroforelasticsearch/perftop> as well as documentation <https://opendistro.github.io/forelasticsearch/docs/>."
-     - paragraph: "If you find a problem, you can file an issue here. <https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues>."
+     - paragraph: "The project’s code repos are all available on GitHub. We invite you to contribute to the different plugins like <a href='https://github.com/opendistroforelasticsearch/alerting' class='link-on-white'>Alerting</a>, <a href='https://github.com/opendistroforelasticsearch/sql' class='link-on-dark'>SQL</a>, <a href='https://github.com/opendistroforelasticsearch/performance-analyzer' class='link-on-white'>Performance Analyzer</a>, <a href='https://github.com/opendistroforelasticsearch/perftop' class='link-on-white'>PerfTop</a> as well as <a href='https://opendistro.github.io/forelasticsearch/docs/' class='link-on-white'>documentation</a>."
+     - paragraph: "If you find a problem, you can file an issue <a href='https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues' class='link-on-white'>here.</a>"
      - paragraph: If you just have a question, use one of the other resources listed here.
   
-  - title: "Gitter"
+  - title: "<a href='https://gitter.im/opendistroforelasticsearch' class='subtitle-on-white'>Gitter</a>"
     content:
       - paragraph: The community chat room to ask questions, get answers, solve point problems. 
 
-  - title: "Stack Overflow"
+  - title: "<a href='https://stackoverflow.com/search?q=opendistroforelasticsearch' class='subtitle-on-white'>Stack Overflow</a>"
     content:
-      - paragraph: "Questions and discussions on Open Distro for Elasticsearch and components like Alerting <https://opendistro.github.io/forelasticsearch/features/alerting>, SQL <https://opendistro.github.io/forelasticsearch/features/SQL>, Performance Analyzer <https://opendistro.github.io/forelasticsearch/features/PerformanceAnalyzer>, PerfTop <https://opendistro.github.io/forelasticsearch/features/PerfTop>."
+      - paragraph: "Questions and discussions on Open Distro for Elasticsearch and components like <a href='https://opendistro.github.io/forelasticsearch/features/alerting' class='link-on-white'>Alerting</a>, <a href='https://opendistro.github.io/forelasticsearch/features/SQL' class='link-on-white'>SQL</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerformanceAnalyzer' class='link-on-white'>Performance Analyzer</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerfTop' class='link-on-white'>PerfTop</a>."
   
   - title: Events and Meetups
     content:
-      - paragraph: If you're interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please reach out to us at opendistroforelasticsearch@amazon.com. 
+      - paragraph: "If you are interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please reach out to us at <a href='mailto:opendistroforelasticsearch@amazon.com'>opendistroforelasticsearch@amazon.com</a>." 
 
   - title: Code of Conduct
     content: 
-    - paragraph: "The Open Distro community values respect and being professional in interacting with everyone on the project whether on CRs, comments in code. We enforce a Code of Conduct <https://aws.github.io/code-of-conduct.html> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting opensource-codeofconduct@amazon.com. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances."
+    - paragraph: "The Open Distro community values respect and being professional in interacting with everyone on the project whether on CRs, comments in code. We enforce a <a href='https://aws.github.io/code-of-conduct.html' class='link-on-white'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting <a href='mailto:opensource-codeofconduct@amazon.com'>opensource-codeofconduct@amazon.com</a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances."
