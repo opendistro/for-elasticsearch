@@ -2,9 +2,12 @@
 layout: default
 ---
 <!-- Breadcrumbs -->
-<div class="container-fluid">
+<!-- <div class="container-fluid">
 	{% include breadcrumbs.html %}
-</div>
+</div> -->
+
+<!-- Feature icons -->
+{%- include feature_icons.html -%}
 
 <!-- Banner -->
 <div class="container-fluid securityBanner">
@@ -17,13 +20,12 @@ layout: default
 <!-- End -->
 
 <div class="pt-5"/>
-<!-- Features -->
-{%- include text-two-col.html features=site.data.pages.es.security.features -%}
 
-<div class="pt-5"/>
+<!-- Features -->
+{%- include text-img-with-background.html features=site.data.pages.es.security.features -%}
 
 <!--  Feature box -->
-<div class="container-fluid securityFeaturesContainer">
+<!-- <div class="container-fluid securityFeaturesContainer">
  
     <div class="row justify-content-center text-center">
       <h2 class="title-on-dark">{{site.data.pages.es.security.featureList.title}}</h2>
@@ -44,7 +46,7 @@ layout: default
 	    {% endfor %}
 	  </div>
 	
-</div>	  
+</div>	 -->  
 
 <!-- Community Starts -->
 {%- include communities/es.html -%}

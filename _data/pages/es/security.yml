@@ -1,26 +1,44 @@
 banner:
   title: Security
   subtitle: Open Distro for Elasticsearch
-  content: Secures your cluster with a comprehensive set of advanced security features including authentication options via LDAP/Active Directory, Kerberos, SAML and JSON web tokens, encryption in-flight, fine-grained index, document and field-level access control, detailed audit logging, advanced compliance features, and more
-  icon: "/assets/media/icons/security_64px_w.svg"
+  actions:
+    primary: 
+      text: 'Download'
+      url: 'downloads.html'
+      color: "#5c237d"  
+  # content: Secures your cluster with a comprehensive set of advanced security features including authentication options via LDAP/Active Directory, Kerberos, SAML and JSON web tokens, encryption in-flight, fine-grained index, document and field-level access control, detailed audit logging, advanced compliance features, and more
+  # icon: "/assets/media/icons/security_64px_w.svg"
 
 intro:
-  title: Comprehensive security features
-  ext_content: Open Distro for Elasticsearch Security provides you a comprehensive set of features to keep your data in the Elasticsearch cluster secure and stay compliant with regulations like GDPR, HIPAA, PCI, ISO and SOX. Whether you want to encrypt data at rest and in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or monitor and log any malicious access attempts, Open Distro for Elasticsearch Security has you covered.
+  title: A comprehensive set of advanced security features
+  ext_content: Open Distro for Elasticsearch provides you a comprehensive set of features to keep your data secure and to stay compliant with regulations like GDPR, HIPAA, PCI, and ISO. Whether you want to encrypt data in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or to monitor and log any malicious access attempts, Open Distro for Elasticsearch has you covered.
   style: features feature-security-link
 
 features:
   - title: Encryption
-    content: Encryption in transit is essential to running a secure Elasticsearch cluster and Open Distro for Elasticsearch Security has you covered. Encryption in transit prevents with support for TLS 1.2 prevents unauthorized access to your while it is in-flight between nodes and clients, meeting stringent security and compliance requirements. 
-
+    content: Encryption in-transit is essential to prevent your data from being intercepted when in-flight from your clients or between nodes within your cluster. Open Distro for Elasticsearch supports OpenSSL and TLS 1.2, allowing you to meet stringent security and compliance requirements while providing easy integration with your PKI infrastructure.
+    img: "/assets/media/screenshots/alert_screen_1.png"
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
   - title: Authentication
-    content: With Open Distro for Elasticsearch Security, you can leverage your existing industry standard authentication techniques such as Kerberos, KDAP/Active Directory, JSON web tokens, TLS certificates, and Proxy authentication/SSO for user authentication.
-
+    content: With Open Distro for Elasticsearch, you can leverage your existing industry standard authentication techniques such as LDAP/Active Directory, SAML, Kerberos, JSON web tokens, TLS certificates, and Proxy authentication/SSO for user authentication. Additionally for easy setup and evaluation, an internal user repository with support for basic HTML authentication is provided.
+    img: "/assets/media/screenshots/alert_screen_1.png"
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
   - title: Role-based access control
-    content: Open Distro for Elasticsearch provides granular, role-based access, enabling you to control the actions a user can perform on your Elasticsearch cluster. Roles can be used to control cluster operations, access to indices, and even down to the fields and document level security. Additional Open Distro for Elasticsearch Security supports secure multi-tenant Elasticsearch clusters, where multiple teams can share the same cluster and be restricted to only access their own data and Kibana dashboards.  
-
+    content: Granular, role-based access control enables you to control the actions a user can perform on your Elasticsearch cluster. Roles can control cluster operations, access to indices, and even the fields and documents your users can access. Additionally Open Distro for Elasticsearch supports secure multi-tenant environments, where multiple teams can share the same cluster while only being able to access their team's data and dashboards. 
+    img: "/assets/media/screenshots/alert_screen_1.png"
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
   - title: Audit Logging
-    content: Audit logging helps you remain compliant with government and industry regulations such as GDPR, HIPAA, PCI, and ISO. With audit logging, you can record and track all the actions taken users in your Elasticsearch cluster and monitor any suspicious activity.
+    content: With audit logging, you can record and track all the actions taken by users in your Elasticsearch cluster and monitor any suspicious activity, which is essential for security incident response. Audit logging helps you remain compliant with government and industry regulations such as GDPR, HIPAA, PCI, and ISO. 
+    img: "/assets/media/screenshots/alert_screen_1.png"
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
 
 featureList:
   title: Features

@@ -9,25 +9,29 @@ intro:
 
 # Features
 featuresLink:
-  - title: Elasticsearch
-    icon: "/assets/media/icons/elasticsearch_64px.svg"
-    url: "features/elasticsearch.html"
-    color: "#0000ff"
-  - title: Kibana
-    icon: "/assets/media/icons/kibana_64px.svg" 
-    url: "features/kibana.html"
+  # - title: Elasticsearch
+  #   icon: "/assets/media/icons/elasticsearch_64px.svg"
+  #   url: "features/elasticsearch.html"
+  #   color: "#0000ff"
+  # - title: Kibana
+  #   icon: "/assets/media/icons/kibana_64px.svg" 
+  #   url: "features/kibana.html"
   - title: Security
     icon: "/assets/media/icons/security_64px.svg" 
     url: "features/security.html"
+    color: "#9600ff"
   - title: Alerting
     icon: "/assets/media/icons/alerting_64px.svg" 
     url: "features/alerting.html"
+    color: "#ff006b"
   - title: SQL
     icon: "/assets/media/icons/SQL_support_64px.svg" 
     url: "features/SQL%20Support.html"
+    color: "#2797f4"
   - title: Performance Analyzer
     icon: "/assets/media/icons/performance_analyzer_64px.svg"   
-    url: "features/analyzer.html"        
+    url: "features/analyzer.html"    
+    color: "#ed20eb"   
 
 #Text for all open source software
 openSource:

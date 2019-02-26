@@ -2,33 +2,28 @@
 layout: default
 ---
 <!-- Breadcrumbs -->
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   {% include breadcrumbs.html %}
-</div>
+</div> -->
+
+<!-- Feature icons -->
+{%- include feature_icons.html -%}
 
 <!-- Banner -->
 <div class="container-fluid sqlSupportBanner">
   {%- include banner.html banner=site.data.pages.es.sqlSupport.banner -%}
 </div>
 
+<div class="pt-5"/>
+
 <!-- Intro -->
 {%- include intro.html intro=site.data.pages.es.sqlSupport.intro -%}
 <!-- End -->
 
-
-{%- include text-three-col.html features= site.data.pages.es.sqlSupport.features -%}
-
 <div class="pt-5"/>
+<!-- Features  -->
+{%- include text-img-with-background.html features=site.data.pages.es.sqlSupport.features -%}
 
-<!-- List Data type -->
-<div class="container-fluid sqlSupportBox">
- {%- include list-in-col.html list= site.data.pages.es.sqlSupport.dataTypes -%}
-</div> 
-
-<!-- List SQL Command -->
-<div class="container-fluid greyBox">
- {%- include list-in-col.html list= site.data.pages.es.sqlSupport.sqlCommands -%}
-</div> 
 
 <!-- Community -->
 {%- include communities/es.html -%}

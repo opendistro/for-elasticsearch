@@ -1,7 +1,12 @@
 banner:
-  title: Download Open Distro for Elasticsearch
-  text: "Getting started with Open Distro for Elasticsearch is easy. Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as the Open Distro for Elasticsearch SQL - JDBC driver and Open Distro for Elasticsearch Performance Analyzer client - Perf-Top. Get started now."
+  title: Download
+  # text: "Getting started with Open Distro for Elasticsearch is easy. Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as the Open Distro for Elasticsearch SQL - JDBC driver and Open Distro for Elasticsearch Performance Analyzer client - Perf-Top. Get started now."
   
+
+intro:
+  title: Getting started is easy
+  ext_content: Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as a SQL JDBC driver and Perormance Analyzer client, PerfTop. Get started now.
+
 software:
   items :
     - title: Open Distro for Elasticsearch - Elasticsearch v0.7

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="container-fluid distro-white">
+<!-- <div class="container-fluid distro-white">
     
 	  <div class="row text-center">
 	    <div class="col-12"><h1 class="title-on-dark">{{site.data.pages.es.downloads.banner.title}}</h1></div>
@@ -13,9 +13,21 @@ layout: default
 	    </div>
 	  </div>
 	 
-</div>
+</div> -->
+
+<div class="container-fluid homeBanner">
+  {%- include banner.html banner=site.data.pages.es.downloads.banner -%} 
+</div>  
+
+<!-- Intro -->
+<div class="pt-5"/>
+{%- include intro.html intro=site.data.pages.es.downloads.intro -%}
 
 <div class="pt-5"/>
+
+
+
+
 <!-- Features icons -->
 <div class="container">
    <div class="container">
