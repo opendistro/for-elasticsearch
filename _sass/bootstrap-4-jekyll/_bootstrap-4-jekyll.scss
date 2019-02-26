@@ -63,7 +63,7 @@
 .title-on-dark {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 2.0;
   letter-spacing: 1px;
   color: $white;
 }
@@ -133,10 +133,10 @@
 }
 
 .text-on-dark { 
-   font-size: 1.2rem;
+   font-size: 1.4rem;
    letter-spacing: 1px;
    line-height: 1.6;
-   color: $white;
+   color: #ddd;
    font-weight: lighter;
 }
 
@@ -285,6 +285,10 @@
   margin-bottom: 0;
   border-radius: 0;
   padding: 80px 80px 30px 80px;
+}
+
+.btn-140{
+  max-width: 140px;
 }
 
 

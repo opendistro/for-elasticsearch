@@ -3,12 +3,12 @@
 	
 	  {% capture thecycle%}{% cycle 'one', 'two', 'three' %}{% endcapture %} 
 	  {% if thecycle == 'one' %}
-	    <div class="row px-2 pt-5 text-center justify-content-center">
+	    <div class="row px-2 pt-2 text-center justify-content-center">
 	      <div class="col col-md-4">
             <!-- Icons -->
             {% if feature.img %}
 	           <div class="row text-center justify-content-center" >
-		         <div class="col col-md-12 px-5"><img src="{{ feature.img }}" width="30%"></img></div>
+		         <div class="col col-md-12 px-5"><img src="{{ feature.img }}" width="25%"></img></div>
 		       </div>
 	        {% endif %}
 
@@ -29,7 +29,7 @@
 	        <!-- Icons -->
             {% if feature.img %}
 	           <div class="row text-center justify-content-center" >
-		         <div class="col col-md-12 px-5"><img src="{{ feature.img }}" width="30%"></img></div>
+		         <div class="col col-md-12 px-5"><img src="{{ feature.img }}" width="25%"></img></div>
 		       </div>
 	        {% endif %}
 
