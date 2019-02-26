@@ -1,7 +1,7 @@
 banner:
   title: Open Distro for Elasticsearch
   product: Elasticsearch
-  text: A fully Apache 2.0-licensed, feature-rich distribution for Elasticsearch including security, alerting, SQL, and more
+  content: A fully Apache 2.0-licensed, feature-rich distribution for Elasticsearch including security, alerting, SQL, and more
   actions:
     primary: 
       text: 'Download'
@@ -9,6 +9,62 @@ banner:
     secondary:
       text: 'Contribute'
       url: 'contribute.html'
+
+features:
+  - title: Fully open-source
+    content: Enabling anyone to view, use, change, and share the features
+    img: "/assets/media/icons/globe.svg"
+  - title: Secure & enterprise-grade
+    content: Adding advanced features and filling critical gaps in open-source Elasticsearch
+    img: "/assets/media/icons/globe.svg"
+  - title: Community-driven
+    content: Bringing together individuals and organizations to accelerate open source innovation
+    img: "/assets/media/icons/globe.svg"   
+
+descriptions:
+  - title: Keep your data secure
+    subtitle: Security
+    content: Open Distro for Elasticsearch protects your cluster by providing a comprehensive set of advanced security features including authentication options via LDAP/Active Directory, Kerberos, SAML and JSON web tokens, encryption in-flight, fine-grained index, document and field-level access control, detailed audit logging, advanced compliance features, and more.
+    img: "/assets/media/screenshots/alert_screen_1.png"
+    action_learn:
+      label: 'Learn more'
+      url: 'http://ettea.aka.corp.amazon.com/opendist/docs/security/'
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
+
+  - title: Get notified automatically
+    subtitle: Alerting
+    content: Open Distro for Elasticsearch provides a powerful, easy to use, event monitoring and alerting system, enabling you to monitor your data and send notifications automatically to your stakeholders. With an intuitive Kibana interace and powerful API, it is easy to set up and manage alerts. Moreover, Alerting exposes Elasticsearch's full query language and scripting capabilities, so you can craft highly specific alert conditions.
+    img: "/assets/media/screenshots/alert_screen_1.png"
+    action_learn:
+      label: 'Learn more'
+      url: 'http://ettea.aka.corp.amazon.com/opendist/docs/alerting/'
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
+
+  - title: SQL
+    subtitle: Query with familiar tools
+    content: Open Distro for Elasticsearch makes it easy for users proficient in SQL to interact with their Elasticsearch cluster and to integrate it with other SQL compliant systems. Offering more than 50 functions, data types, and commands with join support and direct export to CSV, SQL gives you the tools you need to analyze your data.
+    img: "/assets/media/screenshots/alert_screen_1.png"
+    action_learn:
+      label: 'Learn more'
+      url: 'http://ettea.aka.corp.amazon.com/opendist/docs/sql/'
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
+
+  - title: Performance Analyzer
+    subtitle: Get deep diagnostic insights
+    content: Performance Analyzer operates independently of Elasticsearch, enabling you to perform diagnostics, even when your cluster is under duress. With a powerful REST API for querying Elasticsearch metrics alongside detailed network, disk and operating system stats, Performance Analyzer enables unprecedented visibility into system bottlenecks. Check out the PerfTop CLI for Performance Analyzer to begin diving into your system.
+    img: "/assets/media/screenshots/alert_screen_1.png"
+    action_learn:
+      label: 'Learn more'
+      url: 'http://ettea.aka.corp.amazon.com/opendist/docs/pa/'
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
 
 partners:
   - alt_text: 'AWS'
@@ -27,7 +83,10 @@ partners:
 
 intro:
   title: Why Open Distro for Elasticsearch?
-  text: Elasticsearch has become an essential technology for search and machine generated data analytics. Developers and engineers world-wide rely on open-source Elasticsearch to gain timely insights into their applications, infrastructure and security. As Elasticsearch has evolved, an increasing amount of new feature innovation has shifted towards proprietary software, both free and for pay. Open Distro for Elasticsearch seeks to provide an opportunity for individuals and organizations to collaborate on innovating on fully open source advanced features. Open Distro for Elasticsearch ensures that open-source Elasticsearch innovation continues to thrive by providing a fully featured open-source, community-driven distribution that makes it easy for everyone to use, collaborate, and contribute to-without restrictions. 
+  text: Elasticsearch has become an essential technology for log analytics and search, fueled by the freedom open source provides to developers and organizations. Our goal is to ensure that open-source innovation continues to thrive by providing a fully featured, open-source, community-driven distribution that makes it easy for everyone to use, collaborate, and contribute to—without restrictions.
+  buttons:
+    label_primary: Learn more about why Open Distro
+    url_primary: #
 
 #Text for all benefits maximum to 3
 benefits:
@@ -58,7 +117,9 @@ included:
 
 partners:
   title: Community Driven
-  content: Open Distro for Elasticsearch is committed to being an open, collaborative, community-driven project. Our goal is for Open Distro for Elasticsearch to be fully open source and Apache licensed. We welcome you on behalf of the project to come join, participate and contribute to added value features for Elasticsearch. We also plan on contributing back upstream all enhancements to the base open source Elasticsearch project.
-
+  text: Open Distro for Elasticsearch is committed to being an open, collaborative, community-driven project. Join the community to participate and contribute to maintaining and advancing open source Elasticsearch. 
+  buttons:
+    label_primary: Learn more about the Open Distro Community
+    url_primary: #
        
 

@@ -16,13 +16,15 @@ siteMap:
          url: "features/analyzer.html"
     - title: 'COMMUNITY'
       contents: 
+       - menu_item: "FAQ"
+         url: "about"
        - menu_item: "About"
          url: "about"
        - menu_item: "Contribute"
          url: "contribute.html"
        - menu_item: "GitHub"
          url: "https://github.com"
-       - menu_item: "Gitter"
+       - menu_item: "#Gitter"
          url: "https://gitter.im"
     - title: 'DISCOVER'
       contents: 

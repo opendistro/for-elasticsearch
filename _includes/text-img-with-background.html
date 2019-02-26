@@ -1,0 +1,93 @@
+
+{% for feature in include.features %}
+        
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {%if thecycle == 'odd' %}
+
+		<div class="container-fluid" style="background-color: #f3f6fc;">
+		  <div class="row vcenter px-3 py-6" style="padding:50px;">
+		  <!-- Text -->
+		    <div class="col-12 col-md-6">
+
+		     <!-- SubTitle -->
+		      <div class="row px-5">
+		        <div class="col-12 col-md-12">
+		          <h5>{{feature.subtitle}}</h5>
+		        </div>  
+		       </div>
+		      
+		      <!-- Title -->
+		       <div class="row px-5">
+		        <div class="col-12 col-md-12">
+		          <h3 class="title">{{feature.title}}</h3>
+		        </div>  
+		       </div>
+
+		       <!-- Content -->
+		       <div class="row px-5 pt-3">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content}}</p>
+		        </div>  
+		       </div>
+
+			<!-- Links -->
+		       <div class="row px-5" style="display: inline;">
+		          <a class="btn pt-5 link-on-white" href="{{ feature.action_learn.url | relative_url }}" role="button"> {{ feature.action_learn.label }} <b> > </b></a>
+		          <a class="btn pt-5 link-on-white" href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> > </b></a>
+	          </div>
+
+            </div>
+
+          <!-- Image -->
+		    <div class="col-12 col-md-6 text-left ">
+		     <img src="{{feature.img}}" width="100%"></img>
+		    </div>
+
+		  </div>
+		</div>  
+
+		 {% else %}
+		<div class="container-fluid" >
+		  <div class="row vcenter px-3 py-5" style="margin-top:50px;">
+		    
+		    <!-- Image -->
+		    <div class="col-12 col-md-6 text-left ">
+		      <img src="{{feature.img}}" width="100%"></img>
+		    </div>
+            
+            <!-- Text -->
+		    <div class="col-12 col-md-6" >
+		      
+		      <!-- SubTitle -->
+		      <div class="row px-5">
+		        <div class="col-12 col-md-12">
+		          <h5>{{feature.subtitle}}</h5>
+		        </div>  
+		      </div>
+
+		      <!-- Title -->
+		       <div class="row  px-5">
+		         <div class="col-12 col-md-12">
+		           <h3 class="title">{{feature.title}}</h3>
+		         </div>  
+		       </div>
+		      
+		       <!-- Content -->
+		       <div class="row px-5 pt-3">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content}}</p>
+		        </div>  
+		       </div>
+
+			   <!-- Links -->
+		       <div class="row px-5" style="display: inline;">
+		          <a class="btn pt-3 link-on-white" href="{{ feature.action_learn.url | relative_url }}" role="button"> {{ feature.action_learn.label }} <b> > </b></a>
+		          <a class="btn pt-3 link-on-white"  href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> > </b></a>
+	          </div>
+
+            </div>	    
+		  </div>
+        </div>		
+		{% endif %} 
+	  {% endfor %}
+  

@@ -1,59 +1,15 @@
-<!-- <footer class="container page-footer">
-  <p class="h5 mb-3">{{ site.title | escape }}</p>
-  <div class="row">
-    <div class="col-sm">
-      <ul class="list-unstyled">
-        <li>
-          {%- if site.author -%}
-            {{ site.author | escape }}
-          {%- else -%}
-            {{ site.title | escape }}
-          {%- endif -%}
-        </li>
-        {%- if site.email -%}
-          <li>
-            <a href="mailto:{{ site.email }}">
-              {{ site.email }}
-            </a>
-          </li>
-        {%- endif -%}
-      </ul>
-    </div>
-    <div class="col-sm">
-      <ul class="list-unstyled">
-        <li>
-          {%- if site.author -%}
-            {{ site.author | escape }}
-          {%- else -%}
-            {{ site.title | escape }}
-          {%- endif -%}
-        </li>
-        {%- if site.email -%}
-          <li>
-            <a href="mailto:{{ site.email }}">
-              {{ site.email }}
-            </a>
-          </li>
-        {%- endif -%}
-      </ul>
-    </div>
-    <div class="col-sm text-right">
-      <p>{{- site.description | escape -}}</p>
-    </div>
-  </div>
-</footer> -->
-<!-- <div class="container"> -->
+
 <footer class="container-fluid page-footer">
   <div class="row d-flex justify-content-around">
     {% for section in site.data.pages.es.footer.siteMap.sections %}
     <div class="col-md-4 px-5 py-5 d-block justify-content-center" style="padding-left:20px;">
 
-        <div>{{ section.title }}</div>
+        <div class="title-footer">{{ section.title }}</div>
       
         <ul class="list-unstyled">
           {% for menu in section.contents %}
             <li>
-              <a href="{{menu.url}}">{{ menu.menu_item }}</a>
+              <a href="{{menu.url}}" class="text-footer">{{ menu.menu_item }}</a>
             </li>
           {% endfor %}
         </ul>
