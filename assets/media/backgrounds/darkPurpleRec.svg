@@ -1,1 +1,44 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1002 336"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:url(#linear-gradient);}.cls-4{fill:url(#linear-gradient-2);}</style><clipPath id="clip-path"><rect class="cls-1" x="-0.47" y="-0.08" width="1002.72" height="336.03" transform="translate(1001.78 335.86) rotate(180)"/></clipPath><linearGradient id="linear-gradient" x1="7688.89" y1="-1127.68" x2="6416.18" y2="-1120.47" gradientTransform="translate(-6531.38 1070.76)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ed20eb"/><stop offset="0" stop-color="#ec20eb"/><stop offset="0.08" stop-color="#d116f1"/><stop offset="0.16" stop-color="#bc0ef6"/><stop offset="0.25" stop-color="#ab08fa"/><stop offset="0.37" stop-color="#9f03fd"/><stop offset="0.54" stop-color="#9801ff"/><stop offset="1" stop-color="#9600ff"/></linearGradient><linearGradient id="linear-gradient-2" x1="7262.9" y1="-1434.02" x2="6702.53" y2="-797.74" gradientTransform="translate(7601.2 -1177.55) rotate(180)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9600ff"/><stop offset="0.28" stop-color="#9901fe"/><stop offset="0.48" stop-color="#a204fc"/><stop offset="0.65" stop-color="#b10af9"/><stop offset="0.81" stop-color="#c712f4"/><stop offset="0.96" stop-color="#e31ced"/><stop offset="1" stop-color="#ed20eb"/></linearGradient></defs><title>dark purple rec</title><g class="cls-2"><rect class="cls-3" x="-23.67" y="-542.84" width="1117.16" height="978.9" transform="translate(1069.82 -106.79) rotate(180)"/><circle class="cls-4" cx="672.69" cy="-123.22" r="416.37"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1002 336" style="enable-background:new 0 0 1002 336;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{fill:url(#SVGID_4_);}
+</style>
+<title>dark purple rec</title>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-0.5" y="-0.1" width="1002.7" height="336"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="7326.8901" y1="1895.6771" x2="6054.1802" y2="1888.467" gradientTransform="matrix(-1 0 0 1 7239.1997 -1945.55)">
+			<stop  offset="0" style="stop-color:#843F84"/>
+			<stop  offset="0" style="stop-color:#833F83"/>
+			<stop  offset="8.000000e-02" style="stop-color:#7D3B88"/>
+			<stop  offset="0.16" style="stop-color:#78388D"/>
+			<stop  offset="0.25" style="stop-color:#743691"/>
+			<stop  offset="0.37" style="stop-color:#703494"/>
+			<stop  offset="0.54" style="stop-color:#6E3496"/>
+			<stop  offset="1" style="stop-color:#6E3396"/>
+		</linearGradient>
+		<rect x="-23.7" y="-542.8" class="st1" width="1117.2" height="978.9"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="6900.9014" y1="2202.019" x2="6340.5312" y2="1565.7389" gradientTransform="matrix(-1 0 0 1 7239.2002 -1945.55)">
+			<stop  offset="0" style="stop-color:#6E3396"/>
+			<stop  offset="0.28" style="stop-color:#6E3395"/>
+			<stop  offset="0.48" style="stop-color:#713493"/>
+			<stop  offset="0.65" style="stop-color:#753790"/>
+			<stop  offset="0.81" style="stop-color:#7B3A8B"/>
+			<stop  offset="0.96" style="stop-color:#813D84"/>
+			<stop  offset="1" style="stop-color:#843F84"/>
+		</linearGradient>
+		<circle class="st2" cx="672.7" cy="-123.2" r="416.4"/>
+	</g>
+</g>
+</svg>
