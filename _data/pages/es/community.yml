@@ -6,7 +6,7 @@ intro:
   ext_content:  The <b>Open Distro</b> for Elasticsearch project has been started by AWS. Its success is drive by the community’s participation, contributions and innovation to the project. Here are some ways you can follow and engage with us.
 
 github: 
-  img: "/assets/media/icons/security_64px.svg"
+  img: "/assets/media/icons/octocat.png"
   title: "GitHub"
   content: "The project’s code repos are all available on GitHub. <br> We invite you to contribute to the different plugins." 
   action_title: "Did you find a bug?"   
@@ -16,7 +16,7 @@ github:
     url_primary: "https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues"
 
 gitter: 
-  img: "/assets/media/icons/security_64px.svg"
+  img: "/assets/media/icons/gitter-icon.png"
   title: "Gitter"
   content: The community chat room to ask questions, get answers, solve point problems. 
   buttons:
@@ -24,7 +24,7 @@ gitter:
     url_primary: "https://gitter.im/opendistroforelasticsearch"
 
 stackoverflow:
-  img: "/assets/media/icons/security_64px.svg"
+  img: "/assets/media/icons/stack-icon.png"
   title: "Stack Overflow"
   content: "Questions and discussions on Open Distro for Elasticsearch and components like <a href='https://opendistro.github.io/forelasticsearch/features/alerting' class='link-on-white'>Alerting</a>, <a href='https://opendistro.github.io/forelasticsearch/features/SQL' class='link-on-white'>SQL</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerformanceAnalyzer' class='link-on-white'>Performance Analyzer</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerfTop' class='link-on-white'>PerfTop</a>."
   buttons:
@@ -32,7 +32,7 @@ stackoverflow:
     url_primary: "https://stackoverflow.com/search?q=opendistroforelasticsearch"
 
 meetups:
-  img: "/assets/media/icons/security_64px.svg"
+  img: "/assets/media/icons/meetups.png"
   title: Events and Meetups
   content: "If you are interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please reach out to us at <a href='mailto:opendistroforelasticsearch@amazon.com'>opendistroforelasticsearch@amazon.com</a>." 
   buttons:

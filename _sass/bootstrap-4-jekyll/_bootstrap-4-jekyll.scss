@@ -1,3 +1,7 @@
+//    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+@media (max-width: 576px) {  
+
 .page-content {
   img {
     max-width: 100%;
@@ -346,4 +350,1425 @@
 .nav li.active a {
   font-weight: 800;
 }
+  
+}
+
+@media (min-width: 576px) {  
+
+.page-content {
+  img {
+    max-width: 100%;
+  }
+}
+
+.page-footer {
+  background-color: black;
+  color: $white;
+}
+
+.page-footer a {
+  color: $white;
+}
+
+.text-on-white {
+  color: #777777;
+}
+
+.title {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.title-md {
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.title-bg {
+  font-size: 3.0rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.title-footer {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.title-on-dark {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: $white;
+}
+
+.title-md-on-dark {
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  color: $white;
+}
+
+.title-in-banner {
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: $white;
+}
+
+.overtitle-on-white {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $midnightblue;
+  margin-bottom: 0.9rem;
+}
+
+.subtitle-on-white {
+  font-size: 1.25rem;
+  font-weight: 140;
+  line-height: 1.6;
+  margin-bottom: 1.4rem;
+  .a:hover{
+  text-decoration: none; 
+  }
+}
+
+.subtitle-on-white:hover {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.4rem;
+  text-decoration: none; 
+}
+
+.subtitle-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   font-weight: 300;
+   margin-bottom:0;
+}
+
+.title-in-box {
+ font-size: 1.25rem;
+ font-weight: bold;
+ margin-bottom: 1.4rem;
+ color: $white;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text { 
+   font-size: 1.2rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #111;
+   font-weight: 200;
+}
+
+.text-md { 
+   font-size: 1.4rem;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 150;
+}
+
+.text-small { 
+   font-size: 14PX;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 300;
+}
+
+.text-footer { 
+   font-size: 1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #111;
+   font-weight: 300;
+}
+
+.text-icon {
+  font-size: 0.8rem;
+  line-height: 3;
+  font-weight:400;
+}
+
+.text-on-dark { 
+   font-size: 1.3rem;
+   letter-spacing: 1.5px;
+   line-height: 1.6;
+   color: #ddd;
+   font-weight: lighter;
+}
+
+.text-in-box {
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #fff;
+   font-weight: 100;
+   color: $white;
+}
+
+.text-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   line-height: 1.6;
+   font-weight: 300;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.a {
+  text-decoration: none; 
+}
+
+.link-on-white {
+  color: $midnightblue;  
+}
+
+.link-on-white:hover {
+  color: $midnightblue; 
+  text-decoration: none;  
+}
+
+.link-on-white-paragraph p a {
+  color: $waterblue; 
+  font-weight: 600;
+  word-break: break-all; 
+}
+
+.link-on-dark {
+  color: $white;
+  font-weight: none;  
+}
+
+.link-on-dark:hover {
+  color: $white;
+  text-decoration: none;  
+}
+
+.software-download {
+  color: $lightblue;
+}
+
+.vcenter {
+    align-items: center;
+}
+
+.homeBanner {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 40px 80px 60px 80px;
+}
+
+.homeBannerBottom {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.distro-white {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 80px 80px;
+  min-height: 300px;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.elasticsearchBanner {
+  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.kibanaBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.securityBanner {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.securityFeaturesContainer {
+  background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 40px 80px 60px 80px;
+}
+
+.alertingBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.greyBox {
+  background-color: #444444;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.btn-140{
+  max-width: 140px;
+}
+
+.nav-link.active {
+  color: $midnightblue;
+}
+
+.nav li.active a {
+  font-weight: 800;
+}
+  
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+.page-content {
+  img {
+    max-width: 100%;
+  }
+}
+
+.page-footer {
+  background-color: black;
+  color: $white;
+}
+
+.page-footer a {
+  color: $white;
+}
+
+.text-on-white {
+  color: #777777;
+}
+
+.title {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.title-md {
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.title-bg {
+  font-size: 3.0rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.title-footer {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.title-on-dark {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: $white;
+}
+
+.title-md-on-dark {
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  color: $white;
+}
+
+.title-in-banner {
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: $white;
+}
+
+.overtitle-on-white {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $midnightblue;
+  margin-bottom: 0.9rem;
+}
+
+.subtitle-on-white {
+  font-size: 1.25rem;
+  font-weight: 140;
+  line-height: 1.6;
+  margin-bottom: 1.4rem;
+  .a:hover{
+  text-decoration: none; 
+  }
+}
+
+.subtitle-on-white:hover {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.4rem;
+  text-decoration: none; 
+}
+
+.subtitle-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   font-weight: 300;
+   margin-bottom:0;
+}
+
+.title-in-box {
+ font-size: 1.25rem;
+ font-weight: bold;
+ margin-bottom: 1.4rem;
+ color: $white;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text { 
+   font-size: 1.2rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #111;
+   font-weight: 200;
+}
+
+.text-md { 
+   font-size: 1.4rem;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 150;
+}
+
+.text-small { 
+   font-size: 14PX;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 300;
+}
+
+.text-footer { 
+   font-size: 1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #111;
+   font-weight: 300;
+}
+
+.text-icon {
+  font-size: 0.8rem;
+  line-height: 3;
+  font-weight:400;
+}
+
+.text-on-dark { 
+   font-size: 1.3rem;
+   letter-spacing: 1.5px;
+   line-height: 1.6;
+   color: #ddd;
+   font-weight: lighter;
+}
+
+.text-in-box {
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #fff;
+   font-weight: 100;
+   color: $white;
+}
+
+.text-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   line-height: 1.6;
+   font-weight: 300;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.a {
+  text-decoration: none; 
+}
+
+.link-on-white {
+  color: $midnightblue;  
+}
+
+.link-on-white:hover {
+  color: $midnightblue; 
+  text-decoration: none;  
+}
+
+.link-on-white-paragraph p a {
+  color: $waterblue; 
+  font-weight: 600;
+  word-break: break-all; 
+}
+
+.link-on-dark {
+  color: $white;
+  font-weight: none;  
+}
+
+.link-on-dark:hover {
+  color: $white;
+  text-decoration: none;  
+}
+
+.software-download {
+  color: $lightblue;
+}
+
+.vcenter {
+    align-items: center;
+}
+
+.homeBanner {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 40px 80px 60px 80px;
+}
+
+.homeBannerBottom {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.distro-white {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 80px 80px;
+  min-height: 300px;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.elasticsearchBanner {
+  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.kibanaBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.securityBanner {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.securityFeaturesContainer {
+  background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 40px 80px 60px 80px;
+}
+
+.alertingBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.greyBox {
+  background-color: #444444;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.btn-140{
+  max-width: 140px;
+}
+
+.nav-link.active {
+  color: $midnightblue;
+}
+
+.nav li.active a {
+  font-weight: 800;
+}
+  
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+.page-content {
+  img {
+    max-width: 100%;
+  }
+}
+
+.page-footer {
+  background-color: black;
+  color: $white;
+}
+
+.page-footer a {
+  color: $white;
+}
+
+.text-on-white {
+  color: #777777;
+}
+
+.title {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.title-md {
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.title-bg {
+  font-size: 3.0rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.title-footer {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.title-on-dark {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: $white;
+}
+
+.title-md-on-dark {
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  color: $white;
+}
+
+.title-in-banner {
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: $white;
+}
+
+.overtitle-on-white {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $midnightblue;
+  margin-bottom: 0.9rem;
+}
+
+.subtitle-on-white {
+  font-size: 1.25rem;
+  font-weight: 140;
+  line-height: 1.6;
+  margin-bottom: 1.4rem;
+  .a:hover{
+  text-decoration: none; 
+  }
+}
+
+.subtitle-on-white:hover {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.4rem;
+  text-decoration: none; 
+}
+
+.subtitle-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   font-weight: 300;
+   margin-bottom:0;
+}
+
+.title-in-box {
+ font-size: 1.25rem;
+ font-weight: bold;
+ margin-bottom: 1.4rem;
+ color: $white;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text { 
+   font-size: 1.2rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #111;
+   font-weight: 200;
+}
+
+.text-md { 
+   font-size: 1.4rem;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 150;
+}
+
+.text-small { 
+   font-size: 14PX;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 300;
+}
+
+.text-footer { 
+   font-size: 1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #111;
+   font-weight: 300;
+}
+
+.text-icon {
+  font-size: 0.8rem;
+  line-height: 3;
+  font-weight:400;
+}
+
+.text-on-dark { 
+   font-size: 1.3rem;
+   letter-spacing: 1.5px;
+   line-height: 1.6;
+   color: #ddd;
+   font-weight: lighter;
+}
+
+.text-in-box {
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #fff;
+   font-weight: 100;
+   color: $white;
+}
+
+.text-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   line-height: 1.6;
+   font-weight: 300;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.a {
+  text-decoration: none; 
+}
+
+.link-on-white {
+  color: $midnightblue;  
+}
+
+.link-on-white:hover {
+  color: $midnightblue; 
+  text-decoration: none;  
+}
+
+.link-on-white-paragraph p a {
+  color: $waterblue; 
+  font-weight: 600;
+  word-break: break-all; 
+}
+
+.link-on-dark {
+  color: $white;
+  font-weight: none;  
+}
+
+.link-on-dark:hover {
+  color: $white;
+  text-decoration: none;  
+}
+
+.software-download {
+  color: $lightblue;
+}
+
+.vcenter {
+    align-items: center;
+}
+
+.homeBanner {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 40px 80px 60px 80px;
+}
+
+.homeBannerBottom {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.distro-white {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 80px 80px;
+  min-height: 300px;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.elasticsearchBanner {
+  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.kibanaBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.securityBanner {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.securityFeaturesContainer {
+  background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 40px 80px 60px 80px;
+}
+
+.alertingBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.greyBox {
+  background-color: #444444;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.btn-140{
+  max-width: 140px;
+}
+
+.nav-link.active {
+  color: $midnightblue;
+}
+
+.nav li.active a {
+  font-weight: 800;
+}
+  
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  
+.page-content {
+  img {
+    max-width: 100%;
+  }
+}
+
+.page-footer {
+  background-color: black;
+  color: $white;
+}
+
+.page-footer a {
+  color: $white;
+}
+
+.text-on-white {
+  color: #777777;
+}
+
+.title {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.title-md {
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.title-bg {
+  font-size: 3.0rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.title-footer {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.title-on-dark {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: $white;
+}
+
+.title-md-on-dark {
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  color: $white;
+}
+
+.title-in-banner {
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: $white;
+}
+
+.overtitle-on-white {
+  font-size: 1rem;
+  font-weight: bold;
+  color: $midnightblue;
+  margin-bottom: 0.9rem;
+}
+
+.subtitle-on-white {
+  font-size: 1.25rem;
+  font-weight: 140;
+  line-height: 1.6;
+  margin-bottom: 1.4rem;
+  .a:hover{
+  text-decoration: none; 
+  }
+}
+
+.subtitle-on-white:hover {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.4rem;
+  text-decoration: none; 
+}
+
+.subtitle-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   font-weight: 300;
+   margin-bottom:0;
+}
+
+.title-in-box {
+ font-size: 1.25rem;
+ font-weight: bold;
+ margin-bottom: 1.4rem;
+ color: $white;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text { 
+   font-size: 1.2rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #111;
+   font-weight: 200;
+}
+
+.text-md { 
+   font-size: 1.4rem;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 150;
+}
+
+.text-small { 
+   font-size: 14PX;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 300;
+}
+
+.text-footer { 
+   font-size: 1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #111;
+   font-weight: 300;
+}
+
+.text-icon {
+  font-size: 0.8rem;
+  line-height: 3;
+  font-weight:400;
+}
+
+.text-on-dark { 
+   font-size: 1.3rem;
+   letter-spacing: 1.5px;
+   line-height: 1.6;
+   color: #ddd;
+   font-weight: lighter;
+}
+
+.text-in-box {
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   color: #fff;
+   font-weight: 100;
+   color: $white;
+}
+
+.text-in-banner { 
+   font-size: 1.8rem;
+   letter-spacing: 1px;
+   color: $white;
+   line-height: 1.6;
+   font-weight: 300;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.a {
+  text-decoration: none; 
+}
+
+.link-on-white {
+  color: $midnightblue;  
+}
+
+.link-on-white:hover {
+  color: $midnightblue; 
+  text-decoration: none;  
+}
+
+.link-on-white-paragraph p a {
+  color: $waterblue; 
+  font-weight: 600;
+  word-break: break-all; 
+}
+
+.link-on-dark {
+  color: $white;
+  font-weight: none;  
+}
+
+.link-on-dark:hover {
+  color: $white;
+  text-decoration: none;  
+}
+
+.software-download {
+  color: $lightblue;
+}
+
+.vcenter {
+    align-items: center;
+}
+
+.homeBanner {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 40px 80px 60px 80px;
+}
+
+.homeBannerBottom {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.distro-white {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 80px 80px;
+  min-height: 300px;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.elasticsearchBanner {
+  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.kibanaBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.securityBanner {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.securityFeaturesContainer {
+  background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 40px 80px 60px 80px;
+}
+
+.alertingBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.greyBox {
+  background-color: #444444;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.btn-140{
+  max-width: 140px;
+}
+
+.nav-link.active {
+  color: $midnightblue;
+}
+
+.nav li.active a {
+  font-weight: 800;
+}
+
+
+
+}
+
+
 
