@@ -14,7 +14,7 @@ intro:
 features:
   - title: Create monitors
     content: It's easy to create monitors using the Kibana UI with our simple visual editor or with an Elasticsearch query, giving you the flexibility to query for the data most interesting to you. In other words if you can query for something in Elasticsearch, you can monitor and alert on it. For instance, if you are ingesting access logs, you could be notified when the same user logs in from multiple different locations within an hour, enabling you to proactively address possible intrusion attempts.
-    img: "/assets/media/screenshots/screen1.png"
+    img: "/assets/media/screenshots/create_monitors.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'

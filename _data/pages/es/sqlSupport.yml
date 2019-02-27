@@ -16,25 +16,25 @@ intro:
 features:
   - title: Simple, performant and scalable
     content: One of the great benefits of SQL is its simplicity. Complex Elasticsearch JSON queries that can be dozens of lines of code, can often be written a few lines of SQL. Additionally, you are not trading simplicity for performance as SQL is highly responsive and scalable. Additionally, while using SQL you still get all of the benefits of Elasticsearch's full-text search and scoring capabilities.
-    img: "/assets/media/screenshots/screen1.png"
+    img: "/assets/media/screenshots/scale_perf.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'
   - title: Support for a wide variety of SQL features
     content: With support for more than 50 functions, data types, and commands with join support and direct export to CSV, Open Distro for Elasticsearch provides the functionality you need to analyze your data.
-    img: "/assets/media/screenshots/screen1.png"
+    img: "/assets/media/screenshots/sql_table.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'
   - title: Translate SQL into Elasticsearch JSON
     content: Convert SQL statements into Elasticsearch JSON queries with a simple explain call, enabling you to use SQL to create JSON to configure sophisticated access control policies in Security and monitors in Alerting.
-    img: "/assets/media/screenshots/screen1.png"
+    img: "/assets/media/screenshots/sql_json.gif"
     action_download:
       label: 'Download'
       url: 'downloads.html'
   - title: Integrate with  your applications
     content: With the JDBC driver, you can use a wide variety of business intelligence, analytics, and ETL tools to extract and analyze your Elasticsearch data.
-    img: "/assets/media/screenshots/screen1.png"
+    img: "/assets/media/screenshots/JDBC.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'
