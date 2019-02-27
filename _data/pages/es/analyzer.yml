@@ -5,7 +5,7 @@ banner:
     primary: 
       text: 'Download'
       url: 'downloads.html'
-  color: "#ed20eb" 
+  color: "#5c237d" 
   # content: Our alerting features give you the full power of the Elasticsearch query language to identify changes in your data that are interesting to you
   # icon: "/assets/media/icons/performance_analyzer_64px_w.svg"
 

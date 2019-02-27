@@ -1,31 +1,41 @@
 banner:
-  title: Open Distro For Elasticsearch Community
-  text: 
+  title: Community
 
-contributions:
-  - title: Engaging with our Community
-    content: 
-     - paragraph: The Open Distro for Elasticsearch project has been started by AWS. Its success is driven by the community’s participation, contribution and innovation to the project.
-     - paragraph: "Here are some ways you can follow and engage with us."
+intro:
+  title: Engaging with our Community
+  ext_content:  The <b>Open Distro</b> for Elasticsearch project has been started by AWS. Its success is drive by the community’s participation, contributions and innovation to the project. Here are some ways you can follow and engage with us.
 
-  - title: "<a href='https://github.com/opendistroforelasticsearch/' class='subtitle-on-white'>GitHub</a>"
-    content: 
-     - paragraph: "The project’s code repos are all available on GitHub. We invite you to contribute to the different plugins like <a href='https://github.com/opendistroforelasticsearch/alerting' class='link-on-white'>Alerting</a>, <a href='https://github.com/opendistroforelasticsearch/sql' class='link-on-dark'>SQL</a>, <a href='https://github.com/opendistroforelasticsearch/performance-analyzer' class='link-on-white'>Performance Analyzer</a>, <a href='https://github.com/opendistroforelasticsearch/perftop' class='link-on-white'>PerfTop</a> as well as <a href='https://opendistro.github.io/forelasticsearch/docs/' class='link-on-white'>documentation</a>."
-     - paragraph: "If you find a problem, you can file an issue <a href='https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues' class='link-on-white'>here.</a>"
-     - paragraph: If you just have a question, use one of the other resources listed here.
+github: 
+  img: "#"
+  action_url: "https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues"
+  action_label: File an issue
+  title: "GitHub"
+  content: "The project’s code repos are all available on GitHub. <br> We invite you to contribute to the different plugins." 
+  title_1: "Did you find a bug?"   
+  content_1: "File an issue at <a href='https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues'>https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues.</a>"
+
+gitter: 
+  img: "#"
+  action_url: "https://gitter.im/opendistroforelasticsearch"
+  action_label: Join the conversation
+  title: "<a href='https://gitter.im/opendistroforelasticsearch' class='subtitle-on-white'>Gitter</a>"
+  content: The community chat room to ask questions, get answers, solve point problems. 
+
+stackoverflow:
+  img: "#"
+  action_url: "https://stackoverflow.com/search?q=opendistroforelasticsearch"
+  action_label: Find us on Stack Overflow
+  title: "<a href='https://stackoverflow.com/search?q=opendistroforelasticsearch' class='subtitle-on-white'>Stack Overflow</a>"
+  content: "Questions and discussions on Open Distro for Elasticsearch and components like <a href='https://opendistro.github.io/forelasticsearch/features/alerting' class='link-on-white'>Alerting</a>, <a href='https://opendistro.github.io/forelasticsearch/features/SQL' class='link-on-white'>SQL</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerformanceAnalyzer' class='link-on-white'>Performance Analyzer</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerfTop' class='link-on-white'>PerfTop</a>."
   
-  - title: "<a href='https://gitter.im/opendistroforelasticsearch' class='subtitle-on-white'>Gitter</a>"
-    content:
-      - paragraph: The community chat room to ask questions, get answers, solve point problems. 
+meetups:
+  img: "#"
+  action_url: "#"
+  action_label: Browse events on Meetup  
+  title: Events and Meetups
+  content: "If you are interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please reach out to us at <a href='mailto:opendistroforelasticsearch@amazon.com'>opendistroforelasticsearch@amazon.com</a>." 
 
-  - title: "<a href='https://stackoverflow.com/search?q=opendistroforelasticsearch' class='subtitle-on-white'>Stack Overflow</a>"
-    content:
-      - paragraph: "Questions and discussions on Open Distro for Elasticsearch and components like <a href='https://opendistro.github.io/forelasticsearch/features/alerting' class='link-on-white'>Alerting</a>, <a href='https://opendistro.github.io/forelasticsearch/features/SQL' class='link-on-white'>SQL</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerformanceAnalyzer' class='link-on-white'>Performance Analyzer</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerfTop' class='link-on-white'>PerfTop</a>."
-  
-  - title: Events and Meetups
-    content:
-      - paragraph: "If you are interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please reach out to us at <a href='mailto:opendistroforelasticsearch@amazon.com'>opendistroforelasticsearch@amazon.com</a>." 
-
+code-of-conduct:
   - title: Code of Conduct
     content: 
     - paragraph: "The Open Distro community values respect and being professional in interacting with everyone on the project whether on CRs, comments in code. We enforce a <a href='https://aws.github.io/code-of-conduct.html' class='link-on-white'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting <a href='mailto:opensource-codeofconduct@amazon.com'>opensource-codeofconduct@amazon.com</a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances."

@@ -1,0 +1,30 @@
+banner:
+  title: FAQ
+
+faqs:
+  - title: Why Open Distro for Elasticsearch?
+    content: Elasticsearch is an increasingly important technology for search and analytics on machine-generated data. Developers and engineers rely on open source Elasticsearch to gain timely insights into their applications, infrastructure, and security. However, new Elasticsearch features have shifted to proprietary software, which has been intermingled with the open source. Open Distro for Elasticsearch provides an open source, community-driven distribution with advanced features that makes it easy for everyone to use, collaborate, and contribute to*—*without restrictions. We support the upstream open source Elasticsearch project by contributing enhancements and patches from the community while building Open Distro for Elasticsearch.
+
+  - title: Are you forking Elasticsearch?
+    content: No. Open Distro for Elasticsearch is not a fork. In fact, we intend to continue making contributions to the Apache 2.0-licensed Elasticsearch code. Our goal is to ensure that open source Elasticsearch continues to thrive.
+  
+  - title: Are you going to keep pace with the upstream Elasticsearch releases?
+    content: The initial release of Open Distro for Elasticsearch is based off of the Apache 2.0-licensed open source versions of Elasticsearch and Kibana 6.5. We intend to regularly update Open Distro for Elasticsearch with the latest open source Elasticsearch versions. Some delays between when new versions of the open source arrive and when an updated version of Open Distro for Elasticsearch is released is to be expected, as we review, test, and update the distribution. We work to keep that delay to a minimum.
+
+  - title: How is Open Distro for Elasticsearch licensed?
+    content: All of the plugins included in Open Distro for Elasticsearch are licensed under the Apache License, Version 2.0.
+
+  - title: Will you be making contributions back to Elasticsearch open-source?
+    content: Yes. Open Distro for Elasticsearch includes the Apache 2.0-licensed Elasticsearch and Kibana code. As we identify issues or make enhancements to that code, we will contribute back to Elastic. Whether or not Elastic accepts those contributions, is not within our control but we will make every attempt to work with them to provide the best possible open source software.
+  
+  - title: Can Open Distribution for Elasticsearch components be installed as standalone plugins?
+    content: Yes. Open Distro for Elasticsearch is an Elasticsearch-compatible stack that is made up of several projects. Each of these projects can be built and installed independently of Open Distro for Elasticsearch on the corresponding version of open source Elasticsearch.
+ 
+  - title: Can I use Open Distro for Elasticsearch plugins with the proprietary Elastic Stack?
+    content: Our plugins are tested to work with Open Distro for Elasticsearch and the OSS-only downloads from Elastic. They have not been tested with the default download from Elastic, which includes proprietary software, but we welcome the community to test and enhance individual plugins for compatibility with the Elastic Stack.
+    
+  - title: Is Open Distro for Elasticsearch fully-compatible with Elasticsearch?
+    content: Open Distro for Elasticsearch is powered by the Apache 2.0-licensed distributions of Elasticsearch and Kibana 6.5. All clients and tools that are compatible with Elasticsearch 6.5 should work without modification.
+ 
+  - title: What is your roadmap for Open Distro for Elasticsearch?
+    content: We are just getting started. There are many new features that we are excited to build, and we can't wait to see what the community comes up with. For example, we plan to create a new index management plugin project and add a Kibana-based user interface for the SQL plugin. You are invited to join us in creating innovative new features. [Learn more about contribute](/contribute.html).
