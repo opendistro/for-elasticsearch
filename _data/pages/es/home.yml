@@ -13,19 +13,19 @@ banner:
 features:
   - title: Fully open-source
     content: Enabling anyone to view, use, change, and share the features
-    img: "/assets/media/icons/globe.svg"
+    img: "/assets/media/icons/brackets.svg"
   - title: Secure & enterprise-grade
     content: Adding advanced features and filling critical gaps in open-source Elasticsearch
     img: "/assets/media/icons/globe.svg"
   - title: Community-driven
     content: Bringing together individuals and organizations to accelerate open source innovation
-    img: "/assets/media/icons/globe.svg"   
+    img: "/assets/media/icons/community.svg"   
 
 descriptions:
   - title: Keep your data secure
     subtitle: Security
     content: Open Distro for Elasticsearch protects your cluster by providing a comprehensive set of advanced security features including authentication options via LDAP/Active Directory, Kerberos, SAML and JSON web tokens, encryption in-flight, fine-grained index, document and field-level access control, detailed audit logging, advanced compliance features, and more.
-    img: "/assets/media/screenshots/alert_screen_1.png"
+    img: "/assets/media/screenshots/security_login_page.png"
     action_learn:
       label: 'Learn more'
       url: 'http://ettea.aka.corp.amazon.com/opendist/docs/security/'
@@ -44,10 +44,10 @@ descriptions:
       label: 'Download'
       url: 'downloads.html'
 
-  - title: SQL
-    subtitle: Query with familiar tools
+  - title: Query with familiar tools
+    subtitle: SQL
     content: Open Distro for Elasticsearch makes it easy for users proficient in SQL to interact with their Elasticsearch cluster and to integrate it with other SQL compliant systems. Offering more than 50 functions, data types, and commands with join support and direct export to CSV, SQL gives you the tools you need to analyze your data.
-    img: "/assets/media/screenshots/alert_screen_1.png"
+    img: "/assets/media/screenshots/sql_devtools.png"
     action_learn:
       label: 'Learn more'
       url: 'http://ettea.aka.corp.amazon.com/opendist/docs/sql/'
@@ -55,10 +55,10 @@ descriptions:
       label: 'Download'
       url: 'downloads.html'
 
-  - title: Performance Analyzer
-    subtitle: Get deep diagnostic insights
+  - title: Get deep diagnostic insights
+    subtitle: Performance Analyzer
     content: Performance Analyzer operates independently of Elasticsearch, enabling you to perform diagnostics, even when your cluster is under duress. With a powerful REST API for querying Elasticsearch metrics alongside detailed network, disk and operating system stats, Performance Analyzer enables unprecedented visibility into system bottlenecks. Check out the PerfTop CLI for Performance Analyzer to begin diving into your system.
-    img: "/assets/media/screenshots/alert_screen_1.png"
+    img: "/assets/media/screenshots/perftop_network.gif"
     action_learn:
       label: 'Learn more'
       url: 'http://ettea.aka.corp.amazon.com/opendist/docs/pa/'

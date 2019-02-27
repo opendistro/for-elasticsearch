@@ -63,7 +63,7 @@
 .title-on-dark {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 2.0;
+  line-height: 1.4;
   letter-spacing: 1px;
   color: $white;
 }
@@ -116,6 +116,10 @@
  color: $white;
 }
 
+.text-14 {
+  font-size: 14px;
+}
+
 .text { 
    font-size: 1.2rem;
    letter-spacing: 1px;
@@ -133,8 +137,8 @@
 }
 
 .text-on-dark { 
-   font-size: 1.4rem;
-   letter-spacing: 1px;
+   font-size: 1.3rem;
+   letter-spacing: 1.5px;
    line-height: 1.6;
    color: #ddd;
    font-weight: lighter;
