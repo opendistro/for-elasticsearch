@@ -339,4 +339,11 @@
   max-width: 140px;
 }
 
+.nav-link.active {
+  color: $midnightblue;
+}
+
+.nav li.active a {
+  font-weight: 800;
+}
 

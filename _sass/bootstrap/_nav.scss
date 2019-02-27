@@ -16,7 +16,7 @@
   padding: $nav-link-padding-y $nav-link-padding-x;
 
   @include hover-focus {
-    
+    text-decoration: none;
   }
 
   // Disabled state lightens text
@@ -65,7 +65,6 @@
     @include border-top-radius(0);
   }
 }
-
 
 //
 // Pills

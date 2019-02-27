@@ -12,6 +12,75 @@
       </div>
     </a>
     
+    {%- assign links = site.data.navigation -%}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- <nav class="collapse navbar-collapse text" id="navbarSupportedContent"> -->
+      <ul class="nav navbar-nav">
+
+        {%- for link in links -%}
+
+        <!-- Active link -->
+            {% assign class = nil %}
+            {% if page.url contains link.url %} 
+                {% assign class = 'active' %}
+            {% endif %}
+        
+        <!-- Sublinks  -->
+            {% if link.sublinks %}
+                <li class="dropdown  {{ class }}">
+                  <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for sublink in link.sublinks %}
+                            <li class="nav-item {{ class }}">
+                                <a class="nav-link" href="{{ sublink.url | relative_url}}">{{ sublink.title }}</a>
+                            </li>  
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% else %}
+                <!-- <li class="{{ class }}">
+                    <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                </li> -->
+
+                {%- if link.title -%}
+                  <li class="nav-item {{class}}">
+                    <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
+                  </li>
+                {%- endif -%}
+            {% endif %}
+        {% endfor -%}
+
+        <li class="nav-item">
+        <site.github.repository_url>
+          <a class="nav-link" href="http://ettea.aka.corp.amazon.com/opendist/ ">Docs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.github.repository_url }}">GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  <!-- </div> -->
+</nav>
+
+
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
+      <div class="row" >
+
+        <div class="col-md-10" style="vertical-align: middle;">
+          <img src= "/assets/media/logos/OpenDistro-logo.svg" style="vertical-align: middle; min-width:300px;" width="100%">
+        </div>
+
+      </div>
+    </a>
+    
     {%- assign page_paths = site.header_pages -%}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +97,7 @@
           {%- endif -%}
         {% endfor -%}
         <li class="nav-item">
-        <!-- site.github.repository_url  -->
+        <site.github.repository_url>
           <a class="nav-link" href="http://ettea.aka.corp.amazon.com/opendist/ ">Docs</a>
         </li>
         <li class="nav-item">
@@ -38,4 +107,51 @@
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
+
+
+
+
+<!-- <nav id="navbar" class="collapse navbar-collapse">
+<div class="container-fluid">
+    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
+      <div class="row" >
+
+        <div class="col-md-10" style="vertical-align: middle;">
+          <img src= "/assets/media/logos/OpenDistro-logo.svg" style="vertical-align: middle; min-width:300px;" width="100%">
+        </div>
+
+      </div>
+    </a>
+    <ul class="nav navbar-nav">
+        {%- assign links = site.pages -%}
+        {%- for link in links -%}
+        
+            {%- assign class = nil -%}
+            {%- if page.url contains link.url -%}
+                {%- assign class = 'active' -%}
+            {%- endif -%}
+            {%- if link.sublinks -%}
+
+                <li class="dropdown {{ class }}">
+                    <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for sublink in link.sublinks %}
+                            {% if sublink.title == 'separator' %}
+                                <li role="separator" class="divider"></li>
+                            {% else %}
+                                <li>
+                                    <a href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% else %}
+                <li class="{{ class }}">
+                    <a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav> -->
