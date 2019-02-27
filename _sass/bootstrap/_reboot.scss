@@ -1,4 +1,3 @@
-// stylelint-disable at-rule-no-vendor-prefix, declaration-no-important, selector-no-qualifying-type, property-no-vendor-prefix
 
 // Reboot
 //
@@ -166,7 +165,7 @@ dfn {
 // stylelint-disable font-weight-notation
 b,
 strong {
-  font-weight: bolder; // Add the correct font weight in Chrome, Edge, and Safari
+  font-weight: 800; // Add the correct font weight in Chrome, Edge, and Safari
 }
 // stylelint-enable font-weight-notation
 

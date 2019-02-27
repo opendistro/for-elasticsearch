@@ -11,8 +11,8 @@ software:
     - subtitle: <b>Open Distro</b> for Elasticsearch
       title: Elasticsearch
       imgs:
-        - img_item: "/assets/media/icons/alerting_64px.svg"
-        - img_item: "/assets/media/icons/alerting_64px.svg"
+        - img_item: "/assets/media/icons/rpm.png"
+        - img_item: "/assets/media/icons/docker.png"
       description: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4 <br> Included plugins: Security, Alerting, SQL, and Performance Analyzer <br> Performance Analyzer agent"
       actions:
         - url: "#"
@@ -23,8 +23,8 @@ software:
     - subtitle: <b>Open Distro</b> for Elasticsearch
       title: Kibana
       imgs:
-        - img_item: "/assets/media/icons/alerting_64px.svg"
-        - img_item: "/assets/media/icons/alerting_64px.svg"
+        - img_item: "/assets/media/icons/rpm.png"
+        - img_item: "/assets/media/icons/docker.png"
       description: "<br>Kibana (Apache 2.0 licensed code only) - 6.5.4 <br> Included plugins: Security and Alerting"
       actions:
         - url: "#"
@@ -34,14 +34,14 @@ software:
 
     - title: SQL JDBC
       imgs:
-        - img_item: "/assets/media/icons/alerting_64px.svg"
+        - img_item: "/assets/media/icons/javajdbc.png"
       actions:
         - url: "#"
           label: JDBC driver
         
     - title: PerfTop CLI
       imgs:
-        - img_item: "/assets/media/icons/alerting_64px.svg"
+        - img_item: "/assets/media/icons/consol.png"
       actions:
         - url: "#"
           label: PerfTop CLI

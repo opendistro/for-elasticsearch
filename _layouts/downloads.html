@@ -9,7 +9,7 @@ layout: default
 <!-- Intro -->
 {%- include intro.html intro=site.data.pages.es.downloads.intro -%}
 <div class="container-fluid" style="background-color: #f3f6fc; padding: 80px 30px;">
-
+<div class="container">
 {% for software in site.data.pages.es.downloads.software %}
 	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 	{%if thecycle == 'odd' %}
@@ -31,7 +31,7 @@ layout: default
 		        <!-- Images -->
 		         <div class="row justify-content-center text-center pt-5">
 		         {% for img in software.imgs %}
-		            <div class="col-12 col-md-2"><img src="{{img.img_item}}" width="100%"></img> </div>
+		            <div class="col-12 col-md-4"><img src="{{img.img_item}}" width="100%"></img> </div>
 		         {% endfor %}
 		         </div>  
 
@@ -44,9 +44,9 @@ layout: default
 		        <div class="row justify-content-center text-center px-2 pt-3">
 	               <div class="col-12 col-md-10" style="border-top: 1px solid gray;"> </div>
 	                  {% for action in software.actions %}
-	                  <div class="col-12 col-md-3 software-download pt-3 pb-5 link-on-white-paragraph">
+	                  <div class="col-12 col-md-4 software-download pt-3 pb-5 link-on-white-paragraph">
 	                     <a href="{action.url}" class="software-download">
-	                         <h7>{{action.label}}</h7>
+	                         <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
 	                     </a>
 	                  </div>
 	                 {% endfor%}
@@ -70,7 +70,7 @@ layout: default
 		         <!-- Images -->
 		         <div class="row justify-content-center text-center pt-5">
 		         {% for img in software.imgs %}
-		            <div class="col-12 col-md-2"><img src="{{img.img_item}}" width="100%"></img> </div>
+		            <div class="col-12 col-md-4"><img src="{{img.img_item}}" width="100%"></img> </div>
 		         {% endfor %}
 		         </div> 
 
@@ -84,9 +84,9 @@ layout: default
 
 	               <div class="col-12 col-md-10" style="border-top: 1px solid gray;"> </div>
 	                  {% for action in software.actions %}
-		                  <div class="col-12 col-md-3 software-download pt-3 pb-5 link-on-white-paragraph">
+		                  <div class="col-12 col-md-4 software-download pt-3 pb-5 link-on-white-paragraph">
 		                     <a href="{action.url}" class="software-download">
-		                         <h7>{{action.label}}</h7>
+		                         <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
 		                     </a>
 		                  </div>
 	                 {% endfor%}
@@ -96,6 +96,7 @@ layout: default
 	    </div>
 	{% endif %}
  {% endfor %}   
+</div>
 </div>
 
 <!-- Community Starts -->
