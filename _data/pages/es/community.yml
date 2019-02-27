@@ -42,3 +42,32 @@ meetups:
 codeOfConduct:
   title: Code of Conduct
   text: "The Open Distro community values respect and being professional in interacting with everyone on the project whether on CRs, comments in code. We enforce a <a href='https://aws.github.io/code-of-conduct.html' class='link-on-white'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting <a href='mailto:opensource-codeofconduct@amazon.com'>opensource-codeofconduct@amazon.com</a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances."
+
+
+githubLinks:
+    - title: Alerting
+      img: "/assets/media/icons/alerting_64px.svg"
+      table: true
+      action_url: "#"
+      action_label: GitHub
+
+    - title: SQL
+      img: "/assets/media/icons/SQL_support_64px.svg"
+      action_url: "#"
+      action_label: GitHub
+
+    - title: Performance Analyzer
+      img: "/assets/media/icons/performance_analyzer_64px.svg"
+      action_url: "#"
+      action_label: GitHub
+
+    - title: PerfTop
+      img: "/assets/media/icons/performance_analyzer_64px.svg"
+      action_url: "#"
+      action_label: GitHub
+
+    - title: Docs
+      img: "/assets/media/icons/rpm.png"
+      action_url: "#"
+      action_label: GitHub
+
