@@ -16,19 +16,19 @@ intro:
 features:
   - title: Perform diagnostics across the stack
     content: Performance Analyzer provides a powerful REST API for querying Elasticsearch metrics and their consumption of network, disk and operating system resources. This visibility gives you the ability to identify system bottlenecks at all layers of the stack. 
-    img: "/assets/media/screenshots/screen1.png"
+    img: "/assets/media/screenshots/perftop_1.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'
   - title: Runs independent of your cluster
     content: Performance Analyzer runs outside of the Elasticsearch process ensuring that if your cluster is under duress, you can still perform diagnostics and resolve the right issues.
-    img: "/assets/media/screenshots/screen3.png"
+    img: "/assets/media/screenshots/perftop_2.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'
   - title: Analyze hundreds of data points
     content: Performance Analyzer supports over 60 metrics across 10 dimensions providing unprecedented instrumentation of your cluster health. You can use a variety of aggregations to measure performance, and capture the details you need to diagnose software bottlenecks and hardware issues.
-    img: "/assets/media/screenshots/screen2.png"
+    img: "/assets/media/screenshots/perftop_3.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'  
