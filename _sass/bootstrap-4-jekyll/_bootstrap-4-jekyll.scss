@@ -32,7 +32,7 @@
 }
 
 .title-bg {
-  font-size: 3.2rem;
+  font-size: 3.0rem;
   line-height: 1.5;
   letter-spacing: 1px;
   font-weight: 400;
@@ -48,7 +48,7 @@
 .title-on-dark {
   font-size: 2rem;
   font-weight: 300;
-  line-height: 2.0;
+  line-height: 1.4;
   letter-spacing: 1px;
   color: $white;
 }
@@ -108,6 +108,10 @@
  color: $white;
 }
 
+.text-14 {
+  font-size: 14px;
+}
+
 .text { 
    font-size: 1.2rem;
    letter-spacing: 1px;
@@ -125,7 +129,7 @@
 }
 
 .text-small { 
-   font-size: 1rem;
+   font-size: 14PX;
    letter-spacing: 1px;
    line-height: 1.7;
    color: #111;
@@ -147,8 +151,8 @@
 }
 
 .text-on-dark { 
-   font-size: 1.4rem;
-   letter-spacing: 1px;
+   font-size: 1.3rem;
+   letter-spacing: 1.5px;
    line-height: 1.6;
    color: #ddd;
    font-weight: lighter;
