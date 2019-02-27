@@ -2,9 +2,12 @@
 layout: default
 ---
 <!-- Breadcrumbs -->
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   {% include breadcrumbs.html %}
-</div>
+</div> -->
+
+<!-- Feature icons -->
+{%- include feature_icons.html -%}
 
 <!-- Banner -->
 <div class="container-fluid alertingBanner">
@@ -16,7 +19,10 @@ layout: default
 
 <div class="pt-5"/>
 <!-- Features  -->
-{%- include text-img-blocks.html features=site.data.pages.es.alerting.features -%}
+{%- include text-img-with-background.html features=site.data.pages.es.alerting.features -%}
+
+<div class="pt-5"/>
+{%- include intro.html intro=site.data.pages.es.alerting.alerts -%}
 
 <!-- Community -->
 {%- include communities/es.html -%}

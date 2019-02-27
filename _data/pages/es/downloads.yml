@@ -1,33 +1,48 @@
 banner:
-  title: Download Open Distro for Elasticsearch
-  text: "Getting started with Open Distro for Elasticsearch is easy. Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as the Open Distro for Elasticsearch SQL - JDBC driver and Open Distro for Elasticsearch Performance Analyzer client - Perf-Top. Get started now."
+  title: Download
+  # text: "Getting started with Open Distro for Elasticsearch is easy. Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as the Open Distro for Elasticsearch SQL - JDBC driver and Open Distro for Elasticsearch Performance Analyzer client - Perf-Top. Get started now."
   
+
+intro:
+  title: Getting started is easy
+  ext_content: Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as a SQL JDBC driver and Perormance Analyzer client, PerfTop. Get started now.
+
 software:
-  items :
-    - title: Open Distro for Elasticsearch - Elasticsearch v0.7
-      description_1: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4"
-      description_2: "Open Distro for Elasticsearch included plugins: Security, Alerting, SQL, and Performance Analyzer." 
-      description_3: "Performance Analyzer agent"
+    - subtitle: <b>Open Distro</b> for Elasticsearch
+      title: Elasticsearch
+      imgs:
+        - img_item: "/assets/media/icons/alerting_64px.svg"
+        - img_item: "/assets/media/icons/alerting_64px.svg"
+      description: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4 <br> Included plugins: Security, Alerting, SQL, and Performance Analyzer <br> Performance Analyzer agent"
       actions:
         - url: "#"
           label: RPM 64-BIT
         - url: "#"
           label: Docker 
-    - title: Open Distro for Elasticsearch - Kibana v0.7
-      description: Kibana (Apache 2.0 licenssed code only) - 6.5.4
-      description_2: "Open Distro for Elasticsearch - Kibana included plugins: Security and Alerting."
+
+    - subtitle: <b>Open Distro</b> for Elasticsearch
+      title: Kibana
+      imgs:
+        - img_item: "/assets/media/icons/alerting_64px.svg"
+        - img_item: "/assets/media/icons/alerting_64px.svg"
+      description: "<br>Kibana (Apache 2.0 licensed code only) - 6.5.4 <br> Included plugins: Security and Alerting"
       actions:
         - url: "#"
           label: RPM 64-BIT
         - url: "#"
           label: Docker 
-    - title: Open Distro for Elasticsearch - Perf-Top CLI v0.7
+
+    - title: SQL JDBC
+      imgs:
+        - img_item: "/assets/media/icons/alerting_64px.svg"
       actions:
         - url: "#"
-          label: Download
+          label: JDBC driver
         
-    - title: Open Distro for Elasticsearch - SQL JDBC client
+    - title: PerfTop CLI
+      imgs:
+        - img_item: "/assets/media/icons/alerting_64px.svg"
       actions:
         - url: "#"
-          label: Driver
+          label: PerfTop CLI
     

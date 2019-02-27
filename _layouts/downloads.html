@@ -1,72 +1,102 @@
 ---
 layout: default
 ---
-<div class="container-fluid distro-white">
-    
-	  <div class="row text-center">
-	    <div class="col-12"><h1 class="title-on-dark">{{site.data.pages.es.downloads.banner.title}}</h1></div>
-	  </div>
-	  
-	  <div class="row pt-3 justify-content-center text-center text-on-white">
-	    <div class="col-12 col-md-8">
-	      <p class="text-on-dark">{{site.data.pages.es.downloads.banner.text}}</p>
+
+<div class="container-fluid homeBanner">
+  {%- include banner.html banner=site.data.pages.es.downloads.banner -%} 
+</div>  
+
+<!-- Intro -->
+{%- include intro.html intro=site.data.pages.es.downloads.intro -%}
+<div class="container-fluid" style="background-color: #f3f6fc; padding: 80px 30px;">
+
+{% for software in site.data.pages.es.downloads.software %}
+	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+	{%if thecycle == 'odd' %}
+	    
+		<div class="row px-3 justify-content-center text-center">
+		  
+		    <div class="col-12 col-md-6 vcenter" style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
+	        
+		        <!-- Subtitle -->
+	            {% if software.subtitle %}
+		           <div class="pt-4">{{software.subtitle}}</div>
+		        {% else %}
+		           <div class="pt-5"></div>
+		        {% endif %}
+
+		        <!-- Title -->
+		         <h1 class="title-bg">{{software.title}}</h1>
+		         
+		        <!-- Images -->
+		         <div class="row justify-content-center text-center pt-5">
+		         {% for img in software.imgs %}
+		            <div class="col-12 col-md-2"><img src="{{img.img_item}}" width="100%"></img> </div>
+		         {% endfor %}
+		         </div>  
+
+		        <!-- Descriptions -->
+		        <div class="row justify-content-center text-center pt-5 px-2">
+	               <div class="text-small"> {{software.description}}</div>
+		        </div>
+
+		        <!-- Downloads -->
+		        <div class="row justify-content-center text-center px-2 pt-3">
+	               <div class="col-12 col-md-10" style="border-top: 1px solid gray;"> </div>
+	                  {% for action in software.actions %}
+	                  <div class="col-12 col-md-3 software-download pt-3 pb-5 link-on-white-paragraph">
+	                     <a href="{action.url}" class="software-download">
+	                         <h7>{{action.label}}</h7>
+	                     </a>
+	                  </div>
+	                 {% endfor%}
+		           
+	            </div>
+		    </div>
+
+	{% else %}  
+		    <div class="col-12 col-md-6 vcenter" style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
+		  	 
+			  	 <!-- Subtitle -->
+	            {% if software.subtitle %}
+		           <div class="pt-4">{{software.subtitle}}</div>
+		        {% else%}
+		           <div class="pt-5"></div>
+		        {% endif %}
+
+			  	 <!-- Title -->
+		         <h1 class="title-bg"> {{software.title}}</h1>
+
+		         <!-- Images -->
+		         <div class="row justify-content-center text-center pt-5">
+		         {% for img in software.imgs %}
+		            <div class="col-12 col-md-2"><img src="{{img.img_item}}" width="100%"></img> </div>
+		         {% endfor %}
+		         </div> 
+
+		         <!-- Descriptions -->
+		        <div class="row justify-content-center text-center pt-5 px-3 vcenter">
+	               <div class="text-small"> {{software.description}}</div>
+		        </div> 
+
+		         <!-- Downloads -->
+		        <div class="row justify-content-center text-center px-2 pt-3">
+
+	               <div class="col-12 col-md-10" style="border-top: 1px solid gray;"> </div>
+	                  {% for action in software.actions %}
+		                  <div class="col-12 col-md-3 software-download pt-3 pb-5 link-on-white-paragraph">
+		                     <a href="{action.url}" class="software-download">
+		                         <h7>{{action.label}}</h7>
+		                     </a>
+		                  </div>
+	                 {% endfor%}
+		           
+			    </div>
+		    </div>
 	    </div>
-	  </div>
-	 
+	{% endif %}
+ {% endfor %}   
 </div>
-
-<div class="pt-5"/>
-<!-- Features icons -->
-<div class="container">
-   <div class="container">
-	{% for software in site.data.pages.es.downloads.software.items %}
-  		<div class="row py-4 features feature-icons-container" style="vertical-align: middle">
-    
-          <div class="col-12 col-md-8">
-            <div class="row">
-              <!-- <div class="col-12 col-md-5"> -->
-                <h2 class="subtitle-on-white">{{software.title}}</h2>
-            </div>
-             <!-- <div class="col-12 col-md-6">   -->
-            <div class="row">
-                <p class="text">{{software.description_1}}</p>
-              <!-- </div>  -->
-            </div>
-            <div class="row">
-                <p class="text">{{software.description_2}}</p>
-              <!-- </div>  -->
-            </div>
-            <div class="row">
-                <p class="text">{{software.description_3}}</p>
-              <!-- </div>  -->
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 text-on-white">
-            <div class="row">
-            {% for action in software.actions %}
-              <div class="col-12 col-md-6 software-download">
-                 <a href="{action.url}" class="software-download link-on-white">
-                   <h7 class="link-on-white">{{action.label}}</h7>
-                 </a>
-              </div>
-            {% endfor%}
-              <!-- <div class="col-12 col-md-6 software-download">
-                <a href="#" class="software-download"><i class="fas fa-download"></i>
-                   <span class="glyphicon glyphicon-download-alt"></span>
-                   <h7>Docker</h7>
-                </a>
-              </div> -->
-              
-            </div>   
-            
-          </div>
-     
-  		</div>
-    {% endfor %} 
-   </div>
-</div>
-
 
 <!-- Community Starts -->
 {%- include communities/es.html -%}

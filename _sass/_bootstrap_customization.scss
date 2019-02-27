@@ -23,13 +23,13 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
   &-outline-primary {
     border: 1px solid $white;
     background-color: $white;
-    color: $midnightblue;
+    //color: $midnightblue;
   }
 
   &-outline-primary:hover {
     border: 1px solid $white;
     background-color: $white;
-    color: $blue;
+    color: $midnightblue;
   }
 
   &-outline-secondary {

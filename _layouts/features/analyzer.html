@@ -3,9 +3,12 @@ layout: default
 ---
 
 <!-- Breadcrumbs -->
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   {% include breadcrumbs.html %}
-</div>
+</div> -->
+
+<!-- Feature icons -->
+{%- include feature_icons.html -%}
 
 <!-- Banner -->
 <div class="container-fluid analyzerBanner">
@@ -13,14 +16,14 @@ layout: default
 </div>
 
 <div class="pt-5"/>
-<!-- Features -->
-{%- include text-two-col.html features=site.data.pages.es.analyzer.features -%}
-
-
-<!-- Intro -->
 {%- include intro.html intro=site.data.pages.es.analyzer.intro -%}
-<!-- End -->
 
 <div class="pt-5"/>
+<!-- Features  -->
+{%- include text-img-with-background.html features=site.data.pages.es.analyzer.features -%}
+
+<div class="pt-5"/>
+{%- include intro.html intro=site.data.pages.es.analyzer.performance -%}
+
 <!-- Community -->
 {%- include communities/es.html -%}

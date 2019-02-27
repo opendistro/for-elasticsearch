@@ -9,6 +9,7 @@ banner:
     secondary:
       text: 'Contribute'
       url: 'contribute.html'
+  color: "#0a1f72"
 
 features:
   - title: Fully open-source

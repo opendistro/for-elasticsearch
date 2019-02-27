@@ -1,82 +1,105 @@
 banner:
   title: SQL
   subtitle: Open Distro for Elasticsearch
-  content: Some text
-  icon: "/assets/media/icons/performance_analyzer_64px_w.svg"
+  actions:
+    primary: 
+      text: 'Download'
+      url: 'downloads.html'
+  color: "#2797f4"  
+  # content: Some text
+  # icon: "/assets/media/icons/performance_analyzer_64px_w.svg"
 
 intro:
-  title: Benefits
-  content: Some text
+  title: Query data with the powerful SQL language
+  ext_content: Open Distro for Elasticsearch enables you to extract insight out of Elasticsearch using a familiar query syntax. Simply select the data you want and use SQL aggregations, group by, and where clauses to understand your data. SQL gives you the flexibility to read your data out as JSON documents or CSV tables so it's in a format that works best for you.
   
 features:
-  - title: Query data in a familiar way
-    content: Elasticsearch has the speed, scale and flexibility your data needs - and it speaks SQL. Use traditional database syntax to unlock non-traditional performance, like full text search across petabytes of data with real-time results.
-  - title: Translate SQL to JSON
-    content: Elasticsearch has the speed, scale and flexibility your data needs - and it speaks SQL. Use traditional database syntax to unlock non-traditional performance, like full text search across petabytes of data with real-time results.
-  - title: Streamline development
-    content: With Open Distro for Elasticsearch SQL support you can access that full text search, blazing speed, and effortless scalability with a familiar query syntax.
+  - title: Simple, performant and scalable
+    content: One of the great benefits of SQL is its simplicity. Complex Elasticsearch JSON queries that can be dozens of lines of code, can often be written a few lines of SQL. Additionally, you are not trading simplicity for performance as SQL is highly responsive and scalable. Additionally, while using SQL you still get all of the benefits of Elasticsearch's full-text search and scoring capabilities.
+    img: "/assets/media/screenshots/screen1.png"
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
+  - title: Support for a wide variety of SQL features
+    content: With support for more than 50 functions, data types, and commands with join support and direct export to CSV, Open Distro for Elasticsearch provides the functionality you need to analyze your data.
+    img: "/assets/media/screenshots/screen1.png"
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
+  - title: Translate SQL into Elasticsearch JSON
+    content: Convert SQL statements into Elasticsearch JSON queries with a simple explain call, enabling you to use SQL to create JSON to configure sophisticated access control policies in Security and monitors in Alerting.
+    img: "/assets/media/screenshots/screen1.png"
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
+  - title: Integrate with  your applications
+    content: With the JDBC driver, you can use a wide variety of business intelligence, analytics, and ETL tools to extract and analyze your Elasticsearch data.
+    img: "/assets/media/screenshots/screen1.png"
+    action_download:
+      label: 'Download'
+      url: 'downloads.html'
 
-dataTypes:
-  title: Supported Data Types
-  sections:
-    - content: 
-      - item: "null"
-      - item: boolean
-      - item: byte
-      - item: short
-    - content: 
-      - item: integer
-      - item: long
-      - item: double
-      - item: float
-    - content: 
-      - item: half_float
-      - item: scaled_float
-      - item: keyword
-      - item: text
-    - content: 
-      - item: binary
-      - item: date
-      - item: object
-      - item: nested
+# dataTypes:
+#   title: Supported Data Types
+#   sections:
+#     - content: 
+#       - item: "null"
+#       - item: boolean
+#       - item: byte
+#       - item: short
+#     - content: 
+#       - item: integer
+#       - item: long
+#       - item: double
+#       - item: float
+#     - content: 
+#       - item: half_float
+#       - item: scaled_float
+#       - item: keyword
+#       - item: text
+#     - content: 
+#       - item: binary
+#       - item: date
+#       - item: object
+#       - item: nested
 
-sqlCommands:
-  title: Supported Commands
-  sections:
-  - content: 
-    - item: DESCRIBE
-    - item: SELECT
-    - item: SHOW COLUMNS
-    - item: SHOW FUNCTIONS
-    - item: SHOW TABLES
-    - item: UPDATE
-    - item: DELETE
-    - item: INSERT INTO
-  - content: 
-    - item: CREATE TABLE
-    - item: ALTER TABLE
-    - item: DROP TABLE
-    - item: ABS
-    - item: CBRT
-    - item: CEIL
-    - item: E
-    - item: PI
-  - content:
-    - item: ROUND
-    - item: FLOOR
-    - item: LOG
-    - item: LOG10
-    - item: SQRT
-    - item: EXP
-    - item: EXPM1
-    - item: AVG 
-  - content:
-    - item: COUNT
-    - item: COUNT (DISTINCT)
-    - item: MAX
-    - item: MIN
-    - item: SUM
-    - item: LAST
-    - item: STATS
-    - item: PERCENTILES (Pxx)
-    - item: EXTENDED_STATS
+# sqlCommands:
+#   title: Supported Commands
+#   sections:
+#   - content: 
+#     - item: DESCRIBE
+#     - item: SELECT
+#     - item: SHOW COLUMNS
+#     - item: SHOW FUNCTIONS
+#     - item: SHOW TABLES
+#     - item: UPDATE
+#     - item: DELETE
+#     - item: INSERT INTO
+#   - content: 
+#     - item: CREATE TABLE
+#     - item: ALTER TABLE
+#     - item: DROP TABLE
+#     - item: ABS
+#     - item: CBRT
+#     - item: CEIL
+#     - item: E
+#     - item: PI
+#   - content:
+#     - item: ROUND
+#     - item: FLOOR
+#     - item: LOG
+#     - item: LOG10
+#     - item: SQRT
+#     - item: EXP
+#     - item: EXPM1
+#     - item: AVG 
+#   - content:
+#     - item: COUNT
+#     - item: COUNT (DISTINCT)
+#     - item: MAX
+#     - item: MIN
+#     - item: SUM
+#     - item: LAST
+#     - item: STATS
+#     - item: PERCENTILES (Pxx)
+#     - item: EXTENDED_STATS

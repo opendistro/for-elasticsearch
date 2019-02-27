@@ -17,7 +17,7 @@ siteMap:
     - title: 'COMMUNITY'
       contents: 
        - menu_item: "FAQ"
-         url: "about"
+         url: "faq.html"
        - menu_item: "About"
          url: "about"
        - menu_item: "Contribute"
