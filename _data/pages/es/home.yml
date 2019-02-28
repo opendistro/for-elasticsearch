@@ -1,7 +1,7 @@
 banner:
   title: Open Distro for Elasticsearch
   product: Elasticsearch
-  content: A fully Apache 2.0-licensed, feature-rich distribution for Elasticsearch including security, alerting, SQL, and more
+  content: A fully Apache 2.0-licensed, production-grade distribution of Elasticsearch
   actions:
     primary: 
       text: 'Download'
@@ -15,8 +15,8 @@ features:
   - title: Fully open-source
     content: Enabling anyone to view, use, change, and share the features
     img: "/assets/media/icons/brackets.svg"
-  - title: Secure & enterprise-grade
-    content: Adding advanced features and filling critical gaps in open-source Elasticsearch
+  - title: Enterprise-grade
+    content: Adding advanced features to open-source Elasticsearch for production workloads
     img: "/assets/media/icons/globe.svg"
   - title: Community-driven
     content: Bringing together individuals and organizations to accelerate open source innovation
