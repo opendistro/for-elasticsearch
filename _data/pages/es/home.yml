@@ -3,7 +3,7 @@ banner:
   product: Elasticsearch
   content: A fully Apache 2.0-licensed, feature rich distribution of Elasticsearch including security, alerting, SQL and more
   actions:
-    primary: 
+    primary:
       text: 'Download'
       url: 'downloads.html'
     secondary:
@@ -20,7 +20,7 @@ features:
     img: "/assets/media/icons/globe.svg"
   - title: Community-driven
     content: Bringing together individuals and organizations to accelerate open source innovation
-    img: "/assets/media/icons/community.svg"   
+    img: "/assets/media/icons/community.svg"
 
 descriptions:
   - title: Keep your data secure
@@ -29,7 +29,7 @@ descriptions:
     img: "/assets/media/screenshots/security_login_page.png"
     action_learn:
       label: 'Learn more'
-      url: 'features/security.html'
+      url: '/features/security.html'
     action_download:
       label: 'Download'
       url: 'downloads.html'
@@ -40,7 +40,7 @@ descriptions:
     img: "/assets/media/screenshots/alert_screen_1.png"
     action_learn:
       label: 'Learn more'
-      url: 'features/alerting.html'
+      url: '/features/alerting.html'
     action_download:
       label: 'Download'
       url: 'downloads.html'
@@ -51,7 +51,7 @@ descriptions:
     img: "/assets/media/screenshots/sql_devtools.png"
     action_learn:
       label: 'Learn more'
-      url: 'features/SQL%20Support.html'
+      url: '/features/SQL%20Support.html'
     action_download:
       label: 'Download'
       url: 'downloads.html'
@@ -62,7 +62,7 @@ descriptions:
     img: "/assets/media/screenshots/perftop_network.gif"
     action_learn:
       label: 'Learn more'
-      url: 'features/analyzer.html'
+      url: '/features/analyzer.html'
     action_download:
       label: 'Download'
       url: 'downloads.html'
@@ -80,7 +80,7 @@ partners:
   - alt_text: 'Lyft'
     featured: true,
     img_url: "assets/media/logos/partners/lyft.svg"
-  
+
 
 intro:
   title: Why Open Distro for Elasticsearch?
@@ -102,7 +102,7 @@ benefits:
       content: 'Bringing together developers and organizations to collaborate and innovate and accelerate open source Elasticsearch innovation.'
       color: "#7621A9"
       background: "/assets/media/backgrounds/darkPurpleSquare.svg"
-    
+
     - title: 'Secure and enterprise-grade'
       content: 'Extends open source Elasticsearch to include advanced features including: security, event monitoring and alerting, performance analysis and SQL support.'
       color: "#BD34A3"
@@ -122,5 +122,3 @@ partners:
   buttons:
     label_primary: Learn more
     url_primary: '/community.html'
-       
-
