@@ -1,17 +1,15 @@
 banner:
   title: Security
   subtitle: Open Distro for Elasticsearch
-  actions:
-    primary: 
-      text: 'Download'
-      url: 'downloads.html'
-      color: "#5c237d"  
-  # content: Secures your cluster with a comprehensive set of advanced security features including authentication options via LDAP/Active Directory, Kerberos, SAML and JSON web tokens, encryption in-flight, fine-grained index, document and field-level access control, detailed audit logging, advanced compliance features, and more
-  # icon: "/assets/media/icons/security_64px_w.svg"
+  # actions:
+  #   primary: 
+  #     text: 'Download'
+  #     url: 'downloads.html'
+  #     color: "#5c237d"  
 
 intro:
   title: Enterprise-grade security
-  ext_content: Open Distro for Elasticsearch provides you a comprehensive set of features to keep your data secure and stay compliant with regulations such as GDPR, HIPAA, PCI, and ISO. Whether you want to encrypt data in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or to monitor and log any malicious access attempts, Open Distro for Elasticsearch has you covered.
+  ext_content: Open Distro for Elasticsearch provides you a comprehensive set of features to keep your data secure and stay compliant with regulations such as GDPR, HIPAA, PCI, and ISO. Whether you want to encrypt data in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or monitor and log any malicious access attempts, Open Distro for Elasticsearch has you covered.
   style: features feature-security-link
 
 features:
@@ -22,13 +20,13 @@ features:
       label: 'Download'
       url: 'downloads.html'
   - title: Authentication
-    content: With Open Distro for Elasticsearch, you can leverage your existing industry standard authentication techniques such as LDAP/Active Directory, SAML, Kerberos, JSON web tokens, TLS certificates, and Proxy authentication/SSO for user authentication. Additionally, an internal user repository with support for basic HTML authentication is provided for easy setup and evaluation.
+    content: With Open Distro for Elasticsearch, you can leverage your existing authentication infrastructure such as LDAP/Active Directory, SAML, Kerberos, JSON web tokens, TLS certificates, and Proxy authentication/SSO for user authentication. Additionally, an internal user repository with support for basic HTTP authentication is provided for easy setup and evaluation.
     img: "/assets/media/screenshots/security_login_page.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'
   - title: Role-based access control
-    content: Granular, role-based access control enables you to control the actions a user can perform on your Elasticsearch cluster. Roles can control cluster operations, access to indices, and even the fields and documents your users can access. Open Distro for Elasticsearch also supports secure multi-tenant environments, allowing multiple teams to share the same cluster while only being able to access their team's data and dashboards.  
+    content: Granular, role-based access control enables you to control the actions a user can perform on your Elasticsearch cluster. Roles control cluster operations, access to indices, and even the fields and documents your users can access. Open Distro for Elasticsearch also supports multi-tenant environments, allowing multiple teams to share the same cluster while only being able to access their team's data and dashboards.
     img: "/assets/media/screenshots/security_roles.png"
     action_download:
       label: 'Download'

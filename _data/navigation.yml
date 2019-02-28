@@ -5,12 +5,10 @@
         url: features/security.html
       - title: Alerting
         url: features/alerting.html  
-      - title: Performance Analyzer
-        url: features/analyzer.html
       - title: SQL
         url: features/SQL%20Support.html
-  - title: Download
-    url: /downloads.html
+      - title: Performance Analyzer
+        url: features/analyzer.html
   - title: Contribute
     url: /contribute.html
   - title: Community
