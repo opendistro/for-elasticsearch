@@ -26,7 +26,7 @@ gitter:
 stackoverflow:
   img: "/assets/media/icons/stack-icon.png"
   title: "Stack Overflow"
-  content: "Questions and discussions on Open Distro for Elasticsearch and components like <a href='https://opendistro.github.io/forelasticsearch/features/alerting' class='link-on-white'>Alerting</a>, <a href='https://opendistro.github.io/forelasticsearch/features/SQL' class='link-on-white'>SQL</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerformanceAnalyzer' class='link-on-white'>Performance Analyzer</a>, <a href='https://opendistro.github.io/forelasticsearch/features/PerfTop' class='link-on-white'>PerfTop</a>."
+  content: "Questions and discussions on Open Distro for Elasticsearch and components like Alerting, SQL, Performance Analyzer, PerfTop."
   buttons:
     label_primary: Find us on Stack Overflow
     url_primary: "https://stackoverflow.com/search?q=opendistroforelasticsearch"
@@ -41,4 +41,33 @@ meetups:
 
 codeOfConduct:
   title: Code of Conduct
-  text: "The Open Distro community values respect and being professional in interacting with everyone on the project whether on CRs, comments in code. We enforce a <a href='https://aws.github.io/code-of-conduct.html' class='link-on-white'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting <a href='mailto:opensource-codeofconduct@amazon.com'>opensource-codeofconduct@amazon.com</a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances."
+  text: "The Open Distro community values respect and being professional in interacting with everyone on the project whether on CRs, comments in code. We enforce a <a href='https://aws.github.io/code-of-conduct.html'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting <a href='mailto:opensource-codeofconduct@amazon.com'>opensource-codeofconduct@amazon.com</a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances."
+
+
+githubLinks:
+    - title: Alerting
+      img: "/assets/media/icons/alerting_64px.svg"
+      table: true
+      action_url: "#"
+      action_label: GitHub
+
+    - title: SQL
+      img: "/assets/media/icons/SQL_support_64px.svg"
+      action_url: "#"
+      action_label: GitHub
+
+    - title: Performance Analyzer
+      img: "/assets/media/icons/performance_analyzer_64px.svg"
+      action_url: "#"
+      action_label: GitHub
+
+    - title: PerfTop
+      img: "/assets/media/icons/performance_analyzer_64px.svg"
+      action_url: "#"
+      action_label: GitHub
+
+    - title: Docs
+      img: "/assets/media/icons/docs.svg"
+      action_url: "#"
+      action_label: GitHub
+

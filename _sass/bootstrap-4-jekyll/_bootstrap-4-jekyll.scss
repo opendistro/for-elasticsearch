@@ -198,8 +198,7 @@
 
 .link-on-white-paragraph p a {
   color: $waterblue; 
-  font-weight: 600;
-  word-break: break-all; 
+  font-weight: 300;
 }
 
 .link-on-dark {
@@ -551,8 +550,7 @@
 
 .link-on-white-paragraph p a {
   color: $waterblue; 
-  font-weight: 600;
-  word-break: break-all; 
+  font-weight: 300;
 }
 
 .link-on-dark {
@@ -905,7 +903,7 @@
 
 .link-on-white-paragraph p a {
   color: $waterblue; 
-  font-weight: 600;
+  font-weight: 300;
   word-break: break-all; 
 }
 
@@ -1259,7 +1257,7 @@
 
 .link-on-white-paragraph p a {
   color: $waterblue; 
-  font-weight: 600;
+  font-weight: 300;
   word-break: break-all; 
 }
 
@@ -1613,7 +1611,7 @@
 
 .link-on-white-paragraph p a {
   color: $waterblue; 
-  font-weight: 600;
+  font-weight: 300;
   word-break: break-all; 
 }
 
@@ -1766,9 +1764,10 @@
   font-weight: 800;
 }
 
-
-
+.nav-link {
+  white-space: nowrap; 
 }
 
+}
 
 
