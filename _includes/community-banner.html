@@ -1,9 +1,11 @@
 <div class="col-12 col-md-10" style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px; padding: 100px 0 40px 0; position:relative; z-index:1; padding: 100px 0 40px 0;">
 
     <!-- Title -->
-	<div class="row justify-content-center text-center pt-3">
-	    <img src="{{include.intro.img}}" class="img-fluid" style="position:absolute; top:-20%; left:43%; width:150px; z-index:2;">
-	    <h1 class="text">{{include.intro.title}}</h1>
+
+	<div class="row justify-content-center text-center">
+	    <img src="{{include.intro.img}}" class="img-fluid" style="position:absolute; top:-9%; left:50%; width:200px; z-index:2; margin-left: -100px;">
+	    <h1 class="title">{{include.intro.title}}</h1>
+
 	</div>
 
     <!-- Content -->
@@ -14,11 +16,11 @@
 	</div>
 
 	<!-- Feature table -->
-	<!-- {% if include.features %}
+	{% if include.features %}
 		<div class="row justify-content-center text-center px-3 pt-3">
 	      {%- include features_table.html features=include.features -%}
 	    </div>  
-	{% endif %} -->
+	{% endif %}
 
 	<!-- Action title -->
 	{% if include.intro.action_title %}

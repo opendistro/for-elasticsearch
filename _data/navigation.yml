@@ -5,7 +5,7 @@
         url: features/security.html
       - title: Alerting
         url: features/alerting.html  
-      - title: Analyzer
+      - title: Performance Analyzer
         url: features/analyzer.html
       - title: SQL
         url: features/SQL%20Support.html

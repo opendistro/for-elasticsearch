@@ -11,11 +11,11 @@
 		    <div class="col-12 col-md-4 vcenter" style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
 	        
 		        <!-- Title -->
-		         <h3 class="pt-3">{{feature.title}}</h3>
+		         <h3 class="pt-4">{{feature.title}}</h3>
 		         
 		        <!-- Image -->
-		         <div class="row justify-content-center text-center pt-5">
-		            <div class="col-12 col-md-5"><img src="{{feature.img}}" width="100px"></img> </div>
+		         <div class="row justify-content-center text-center pt-4">
+		            <div class="col-12 col-md-5"><img src="{{feature.img}}" width="80px"></img> </div>
 		         </div>  
 
 
@@ -23,9 +23,9 @@
 		        <div class="row justify-content-center text-center px-2 pt-5">
 	               <div class="col-12 col-md-10" style="border-top: 1px solid gray;"> </div>
 	                  
-	                  <div class="col-12 col-md-3 software-download pt-3 pb-3 link-on-white-paragraph">
+	                  <div class="col-12 col-md-5 software-download pt-3 pb-4 link-on-white-paragraph">
 	                     <a href="{feature.action_url}" class="software-download">
-	                         <h7>{{feature.action_label}}</h7>
+	                        <h7 style="font-weight:bold;">{{feature.action_label}}</h7> <i class="fas fa-external-link-alt"></i>
 	                     </a>
 	                  </div>
 		    
@@ -37,11 +37,11 @@
 		    <div class="col-12 col-md-4 vcenter" style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
 		  	 
 			  	<!-- Title -->
-		         <h3 class="pt-3">{{feature.title}}</h3>
+		         <h3 class="pt-4">{{feature.title}}</h3>
 		         
 		        <!-- Image -->
-		         <div class="row justify-content-center text-center pt-5">
-		            <div class="col-12 col-md-5"><img src="{{feature.img}}" width="100px"></img> </div>
+		         <div class="row justify-content-center text-center pt-4">
+		            <div class="col-12 col-md-5"><img src="{{feature.img}}" width="80px"></img> </div>
 		         </div>  
 
 
@@ -49,15 +49,15 @@
 		        <div class="row justify-content-center text-center px-2 pt-5">
 	               <div class="col-12 col-md-10" style="border-top: 1px solid gray;"> </div>
 	                  
-	                  <div class="col-12 col-md-3 software-download pt-3 pb-3 link-on-white-paragraph">
+	                  <div class="col-12 col-md-5 software-download pt-3 pb-4 link-on-white-paragraph">
 	                     <a href="{feature.action_url}" class="software-download">
-	                         <h7>{{feature.action_label}}</h7>
+	                         <h7 style="font-weight:bold;">{{feature.action_label}}</h7> <i class="fa fa-external-link-alt"></i>
 	                     </a>
 	                  </div>
 		           
 	            </div>
 		    </div>
-	    {% if thecycle == 'three' %}
+	    {% if thecycle == 'three' or forloop.last  == true %}
 		    </div>
 		{% endif %}  
 	{% endif %}	    
