@@ -7,17 +7,15 @@ intro:
 
 partecipate:
   title: Partecipate in the Open Distro project
-  content_1: 
+  content: 
     - paragraph: "Follow us on GitHub, answer Open Distro questions on StackOverflow or chat with us on Gitter. You can also contribute as a developer or other technologist, as a company or organization. Participation and contribution can range from writing technical documentation to bug fixing to writing code."
-  content_2: 
     - paragraph: "A good way to begin is to check out the issues backlog on Github. Here all of the project's issues are documented: they are listed, labelled and their status identified. It's a great place to develop an understanding of the current activity of the project and to look for ways to jump in and contribute."
   
 contributeCode:
   title: Contribute Code
-  content_1: 
+  content: 
    - paragraph: To create a feature proposal or to fix a bug for Open Distro, open an issue on the issue tracker on GitHub and ask our release team to add an appropriate label for your proposal. <p> 
    - paragraph: You can search the issue tracker for any similar feature or bug fix proposals. Consider joining the discussion about the issue. For new features or fixes, you may want to start a discussion about our proposal and perhaps ask for comments of help. Our community team will be happy to chat ith you about your ideas.
-  content_2:
    - paragraph: "When ready, you may submit a merge request with the feature or bug fix. Appropriate tests and documentation should be submitted with the merge request. The specific steps to follow are at <https://github.com/opendistroforelasticsearch/elasticsearch-oss/merge_requests (https://opendistro.com/merge_requests)>"
   
 contributeDoc:    
