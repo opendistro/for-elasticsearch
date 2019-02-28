@@ -1,9 +1,9 @@
 banner:
   title: Open Distro for Elasticsearch
   product: Elasticsearch
-  content: A fully Apache 2.0-licensed, feature rich distribution of Elasticsearch including security, alerting, SQL and more.
+  content: A fully Apache 2.0-licensed, feature rich distribution of Elasticsearch including security, alerting, SQL and more
   actions:
-    primary: 
+    primary:
       text: 'Download'
       url: 'downloads.html'
     secondary:
@@ -20,7 +20,7 @@ features:
     img: "/assets/media/icons/globe.svg"
   - title: Community-driven
     content: Bringing together individuals and organizations to accelerate open source innovation
-    img: "/assets/media/icons/community.svg"   
+    img: "/assets/media/icons/community.svg"
 
 descriptions:
   - title: Keep your data secure
@@ -80,7 +80,7 @@ partners:
   - alt_text: 'Lyft'
     featured: true,
     img_url: "assets/media/logos/partners/lyft.svg"
-  
+
 
 intro:
   title: Why Open Distro for Elasticsearch?
@@ -102,7 +102,7 @@ benefits:
       content: 'Bringing together developers and organizations to collaborate and innovate and accelerate open source Elasticsearch innovation.'
       color: "#7621A9"
       background: "/assets/media/backgrounds/darkPurpleSquare.svg"
-    
+
     - title: 'Secure and enterprise-grade'
       content: 'Extends open source Elasticsearch to include advanced features including: security, event monitoring and alerting, performance analysis and SQL support.'
       color: "#BD34A3"
@@ -118,9 +118,7 @@ included:
 
 partners:
   title: Community Driven
-  text: Open Distro for Elasticsearch is committed to being an open, collaborative, community-driven project. Join the community to participate and contribute to maintaining and advancing open source Elasticsearch. 
+  text: Open Distro for Elasticsearch is committed to being an open, collaborative, community-driven project. Join the community to participate and contribute to maintaining and advancing open source Elasticsearch.
   buttons:
     label_primary: Learn more about the Open Distro Community
-    url_primary: #
-       
-
+    url_primary: '/community.html'
