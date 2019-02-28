@@ -11,7 +11,7 @@
 
       </div>
     </a>
-    
+
     {%- assign links = site.data.navigation -%}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +24,10 @@
 
         <!-- Active link -->
             {% assign class = nil %}
-            {% if page.url contains link.url %} 
+            {% if page.url contains link.url %}
                 {% assign class = 'active' %}
             {% endif %}
-        
+
         <!-- Sublinks  -->
             {% if link.sublinks %}
                 <li class="dropdown  {{ class }}">
@@ -36,12 +36,12 @@
                         {% for sublink in link.sublinks %}
                             <li class="nav-item {{ class }}">
                                 <a class="nav-link" href="{{ sublink.url | relative_url}}">{{ sublink.title }}</a>
-                            </li>  
+                            </li>
                         {% endfor %}
                     </ul>
                 </li>
             {% else %}
-                
+
                 {%- if link.title -%}
                   <li class="nav-item {{class}}">
                     <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
@@ -55,7 +55,7 @@
           <a class="nav-link" href="http://ettea.aka.corp.amazon.com/opendist/ ">Docs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.repository_url }}">GitHub <i class="fa fa-external-link-alt"></i>
+          <a class="nav-link" href="{{ site.github.repository_url }}">GitHub <i class="fa fa-external-link"></i>
           </a>
         </li>
       </ul>
