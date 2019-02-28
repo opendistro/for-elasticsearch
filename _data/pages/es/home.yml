@@ -87,7 +87,7 @@ intro:
   text: Elasticsearch has become an essential technology for log analytics and search, fueled by the freedom open source provides to developers and organizations. Our goal is to ensure that open-source innovation continues to thrive by providing a fully featured, open-source, community-driven distribution that makes it easy for everyone to use, collaborate, and contribute to—without restrictions.
   buttons:
     label_primary: Learn more about why Open Distro
-    url_primary: #
+    url_primary: "/faq.html"
 
 #Text for all benefits maximum to 3
 benefits:

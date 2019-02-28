@@ -23,7 +23,7 @@ features:
       url: 'downloads.html'
   - title: Authentication
     content: With Open Distro for Elasticsearch, you can leverage your existing industry standard authentication techniques such as LDAP/Active Directory, SAML, Kerberos, JSON web tokens, TLS certificates, and Proxy authentication/SSO for user authentication. Additionally, an internal user repository with support for basic HTML authentication is provided for easy setup and evaluation.
-    img: "/assets/media/screenshots/security_login_page.png/assets/media/screenshots/security_login_page.png"
+    img: "/assets/media/screenshots/security_login_page.png"
     action_download:
       label: 'Download'
       url: 'downloads.html'

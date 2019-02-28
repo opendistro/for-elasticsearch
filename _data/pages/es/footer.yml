@@ -2,10 +2,6 @@ siteMap:
   sections:
     - title: 'OPEN DISTRO FEATURES'
       contents: 
-       - menu_item: "Elasticsearch"
-         url: "features/elasticsearch.html"
-       - menu_item: "Kibana"
-         url: "features/kibana.html"
        - menu_item: "Alerting"
          url: "features/alerting.html"
        - menu_item: "Security"
@@ -17,7 +13,7 @@ siteMap:
     - title: 'COMMUNITY'
       contents: 
        - menu_item: "FAQ"
-         url: "faq.html"
+         url: "/faq.html"
        - menu_item: "About"
          url: "about"
        - menu_item: "Contribute"
