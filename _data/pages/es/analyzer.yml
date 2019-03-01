@@ -33,7 +33,7 @@ features:
 
 performance:
   title: Use PerfTop CLI to interact with Performance Analyzer
-  text: The PerfTop CLI provides pre-configured dashboards for analyzing cluster, node, shard performance, and more. PerfTop supports custom JSON templates enabling you to create the dashboards you need to diagnose your cluster performance.
+  text: The PerfTop CLI provides pre-configured dashboards for analyzing cluster, node, shard performance, and more. Use custom JSON templates to create the dashboards you need to diagnose your cluster performance.
   img: "/assets/media/screenshots/perftop1.png"  
   buttons:
     label_primary: 'Download PerfTop CLI'

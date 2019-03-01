@@ -10,11 +10,11 @@ banner:
 
 intro:
   title: Query data with the powerful SQL language
-  ext_content: Open Distro for Elasticsearch enables you to extract insights out of Elasticsearch using the familiar SQL query syntax. Use aggregations, group by, and where clauses to investigate your data. This feature gives you the flexibility to read your data as JSON documents or CSV tables so it's in a format that works best for you.
+  ext_content: Open Distro for Elasticsearch enables you to extract insights out of Elasticsearch using the familiar SQL query syntax. Use aggregations, group by, and where clauses to investigate your data. Read your data as JSON documents or CSV tables so you have the flexibility to use the format that works best for you.
   
 features:
   - title: Simple, performant, and scalable
-    content: With Open Distro for Elasticsearch you can query your data using SQL instead of using Elasticsearch JSON queries that can often require dozens of lines of code. Additionally, you are not trading simplicity for performance as SQL is highly responsive and scalable. You still get all of the benefits of Elasticsearch's full-text search and scoring capabilities.
+    content: With Open Distro for Elasticsearch you can query your data using simple SQL queries instead of dozens of lines of JSON code. You continue to get all the benefits of Elasticsearch's full-text search and scoring capabilities without compromising on performance. You still get all of the benefits of Elasticsearch's full-text search and scoring capabilities.
     img: "/assets/media/screenshots/scale_perf.png"
     # action_download:
     #   label: 'Download'
