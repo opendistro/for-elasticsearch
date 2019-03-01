@@ -47,4 +47,9 @@ software:
       actions:
         - url: "#"
           label: PerfTop CLI
+
+bottomBanner:
+  class: homeBannerBottom
+  text: 'Join our community of developers in advancing the future of Security'
+  color: "#0a1f72"
     

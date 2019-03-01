@@ -122,3 +122,9 @@ partners:
   buttons:
     label_primary: Learn more
     url_primary: '/community.html'
+
+bottomBanner:
+  class: homeBannerBottom
+  text: 'Join our community of developers in advancing the future of Security'
+  color: "#0a1f72"
+    
