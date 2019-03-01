@@ -13,7 +13,7 @@ banner:
 
 features:
   - title: Fully open source
-    content: Providing the freedoms that make open source great. View, use, change, and share the software, as you wish
+    content: "Providing the freedoms that make open source great: view, use, change, and share the software, as you wish"
     img: "/assets/media/icons/brackets.svg"
   - title: Enterprise-grade
     content: Delivering the security and other advanced capabilities required for the most demanding use-cases

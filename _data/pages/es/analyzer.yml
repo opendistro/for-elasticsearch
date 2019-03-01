@@ -37,7 +37,7 @@ performance:
   img: "/assets/media/screenshots/perftop1.png"  
   buttons:
     label_primary: 'Download PerfTop CLI'
-    url_primary: 'downloads.html'  
+    url_primary: '/downloads.html'  
 
 # intro:
 #   title: PerfTop
