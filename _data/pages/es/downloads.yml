@@ -33,6 +33,7 @@ software:
           label: Docker 
 
     - title: SQL JDBC
+      a: SQL
       imgs:
         - img_item: "/assets/media/icons/javajdbc.png"
       actions:
@@ -40,6 +41,7 @@ software:
           label: JDBC driver
         
     - title: PerfTop CLI
+      a: PerfTop
       imgs:
         - img_item: "/assets/media/icons/consol.png"
       actions:

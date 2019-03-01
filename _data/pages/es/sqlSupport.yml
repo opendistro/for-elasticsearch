@@ -36,7 +36,7 @@ features:
     img: "/assets/media/screenshots/JDBC.png"
     action_download:
       label: 'Download JDBC driver'
-      url: 'downloads.html'
+      url: 'downloads.html#SQL'
 
 # dataTypes:
 #   title: Supported Data Types

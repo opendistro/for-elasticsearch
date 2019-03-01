@@ -1,5 +1,12 @@
 //    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
 
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
+
 @media (max-width: 576px) {  
 
 .page-content {
