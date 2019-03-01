@@ -14,14 +14,12 @@ siteMap:
       contents: 
        - menu_item: "FAQ"
          url: "/faq.html"
-       - menu_item: "Community"
-         url: "/community.html"
        - menu_item: "Contribute"
          url: "/contribute.html"
        - menu_item: "GitHub"
          url: "https://github.com"
-       - menu_item: "#Gitter"
-         url: "https://gitter.im"
+       - menu_item: "Forum"
+         url: "#"
     - title: 'DISCOVER'
       contents: 
        - menu_item: "Documentation"

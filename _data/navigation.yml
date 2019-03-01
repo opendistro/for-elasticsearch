@@ -9,8 +9,9 @@
         url: features/SQL%20Support.html
       - title: Performance Analyzer
         url: features/analyzer.html
-  - title: Contribute
-    url: /contribute.html
   - title: Community
     url: /community.html
+  - title: Contribute
+    url: /contribute.html
+  
   

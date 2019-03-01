@@ -45,9 +45,11 @@
 
 		        {% if feature.action_learn %} 
 		          <a class="btn pt-3 link-on-white" href="{{ feature.action_learn.url | relative_url }}" role="button"> {{ feature.action_learn.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
-		        {% endif %}  
+		        {% endif %} 
+                
+                {% if feature.action_download %}
 		          <a class="btn pt-3 link-on-white" href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
-
+                {% endif %}
 	          </div>
 
             </div>
@@ -109,8 +111,10 @@
 		       {% if feature.action_learn %} 
 		          <a class="btn pt-3 link-on-white" href="{{ feature.action_learn.url | relative_url }}" role="button"> {{ feature.action_learn.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
 		        {% endif %}  
+		        
+		       {% if feature.action_download %}
 		          <a class="btn pt-3 link-on-white"  href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
-
+                {% endif %}
 	          </div>
 
             </div>	    

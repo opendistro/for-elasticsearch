@@ -16,27 +16,27 @@ features:
   - title: Encryption
     content: Encryption in-transit is essential to prevent your data from being intercepted when in-transit from your clients or between nodes within your cluster. Open Distro for Elasticsearch supports OpenSSL and TLS 1.2, allowing you to meet stringent security and compliance requirements while providing easy integration with your PKI infrastructure.
     img: "/assets/media/screenshots/encryption.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Authentication
     content: With Open Distro for Elasticsearch, you can leverage your existing authentication infrastructure such as LDAP/Active Directory, SAML, Kerberos, JSON web tokens, TLS certificates, and Proxy authentication/SSO for user authentication. Additionally, an internal user repository with support for basic HTTP authentication is provided for easy setup and evaluation.
     img: "/assets/media/screenshots/security_login_page.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Role-based access control
     content: Granular, role-based access control enables you to control the actions a user can perform on your Elasticsearch cluster. Roles control cluster operations, access to indices, and even the fields and documents your users can access. Open Distro for Elasticsearch also supports multi-tenant environments, allowing multiple teams to share the same cluster while only being able to access their team's data and dashboards.
     img: "/assets/media/screenshots/security_roles.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Audit Logging
     content: With audit logging, you can record and track all the actions performed by users in your Elasticsearch cluster and monitor any suspicious activity, which is essential for security incident response. Audit logging also helps you remain compliant with government and industry regulations such as GDPR, HIPAA, PCI, and ISO. 
     img: "/assets/media/screenshots/alert_screen_1.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
 
 featureList:
   title: Features

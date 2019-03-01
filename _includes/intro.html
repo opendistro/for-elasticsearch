@@ -1,4 +1,4 @@
-<div class="container" style="padding: 80px 0;">
+<div class="container" style="padding: 40px 0;">
   <div class="px-3">
 
     <!-- Title -->
@@ -48,16 +48,21 @@
     {% if include.intro.buttons %}
       <div class="row justify-content-center text-center pt-3 pb-5">
 
-		   <div class="col-12 col-md-2">
-		      <a class="btn btn-outline-primary-on-white btn-round btn-block" href="{{include.intro.buttons.url_primary}}" role="button">
-		        {{include.intro.buttons.label_primary}}
-		      </a>
-		   </div>
-		   <div class="col-12 col-md-2">
-		      <a class="btn btn-outline-secondary-on-white btn-round btn-block" href="{{include.intro.buttons.url_secondary}}" role="button">
-		        {{include.intro.buttons.label_secondary}}
-		      </a>
-		   </div>
+		   {% if include.intro.buttons.label_primary %}
+			   <div class="col-12 col-md-3">
+			      <a class="btn btn-outline-primary-on-white btn-block" href="{{include.intro.buttons.url_primary}}" role="button">
+			        {{include.intro.buttons.label_primary}}
+			      </a>
+			   </div>
+           {% endif %}
+
+		   {% if include.intro.buttons.label_secondary %}
+			   <div class="col-12 col-md-3">
+			      <a class="btn btn-outline-secondary-on-white btn-block" href="{{include.intro.buttons.url_secondary}}" role="button">
+			        {{include.intro.buttons.label_secondary}}
+			      </a>
+			   </div>
+		   {% endif %}
 
 	  </div>
 	{% endif %}

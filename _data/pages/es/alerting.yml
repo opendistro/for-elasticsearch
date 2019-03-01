@@ -15,22 +15,22 @@ features:
   - title: Create monitors
     content: With Open Distro for Elastisearch, you can easily create monitors using the Kibana UI with a simple visual editor or with an Elasticsearch query. This gives you the flexibility to query the data most interesting to you and receive alerts on it. For instance, if you are ingesting access logs, you can choose to be notified when the same user logs in from multiple locations within an hour, enabling you to proactively address possible intrusion attempts.
     img: "/assets/media/screenshots/create_monitors.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Configure your trigger conditions
     content: Trigger conditions allow you to define the alerting threshold and severity. Each monitor can have multiple trigger conditions, enabling you to query the data once and generate the appropriate action. Triggers, like monitors, are highly customizable and can be created using a simple visual editor or Painless scripts.
 
     img: "/assets/media/screenshots/screen3.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Get notified
     content: Open Distro for Elasticsearch provides multiple alerting options with built-in integrations for webhook and Slack. Webhook support integrates with your existing monitoring infrastructure or any third-party system. You can format alerts using Mustache to embed relevant information in the notifications to ensure your team knows what to do when they get them.
     img: "/assets/media/screenshots/screen2.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
 
 
 alerts:

@@ -12,4 +12,17 @@
           {% endfor %}
 	    </div>
 	</div>
+
+	 <!-- Buttons -->
+    {% if include.intro.buttons %}
+      <div class="row justify-content-center text-center pt-3 pb-5">
+
+		   <div class="col-12 col-md-2">
+		      <a class="btn btn-outline-primary-on-white btn-block" href="{{include.intro.buttons.url_primary}}" role="button">
+		        {{include.intro.buttons.label_primary}}
+		      </a>
+		   </div>
+
+	  </div>
+	{% endif %}
 </div>  

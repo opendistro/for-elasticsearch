@@ -15,26 +15,29 @@ features:
   - title: Perform diagnostics across the stack
     content: Performance Analyzer provides a powerful REST API for querying Elasticsearch metrics and consumption of network, disk, and operating system resources. This visibility into the metrics gives you the ability to identify system bottlenecks at all layers of the stack.
     img: "/assets/media/screenshots/perftop_1.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Runs independent of your cluster
     content: Performance Analyzer runs independent of your Elasticsearch cluster, ensuring that you can still perform diagnostics and resolve issues, even if your cluster is under duress.
     img: "/assets/media/screenshots/perftop_2.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Analyze hundreds of data points
     content: Performance Analyzer supports over 60 metrics across 10 dimensions providing unprecedented instrumentation of your cluster health. You can use a variety of aggregations to measure performance, and capture the details you need to diagnose software bottlenecks and hardware issues.
     img: "/assets/media/screenshots/perftop_3.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'  
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'  
 
 performance:
   title: Use PerfTop CLI to interact with Performance Analyzer
   text: The PerfTop CLI provides pre-configured dashboards for analyzing cluster, node, shard performance, and more. PerfTop supports custom JSON templates enabling you to create the dashboards you need to diagnose your cluster performance.
   img: "/assets/media/screenshots/perftop1.png"  
+  buttons:
+    label_primary: 'Download PerfTop CLI'
+    url_primary: 'downloads.html'  
 
 # intro:
 #   title: PerfTop

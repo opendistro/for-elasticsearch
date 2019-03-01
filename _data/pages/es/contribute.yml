@@ -2,31 +2,32 @@ banner:
   title: Contribute
 
 intro:
-  title: <b>Open Distro</b> for Elasticsearch is committed
-  ext_content: As its feature set grows, Open Distro for Elasticsearch is and will remain 100% open and Apache licensed and will accept community contributions with Apache or Apache compatible licenses. And as we grow the community around Open Distro, we welcome you on behalf of the project to come join, participate and contribute.
-
-partecipate:
-  title: Partecipate in the Open Distro project
+  title: Come together
   content: 
-    - paragraph: "Follow us on GitHub, answer Open Distro questions on StackOverflow or chat with us on Gitter. You can also contribute as a developer or other technologist, as a company or organization. Participation and contribution can range from writing technical documentation to bug fixing to writing code."
-    - paragraph: "A good way to begin is to check out the issues backlog on Github. Here all of the project's issues are documented: they are listed, labelled and their status identified. It's a great place to develop an understanding of the current activity of the project and to look for ways to jump in and contribute."
+    - paragraph: Open Distro for Elasticsearch is and will remain 100% open source under the Apache 2.0 license. As the project grows, we hope you will join us and contribute. We want to make it easy for you to get started and remove friction—no lengthy Contributor License Agreement—so you can focus on writing great code.
+    - paragraph: Bug fixes welcome, too.
   
-contributeCode:
-  title: Contribute Code
-  content: 
-   - paragraph: To create a feature proposal or to fix a bug for Open Distro, open an issue on the issue tracker on GitHub and ask our release team to add an appropriate label for your proposal. <p> 
-   - paragraph: You can search the issue tracker for any similar feature or bug fix proposals. Consider joining the discussion about the issue. For new features or fixes, you may want to start a discussion about our proposal and perhaps ask for comments of help. Our community team will be happy to chat ith you about your ideas.
-   - paragraph: "When ready, you may submit a merge request with the feature or bug fix. Appropriate tests and documentation should be submitted with the merge request. The specific steps to follow are at <https://github.com/opendistroforelasticsearch/elasticsearch-oss/merge_requests (https://opendistro.com/merge_requests)>"
-  
-contributeDoc:    
-  title: Contribute documentation
-  content:
-    - paragraph: Great documentation is always welcome on open source projects and helps everyone use the software to maximum benefit. 
-    - paragraph: Documentation contributions can include fixes for mistakes or changes that add examples, how-tos and tutorials, or that address areas needing deeper understanding.
 
-getHelp:  
-  title: Getting help
+contributeDoc:
+  title: Write the docs
+  content: 
+    - paragraph: "If you can't contribute code, contribute documentation. We use Markdown, which is easy to read and easy to write. Code snippets and examples are essential in helping users get up to speed. The documentation repository has everything you need to get started."
+  buttons:
+    label_primary: Browse documentation
+    url_primary: "http://ettea.aka.corp.amazon.com/opendist/"
+
+upstream:    
+  title: Supporting upstream
   content:
-    - paragraph: "Keep up-to-date via our mailing list at <a href='mailto:mail@opendistro.com'>mail@opendistro.com</a>."
-    - paragraph: Ask questions in our chat room on our Open Distro for Elasticsearch Community Gitter channel.
-    - paragraph: "Join discussions in areas you are interested in. You can reach out to project team members as indentified on the <a href='https://opendistro.com/team_members' class='link-on-white-paragraph'>Open Distro team page.</a>"
+    - paragraph: While we build new capabilities into Open Distro for Elasticsearch, we will contribute features and fixes to the upstream Elasticsearch project to support its continued advancement. Open Distro for Elasticsearch is not a fork. Our goal is to help ensure the health of a thriving ecosystem.
+  buttons:
+    label_primary: Review the FAQ
+    url_primary: "/faq.html"
+
+plugin:    
+  title: Plug it in
+  content:
+    - paragraph: Already have a great plugin? Reach out to us on the forum. We're always looking for new ways to make Open Distro for Elasticsearch even better.
+  buttons:
+    label_primary: Product ideas forum
+    url_primary: "/faq.html"    
