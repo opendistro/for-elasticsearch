@@ -1,7 +1,7 @@
 banner:
   title: Open Distro for Elasticsearch
   product: Elasticsearch
-  content: An Apache 2.0-licensed distribution of Elasticsearch including enterprise security, alerting, SQL and more
+  content: An Apache 2.0-licensed distribution of Elasticsearch enhanced with enterprise security, alerting, SQL and more
   actions:
     primary:
       text: 'Download'

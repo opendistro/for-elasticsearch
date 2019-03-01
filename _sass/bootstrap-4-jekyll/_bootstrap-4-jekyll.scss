@@ -356,8 +356,15 @@
 .nav li.active a {
   font-weight: 800;
 }
+
+.nav-item .btn{
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
+}
   
 }
+ /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 576px) {  
 
@@ -708,9 +715,16 @@
 .nav li.active a {
   font-weight: 800;
 }
+
+.nav-item .btn{
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
+}
   
 }
- 
+ /* ----------------------------------------------------------------------------------------------------------------------------------*/
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
 
@@ -1062,9 +1076,23 @@
 .nav li.active a {
   font-weight: 800;
 }
-  
+
+.navbar-brand img {
+  width: 100%;
+  min-width: 300px;
+  vertical-align: middle; 
 }
- 
+
+.nav-item .btn{
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
+}
+  
+
+}
+ /* ----------------------------------------------------------------------------------------------------------------------------------*/
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
@@ -1416,9 +1444,30 @@
 .nav li.active a {
   font-weight: 800;
 }
+
+.navbar-brand img {
+  width: 90%;
+  min-width: 180px;
+  vertical-align: middle; 
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 14px;
+    min-width: 73px;
+    text-align: center;
+}
+
+.nav-item .btn{
+    font-size: 14px;
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
+}
   
 }
- 
+/* ----------------------------------------------------------------------------------------------------------------------------------*/
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
   
@@ -1773,6 +1822,27 @@
 
 .nav-link {
   white-space: nowrap; 
+}
+
+.navbar-brand img {
+  width: 100%;
+  min-width: 300px;
+  vertical-align: middle; 
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 18px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.nav-item .btn{
+    font-size: 16px;
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
 }
 
 }
