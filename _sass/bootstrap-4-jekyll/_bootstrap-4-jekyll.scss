@@ -9,6 +9,24 @@
 
 @media (max-width: 576px) {  
 
+.col-12 {
+  max-width:25%;  
+}
+
+// Feature icons
+
+.feature-icons-container {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: lightgrey;
+  padding-top:40px;
+}
+
+.feature-icons { 
+   width: 30px;
+   height:30px;
+}
+
 .page-content {
   img {
     max-width: 100%;
@@ -797,6 +815,20 @@
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
+
+// Feature Icons
+
+.feature-icons-container {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: lightgrey;
+  padding-top:80px;
+}
+
+.feature-icons { 
+   width: 42px;
+   height:42px;
+}
 
 .page-content {
   img {
@@ -1613,6 +1645,21 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
   
+
+// Feature icons
+
+.feature-icons-container {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: lightgrey;
+  padding-top:80px;
+}
+
+.feature-icons { 
+   width: 42px;
+   height:42px;
+}
+
 .page-content {
   img {
     max-width: 100%;
