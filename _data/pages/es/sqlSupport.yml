@@ -38,6 +38,10 @@ features:
       label: 'Download JDBC driver'
       url: 'downloads.html#SQL'
 
+bottomBanner:
+  class: sqlSupportBannerBottom
+  text: 'Join our community of developers in advancing the future of Security'
+  color: "#2797f4"
 # dataTypes:
 #   title: Supported Data Types
 #   sections:

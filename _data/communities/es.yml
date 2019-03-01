@@ -1,9 +1,5 @@
-title: Open Distro for Elasticsearch is open source software and licensed under Apache 2.0
-gitter: 
-  footerText: Gitter
-  text: Join our Gitter community 
-  url: 'http://gitter.im'
+forum: 
+  text: Join the discussion
+    
 github: 
-  footerText: Github
-  text: Join our Github community 
-  url: 'http://github.com'
+  text: Contribute on GitHub

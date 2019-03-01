@@ -39,6 +39,11 @@ performance:
     label_primary: 'Download PerfTop CLI'
     url_primary: '/downloads.html#PerfTop'  
 
+bottomBanner:
+  class: analyzerBannerBottom
+  text: 'Join our community of developers in advancing the future of Security'
+  color: "#ed20eb"
+
 # intro:
 #   title: PerfTop
 #   content: Visualize your Elasticsearch cluster state

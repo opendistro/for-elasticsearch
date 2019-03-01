@@ -1,0 +1,14 @@
+github: 
+  security: 'https://github.com'
+  alerting: 'https://github.com'
+  analyzer: 'https://github.com'
+  sql: 'https://github.com'
+  docs: 'https://github.com'
+
+forum: 
+  security: 'https://discourse.org'
+  alerting: 'https://discourse.org'
+  analyzer: 'https://discourse.org'
+  sql: 'https://discourse.org'
+  
+

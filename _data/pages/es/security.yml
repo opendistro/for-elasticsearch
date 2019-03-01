@@ -82,5 +82,9 @@ featureList:
        - feature_item: "Elasticsearch installation monitoring"
        - feature_item: "Search Guard configuration monitoring"
 
+bottomBanner:
+  class: securityBannerBottom
+  text: 'Join our community of developers in advancing the future of Security'
+  color: "#9600ff"
 
 

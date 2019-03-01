@@ -38,6 +38,11 @@ alerts:
   text: A complete history of all alert executions are indexed in Elasticsearch for easy tracking and visualization in Kibana. What are my active alerts? How frequently has this monitor been in alert? Are my alerts executing? What actions were taken? All of this information is easily accessible from the user interface.
   img: "/assets/media/screenshots/alert_screen_1.png"
 
+bottomBanner:
+  class: alertingBannerBottom
+  text: 'Join our community of developers in advancing the future of Security'
+  color: "#ff006b"
+
 
 
 
