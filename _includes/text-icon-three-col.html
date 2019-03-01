@@ -4,7 +4,7 @@
 	  {% capture thecycle%}{% cycle 'one', 'two', 'three' %}{% endcapture %} 
 	  {% if thecycle == 'one' %}
 	    <div class="row px-2 pt-2 text-center justify-content-center">
-	      <div class="col col-md-4">
+	      <div class="col col-md-4 col-sm-12">
             <!-- Icons -->
             {% if feature.img %}
 	           <div class="row text-center justify-content-center" >
@@ -13,8 +13,8 @@
 	        {% endif %}
 
 	        <!-- Title -->
-		       <div class="row pt-5" >
-		         <div class="col col-md-12 px-5"><h5>{{ feature.title }}</h5></div>
+		       <div class="row pt-md-4 pt-sm-1" >
+		         <div class="col col-md-12"><h5>{{ feature.title }}</h5></div>
 		       </div>
 
 		    <!-- Text -->
@@ -24,7 +24,7 @@
 
 	      </div>
 	  {% else %}
-	      <div class="col col-md-4">
+	      <div class="col col-md-4 col-sm-12">
 
 	        <!-- Icons -->
             {% if feature.img %}
@@ -34,8 +34,8 @@
 	        {% endif %}
 
 	        <!-- Title -->
-		       <div class="row pt-5">
-		         <div class="col col-md-12 px-5"><h5>{{ feature.title }}</h5></div>
+		       <div class="row pt-md-4 pt-sm-1">
+		         <div class="col col-md-12"><h5>{{ feature.title }}</h5></div>
 		       </div>
 
 		    <!-- Text -->

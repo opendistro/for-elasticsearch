@@ -1,25 +1,20 @@
 
 <!-- <div class="container-fluid"> -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-0 sticky" id="navbar">
 
-  <div class="container-fluid">
-    <a class="navbar-brand py-0" rel="author" href="{{ "/" | relative_url }}">
-      <div class="row" >
 
-        <div class="col-md-10" style="vertical-align: middle;">
-          <img src= "/assets/media/logos/OpenDistro-logo.svg" style="vertical-align: middle; min-width:300px;" width="100%">
-        </div>
-
-      </div>
-    </a>
-
-    {%- assign links = site.data.navigation -%}
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky" id="navbar">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-      <ul class="nav navbar-nav">
+    <a class="navbar-brand py-0" rel="author" href="{{ "/" | relative_url }}">
+      <img src= "/assets/media/logos/OpenDistro-logo.svg">
+    </a>
+
+    {%- assign links = site.data.navigation -%}
+    
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
 
         {%- for link in links -%}
 
@@ -69,9 +64,11 @@
             ><i class="fa fa-download"></i> {{site.data.pages.es.home.banner.actions.primary.text}} 
           </a>
         </li>  
-    </div>
+    
 
       </ul>
     </div>
+
 </nav>
+
 <!-- </div> -->
