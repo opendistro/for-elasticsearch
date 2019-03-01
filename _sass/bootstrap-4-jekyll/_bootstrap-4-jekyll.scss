@@ -238,7 +238,6 @@
 .homeBannerBottom {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
-  
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
@@ -291,6 +290,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.securityBannerBottom {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .securityFeaturesContainer {
   background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
   background-size: cover;
@@ -309,6 +317,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.alertingBannerBottom {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .analyzerBanner {
   background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
   background-size: cover;
@@ -318,7 +335,25 @@
   padding: 46px 80px 62px 80px;
 }
 
+.analyzerBannerBottom {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBannerBottom {
   background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
   background-size: cover;
   color: $white;
@@ -590,7 +625,6 @@
 .homeBannerBottom {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
-  
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
@@ -643,6 +677,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.securityBannerBottom {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .securityFeaturesContainer {
   background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
   background-size: cover;
@@ -661,6 +704,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.alertingBannerBottom {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .analyzerBanner {
   background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
   background-size: cover;
@@ -670,7 +722,25 @@
   padding: 46px 80px 62px 80px;
 }
 
+.analyzerBannerBottom {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBannerBottom {
   background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
   background-size: cover;
   color: $white;
@@ -997,6 +1067,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.securityBannerBottom {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .securityFeaturesContainer {
   background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
   background-size: cover;
@@ -1015,6 +1094,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.alertingBannerBottom {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .analyzerBanner {
   background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
   background-size: cover;
@@ -1024,7 +1112,25 @@
   padding: 46px 80px 62px 80px;
 }
 
+.analyzerBannerBottom {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBannerBottom {
   background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
   background-size: cover;
   color: $white;
@@ -1351,6 +1457,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.securityBannerBottom {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .securityFeaturesContainer {
   background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
   background-size: cover;
@@ -1369,6 +1484,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.alertingBannerBottom {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .analyzerBanner {
   background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
   background-size: cover;
@@ -1378,7 +1502,25 @@
   padding: 46px 80px 62px 80px;
 }
 
+.analyzerBannerBottom {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBannerBottom {
   background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
   background-size: cover;
   color: $white;
@@ -1705,6 +1847,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.securityBannerBottom {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .securityFeaturesContainer {
   background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
   background-size: cover;
@@ -1723,6 +1874,15 @@
   padding: 46px 80px 62px 80px;
 }
 
+.alertingBannerBottom {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .analyzerBanner {
   background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
   background-size: cover;
@@ -1732,7 +1892,25 @@
   padding: 46px 80px 62px 80px;
 }
 
+.analyzerBannerBottom {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
 .sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBannerBottom {
   background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
   background-size: cover;
   color: $white;

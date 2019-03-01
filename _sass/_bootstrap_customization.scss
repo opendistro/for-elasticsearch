@@ -36,10 +36,16 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
     border: 1px solid $white;
     color: $white;
   }
-  
+
   &-outline-secondary:hover {
     border: 1px solid $white;
     color: $white;
+    background-color: transparent;
+  }
+  
+  &-outline:disabled,
+    .btn-outline.is-disabled {
+    opacity: .5;
   }
 
   &-outline-primary-on-white {
