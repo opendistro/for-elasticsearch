@@ -1,42 +1,41 @@
 banner:
   title: SQL
   subtitle: Open Distro for Elasticsearch
-  actions:
-    primary: 
-      text: 'Download'
-      url: 'downloads.html'
-  color: "#2797f4"  
-  # content: Some text
-  # icon: "/assets/media/icons/performance_analyzer_64px_w.svg"
+  # actions:
+  #   primary: 
+  #     text: 'Download'
+  #     url: 'downloads.html'
+  # color: "#2797f4"  
+  
 
 intro:
   title: Query data with the powerful SQL language
-  ext_content: Open Distro for Elasticsearch enables you to extract insight out of Elasticsearch using a familiar query syntax. Simply select the data you want and use SQL aggregations, group by, and where clauses to understand your data. SQL gives you the flexibility to read your data out as JSON documents or CSV tables so it's in a format that works best for you.
+  ext_content: Open Distro for Elasticsearch enables you to extract insights out of Elasticsearch using the familiar SQL query syntax. Use aggregations, group by, and where clauses to investigate your data. This feature gives you the flexibility to read your data as JSON documents or CSV tables so it's in a format that works best for you.
   
 features:
-  - title: Simple, performant and scalable
-    content: With Open Distro for Elasticsearch you can query your data using SQL instead of using the complex Elasticsearch JSON queries that can often require dozens of lines of code. Additionally, you are not trading simplicity for performance as SQL is highly responsive and scalable. Additionally, while using SQL you still get all of the benefits of Elasticsearch's full-text search and scoring capabilities.
+  - title: Simple, performant, and scalable
+    content: With Open Distro for Elasticsearch you can query your data using SQL instead of using Elasticsearch JSON queries that can often require dozens of lines of code. Additionally, you are not trading simplicity for performance as SQL is highly responsive and scalable. You still get all of the benefits of Elasticsearch's full-text search and scoring capabilities.
     img: "/assets/media/screenshots/scale_perf.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Support for a wide variety of SQL features
-    content: With support for more than 50 functions, data types, and commands with join support and direct export to CSV, Open Distro for Elasticsearch provides the SQL functionality you need to analyze your data.
+    content: With support for more than 40 functions, data types, and commands including join support and direct export to CSV, Open Distro for Elasticsearch provides the SQL functionality you need to analyze your data.
     img: "/assets/media/screenshots/sql_table.png"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
   - title: Translate SQL into Elasticsearch JSON
-    content: Convert SQL statements into Elasticsearch JSON queries with a simple explain call, enabling you to use SQL to create JSON to configure sophisticated access control policies in Security and monitors in Alerting.
+    content: Translate SQL statements into Elasticsearch JSON queries with a simple _explain call, enabling you to use SQL to create JSON to configure sophisticated access control policies in Security and monitors in Alerting.
     img: "/assets/media/screenshots/sql_json.gif"
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download JDBC driver'
+    #   url: 'downloads.html'
   - title: Integrate with  your applications
     content: Open Distro for Elasticsearch provides a JDBC driver, allowing you to use a wide variety of business intelligence, analytics, and ETL tools to extract and analyze your Elasticsearch data.
     img: "/assets/media/screenshots/JDBC.png"
     action_download:
-      label: 'Download'
+      label: 'Download JDBC driver'
       url: 'downloads.html'
 
 # dataTypes:

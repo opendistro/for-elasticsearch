@@ -38,14 +38,9 @@ layout: default
 		         {% endfor %}
 		         </div>  
 
-		        <!-- Descriptions -->
-		        <div class="row justify-content-center text-center pt-5 px-2">
-	               <div class="text-small"> {{software.description}}</div>
-		        </div>
-
 		        <!-- Downloads -->
-		        <div class="row justify-content-center text-center px-2 pt-3">
-	               <div class="col-12 col-md-10" style="border-top: 1px solid gray;"> </div>
+		        <div class="row justify-content-center text-center px-2">
+	               <div class="col-12 col-md-10" > </div>
 	                  {% for action in software.actions %}
 	                  <div class="col-12 col-md-4 software-download pt-3 pb-5 link-on-white-paragraph">
 	                     <a href="{action.url}" class="software-download">
@@ -55,6 +50,13 @@ layout: default
 	                 {% endfor%}
 		           
 	            </div>
+
+		        <!-- Descriptions -->
+		        <div class="row justify-content-center text-center py-3 px-2">
+	               <div class="text-small"> {{software.description}}</div>
+		        </div>
+
+		        
 		    </div>
 
 	{% else %}  
@@ -77,24 +79,25 @@ layout: default
 		         {% endfor %}
 		         </div> 
 
-		         <!-- Descriptions -->
-		        <div class="row justify-content-center text-center pt-5 px-3 vcenter">
-	               <div class="text-small"> {{software.description}}</div>
-		        </div> 
-
-		         <!-- Downloads -->
-		        <div class="row justify-content-center text-center px-2 pt-3">
-
-	               <div class="col-12 col-md-10" style="border-top: 1px solid gray;"> </div>
+		        <!-- Downloads -->
+		        <div class="row justify-content-center text-center px-2">
+	               <div class="col-12 col-md-10" > </div>
 	                  {% for action in software.actions %}
-		                  <div class="col-12 col-md-4 software-download pt-3 pb-5 link-on-white-paragraph">
-		                     <a href="{action.url}" class="software-download">
-		                         <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
-		                     </a>
-		                  </div>
+	                  <div class="col-12 col-md-4 software-download pt-3 pb-5 link-on-white-paragraph">
+	                     <a href="{action.url}" class="software-download">
+	                         <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                     </a>
+	                  </div>
 	                 {% endfor%}
 		           
-			    </div>
+	            </div>
+
+		        <!-- Descriptions -->
+		        <div class="row justify-content-center text-center py-3 px-2">
+	               <div class="text-small"> {{software.description}}</div>
+		        </div>
+
+
 		    </div>
 	    </div>
 	{% endif %}

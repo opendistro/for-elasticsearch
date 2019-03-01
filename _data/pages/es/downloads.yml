@@ -5,27 +5,27 @@ banner:
 
 intro:
   title: Getting started is easy
-  ext_content: Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as a SQL JDBC driver and Perormance Analyzer client, PerfTop. Get started now.
+  ext_content: Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as the SQL JDBC driver and Performance Analyzer client, PerfTop. Get started now.
 
 software:
-    - subtitle: <b>Open Distro</b> for Elasticsearch
+    - subtitle: Open Distro for Elasticsearch
       title: Elasticsearch
       imgs:
         - img_item: "/assets/media/icons/rpm.png"
         - img_item: "/assets/media/icons/docker.png"
-      description: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4 <br> Included plugins: Security, Alerting, SQL, and Performance Analyzer <br> Performance Analyzer agent"
+      description: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
       actions:
         - url: "#"
           label: RPM 64-BIT
         - url: "#"
           label: Docker 
 
-    - subtitle: <b>Open Distro</b> for Elasticsearch
+    - subtitle: Open Distro for Elasticsearch
       title: Kibana
       imgs:
         - img_item: "/assets/media/icons/rpm.png"
         - img_item: "/assets/media/icons/docker.png"
-      description: "<br>Kibana (Apache 2.0 licensed code only) - 6.5.4 <br> Included plugins: Security and Alerting"
+      description: "Kibana (Apache 2.0 licensed code only) - 6.5.4 <br> Includes Security and Alerting"
       actions:
         - url: "#"
           label: RPM 64-BIT

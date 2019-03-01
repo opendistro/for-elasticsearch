@@ -10,9 +10,17 @@
 	        </div>  
 
 	        <!-- Text -->
-	        <div class="row feature-icon-title justify-content-center align-items-center">
-	          <a href={{ feature.url | relative_url }} style='text-decoration: none;'><h8 class="text-icon" style="color: {{feature.color}};">{{feature.title}}</h8></a>
-	        </div>
+	        
+            {% if page.url contains feature.url %}
+		        <div class="row feature-icon-title justify-content-center align-items-center ">
+		          <a href={{ feature.url | relative_url }} style='text-decoration: none;'><h8 class="text-icon" style="color: {{feature.color}}; border-bottom: 2px solid {{feature.color}}; padding-bottom:5px;">{{feature.title}}</h8></a>
+		        </div>  
+	        {% else %}
+				<div class="row feature-icon-title justify-content-center align-items-center ">
+		          <a href={{ feature.url | relative_url }} style='text-decoration: none;'><h8 class="text-icon" style="color: {{feature.color}};">{{feature.title}}</h8></a>
+		        </div>  
+
+	        {% endif %}		      
 
 	      </div> 
 	    {% endfor %}  
