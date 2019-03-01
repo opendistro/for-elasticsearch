@@ -26,7 +26,7 @@ features:
     #   label: 'Download'
     #   url: 'downloads.html'
   - title: Role-based access control
-    content: Granular, role-based access control enables you to control the actions a user can perform on your Elasticsearch cluster. Roles control cluster operations, access to indices, and even the fields and documents your users can access. Open Distro for Elasticsearch also supports multi-tenant environments, allowing multiple teams to share the same cluster while only being able to access their team's data and dashboards.
+    content: Granular, role-based access control enables you to control the actions a user can perform on your Elasticsearch cluster. Roles control cluster operations, access to indices, and even the fields and documents users can access. Open Distro for Elasticsearch also supports multi-tenant environments, allowing multiple teams to share the same cluster while only being able to access their team's data and dashboards.
     img: "/assets/media/screenshots/security_roles.png"
     # action_download:
     #   label: 'Download'
