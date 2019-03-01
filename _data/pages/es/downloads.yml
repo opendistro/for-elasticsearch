@@ -50,6 +50,6 @@ software:
 
 bottomBanner:
   class: homeBannerBottom
-  text: 'Join our community of developers in advancing the future of Security'
+  text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0'
   color: "#0a1f72"
     

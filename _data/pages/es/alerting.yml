@@ -40,7 +40,7 @@ alerts:
 
 bottomBanner:
   class: alertingBannerBottom
-  text: 'Join our community of developers in advancing the future of Security'
+  text: 'Join our community of developers in advancing the future of Alerting'
   color: "#ff006b"
 
 

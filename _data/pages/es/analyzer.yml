@@ -41,7 +41,7 @@ performance:
 
 bottomBanner:
   class: analyzerBannerBottom
-  text: 'Join our community of developers in advancing the future of Security'
+  text: 'Join our community of developers in advancing the future of Performance Analyzer'
   color: "#ed20eb"
 
 # intro:
