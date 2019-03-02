@@ -36,7 +36,7 @@
 }
 
 .title-md {
-  font-size: 2rem;
+  font-size: 1.6rem;
   line-height: 1.5;
   letter-spacing: 1px;
   font-weight: 300;
@@ -372,6 +372,52 @@
 
 .text-icon-three-col p {
     padding: 0 30px 30px 30px;
+}
+
+.text-img-with-background h3 { 
+   font-size: 1.6rem;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 150;
+}
+
+.text-img-with-background h5 { 
+   font-size: 1.2rem;
+
+}
+
+.text-img-with-background p { 
+   font-size: .9rem;
+
+}
+
+.text-img-with-background .btn { 
+   font-size: .9rem;
+
+}
+
+.text-img-with-background{
+  background-color: #f3f6fc; padding: 40px 0;
+}
+
+.text-img-with-nobackground h5 { 
+   font-size: 1.2rem;
+
+}
+
+.text-img-with-nobackground p { 
+   font-size: .9rem;
+
+}
+
+.text-img-with-nobackground .btn { 
+   font-size: .9rem;
+
+}
+
+.text-img-with-nobackground{
+  padding: 40px 0;
 }
 
 }
@@ -741,6 +787,10 @@
 
 .text-icon-three-col img{
   width: 40px;
+}
+
+.text-img-with-background{
+  background-color: #f3f6fc; padding: 60px 0;
 }
   
 }
@@ -1117,6 +1167,9 @@
   width: 50px;
 }
   
+.text-img-with-background{
+  background-color: #f3f6fc; padding: 60px 0;
+}
 
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
@@ -1499,6 +1552,10 @@
 
 .text-icon-three-col img{
   width: 50px;
+}
+
+.text-img-with-background{
+  background-color: #f3f6fc; padding: 60px 0;
 }
   
 }
@@ -1888,6 +1945,27 @@
 
 .text-icon-three-col img{
   width: 50px;
+}
+
+.text-img-with-background h5{
+  
+
+}
+
+.text-img-with-background h3 { 
+   font-size: 2rem;
+   letter-spacing: 1px;
+   line-height: 1.7;
+   color: #111;
+   font-weight: 150;
+}
+
+.text-img-with-background{
+  background-color: #f3f6fc; padding: 60px 0;
+}
+
+.text-img-with-nobackground{
+  padding: 40px 0;
 }
 
 }
