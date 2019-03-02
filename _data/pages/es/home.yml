@@ -30,9 +30,9 @@ descriptions:
     action_learn:
       label: 'Learn more'
       url: '/features/security.html'
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
 
   - title: Get notified automatically
     subtitle: Alerting
@@ -41,9 +41,9 @@ descriptions:
     action_learn:
       label: 'Learn more'
       url: '/features/alerting.html'
-    action_download:
-      label: 'Download'
-      url: 'downloads.html'
+    # action_download:
+    #   label: 'Download'
+    #   url: 'downloads.html'
 
   - title: Query with familiar tools
     subtitle: SQL
@@ -54,7 +54,7 @@ descriptions:
       url: '/features/SQL%20Support.html'
     action_download:
       label: 'Download'
-      url: 'downloads.html'
+      url: '/downloads.html#SQL'
 
   - title: Get deep diagnostic insights
     subtitle: Performance Analyzer
@@ -65,7 +65,7 @@ descriptions:
       url: '/features/analyzer.html'
     action_download:
       label: 'Download'
-      url: 'downloads.html'
+      url: '/downloads.html#PerfTop'
 
 partners:
   - alt_text: 'AWS'
