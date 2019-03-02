@@ -26,7 +26,7 @@ features:
     #   label: 'Download'
     #   url: 'downloads.html'
   - title: Get notified
-    content: Open Distro for Elasticsearch provides multiple alerting options with built-in integrations for webhook and Slack. Webhook support integrates with your existing monitoring infrastructure or any third-party system. You can format alerts using <a href="https://opendistro.github.io/for-elasticsearch-docs/docs/alerting/monitors/#add-actions">Mustache</a> to embed relevant information in the notifications to ensure your team knows what to do when they get them.
+    content: Open Distro for Elasticsearch provides multiple alerting options with built-in integrations for webhook and Slack. Webhook support integrates with your existing monitoring infrastructure or any third-party system. You can format alerts using Mustache to embed relevant information in the notifications to ensure your team knows what to do when they get them.
     img: "/assets/media/screenshots/screen2.png"
     # action_download:
     #   label: 'Download'

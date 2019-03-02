@@ -3,7 +3,7 @@ banner:
 
 intro:
   title: Engaging with our Community
-  ext_content:  The Open Distro for Elasticsearch project has been started by AWS. Its success is driven by the community’s participation, contributions, and innovation to the project. Here are some ways you can follow and engage with us.
+  ext_content:  The Open Distro for Elasticsearch project has been started by AWS. Its success is drive by the community’s participation, contributions and innovation to the project. Here are some ways you can follow and engage with us.
 
 github: 
   img: "/assets/media/icons/octocat.png"
