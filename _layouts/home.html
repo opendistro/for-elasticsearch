@@ -15,23 +15,22 @@ layout: default
 
 <div class="pt-5"/>
 
-<!-- Features Descriptions -->
-{%- include text-img-with-background.html features=site.data.pages.es.home.descriptions -%}
+<!-- Intro -->
+{%- include intro-with-background.html intro=site.data.pages.es.home.intro -%}
 
 <div class="pt-5"/>
 
-<!-- Intro -->
-{%- include intro-with-background.html intro=site.data.pages.es.home.intro -%}
-<!-- End Intro-->
+<!-- Features Descriptions -->
+{%- include text-img-without-background.html features=site.data.pages.es.home.descriptions -%}
+
+<div class="pt-5"/>
+
 
 <!-- Partners Starts-->
 {%- include intro-without-background.html intro=site.data.pages.es.home.partners -%} 
 
-<!-- Partners Ends-->
 
 <!-- Community -->
 {%- include communities/es.html community=site.data.pages.es.home.bottomBanner github=site.data.links.github.alerting forum= site.data.links.forum.alerting-%}
-<!-- Community Ends -->
-
 
  
