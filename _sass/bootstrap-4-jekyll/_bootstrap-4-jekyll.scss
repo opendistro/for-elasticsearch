@@ -417,7 +417,6 @@
   padding: 40px 0;
 }
 
->>>>>>> parent of 6ada71f... Merge branch 'frapao-web' of https://github.com/OpenDistro/opendistro-web into frapao-web
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -1860,6 +1859,10 @@
    color: $white;
    line-height: 1.6;
    font-weight: 300;
+}
+
+.text-img-with-background{
+  background-color: #f3f6fc; padding: 40px 0;
 }
 
 .text-bold {
