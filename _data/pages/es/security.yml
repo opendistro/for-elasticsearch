@@ -83,7 +83,7 @@ featureList:
        - feature_item: "Search Guard configuration monitoring"
 
 bottomBanner:
-  class: securityBannerBottom
+  class: securityBanner
   text: 'Join our community of developers in advancing the future of Security'
   color: "#9600ff"
 

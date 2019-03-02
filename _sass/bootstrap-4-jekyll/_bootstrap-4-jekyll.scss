@@ -91,9 +91,9 @@
 }
 
 .title-in-banner {
-  font-size: 3.2rem;
+  font-size: 2.6rem;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 1px;
   color: $white;
 }
@@ -123,7 +123,7 @@
 }
 
 .subtitle-in-banner { 
-   font-size: 1.8rem;
+   font-size: 1.2rem;
    letter-spacing: 1px;
    color: $white;
    font-weight: 300;
@@ -174,8 +174,7 @@
 }
 
 .text-icon {
-  font-size: 0.8rem;
-  line-height: 3;
+  font-size: 0.7rem;
   font-weight:400;
 }
 
@@ -281,40 +280,31 @@
   padding: 80px 80px 30px 80px;
 }
 
-.elasticsearchBanner {
-  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
-  background-size: cover;
+.featureBanner {
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
-  padding: 80px 80px 30px 80px;
-}
-
-.kibanaBanner {
-  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
-  background-size: cover;
-  color: $white;
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 80px 80px 30px 80px;
+  padding: 46px 80px 62px 80px;
 }
 
 .securityBanner {
   background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
   background-size: cover;
-  color: $white;
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 46px 80px 62px 80px;
 }
 
-.securityBannerBottom {
-  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+.alertingBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
   background-size: cover;
-  color: $white;
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
 }
 
 .securityFeaturesContainer {
@@ -324,51 +314,6 @@
   margin-bottom: 0;
   border-radius: 0;
   padding: 40px 80px 60px 80px;
-}
-
-.alertingBanner {
-  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
-  background-size: cover;
-  color: $white;
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 46px 80px 62px 80px;
-}
-
-.alertingBannerBottom {
-  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
-  background-size: cover;
-  color: $white;
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 46px 80px 62px 80px;
-}
-
-.analyzerBanner {
-  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
-  background-size: cover;
-  color: $white;
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 46px 80px 62px 80px;
-}
-
-.analyzerBannerBottom {
-  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
-  background-size: cover;
-  color: $white;
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 46px 80px 62px 80px;
-}
-
-.sqlSupportBanner {
-  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
-  background-size: cover;
-  color: $white;
-  margin-bottom: 0;
-  border-radius: 0;
-  padding: 46px 80px 62px 80px;
 }
 
 .sqlSupportBannerBottom {

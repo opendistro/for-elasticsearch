@@ -39,7 +39,7 @@ alerts:
   img: "/assets/media/screenshots/alert_screen_1.png"
 
 bottomBanner:
-  class: alertingBannerBottom
+  class: alertingBanner
   text: 'Join our community of developers in advancing the future of Alerting'
   color: "#ff006b"
 

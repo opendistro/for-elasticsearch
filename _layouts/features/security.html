@@ -1,18 +1,16 @@
 ---
 layout: default
 ---
-<!-- Breadcrumbs -->
-<!-- <div class="container-fluid">
-	{% include breadcrumbs.html %}
-</div> -->
 
 <!-- Feature icons -->
 {%- include feature_icons.html -%}
 
 <!-- Banner -->
-<div class="container-fluid securityBanner">
+<div class="container-fluid featureBanner securityBanner">
   {%- include banner.html banner=site.data.pages.es.security.banner -%}
 </div>
+
+<div class="pt-5"/>
 
 <!-- Intro -->
 {%- include intro.html intro=site.data.pages.es.security.intro -%}
@@ -20,30 +18,6 @@ layout: default
 
 <!-- Features -->
 {%- include text-img-with-background.html features=site.data.pages.es.security.features -%}
-
-<!--  Feature box -->
-<!-- <div class="container-fluid securityFeaturesContainer">
- 
-    <div class="row justify-content-center text-center">
-      <h2 class="title-on-dark">{{site.data.pages.es.security.featureList.title}}</h2>
-    </div>
-	<div class="row d-flex justify-content-around py-3 text-on-dark">
-	    {% for section in site.data.pages.es.security.featureList.sections %}
-	    <div class="col-md-4 px-5 py-5 d-block justify-content-center" style="padding-left:20px;">
-	      
-	        <ul class="list-unstyled">
-	          {% for feature in section.content %}
-	            <li>
-	              {{ feature.feature_item }}
-	            </li>
-	          {% endfor %}
-	        </ul>
-	      
-	    </div>
-	    {% endfor %}
-	  </div>
-	
-</div>	 -->  
 
 <!-- Community Starts -->
 {%- include communities/es.html community=site.data.pages.es.security.bottomBanner github=site.data.links.github.security forum= site.data.links.forum.security-%}

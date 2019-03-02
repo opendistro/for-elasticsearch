@@ -39,7 +39,7 @@ features:
       url: 'downloads.html#SQL'
 
 bottomBanner:
-  class: sqlSupportBannerBottom
+  class: sqlSupportBanner
   text: 'Join our community of developers in advancing the future of SQL'
   color: "#2797f4"
 # dataTypes:

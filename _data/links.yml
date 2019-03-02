@@ -1,9 +1,11 @@
 github: 
-  security: 'https://github.com'
-  alerting: 'https://github.com'
-  analyzer: 'https://github.com'
-  sql: 'https://github.com'
-  docs: 'https://github.com'
+  security: 'https://www.github.com/opendistroforelasticsearch/security﻿'
+  alerting: 'https://www.github.com/opendistroforelasticsearch/alerting﻿'
+  analyzer: 'https://www.github.com/opendistroforelasticsearch/performance-analyzer﻿'
+  sql: 'https://www.github.com/opendistroforelasticsearch/sql﻿'
+
+website:  
+  docs: 'https://opendistro.github.io/for-elasticsearch-docs﻿'
 
 forum: 
   security: 'https://discourse.org'
