@@ -3,13 +3,13 @@ siteMap:
     - title: 'OPEN DISTRO FEATURES'
       contents: 
        - menu_item: "Alerting"
-         url: "features/alerting.html"
+         url: "/features/alerting.html"
        - menu_item: "Security"
-         url: "features/security.html"
+         url: "/features/security.html"
        - menu_item: "SQL Support"
-         url: "features/sqlSupport.html"
+         url: "/features/sql%20Support.html"
        - menu_item: "Performance Analyzer"
-         url: "features/analyzer.html"
+         url: "/features/analyzer.html"
     - title: 'COMMUNITY'
       contents: 
        - menu_item: "FAQ"
@@ -17,12 +17,12 @@ siteMap:
        - menu_item: "Contribute"
          url: "/contribute.html"
        - menu_item: "GitHub"
-         url: "https://github.com"
+         url: "https://www.github.com/opendistroforelasticsearch"
        - menu_item: "Forum"
-         url: "#"
+         url: "https://mauve-hedgehog.trydiscourse.com/"
     - title: 'DISCOVER'
       contents: 
        - menu_item: "Documentation"
-         url: "http://ettea.aka.corp.amazon.com/opendist/"
-       - menu_item: "Deployment"
-         url: "downloads.html"
+         url: "https://opendistro.github.io/for-elasticsearch-docs﻿"
+       - menu_item: "Download"
+         url: "/downloads.html"

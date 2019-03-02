@@ -13,23 +13,15 @@ github:
   # action_content: "File an issue at: https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues."
   buttons:
     label_primary: Browse GitHub
-    url_primary: "https://github.com/opendistroforelasticsearch/elasticsearch-oss/issues"
+    url_primary: "https://www.github.com/opendistroforelasticsearch"
 
-gitter: 
+forum: 
   img: "/assets/media/icons/gitter-icon.png"
   title: "Forum"
   content: Engage with the community to ask questions, get answers, solve problems and discuss new ideas.
   buttons:
     label_primary: Join the conversation
-    url_primary: "https://gitter.im/opendistroforelasticsearch"
-
-stackoverflow:
-  img: "/assets/media/icons/stack-icon.png"
-  title: "Stack Overflow"
-  content: "Questions and discussions on Open Distro for Elasticsearch and components like Alerting, SQL, Performance Analyzer, PerfTop."
-  buttons:
-    label_primary: Find us on Stack Overflow
-    url_primary: "https://stackoverflow.com/search?q=opendistroforelasticsearch"
+    url_primary: "https://mauve-hedgehog.trydiscourse.com/"
 
 meetups:
   img: "/assets/media/icons/meetups.png"

@@ -3,14 +3,16 @@ github:
   alerting: 'https://www.github.com/opendistroforelasticsearch/alerting﻿'
   analyzer: 'https://www.github.com/opendistroforelasticsearch/performance-analyzer﻿'
   sql: 'https://www.github.com/opendistroforelasticsearch/sql﻿'
+  home: 'https://www.github.com/opendistroforelasticsearch'
 
 website:  
   docs: 'https://opendistro.github.io/for-elasticsearch-docs﻿'
 
 forum: 
-  security: 'https://discourse.org'
-  alerting: 'https://discourse.org'
-  analyzer: 'https://discourse.org'
-  sql: 'https://discourse.org'
+  security: 'https://mauve-hedgehog.trydiscourse.com/c/security'
+  alerting: 'https://mauve-hedgehog.trydiscourse.com/c/alerting'
+  analyzer: 'https://mauve-hedgehog.trydiscourse.com/c/performance-analyzer'
+  sql: 'https://mauve-hedgehog.trydiscourse.com/c/sql'
+  home: 'https://mauve-hedgehog.trydiscourse.com/'
   
 

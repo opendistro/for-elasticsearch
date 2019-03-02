@@ -59,7 +59,7 @@
 }
 
 .title-bg {
-  font-size: 3.0rem;
+  font-size: 2.0rem;
   line-height: 1.5;
   letter-spacing: 1px;
   font-weight: 400;
@@ -353,6 +353,10 @@
   font-weight: 800;
 }
 
+.nav-item.active a {
+  font-weight: 800;
+}
+
 .nav-item .btn{
     margin-top:5px;
     margin-left:22px;
@@ -415,23 +419,27 @@
 }
 
 .intro-with-background p{
-  
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 .intro-with-background h1{
-  
-font-size: 1.7rem;
+  font-size: 1.7rem;
+}
+
+.intro-without-background {
+  padding: 20px 0;
 }
 
 .intro-without-background p{
-  
-font-size: 1rem;
+  font-size: 1rem;
 }
 
 .intro-without-background h1{
-  
-font-size: 1.7rem;
+  font-size: 1.7rem;
+}
+
+.download-img {
+  width: 50%;
 }
 
 }
@@ -836,6 +844,10 @@ font-size: 1.7rem;
 
 .text-icon-three-col img{
   width: 40px;
+}
+
+.intro-without-background {
+  padding: 20px 0;
 }
   
 }
@@ -1256,14 +1268,16 @@ font-size: 1.7rem;
 
 /*text-icon-three-col*/
 
-
 .text-icon-three-col img{
   width: 50px;
-}
-  
+}  
 
 .text-img-with-background{
   background-color: #f3f6fc; padding: 40px 0;
+}
+
+.intro-without-background {
+  padding: 20px 0;
 }
 
 }
@@ -2086,6 +2100,10 @@ font-size: 1.7rem;
   padding: 80px 80px 30px 80px;
 }
 
+.intro-without-background {
+  padding: 120px 0;
+}
+
 .btn-140{
   max-width: 140px;
 }
@@ -2127,6 +2145,7 @@ font-size: 1.7rem;
   padding: 0 16px;
 }
 
+
 /*text-icon-three-col*/
 
 .text-icon-three-col img{
@@ -2139,6 +2158,10 @@ font-size: 1.7rem;
 
 .text-img-with-nobackground{
   padding: 80px 0;
+}
+
+.download-img {
+  width: 100%;
 }
 
 }
