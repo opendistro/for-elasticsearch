@@ -7,10 +7,10 @@
   visibility: hidden;
 }
 
-@media (max-width: 576px) {  
+@media (max-width: 576px) {
 
 .col-12 {
-  max-width:25%;  
+  max-width:25%;
 }
 
 // Feature icons
@@ -22,7 +22,7 @@
   padding-top:40px;
 }
 
-.feature-icons { 
+.feature-icons {
    width: 30px;
    height:30px;
 }
@@ -111,7 +111,7 @@
   line-height: 1.6;
   margin-bottom: 1.4rem;
   .a:hover{
-  text-decoration: none; 
+  text-decoration: none;
   }
 }
 
@@ -119,10 +119,10 @@
   font-size: 1.25rem;
   font-weight: 300;
   margin-bottom: 1.4rem;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.subtitle-in-banner { 
+.subtitle-in-banner {
    font-size: 1.2rem;
    letter-spacing: 1px;
    color: $white;
@@ -141,7 +141,7 @@
   font-size: 14px;
 }
 
-.text { 
+.text {
    font-size: 1.2rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -149,7 +149,7 @@
    font-weight: 200;
 }
 
-.text-md { 
+.text-md {
    font-size: 1.4rem;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -157,7 +157,7 @@
    font-weight: 150;
 }
 
-.text-small { 
+.text-small {
    font-size: 14PX;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -165,7 +165,7 @@
    font-weight: 300;
 }
 
-.text-footer { 
+.text-footer {
    font-size: 1rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -178,7 +178,7 @@
   font-weight:400;
 }
 
-.text-on-dark { 
+.text-on-dark {
    font-size: 0.9rem;
    letter-spacing: 1.5px;
    line-height: 1.6;
@@ -195,7 +195,7 @@
    color: $white;
 }
 
-.text-in-banner { 
+.text-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -208,31 +208,31 @@
 }
 
 .a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .link-on-white {
-  color: $midnightblue;  
+  color: $midnightblue;
 }
 
 .link-on-white:hover {
-  color: $midnightblue; 
-  text-decoration: none;  
+  color: $midnightblue;
+  text-decoration: none;
 }
 
 .link-on-white-paragraph p a {
-  color: $waterblue; 
+  color: $waterblue;
   font-weight: 300;
 }
 
 .link-on-dark {
   color: $white;
-  font-weight: none;  
+  font-weight: none;
 }
 
 .link-on-dark:hover {
   color: $white;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .software-download {
@@ -372,9 +372,7 @@
     padding: 0 30px 30px 30px;
 }
 
-<<<<<<< HEAD
-=======
-.text-img-with-background h3 { 
+.text-img-with-background h3 {
    font-size: 1.6rem;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -382,17 +380,17 @@
    font-weight: 150;
 }
 
-.text-img-with-background h5 { 
+.text-img-with-background h5 {
    font-size: 1.2rem;
 
 }
 
-.text-img-with-background p { 
+.text-img-with-background p {
    font-size: .9rem;
 
 }
 
-.text-img-with-background .btn { 
+.text-img-with-background .btn {
    font-size: .9rem;
 
 }
@@ -401,17 +399,17 @@
   background-color: #f3f6fc; padding: 40px 0;
 }
 
-.text-img-with-nobackground h5 { 
+.text-img-with-nobackground h5 {
    font-size: 1.2rem;
 
 }
 
-.text-img-with-nobackground p { 
+.text-img-with-nobackground p {
    font-size: .9rem;
 
 }
 
-.text-img-with-nobackground .btn { 
+.text-img-with-nobackground .btn {
    font-size: .9rem;
 
 }
@@ -420,11 +418,13 @@
   padding: 40px 0;
 }
 
+<<<<<<< HEAD
+=======
 >>>>>>> parent of 6ada71f... Merge branch 'frapao-web' of https://github.com/OpenDistro/opendistro-web into frapao-web
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (min-width: 576px) {  
+@media (min-width: 576px) {
 
 .page-content {
   img {
@@ -510,7 +510,7 @@
   line-height: 1.6;
   margin-bottom: 1.4rem;
   .a:hover{
-  text-decoration: none; 
+  text-decoration: none;
   }
 }
 
@@ -518,10 +518,10 @@
   font-size: 1.25rem;
   font-weight: 300;
   margin-bottom: 1.4rem;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.subtitle-in-banner { 
+.subtitle-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -540,7 +540,7 @@
   font-size: 14px;
 }
 
-.text { 
+.text {
    font-size: 1.2rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -548,7 +548,7 @@
    font-weight: 200;
 }
 
-.text-md { 
+.text-md {
    font-size: 1.4rem;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -556,7 +556,7 @@
    font-weight: 150;
 }
 
-.text-small { 
+.text-small {
    font-size: 14PX;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -564,7 +564,7 @@
    font-weight: 300;
 }
 
-.text-footer { 
+.text-footer {
    font-size: 1rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -578,7 +578,7 @@
   font-weight:400;
 }
 
-.text-on-dark { 
+.text-on-dark {
    font-size: 1.3rem;
    letter-spacing: 1.5px;
    line-height: 1.6;
@@ -595,7 +595,7 @@
    color: $white;
 }
 
-.text-in-banner { 
+.text-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -608,31 +608,31 @@
 }
 
 .a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .link-on-white {
-  color: $midnightblue;  
+  color: $midnightblue;
 }
 
 .link-on-white:hover {
-  color: $midnightblue; 
-  text-decoration: none;  
+  color: $midnightblue;
+  text-decoration: none;
 }
 
 .link-on-white-paragraph p a {
-  color: $waterblue; 
+  color: $waterblue;
   font-weight: 300;
 }
 
 .link-on-dark {
   color: $white;
-  font-weight: none;  
+  font-weight: none;
 }
 
 .link-on-dark:hover {
   color: $white;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .software-download {
@@ -824,12 +824,12 @@
 .text-icon-three-col img{
   width: 40px;
 }
-  
+
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
 
 // Feature Icons
 
@@ -840,7 +840,7 @@
   padding-top:80px;
 }
 
-.feature-icons { 
+.feature-icons {
    width: 42px;
    height:42px;
 }
@@ -929,7 +929,7 @@
   line-height: 1.6;
   margin-bottom: 1.4rem;
   .a:hover{
-  text-decoration: none; 
+  text-decoration: none;
   }
 }
 
@@ -937,10 +937,10 @@
   font-size: 1.25rem;
   font-weight: 300;
   margin-bottom: 1.4rem;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.subtitle-in-banner { 
+.subtitle-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -959,7 +959,7 @@
   font-size: 14px;
 }
 
-.text { 
+.text {
    font-size: 1.2rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -967,7 +967,7 @@
    font-weight: 200;
 }
 
-.text-md { 
+.text-md {
    font-size: 1.4rem;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -975,7 +975,7 @@
    font-weight: 150;
 }
 
-.text-small { 
+.text-small {
    font-size: 14PX;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -983,7 +983,7 @@
    font-weight: 300;
 }
 
-.text-footer { 
+.text-footer {
    font-size: 1rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -997,7 +997,7 @@
   font-weight:400;
 }
 
-.text-on-dark { 
+.text-on-dark {
    font-size: 1.3rem;
    letter-spacing: 1.5px;
    line-height: 1.6;
@@ -1014,7 +1014,7 @@
    color: $white;
 }
 
-.text-in-banner { 
+.text-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -1027,32 +1027,32 @@
 }
 
 .a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .link-on-white {
-  color: $midnightblue;  
+  color: $midnightblue;
 }
 
 .link-on-white:hover {
-  color: $midnightblue; 
-  text-decoration: none;  
+  color: $midnightblue;
+  text-decoration: none;
 }
 
 .link-on-white-paragraph p a {
-  color: $waterblue; 
+  color: $waterblue;
   font-weight: 300;
-  word-break: break-all; 
+  word-break: break-all;
 }
 
 .link-on-dark {
   color: $white;
-  font-weight: none;  
+  font-weight: none;
 }
 
 .link-on-dark:hover {
   color: $white;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .software-download {
@@ -1232,7 +1232,7 @@
 .navbar-brand img {
   width: 100%;
   min-width: 300px;
-  vertical-align: middle; 
+  vertical-align: middle;
 }
 
 .nav-item .btn{
@@ -1247,13 +1247,13 @@
 .text-icon-three-col img{
   width: 50px;
 }
-  
+
 
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 
 .page-content {
   img {
@@ -1339,7 +1339,7 @@
   line-height: 1.6;
   margin-bottom: 1.4rem;
   .a:hover{
-  text-decoration: none; 
+  text-decoration: none;
   }
 }
 
@@ -1347,10 +1347,10 @@
   font-size: 1.25rem;
   font-weight: 300;
   margin-bottom: 1.4rem;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.subtitle-in-banner { 
+.subtitle-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -1369,7 +1369,7 @@
   font-size: 14px;
 }
 
-.text { 
+.text {
    font-size: 1.2rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -1377,7 +1377,7 @@
    font-weight: 200;
 }
 
-.text-md { 
+.text-md {
    font-size: 1.4rem;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -1385,7 +1385,7 @@
    font-weight: 150;
 }
 
-.text-small { 
+.text-small {
    font-size: 14PX;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -1393,7 +1393,7 @@
    font-weight: 300;
 }
 
-.text-footer { 
+.text-footer {
    font-size: 1rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -1407,7 +1407,7 @@
   font-weight:400;
 }
 
-.text-on-dark { 
+.text-on-dark {
    font-size: 1.3rem;
    letter-spacing: 1.5px;
    line-height: 1.6;
@@ -1424,7 +1424,7 @@
    color: $white;
 }
 
-.text-in-banner { 
+.text-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -1437,32 +1437,32 @@
 }
 
 .a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .link-on-white {
-  color: $midnightblue;  
+  color: $midnightblue;
 }
 
 .link-on-white:hover {
-  color: $midnightblue; 
-  text-decoration: none;  
+  color: $midnightblue;
+  text-decoration: none;
 }
 
 .link-on-white-paragraph p a {
-  color: $waterblue; 
+  color: $waterblue;
   font-weight: 300;
-  word-break: break-all; 
+  word-break: break-all;
 }
 
 .link-on-dark {
   color: $white;
-  font-weight: none;  
+  font-weight: none;
 }
 
 .link-on-dark:hover {
   color: $white;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .software-download {
@@ -1485,7 +1485,7 @@
 .homeBannerBottom {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
-  
+
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
@@ -1643,7 +1643,7 @@
 .navbar-brand img {
   width: 90%;
   min-width: 180px;
-  vertical-align: middle; 
+  vertical-align: middle;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -1667,12 +1667,12 @@
 .text-icon-three-col img{
   width: 50px;
 }
-  
+
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------*/
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-  
+@media (min-width: 1200px) {
+
 
 // Feature icons
 
@@ -1683,7 +1683,7 @@
   padding-top:80px;
 }
 
-.feature-icons { 
+.feature-icons {
    width: 42px;
    height:42px;
 }
@@ -1772,7 +1772,7 @@
   line-height: 1.6;
   margin-bottom: 1.4rem;
   .a:hover{
-  text-decoration: none; 
+  text-decoration: none;
   }
 }
 
@@ -1780,10 +1780,10 @@
   font-size: 1.25rem;
   font-weight: 300;
   margin-bottom: 1.4rem;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.subtitle-in-banner { 
+.subtitle-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -1802,7 +1802,7 @@
   font-size: 14px;
 }
 
-.text { 
+.text {
    font-size: 1.2rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -1810,7 +1810,7 @@
    font-weight: 200;
 }
 
-.text-md { 
+.text-md {
    font-size: 1.4rem;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -1818,7 +1818,7 @@
    font-weight: 150;
 }
 
-.text-small { 
+.text-small {
    font-size: 14PX;
    letter-spacing: 1px;
    line-height: 1.7;
@@ -1826,7 +1826,7 @@
    font-weight: 300;
 }
 
-.text-footer { 
+.text-footer {
    font-size: 1rem;
    letter-spacing: 1px;
    line-height: 1.6;
@@ -1840,7 +1840,7 @@
   font-weight:400;
 }
 
-.text-on-dark { 
+.text-on-dark {
    font-size: 1.3rem;
    letter-spacing: 1.5px;
    line-height: 1.6;
@@ -1857,7 +1857,7 @@
    color: $white;
 }
 
-.text-in-banner { 
+.text-in-banner {
    font-size: 1.8rem;
    letter-spacing: 1px;
    color: $white;
@@ -1870,32 +1870,32 @@
 }
 
 .a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .link-on-white {
-  color: $midnightblue;  
+  color: $midnightblue;
 }
 
 .link-on-white:hover {
-  color: $midnightblue; 
-  text-decoration: none;  
+  color: $midnightblue;
+  text-decoration: none;
 }
 
 .link-on-white-paragraph p a {
-  color: $waterblue; 
+  color: $waterblue;
   font-weight: 300;
-  word-break: break-all; 
+  word-break: break-all;
 }
 
 .link-on-dark {
   color: $white;
-  font-weight: none;  
+  font-weight: none;
 }
 
 .link-on-dark:hover {
   color: $white;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .software-download {
@@ -1918,7 +1918,7 @@
 .homeBannerBottom {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
-  
+
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
@@ -2074,13 +2074,13 @@
 }
 
 .nav-link {
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .navbar-brand img {
   width: 100%;
   min-width: 300px;
-  vertical-align: middle; 
+  vertical-align: middle;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -2109,5 +2109,3 @@
 }
 
 }
-
-
