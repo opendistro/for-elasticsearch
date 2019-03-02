@@ -27,6 +27,9 @@
 
         <!-- Sublinks  -->
             {% if link.sublinks %}
+            <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
                 <li class="dropdown  {{ class }}">
                   <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
                     <ul class="dropdown-menu">

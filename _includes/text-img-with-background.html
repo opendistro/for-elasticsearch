@@ -1,4 +1,5 @@
 
+<!-- text img with bachgrouhd-->
 {% for feature in include.features %}
 
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
@@ -11,14 +12,14 @@
 		    <div class="col-12 col-md-6">
 
 		     <!-- SubTitle -->
-		      <div class="row px-5">
+		      <div class="row px-3 px-md-5">
 		        <div class="col-12 col-md-12">
 		          <h5 class="my-0">{{feature.subtitle}}</h5>
 		        </div>
 		       </div>
 
 		      <!-- Title -->
-		       <div class="row px-5">
+		       <div class="row px-3 px-md-5">
 		        <div class="col-12 col-md-12">
 		          <h3 class="title-md">{{feature.title}}</h3>
 		        </div>
@@ -64,7 +65,7 @@
 		</div>
 
 		 {% else %}
-		<div class="container-fluid" style="padding: 40px 0;">
+		<div class="container-fluid text-img-with-nobackground">
 		  <div class="row vcenter px-3 py-5" style="margin-top:50px;">
 
 		    <!-- Image -->
@@ -76,14 +77,14 @@
 		    <div class="col-12 col-md-6">
 
 		      <!-- SubTitle -->
-		      <div class="row px-5">
+		      <div class="row row px-3 px-md-5">
 		        <div class="col-12 col-md-12">
 		          <h5 class="my-0">{{feature.subtitle}}</h5>
 		        </div>
 		      </div>
 
 		      <!-- Title -->
-		       <div class="row  px-5">
+		       <div class="row px-3 px-md-5">
 		         <div class="col-12 col-md-12">
 		           <h3 class="title-md">{{feature.title}}</h3>
 		         </div>
