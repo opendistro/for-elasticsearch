@@ -1,0 +1,125 @@
+
+{% for feature in include.features %}
+        
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {%if thecycle == 'odd' %}
+
+		<div class="container-fluid text-img-with-nobackground" >
+		  <div class="row vcenter px-3 py-6" >
+		  <!-- Text -->
+		    <div class="col-12 col-md-6">
+
+		     <!-- SubTitle -->
+		      <div class="row px-3 px-md-5">
+		        <div class="col-12 col-md-12">
+		          <h5 class="my-0">{{feature.subtitle}}</h5>
+		        </div>  
+		       </div>
+		      
+		      <!-- Title -->
+		       <div class="row px-3 px-md-5">
+		        <div class="col-12 col-md-12">
+		          <h3>{{feature.title}}</h3>
+		        </div>  
+		       </div>
+
+		       <!-- Content -->
+		       <div class="row px-3 px-md-5 pt-md-3 pt-sm-1">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content}}</p>
+		        </div>  
+		       </div>
+
+		       <!-- Content 2 -->
+		       {% if feature.content_2 %}
+		       <div class="row px-5 pt-3">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content_2}}</p>
+		        </div>  
+		       </div>
+
+		       {% endif %}
+
+			<!-- Links -->
+		       <div class="row px-3 px-md-5 mb-1" style="display: inline;">
+
+		        {% if feature.action_learn %} 
+		          <a class="btn pt-md-3 pt-sm-1 link-on-white" href="{{ feature.action_learn.url | relative_url }}" role="button"> {{ feature.action_learn.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+		        {% endif %} 
+                
+                {% if feature.action_download %}
+		          <a class="btn pt-md-3 pt-sm-1 link-on-white" href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+                {% endif %}
+	          </div>
+
+            </div>
+
+          <!-- Image -->
+		    <div class="col-12 col-md-6 text-left ">
+		     <img src="{{feature.img}}" width="100%"></img>
+		    </div>
+
+		  </div>
+		</div>  
+
+		 {% else %}
+		<div class="container-fluid text-img-with-background">
+		  <div class="row vcenter px-2 py-1 px-md-3 py-md-5 mt-2 mt-md-5">
+		    
+		    <!-- Image -->
+		    <div class="col-12 col-md-6 order-2 order-md-1 text-left">
+		      <img src="{{feature.img}}" width="100%"></img>
+		    </div>
+            
+            <!-- Text -->
+		    <div class="col-12 col-md-6 order-1 order-md-2">
+		      
+		      <!-- SubTitle -->
+		      <div class="row px-3 px-md-5">
+		        <div class="col-12 col-md-12">
+		          <h5 class="my-0">{{feature.subtitle}}</h5>
+		        </div>  
+		      </div>
+
+		      <!-- Title -->
+		       <div class="row px-3 px-md-5">
+		         <div class="col-12 col-md-12">
+		           <h3 class="title-md">{{feature.title}}</h3>
+		         </div>  
+		       </div>
+		      
+		       <!-- Content -->
+		       <div class="row px-3 px-md-5 pt-md-3 pt-sm-1">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content}}</p>
+		        </div>  
+		       </div>
+
+		       <!-- Content 2 -->
+		       {% if feature.content_2 %}
+		       <div class="row px-5 pt-3">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content_2}}</p>
+		        </div>  
+		       </div>
+
+		       {% endif %}
+
+			   <!-- Links -->
+		       <div class="row px-3 px-md-5 mb-1" style="display: inline;">
+
+		       {% if feature.action_learn %} 
+		          <a class="btn pt-3 link-on-white" href="{{ feature.action_learn.url | relative_url }}" role="button"> {{ feature.action_learn.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+		        {% endif %}  
+		        
+		       {% if feature.action_download %}
+		          <a class="btn pt-3 link-on-white"  href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+                {% endif %}
+	          </div>
+
+            </div>	    
+		  </div>
+        </div>		
+		{% endif %} 
+	  {% endfor %}
+  

@@ -16,7 +16,7 @@ features:
     content: "Providing the freedoms that make open source great: view, use, change, and distribute code, as you wish"
     img: "/assets/media/icons/brackets.svg"
   - title: Enterprise-grade
-    content: Delivering security and advanced capabilities such as alerting, SQL, and cluster diagnostics
+    content: Delivering security and advanced capabilities such as alerting, SQL, and cluster diagnostics free of charge
     img: "/assets/media/icons/globe.svg"
   - title: Community-driven
     content: Providing individuals and organizations the freedom to easily contribute changes to the distro
