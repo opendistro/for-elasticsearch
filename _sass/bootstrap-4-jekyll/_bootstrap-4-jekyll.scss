@@ -9,7 +9,9 @@
 
 @media (max-width: 576px) {  
 
+
 /* ----- FEATURE ICONS ------ */
+
 
 .feature-icons-container {
   border-style: solid;
@@ -22,8 +24,6 @@
    width: 30px;
    height:30px;
 }
-
-/* FOOTER */
 
 .page-content {
   img {
@@ -40,21 +40,19 @@
   color: $white;
 }
 
-/* ---- TEXT ----- */
-
 .text-on-white {
   color: #777777;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 2.3rem;
   line-height: 1.5;
   letter-spacing: 1px;
   font-weight: 200;
 }
 
 .title-md {
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.5;
   letter-spacing: 1px;
   font-weight: 300;
@@ -142,7 +140,7 @@
 }
 
 .text { 
-   font-size: 0.8rem;
+   font-size: 1.2rem;
    letter-spacing: 1px;
    line-height: 1.6;
    color: #111;
@@ -243,9 +241,6 @@
     align-items: center;
 }
 
-
-/* ------ BANNERS ------- */
-
 .homeBanner {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
@@ -262,6 +257,25 @@
   margin-bottom: 0;
   border-radius: 0;
   padding: 46px 80px 62px 80px;
+}
+
+.distro-white {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 80px 80px;
+  min-height: 300px;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }
 
 .featureBanner {
@@ -298,6 +312,24 @@
   margin-bottom: 0;
   border-radius: 0;
   padding: 40px 80px 60px 80px;
+}
+
+.sqlSupportBannerBottom {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }
 
 .greyBox {
@@ -337,6 +369,7 @@
 .text-icon-three-col p {
     padding: 0 30px 30px 30px;
 }
+
 
 .text-img-with-background h3 { 
    font-size: 1.6rem;
@@ -384,22 +417,7 @@
   padding: 40px 0;
 }
 
-.intro-with-background p{
-  font-size: 1rem;
-}
-
-.intro-with-background h1{
-  font-size: 1.8rem;
-}
-
-.intro-without-background p{
-  font-size: 1rem;
-}
-
-.intro-without-background h1{
-  font-size: 1.8rem;
-}
-
+>>>>>>> parent of 6ada71f... Merge branch 'frapao-web' of https://github.com/OpenDistro/opendistro-web into frapao-web
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -803,10 +821,6 @@
 .text-icon-three-col img{
   width: 40px;
 }
-
-.text-img-with-background{
-  background-color: #f3f6fc; padding: 60px 0;
-}
   
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
@@ -1046,8 +1060,6 @@
     align-items: center;
 }
 
-/* ---- BANNERS ----- */
-
 .homeBanner {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
@@ -1066,31 +1078,59 @@
   padding: 46px 80px 62px 80px;
 }
 
-.featureBanner {
+.distro-white {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 80px 80px;
+  min-height: 300px;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.elasticsearchBanner {
+  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.kibanaBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.securityBanner {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+  background-size: cover;
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
   padding: 46px 80px 62px 80px;
 }
 
-.securityBanner {
+.securityBannerBottom {
   background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
   background-size: cover;
-}
-
-.alertingBanner {
-  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
-  background-size: cover;
-}
-
-.analyzerBanner {
-  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
-  background-size: cover;
-}
-
-.sqlSupportBanner {
-  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
-  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
 }
 
 .securityFeaturesContainer {
@@ -1100,6 +1140,78 @@
   margin-bottom: 0;
   border-radius: 0;
   padding: 40px 80px 60px 80px;
+}
+
+.alertingBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.alertingBannerBottom {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBannerBottom {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBannerBottom {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.greyBox {
+  background-color: #444444;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }
 
 .btn-140{
@@ -1133,9 +1245,6 @@
   width: 50px;
 }
   
-.text-img-with-background{
-  background-color: #f3f6fc; padding: 60px 0;
-}
 
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
@@ -1372,39 +1481,67 @@
 
 .homeBannerBottom {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
-  background-size: cover; 
+  background-size: cover;
+  
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
   padding: 46px 80px 62px 80px;
 }
 
-/* ---- BANNER ----- */
-.featureBanner {
+.distro-white {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
-  padding: 46px 80px 62px 80px;
+  padding: 80px 80px 80px 80px;
+  min-height: 300px;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.elasticsearchBanner {
+  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.kibanaBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }
 
 .securityBanner {
   background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
   background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
 }
 
-.alertingBanner {
-  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+.securityBannerBottom {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
   background-size: cover;
-}
-
-.analyzerBanner {
-  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
-  background-size: cover;
-}
-
-.sqlSupportBanner {
-  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
-  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
 }
 
 .securityFeaturesContainer {
@@ -1414,6 +1551,78 @@
   margin-bottom: 0;
   border-radius: 0;
   padding: 40px 80px 60px 80px;
+}
+
+.alertingBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.alertingBannerBottom {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBannerBottom {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBannerBottom {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.greyBox {
+  background-color: #444444;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }
 
 .btn-140{
@@ -1454,10 +1663,6 @@
 
 .text-icon-three-col img{
   width: 50px;
-}
-
-.text-img-with-background{
-  background-color: #f3f6fc; padding: 60px 0;
 }
   
 }
@@ -1698,8 +1903,6 @@
     align-items: center;
 }
 
-/* ---- BANNERS ----- */
-
 .homeBanner {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
@@ -1712,37 +1915,66 @@
 .homeBannerBottom {
   background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
   background-size: cover;
+  
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
   padding: 46px 80px 62px 80px;
 }
 
-.featureBanner {
+.distro-white {
+  background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+  background-size: cover;
   color: $white;
   margin-bottom: 0;
   border-radius: 0;
-  padding: 46px 80px 62px 80px;
+  padding: 80px 80px 80px 80px;
+  min-height: 300px;
+}
+
+.elasticsearchSquare {
+  background: url('/assets/media/backgrounds/blueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.elasticsearchBanner {
+  background: url('/assets/media/backgrounds/blueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.kibanaBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }
 
 .securityBanner {
   background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
   background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
 }
 
-.alertingBanner {
-  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+.securityBannerBottom {
+  background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
   background-size: cover;
-}
-
-.analyzerBanner {
-  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
-  background-size: cover;
-}
-
-.sqlSupportBanner {
-  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
-  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
 }
 
 .securityFeaturesContainer {
@@ -1752,6 +1984,78 @@
   margin-bottom: 0;
   border-radius: 0;
   padding: 40px 80px 60px 80px;
+}
+
+.alertingBanner {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.alertingBannerBottom {
+  background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBanner {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.analyzerBannerBottom {
+  background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBanner {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBannerBottom {
+  background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 46px 80px 62px 80px;
+}
+
+.sqlSupportBox {
+  background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
+}
+
+.greyBox {
+  background-color: #444444;
+  background-size: cover;
+  color: $white;
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 80px 80px 30px 80px;
 }
 
 .btn-140{
@@ -1799,27 +2103,6 @@
 
 .text-icon-three-col img{
   width: 50px;
-}
-
-.text-img-with-background h5{
-  
-
-}
-
-.text-img-with-background h3 { 
-   font-size: 2rem;
-   letter-spacing: 1px;
-   line-height: 1.7;
-   color: #111;
-   font-weight: 150;
-}
-
-.text-img-with-background{
-  background-color: #f3f6fc; padding: 60px 0;
-}
-
-.text-img-with-nobackground{
-  padding: 40px 0;
 }
 
 }
