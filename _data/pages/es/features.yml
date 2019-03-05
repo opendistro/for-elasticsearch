@@ -9,13 +9,6 @@ intro:
 
 # Features
 featuresLink:
-  # - title: Elasticsearch
-  #   icon: "/assets/media/icons/elasticsearch_64px.svg"
-  #   url: "features/elasticsearch.html"
-  #   color: "#0000ff"
-  # - title: Kibana
-  #   icon: "/assets/media/icons/kibana_64px.svg" 
-  #   url: "features/kibana.html"
   - title: Security
     icon: "/assets/media/icons/security_64px.svg" 
     url: "features/security.html"
