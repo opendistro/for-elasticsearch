@@ -29,5 +29,5 @@ plugin:
   content:
     - paragraph: Already have a great plugin? Reach out to us on the forum. We're always looking for new ways to make Open Distro for Elasticsearch even better.
   buttons:
-    label_primary: Product ideas forum
+    label_primary: Project Ideas Forum
     url_primary: "https://mauve-hedgehog.trydiscourse.com"    
