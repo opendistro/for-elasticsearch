@@ -26,7 +26,7 @@ forum:
 meetups:
   img: "/assets/media/icons/meetups.png"
   title: Events and Meetups
-  content: "If you are interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please reach out to us at <a href='mailto:opendistroforelasticsearch@amazon.com'>opendistroforelasticsearch@amazon.com</a>." 
+  content: "If you are interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>." 
   # buttons:
   #   label_primary: Browse events on Meetup 
   #   url_primary: "#"
