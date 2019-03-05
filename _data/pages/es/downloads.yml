@@ -1,7 +1,6 @@
 banner:
   title: Download
   # text: "Getting started with Open Distro for Elasticsearch is easy. Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as the Open Distro for Elasticsearch SQL - JDBC driver and Open Distro for Elasticsearch Performance Analyzer client - Perf-Top. Get started now."
-  
 
 intro:
   title: Getting started is easy
