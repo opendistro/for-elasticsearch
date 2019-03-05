@@ -16,7 +16,7 @@ github:
     url_primary: "https://www.github.com/opendistroforelasticsearch"
 
 forum: 
-  img: "/assets/media/icons/gitter-icon.png"
+  img: "/assets/media/icons/discourse.png"
   title: "Forum"
   content: Engage with the community to ask questions, get answers, solve problems and discuss new ideas.
   buttons:
@@ -33,7 +33,7 @@ meetups:
 
 codeOfConduct:
   title: Code of Conduct
-  text: "The Open Distro for Elasticsearch community values respect and being professional in interacting with everyone on the project whether on PRs, comments in code. We enforce a Code of Conduct in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. <a href='mailto:opensource-codeofconduct@amazon.com'>Contact us</a>"
+  text: "The Open Distro for Elasticsearch community values respect and being professional in interacting with everyone on the project whether on PRs, comments in code. We enforce a <a href='/codeofconduct.html'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. <a href='mailto:opensource-codeofconduct@amazon.com'>Contact us</a>"
 
 githubLinks:
     - title: Alerting

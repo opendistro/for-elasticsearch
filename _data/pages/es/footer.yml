@@ -16,6 +16,8 @@ siteMap:
          url: "/faq.html"
        - menu_item: "Contribute"
          url: "/contribute.html"
+       - menu_item: "Code of Conduct"
+         url: "/codeofconduct.html"
        - menu_item: "GitHub"
          url: "https://www.github.com/opendistroforelasticsearch"
        - menu_item: "Forum"

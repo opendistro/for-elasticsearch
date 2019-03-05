@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<div class="container-fluid homeBanner">
+  {%- include banner.html banner=site.data.pages.es.codeofconduct.banner -%} 
+</div>  
+
+<div class="pt-5"/>
+<!-- Intro -->
+{%- include intro-one-col.html intro=site.data.pages.es.codeofconduct.intro -%}
+
+<div class="pt-5"/>
+
+<!-- Paragraphs -->
+<div class="container px-5">
+  {% for codeofconduct in site.data.pages.es.codeofconduct.codes %}
+	   <div class="pt-5"></div>
+	    
+	    <!-- Title -->
+	    <h5 style="font-weight: 600;">{{codeofconduct.title | markdownify}}</h5>
+	    
+	    <!-- Content -->
+	    <div class="link-on-white-paragraph text">{{codeofconduct.content | markdownify }}</div>
+  {% endfor %}
+</div>
+
+<div class="pt-5"></div>
