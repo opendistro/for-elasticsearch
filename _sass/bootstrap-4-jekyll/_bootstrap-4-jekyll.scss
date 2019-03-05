@@ -156,7 +156,7 @@
 }
 
 .text-small { 
-   font-size: 14PX;
+   font-size: 14px;
    letter-spacing: 1px;
    line-height: 1.7;
    color: #111;
@@ -235,6 +235,7 @@
 
 .software-download {
   color: $lightblue;
+  font-size: 0.8rem;
 }
 
 .vcenter {
@@ -439,7 +440,11 @@
 }
 
 .download-img {
-  width: 50%;
+  width: 80%;
+}
+
+.donwloadsContainer {
+  padding-top: 1rem;
 }
 
 }
@@ -1082,6 +1087,7 @@
 
 .software-download {
   color: $lightblue;
+  font-size: 1rem;
 }
 
 .vcenter {
@@ -1498,6 +1504,7 @@
 
 .software-download {
   color: $lightblue;
+  font-size: 1rem;
 }
 
 .vcenter {
@@ -1939,6 +1946,7 @@
 
 .software-download {
   color: $lightblue;
+  font-size:1rem;
 }
 
 .vcenter {
@@ -2162,6 +2170,10 @@
 
 .download-img {
   width: 100%;
+}
+
+.downloadsContainer {
+  padding-top: 3rem;
 }
 
 }

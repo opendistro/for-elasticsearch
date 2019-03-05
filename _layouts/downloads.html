@@ -33,9 +33,9 @@ layout: default
 		         <h1 class="title-bg">{{software.title}}</h1>
 		         
 		        <!-- Images -->
-		         <div class="row justify-content-center text-center pt-5">
+		         <div class="row justify-content-center text-center downloadsContainer">
 		         {% for img in software.imgs %}
-		            <div class="col-12 col-md-4"><img src="{{img.img_item}}" class="download-img" ></img> </div>
+		            <div class="col-6 col-md-4"><img src="{{img.img_item}}" class="download-img" ></img> </div>
 		         {% endfor %}
 		         </div>  
 
@@ -43,7 +43,7 @@ layout: default
 		        <div class="row justify-content-center text-center px-2">
 	               <div class="col-12 col-md-10" > </div>
 	                  {% for action in software.actions %}
-	                  <div class="col-12 col-md-4 software-download pt-3 pb-5 link-on-white-paragraph">
+	                  <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
 	                     <a href="{action.url}" class="software-download">
 	                         <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
 	                     </a>
@@ -75,9 +75,9 @@ layout: default
 		         <h1 class="title-bg"> {{software.title}}</h1>
 
 		         <!-- Images -->
-		         <div class="row justify-content-center text-center pt-5">
+		         <div class="row justify-content-center text-center downloadsContainer">
 		         {% for img in software.imgs %}
-		            <div class="col-12 col-md-4"><img src="{{img.img_item}}" class="download-img"></img> </div>
+		            <div class="col-6 col-md-4"><img src="{{img.img_item}}" class="download-img"></img> </div>
 		         {% endfor %}
 		         </div> 
 
@@ -85,7 +85,7 @@ layout: default
 		        <div class="row justify-content-center text-center px-2">
 	               <div class="col-12 col-md-10" > </div>
 	                  {% for action in software.actions %}
-	                  <div class="col-12 col-md-4 software-download pt-3 pb-5 link-on-white-paragraph">
+	                  <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
 	                     <a href="{action.url}" class="software-download">
 	                         <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
 	                     </a>
