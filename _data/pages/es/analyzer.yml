@@ -1,35 +1,23 @@
 banner:
   title: Performance Analyzer
   subtitle: Open Distro for Elasticsearch
-  # actions:
-  #   primary: 
-  #     text: 'Download'
-  #     url: 'downloads.html'
-  # color: "#5c237d" 
-  
 
 intro:
   title: Get deep diagnostic insights into your cluster
   ext_content: Get deep visibility into system bottlenecks alongside detailed network, disk, and operating system stats, even when your Elasticsearch cluster in under duress.
+
 features:
   - title: Perform diagnostics across the stack
     content: Performance Analyzer provides a powerful REST API for querying Elasticsearch metrics including consumption of network, disk, and operating system resources. This visibility into the metrics gives you the ability to identify system bottlenecks at all layers of the stack.
     img: "/assets/media/screenshots/perftop_1.png"
-    # action_download:
-    #   label: 'Download'
-    #   url: 'downloads.html'
+    
   - title: Runs independent of your cluster
     content: Performance Analyzer runs independent of your Elasticsearch cluster, ensuring that you can still perform diagnostics and resolve issues, even if your cluster is under duress.
     img: "/assets/media/screenshots/perftop_2.png"
-    # action_download:
-    #   label: 'Download'
-    #   url: 'downloads.html'
+    
   - title: Analyze hundreds of data points
     content: Performance Analyzer supports over 60 metrics across 10 dimensions providing unprecedented instrumentation of your cluster health. You can use a variety of aggregations to measure performance, and capture the details you need to diagnose software bottlenecks and hardware issues.
     img: "/assets/media/screenshots/perftop_3.png"
-    # action_download:
-    #   label: 'Download'
-    #   url: 'downloads.html'  
 
 performance:
   title: Use PerfTop CLI to interact with Performance Analyzer
@@ -44,31 +32,3 @@ bottomBanner:
   text: 'Join our community of developers in advancing the future of Performance Analyzer'
   color: "#ed20eb"
 
-# intro:
-#   title: PerfTop
-#   content: Visualize your Elasticsearch cluster state
-#   links:
-#     - url: "http://ettea.aka.corp.amazon.com/opendist/docs/pa/"
-#       label: Learn More >
-#     - url: "contribute.html"
-#       label: Deploy >
-#   img: "/assets/media/screenshots/perftop1.png"
-#   miniImgs:
-#   - title: Cluster Performance Overview
-#     img: "/assets/media/screenshots/perftop1.png"
-#   - title: High Level Cluster Performance
-#     img: "/assets/media/screenshots/perftop2.png"
-#   - title: Low Level Cluster Performance
-#     img: "/assets/media/screenshots/perftop3.png"
-#   - title: Node Level Cluster Performance
-#     img: "/assets/media/screenshots/perftop4.png"
-
-# features:
-#   - title: System Health
-#     subtitle: Independent
-#     content: Performance analyzer is a system health agent that is independent of JVM. System metrics are recorded in 5 second snapshots and stored separate to the Elasticsearch runtime environment.
-
-#   - title: Deep Instrumentation
-#     subtitle: REST API for
-#     content: Metrics are intelligently rolled up into diagnostic metrics. Easily access these metrics through a RESTful endpoint.
-  

@@ -7,7 +7,7 @@ siteMap:
        - menu_item: "Security"
          url: "/features/security.html"
        - menu_item: "SQL Support"
-         url: "/features/sql%20Support.html"
+         url: "/features/SQL%20Support.html"
        - menu_item: "Performance Analyzer"
          url: "/features/analyzer.html"
     - title: 'COMMUNITY'

@@ -41,9 +41,6 @@ descriptions:
     action_learn:
       label: 'Learn more'
       url: '/features/alerting.html'
-    # action_download:
-    #   label: 'Download'
-    #   url: 'downloads.html'
 
   - title: Query with familiar tools
     subtitle: SQL
@@ -52,9 +49,6 @@ descriptions:
     action_learn:
       label: 'Learn more'
       url: '/features/SQL%20Support.html'
-    # action_download:
-    #   label: 'Download'
-    #   url: '/downloads.html#SQL'
 
   - title: Get deep diagnostic insights
     subtitle: Performance Analyzer
