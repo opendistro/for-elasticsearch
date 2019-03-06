@@ -22,6 +22,8 @@ siteMap:
          url: "https://www.github.com/opendistroforelasticsearch"
        - menu_item: "Forum"
          url: "https://mauve-hedgehog.trydiscourse.com/"
+       # - menu_item: "News"
+       #   url: "/news.html"
     - title: 'DISCOVER'
       contents: 
        - menu_item: "Documentation"

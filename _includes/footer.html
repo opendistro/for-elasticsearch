@@ -9,7 +9,7 @@
         <ul class="list-unstyled">
           {% for menu in section.contents %}
             <li>
-              <a href="{{menu.url}}" class="text-footer">{{ menu.menu_item }}</a>
+              <a href="{{menu.url | relative_url}}" class="text-footer">{{ menu.menu_item }}</a>
             </li>
           {% endfor %}
         </ul>
