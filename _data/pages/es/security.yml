@@ -22,7 +22,7 @@ features:
     
   - title: Audit Logging
     content: With audit logging, you can record and track all the actions performed by users in your Elasticsearch cluster and monitor any suspicious activity, which is essential for security incident response. Audit logging also helps you remain compliant with government and industry regulations such as GDPR, HIPAA, PCI, and ISO. 
-    img: "/assets/media/screenshots/alert_screen_1.png"
+    img: "/assets/media/illustrations/audit.png"
 
 featureList:
   title: Features
