@@ -1,6 +1,6 @@
 siteMap:
   sections:
-    - title: 'OPEN DISTRO FEATURES'
+    - title: 'FEATURES'
       contents: 
        - menu_item: "Alerting"
          url: "/features/alerting.html"
