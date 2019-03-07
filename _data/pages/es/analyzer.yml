@@ -10,7 +10,7 @@ banner:
 
 intro:
   title: Get deep diagnostic insights into your cluster
-  ext_content: Get deep visibility into system bottlenecks alongside detailed network, disk, and operating system stats, even when your Elasticsearch cluster in under duress.
+  ext_content: Get deep visibility into system bottlenecks alongside detailed network, disk, and operating system stats, even when Elasticsearch is under duress.
 features:
   - title: Perform diagnostics across the stack
     content: Performance Analyzer provides a powerful REST API for querying Elasticsearch metrics including consumption of network, disk, and operating system resources. This visibility into the metrics gives you the ability to identify system bottlenecks at all layers of the stack.

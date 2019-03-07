@@ -19,7 +19,7 @@ features:
     content: Delivering security and advanced capabilities such as alerting, SQL, and cluster diagnostics
     img: "/assets/media/icons/globe.svg"
   - title: Community-driven
-    content: Providing individuals and organizations the freedom to easily contribute changes to the distro
+    content: Providing individuals and organizations the freedom to easily contribute changes to the distribution
     img: "/assets/media/icons/community.svg"
 
 descriptions:
@@ -36,7 +36,7 @@ descriptions:
 
   - title: Get notified automatically
     subtitle: Alerting
-    content: Open Distro for Elasticsearch provides a powerful, easy to use, event monitoring and alerting system, enabling you to monitor your data and send notifications automatically to your stakeholders. With an intuitive Kibana interface and powerful API, it is easy to set up and manage alerts. Build spacific alert conditions using Elasticsearch's query and scripting capabilities that enables teams to reduce response times for operational and security events.
+    content: Open Distro for Elasticsearch provides a powerful, easy to use, event monitoring and alerting system, enabling you to monitor your data and send notifications automatically to your stakeholders. With an intuitive Kibana interface and powerful API, it is easy to set up and manage alerts. Build specific alert conditions using Elasticsearch's query and scripting capabilities that enables teams to reduce response times for operational and security events.
     img: "/assets/media/screenshots/alert_screen_1.png"
     action_learn:
       label: 'Learn more'
@@ -58,7 +58,7 @@ descriptions:
 
   - title: Get deep diagnostic insights
     subtitle: Performance Analyzer
-    content: Performance Analyzer provides deep visibility into system bottlenecks by allowing you to query Elasticsearch metrics alongside detailed network, disk, and operating system stats. Performance Analyzer runs independently without any performance impact even when your cluster us under stress. Check out the PerfTop CLI for Performance Analyzer to begin diving deep into your system.
+    content: Performance Analyzer provides deep visibility into system bottlenecks by allowing you to query Elasticsearch metrics alongside detailed network, disk, and operating system stats. Performance Analyzer runs independently without any performance impact even when Elasticsearch is under stress. Check out the PerfTop CLI for Performance Analyzer to begin diving deep into your system.
     img: "/assets/media/screenshots/perftop_network.gif"
     action_learn:
       label: 'Learn more'
@@ -84,7 +84,7 @@ partners:
 
 intro:
   title: Why Open Distro for Elasticsearch?
-  text: Elasticsearch has become an essential technology for log analytics and search, fueled by the freedom open source provides to developers and organizations. Our goal is to ensure that open source innovation continues to thrive by providing a fully featured, 100% open source, community-driven distribution that makes it easy for everyone to use, collaborate, and contribute to—without restrictions.
+  text: Elasticsearch has become an essential technology for log analytics and search, fueled by the freedom open source provides to developers and organizations. Our goal is to ensure that open source innovation continues to thrive by providing a fully featured, 100% open source, community-driven distribution that makes it easy for everyone to use, collaborate, and contribute.
   buttons:
     label_primary: Learn more
     url_primary: "/faq.html"

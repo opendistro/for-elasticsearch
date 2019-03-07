@@ -9,7 +9,7 @@ banner:
 
 intro:
   title: Enterprise-grade security
-  ext_content: Open Distro for Elasticsearch gives you a comprehensive set of features to keep your data secure and stay compliant with regulations such as GDPR, HIPAA, PCI, and ISO. Whether you want to encrypt data in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or monitor and log any malicious access attempts, Open Distro for Elasticsearch has you covered.
+  ext_content: Open Distro for Elasticsearch gives you a comprehensive set of features to help you keep your data secure and stay compliant with regulations such as GDPR, HIPAA, PCI, and ISO. Whether you want to encrypt data in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or monitor and log any malicious access attempts, Open Distro for Elasticsearch has you covered.
   style: features feature-security-link
 
 features:
