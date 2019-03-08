@@ -15,7 +15,7 @@ faqs:
     content: All of the plugins included in Open Distro for Elasticsearch are licensed under the Apache License, Version 2.0.
 
   - title: Will you be making contributions back to Elasticsearch open-source?
-    content: Yes. Open Distro for Elasticsearch includes the Apache 2.0 licensed Elasticsearch and Kibana code. As we identify issues or make enhancements to that code, we contribute back to Elastic. We will continue to make contributions to Apache 2.0 licensed Elastic code. Whether or not Elastic accepts those contributions, is not within AWS’s control, but we will make every attempt to work with Elastic to provide the best possible open source software.
+    content: Yes. Open Distro for Elasticsearch includes the Apache 2.0 licensed Elasticsearch and Kibana code. As we identify issues or make enhancements to that code, we contribute back to Elastic. We will continue to make contributions to Apache 2.0 licensed Elastic code. Whether or not Elastic accepts those contributions, is not within our control, but we will make every attempt to work with Elastic to provide the best possible open source software.
   
   - title: Can Open Distribution for Elasticsearch components be installed as standalone plugins?
     content: Yes. Open Distro for Elasticsearch is an Elasticsearch-compatible stack that is made up of several projects. Each of these projects can be built and installed independently of Open Distro for Elasticsearch on the corresponding version of open source Elasticsearch.
