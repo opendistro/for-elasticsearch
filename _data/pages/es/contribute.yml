@@ -5,12 +5,11 @@ intro:
   title: Come together
   content: 
     - paragraph: Open Distro for Elasticsearch is and will remain 100% open source under the Apache 2.0 license. As the project grows, we hope you will join us and contribute. We want to make it easy for you to get started and remove friction—no lengthy Contributor License Agreement—so you can focus on writing great code.
-    - paragraph: Bug fixes welcome, too.  
 
 contributeDoc:
   title: Write the docs
   content: 
-    - paragraph: "If you can't contribute code, contribute documentation. We use Markdown, which is easy to read and easy to write. Code snippets and examples are essential in helping users get up to speed. The documentation repository has everything you need to get started."
+    - paragraph: "Contributing documentation is simple. We use Markdown, which is easy to read and easy to write. Code snippets and examples are essential in helping users get up to speed. The documentation repository has everything you need to get started."
   buttons:
     label_primary: Browse documentation
     url_primary: "https://opendistro.github.io/for-elasticsearch-docs﻿"
@@ -26,7 +25,7 @@ upstream:
 plugin:    
   title: Plug it in
   content:
-    - paragraph: Already have a great plugin? Reach out to us on the forum. We're always looking for new ways to make Open Distro for Elasticsearch even better.
+    - paragraph: Already have a great plugin? Reach out to us. We're always looking for new ways to make Open Distro for Elasticsearch even better.
   buttons:
-    label_primary: Project Ideas Forum
-    url_primary: "https://mauve-hedgehog.trydiscourse.com"    
+    label_primary: View GitHub issues
+    url_primary: "https://www.github.com/opendistroforelasticsearch"    
