@@ -44,7 +44,12 @@ layout: default
 	                  {% for action in software.actions %}
 	                  <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
 	                     <a href="{{action.url}}" class="software-download">
-	                         <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% if action.label contains 'RPM' %}
+	                           <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% else %}
+	                           <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% endif %} 
+	                        
 	                     </a>
 	                  </div>
 	                 {% endfor%}
@@ -86,7 +91,11 @@ layout: default
 	                  {% for action in software.actions %}
 	                  <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
 	                     <a href="{action.url}" class="software-download">
-	                         <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% if action.label contains 'RPM' %}
+	                           <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% else %}
+	                           <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% endif %} 
 	                     </a>
 	                  </div>
 	                 {% endfor%}

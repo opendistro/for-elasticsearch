@@ -41,9 +41,6 @@ descriptions:
     action_learn:
       label: 'Learn more'
       url: '/features/alerting.html'
-    # action_download:
-    #   label: 'Download'
-    #   url: 'downloads.html'
 
   - title: Query with familiar tools
     subtitle: SQL
@@ -52,9 +49,6 @@ descriptions:
     action_learn:
       label: 'Learn more'
       url: '/features/SQL%20Support.html'
-    # action_download:
-    #   label: 'Download'
-    #   url: '/downloads.html#SQL'
 
   - title: Get deep diagnostic insights
     subtitle: Performance Analyzer
@@ -86,8 +80,10 @@ intro:
   title: Why Open Distro for Elasticsearch?
   text: Elasticsearch has become an essential technology for log analytics and search, fueled by the freedom open source provides to developers and organizations. Our goal is to ensure that open source innovation continues to thrive by providing a fully featured, 100% open source, community-driven distribution that makes it easy for everyone to use, collaborate, and contribute.
   buttons:
-    label_primary: Learn more
+    label_primary: FAQ
     url_primary: "/faq.html"
+    label_secondary: Blog
+    url_secondary: "https://mauve-hedgehog.trydiscourse.com/'"
 
 #Text for all benefits maximum to 3
 benefits:

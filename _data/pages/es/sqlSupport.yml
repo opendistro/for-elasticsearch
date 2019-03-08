@@ -1,12 +1,6 @@
 banner:
   title: SQL
-  subtitle: Open Distro for Elasticsearch
-  # actions:
-  #   primary: 
-  #     text: 'Download'
-  #     url: 'downloads.html'
-  # color: "#2797f4"  
-  
+  subtitle: Open Distro for Elasticsearch 
 
 intro:
   title: Query data with the powerful SQL language
@@ -16,21 +10,15 @@ features:
   - title: Simple, performant, and scalable
     content: With Open Distro for Elasticsearch you can query your data using simple SQL queries instead of dozens of lines of JSON code. You continue to get all the benefits of Elasticsearch's full-text search and scoring capabilities without compromising on performance. You still get all of the benefits of Elasticsearch's full-text search and scoring capabilities.
     img: "/assets/media/screenshots/scale_perf.png"
-    # action_download:
-    #   label: 'Download'
-    #   url: 'downloads.html'
+    
   - title: Support for a wide variety of SQL features
     content: With support for more than 40 functions, data types, and commands including join support and direct export to CSV, Open Distro for Elasticsearch provides the SQL functionality you need to analyze your data.
     img: "/assets/media/screenshots/sql_table.png"
-    # action_download:
-    #   label: 'Download'
-    #   url: 'downloads.html'
+    
   - title: Translate SQL into Elasticsearch JSON
     content: Translate SQL statements into Elasticsearch JSON queries with a simple _explain call, enabling you to use SQL to create JSON to configure sophisticated access control policies in Security and monitors in Alerting.
     img: "/assets/media/screenshots/sql_json.gif"
-    # action_download:
-    #   label: 'Download JDBC driver'
-    #   url: 'downloads.html'
+    
   - title: Integrate with  your applications
     content: Open Distro for Elasticsearch provides a JDBC driver, allowing you to use a wide variety of business intelligence, analytics, and ETL tools to extract and analyze your Elasticsearch data.
     img: "/assets/media/screenshots/JDBC.png"
@@ -42,67 +30,3 @@ bottomBanner:
   class: sqlSupportBanner
   text: 'Join our community of developers in advancing the future of SQL'
   color: "#2797f4"
-# dataTypes:
-#   title: Supported Data Types
-#   sections:
-#     - content: 
-#       - item: "null"
-#       - item: boolean
-#       - item: byte
-#       - item: short
-#     - content: 
-#       - item: integer
-#       - item: long
-#       - item: double
-#       - item: float
-#     - content: 
-#       - item: half_float
-#       - item: scaled_float
-#       - item: keyword
-#       - item: text
-#     - content: 
-#       - item: binary
-#       - item: date
-#       - item: object
-#       - item: nested
-
-# sqlCommands:
-#   title: Supported Commands
-#   sections:
-#   - content: 
-#     - item: DESCRIBE
-#     - item: SELECT
-#     - item: SHOW COLUMNS
-#     - item: SHOW FUNCTIONS
-#     - item: SHOW TABLES
-#     - item: UPDATE
-#     - item: DELETE
-#     - item: INSERT INTO
-#   - content: 
-#     - item: CREATE TABLE
-#     - item: ALTER TABLE
-#     - item: DROP TABLE
-#     - item: ABS
-#     - item: CBRT
-#     - item: CEIL
-#     - item: E
-#     - item: PI
-#   - content:
-#     - item: ROUND
-#     - item: FLOOR
-#     - item: LOG
-#     - item: LOG10
-#     - item: SQRT
-#     - item: EXP
-#     - item: EXPM1
-#     - item: AVG 
-#   - content:
-#     - item: COUNT
-#     - item: COUNT (DISTINCT)
-#     - item: MAX
-#     - item: MIN
-#     - item: SUM
-#     - item: LAST
-#     - item: STATS
-#     - item: PERCENTILES (Pxx)
-#     - item: EXTENDED_STATS
