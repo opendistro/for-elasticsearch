@@ -1,19 +1,17 @@
-github: 
+github:
   security: 'https://www.github.com/opendistroforelasticsearch/security﻿'
   alerting: 'https://www.github.com/opendistroforelasticsearch/alerting﻿'
   analyzer: 'https://www.github.com/opendistroforelasticsearch/performance-analyzer﻿'
   sql: 'https://www.github.com/opendistroforelasticsearch/sql﻿'
   home: 'https://www.github.com/opendistroforelasticsearch'
 
-website:  
-  docs: 'https://opendistro.github.io/for-elasticsearch-docs﻿'
+website:
+  docs: 'https://opendistro.github.io/for-elasticsearch-docs'
   docs_rpm: 'https://opendistro.github.io/for-elasticsearch-docs﻿/install/rpm/'
 
-forum: 
+forum:
   security: 'https://mauve-hedgehog.trydiscourse.com/c/security'
   alerting: 'https://mauve-hedgehog.trydiscourse.com/c/alerting'
   analyzer: 'https://mauve-hedgehog.trydiscourse.com/c/performance-analyzer'
   sql: 'https://mauve-hedgehog.trydiscourse.com/c/sql'
   home: 'https://mauve-hedgehog.trydiscourse.com/'
-  
-
