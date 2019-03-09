@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #twitter_username: opendistro
 #github_username:  opendistro
 
-repository: "https://github.com/OpenDistro/OpenES-Web"
+repository: "https://github.com/opendistro/for-elasticsearch"
 
 # Build settings
 plugins:

@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Open distro for elasticsearch
+title: Open Distro for Elasticsearch
 ---
