@@ -20,7 +20,7 @@ forum:
   content: Engage with the community to ask questions, get answers, solve problems and discuss new ideas.
   buttons:
     label_primary: Join the conversation
-    url_primary: "https://mauve-hedgehog.trydiscourse.com/"
+    url_primary: "https://opendistrocommunity.dev"
 
 meetups:
   img: "/assets/media/icons/meetups.png"

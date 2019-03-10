@@ -64,16 +64,16 @@ descriptions:
 partners:
   - alt_text: 'AWS'
     featured: true,
-    img_url: "assets/media/logos/partners/aws.svg"
+    img_url: "/assets/media/logos/partners/aws.svg"
   - alt_text: 'VM ware'
     featured: true,
-    img_url: "assets/media/logos/partners/vmware.svg"
+    img_url: "/assets/media/logos/partners/vmware.svg"
   - alt_text: 'Netflix'
     featured: true,
-    img_url: "assets/media/logos/partners/Netflix.svg"
+    img_url: "/assets/media/logos/partners/Netflix.svg"
   - alt_text: 'Lyft'
     featured: true,
-    img_url: "assets/media/logos/partners/lyft.svg"
+    img_url: "/assets/media/logos/partners/lyft.svg"
 
 
 intro:
@@ -83,7 +83,7 @@ intro:
     label_primary: FAQ
     url_primary: "/faq.html"
     label_secondary: Blog
-    url_secondary: "https://mauve-hedgehog.trydiscourse.com/'"
+    url_secondary: "https://opendistrocommunity.dev"
 
 #Text for all benefits maximum to 3
 benefits:
@@ -109,7 +109,7 @@ included:
    text: "The foundation of Open Distro for Elasticsearch, is of course, open source Elasticsearch and Kibana. Open Distro for Elasticsearch includes open source Elasticsearch and Kibana. Each version is built source and includes all updates to the Apache code-base, making it compatible with open-source APIs and tools. The advanced Open Distro for Elasticsearch components include: Security, Alerting, SQL and Performance Analyzer."
    img: "assets/media/illustrations/opendistro_elastic.svg"
    buttons:
-    url_secondary: "http://ettea.aka.corp.amazon.com/opendist/"
+    url_secondary: "https://opendistro.github.io/for-elasticsearch-docs"
     label_secondary: Learn more
 
 partners:

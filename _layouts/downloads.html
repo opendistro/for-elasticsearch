@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container-fluid homeBanner">
+<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
   {%- include banner.html banner=site.data.pages.es.downloads.banner -%} 
 </div>  
 
@@ -34,7 +34,7 @@ layout: default
 		        <!-- Images -->
 		         <div class="row justify-content-center text-center downloadsContainer">
 		         {% for img in software.imgs %}
-		            <div class="col-6 col-md-4"><img src="{{img.img_item}}" class="download-img" ></img> </div>
+		            <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{img.img_item}}" class="download-img" ></img> </div>
 		         {% endfor %}
 		         </div>  
 
@@ -81,7 +81,7 @@ layout: default
 		         <!-- Images -->
 		         <div class="row justify-content-center text-center downloadsContainer">
 		         {% for img in software.imgs %}
-		            <div class="col-6 col-md-4"><img src="{{img.img_item}}" class="download-img"></img> </div>
+		            <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{img.img_item}}" class="download-img"></img> </div>
 		         {% endfor %}
 		         </div> 
 

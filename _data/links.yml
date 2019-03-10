@@ -10,8 +10,8 @@ website:
   docs_rpm: 'https://opendistro.github.io/for-elasticsearch-docs﻿/install/rpm/'
 
 forum:
-  security: 'https://mauve-hedgehog.trydiscourse.com/c/security'
-  alerting: 'https://mauve-hedgehog.trydiscourse.com/c/alerting'
-  analyzer: 'https://mauve-hedgehog.trydiscourse.com/c/performance-analyzer'
-  sql: 'https://mauve-hedgehog.trydiscourse.com/c/sql'
-  home: 'https://mauve-hedgehog.trydiscourse.com/'
+  security: 'https://opendistrocommunity.dev/c/security'
+  alerting: 'https://opendistrocommunity.dev/c/alerting'
+  analyzer: 'https://opendistrocommunity.dev/c/performance-analyzer'
+  sql: 'https://opendistrocommunity.dev/c/sql'
+  home: 'https://opendistrocommunity.dev'

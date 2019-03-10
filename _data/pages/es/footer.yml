@@ -21,7 +21,7 @@ siteMap:
        - menu_item: "GitHub"
          url: "https://www.github.com/opendistroforelasticsearch"
        - menu_item: "Forum"
-         url: "https://mauve-hedgehog.trydiscourse.com/"
+         url: "https://opendistrocommunity.dev"
        # - menu_item: "News"
        #   url: "/news.html"
     - title: 'DISCOVER'

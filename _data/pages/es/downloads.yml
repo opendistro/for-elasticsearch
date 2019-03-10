@@ -47,7 +47,7 @@ software:
           label: PerfTop CLI
 
 bottomBanner:
-  class: homeBannerBottom
+  class: '/assets/media/backgrounds/homehero.svg'
   text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0'
   color: "#0a1f72"
     

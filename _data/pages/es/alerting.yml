@@ -25,7 +25,7 @@ alerts:
   img: "/assets/media/screenshots/alert_screen_1.png"
 
 bottomBanner:
-  class: alertingBanner
+  class: "/assets/media/backgrounds/lightPinkRec.svg"
   text: 'Join our community of developers in advancing the future of Alerting'
   color: "#ff006b"
 

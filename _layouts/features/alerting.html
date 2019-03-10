@@ -10,7 +10,7 @@ layout: default
 {%- include feature_icons.html -%}
 
 <!-- Banner -->
-<div class="container-fluid featureBanner alertingBanner">
+<div class="container-fluid featureBanner" style="background: url('{{site.baseurl}}{{site.data.pages.es.alerting.bottomBanner.class}}') no-repeat; background-size: cover;">
   {%- include banner.html banner=site.data.pages.es.alerting.banner -%}
 </div>
 
@@ -25,4 +25,4 @@ layout: default
 {%- include intro.html intro=site.data.pages.es.alerting.alerts -%}
 
 <!-- Community -->
-{%- include communities/es.html community=site.data.pages.es.alerting.bottomBanner github=site.data.links.github.alerting forum= site.data.links.forum.alerting-%}
+{%- include communities/es.html style='/assets/media/backgrounds/lightPinkRec.svg' community=site.data.pages.es.alerting.bottomBanner github=site.data.links.github.alerting forum= site.data.links.forum.alerting-%}

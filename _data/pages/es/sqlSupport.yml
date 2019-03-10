@@ -27,6 +27,6 @@ features:
       url: '/downloads.html#SQL'
 
 bottomBanner:
-  class: sqlSupportBanner
+  class: '/assets/media/backgrounds/lightBlueRec.svg'
   text: 'Join our community of developers in advancing the future of SQL'
   color: "#2797f4"
