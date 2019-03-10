@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #github_username:  opendistro
 
 repository: "https://github.com/opendistro/for-elasticsearch"
-baseurl: "for-elasticsearch"
+# baseurl: "for-elasticsearch"
 # baseurl: "/"
 
 # Build settings
