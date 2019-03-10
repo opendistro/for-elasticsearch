@@ -7,7 +7,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand py-0" rel="author" href="{{ "/" | relative_url }}">
+    <a class="navbar-brand py-0" rel="author" href="{{site.url}}{{ site.baseurl | relative_url }}">
       <img src= "/assets/media/logos/OpenDistro-logo.svg">
     </a>
 
@@ -35,7 +35,7 @@
                     <ul class="dropdown-menu">
                         {% for sublink in link.sublinks %}
                             <li class="nav-item {{ class }}">
-                                <a class="nav-link" href="{{ sublink.url | relative_url}}">{{ sublink.title }}</a>
+                                <a class="nav-link" href="{{site.url}}{{site.baseurl}}{{ sublink.url | relative_url}}">{{ sublink.title }}</a>
                             </li>
                         {% endfor %}
                     </ul>
@@ -44,7 +44,7 @@
 
                 {%- if link.title -%}
                   <li class="nav-item {{class}}">
-                    <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
+                    <a class="nav-link" href="{{site.url}}{{site.baseurl}}{{ link.url | relative_url }}">{{ link.title | escape }}</a>
                   </li>
                 {%- endif -%}
             {% endif %}
