@@ -30,3 +30,4 @@ siteMap:
          url: "https://opendistro.github.io/for-elasticsearch-docs"
        - menu_item: "Download"
          url: "/downloads.html"
+  copyright: © 2019 Amazon Web Services, Inc. or its affiliates. All rights reserved.       

@@ -2,20 +2,23 @@
 <footer class="container-fluid page-footer">
   <div class="row d-flex justify-content-around">
     {% for section in site.data.pages.es.footer.siteMap.sections %}
-    <div class="col-md-4 px-5 py-5 d-block justify-content-center" style="padding-left:20px;">
+      <div class="col-md-4 px-5 py-5 d-block justify-content-center" style="padding-left:20px;">
 
-        <div class="title-footer">{{ section.title }}</div>
+          <div class="title-footer">{{ section.title }}</div>
 
-        <ul class="list-unstyled">
-          {% for menu in section.contents %}
-            <li>
-              <a href="{{menu.url | relative_url}}" class="text-footer">{{ menu.menu_item }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-
-    </div>
+          <ul class="list-unstyled">
+            {% for menu in section.contents %}
+              <li>
+                <a href="{{menu.url | relative_url}}" class="text-footer">{{ menu.menu_item }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+      </div>
     {% endfor %}
+  </div>
+  <!-- Copy right -->
+  <div class="row justify-content-around">
+    <span style="text-align:center; color: #666; padding: 10px;">{{site.data.pages.es.footer.siteMap.copyright}}</span>
   </div>
 </footer>
 
