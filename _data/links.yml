@@ -1,8 +1,8 @@
 github:
-  security: 'https://www.github.com/opendistro-for-elasticsearch/security﻿'
-  alerting: 'https://www.github.com/opendistro-for-elasticsearch/alerting﻿'
-  analyzer: 'https://www.github.com/opendistro-for-elasticsearch/performance-analyzer﻿'
-  sql: 'https://www.github.com/opendistro-for-elasticsearch/sql﻿'
+  security: 'https://github.com/opendistro-for-elasticsearch/security'
+  alerting: 'https://github.com/opendistro-for-elasticsearch/alerting'
+  analyzer: 'https://github.com/opendistro-for-elasticsearch/performance-analyzer'
+  sql: 'https://github.com/opendistro-for-elasticsearch/sql'
   home: 'https://www.github.com/opendistro-for-elasticsearch'
 
 website:
