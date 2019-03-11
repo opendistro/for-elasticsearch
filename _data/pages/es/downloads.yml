@@ -43,8 +43,10 @@ software:
       imgs:
         - img_item: "/assets/media/icons/consol.png"
       actions:
-        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0.zip"
-          label: PerfTop CLI
+        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0-MACOS.zip"
+          label: PerfTop CLI macOS
+        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0-LINUX.zip"
+          label: PerfTop CLI Linux
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
