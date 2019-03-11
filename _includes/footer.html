@@ -46,16 +46,3 @@ if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+
  
   gtag('config', 'UA-135423944-1');
 </script>
-
-<script>
-  
-  var trackOutboundLink = function(url) {
-   console.log("Tracking");
-   console.log(url);
-   ga('send', 'event', 'outbound', 'click', url, {
-     // 'transport': 'beacon',
-     'hitCallback': function(){document.location = url;}
-   });
-}
-
-</script>

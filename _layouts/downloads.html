@@ -43,7 +43,9 @@ layout: default
 	               <div class="col-12 col-md-10" > </div>
 	                  {% for action in software.actions %}
 	                  <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-	                     <a href="{{action.url}}" class="software-download" target="_blank" onclick="trackOutboundLink('{{action.url}}');">
+
+	                     <a href="{{action.url}}" class="software-download" target="about:blank" onclick="trackOutboundLink('{{action.url}}');">
+
 	                        {% if action.label contains 'RPM' %}
 	                           <h7 style="font-weight:bold;">{{action.label}}</h7> 
 	                        {% else %}
@@ -90,7 +92,9 @@ layout: default
 	               <div class="col-12 col-md-10" > </div>
 	                  {% for action in software.actions %}
 	                  <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-	                     <a href="{{action.url}}" class="software-download" target="_blank" onclick="trackOutboundLink('{{action.url}}');">
+
+	                     <a href="{{action.url}}" class="software-download" target="about:blank" onclick="trackOutboundLink('{{action.url}}');">
+
 	                        {% if action.label contains 'RPM' %}
 	                           <h7 style="font-weight:bold;">{{action.label}}</h7> 
 	                        {% else %}
@@ -116,5 +120,5 @@ layout: default
 </div>
 
 <!-- Community -->
-{%- include communities/es.html community=site.data.pages.es.downloads.bottomBanner github=site.data.links.github.alerting forum= site.data.links.forum.home-%}
+{%- include communities/es.html community=site.data.pages.es.downloads.bottomBanner github=site.data.links.github.home forum= site.data.links.forum.home-%}
 <!-- Community Ends -->

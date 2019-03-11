@@ -84,7 +84,7 @@ intro:
     url_primary: "/faq.html"
     label_secondary: Blog
     url_secondary: "https://aws.amazon.com/blogs/opensource/keeping-open-source-open-open-distro-for-elasticsearch/"
-
+  
 #Text for all benefits maximum to 3
 benefits:
   title: 'Benefits'

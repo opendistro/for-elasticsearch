@@ -15,7 +15,7 @@ software:
       actions:
         - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"    
           label: RPM Install guide
-        - url: "https://cloud.docker.com/u/amazon/repository/docker/amazon/opendistro-for-elasticsearch"
+        - url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
           label: Docker 
 
     - subtitle: Open Distro for Elasticsearch
@@ -27,7 +27,7 @@ software:
       actions:
         - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
           label: RPM Install guide
-        - url: "https://cloud.docker.com/u/amazon/repository/docker/amazon/opendistro-for-elasticsearch-kibana"
+        - url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
           label: Docker 
 
     - title: SQL JDBC
