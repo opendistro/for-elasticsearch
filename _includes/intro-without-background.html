@@ -48,11 +48,21 @@
     {% if include.intro.buttons %}
       <div class="row justify-content-center text-center pt-3">
        
+       {% if include.intro.buttons.url_primary contains 'https' %}
+
 		   <div class="col-6 col-sm-4 col-md-3 col-lg-2">
 		      <a class="btn btn-outline-primary-on-white btn-block" href="{{include.intro.buttons.url_primary}}" role="button">
 		        {{include.intro.buttons.label_primary}}
 		      </a>
-		   </div>       
+		   </div> 
+
+        {% else %} 
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+		      <a class="btn btn-outline-primary-on-white btn-block" href="{{site.baseurl}}{{include.intro.buttons.url_primary}}" role="button">
+		        {{include.intro.buttons.label_primary}}
+		      </a>
+		   </div> 
+        {% endif %}
 	    
 	  </div>
 	{% endif %}
