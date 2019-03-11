@@ -46,3 +46,13 @@ if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+
  
   gtag('config', 'UA-135423944-1');
 </script>
+
+<script>
+  function trackOutboundLink(url) {
+
+  gtag('event', 'click', {
+       'event_category': 'Download link',
+       'event_label': url
+  });
+} 
+</script>
