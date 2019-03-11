@@ -19,7 +19,7 @@ siteMap:
        - menu_item: "Code of Conduct"
          url: "/codeofconduct.html"
        - menu_item: "GitHub"
-         url: "https://www.github.com/opendistroforelasticsearch"
+         url: "https://www.github.com/opendistro-for-elasticsearch"
        - menu_item: "Forum"
          url: "https://discuss.opendistrocommunity.dev/"
        # - menu_item: "News"
