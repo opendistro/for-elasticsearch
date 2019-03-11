@@ -35,7 +35,7 @@ software:
       imgs:
         - img_item: "/assets/media/icons/javajdbc.png"
       actions:
-        - url: "#"
+        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-0.7.0.0.jar"
           label: JDBC driver
         
     - title: PerfTop CLI
@@ -43,7 +43,7 @@ software:
       imgs:
         - img_item: "/assets/media/icons/consol.png"
       actions:
-        - url: "#"
+        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0.zip"
           label: PerfTop CLI
 
 bottomBanner:

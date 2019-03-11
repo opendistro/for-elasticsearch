@@ -29,7 +29,7 @@ meetups:
 
 codeOfConduct:
   title: Code of Conduct
-  text: "The Open Distro for Elasticsearch community values respect and being professional in interacting with everyone on the project whether on PRs, comments in code. We enforce a <a href='/codeofconduct.html'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. <a href='mailto:opensource-codeofconduct@amazon.com'>Contact us</a>"
+  text: "The Open Distro for Elasticsearch community values respect and being professional in interacting with everyone on the project whether on PRs, comments in code. We enforce a <a href='codeofconduct.html'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. <a href='mailto:opensource-codeofconduct@amazon.com'>Contact us</a>"
 
 githubLinks:
     - title: Alerting

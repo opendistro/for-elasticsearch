@@ -27,6 +27,6 @@ siteMap:
     - title: 'DISCOVER'
       contents: 
        - menu_item: "Documentation"
-         url: "https://opendistro.github.io/for-elasticsearch-docs﻿"
+         url: "https://opendistro.github.io/for-elasticsearch-docs"
        - menu_item: "Download"
          url: "/downloads.html"
