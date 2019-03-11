@@ -28,4 +28,4 @@ plugin:
     - paragraph: Already have a great plugin? Reach out to us. We're always looking for new ways to make Open Distro for Elasticsearch even better.
   buttons:
     label_primary: View GitHub issues
-    url_primary: "https://www.github.com/opendistroforelasticsearch"    
+    url_primary: "https://www.github.com/opendistro-for-elasticsearch"    

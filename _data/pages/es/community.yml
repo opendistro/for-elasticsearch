@@ -12,7 +12,7 @@ github:
  
   buttons:
     label_primary: Browse GitHub
-    url_primary: "https://www.github.com/opendistroforelasticsearch"
+    url_primary: "https://www.github.com/opendistro-for-elasticsearch"
 
 forum: 
   img: "/assets/media/icons/discourse.png"
