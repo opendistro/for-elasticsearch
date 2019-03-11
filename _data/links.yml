@@ -10,8 +10,8 @@ website:
   docs_rpm: 'https://opendistro.github.io/for-elasticsearch-docs﻿/install/rpm/'
 
 forum:
-  security: 'https://opendistrocommunity.dev/c/security'
-  alerting: 'https://opendistrocommunity.dev/c/alerting'
-  analyzer: 'https://opendistrocommunity.dev/c/performance-analyzer'
-  sql: 'https://opendistrocommunity.dev/c/sql'
-  home: 'https://opendistrocommunity.dev'
+  security: 'https://discuss.opendistrocommunity.dev/c/security'
+  alerting: 'https://discuss.opendistrocommunity.dev/c/alerting'
+  analyzer: 'https://discuss.opendistrocommunity.dev/c/performance-analyzer'
+  sql: 'https://discuss.opendistrocommunity.dev/c/sql'
+  home: 'https://discuss.opendistrocommunity.dev/'

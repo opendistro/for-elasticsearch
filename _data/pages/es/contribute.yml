@@ -12,7 +12,7 @@ contributeDoc:
     - paragraph: "Contributing documentation is simple. We use Markdown, which is easy to read and easy to write. Code snippets and examples are essential in helping users get up to speed. The documentation repository has everything you need to get started."
   buttons:
     label_primary: Browse documentation
-    url_primary: "https://opendistro.github.io/for-elasticsearch-docs﻿"
+    url_primary: "https://opendistro.github.io/for-elasticsearch-docs"
 
 upstream:    
   title: Supporting upstream

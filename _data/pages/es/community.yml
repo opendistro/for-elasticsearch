@@ -8,7 +8,7 @@ intro:
 github: 
   img: "/assets/media/icons/octocat.png"
   title: "GitHub"
-  content: "All project code is available on GitHub. <br>We invite you to contribute." 
+  content: "All project code is available on GitHub. <br>We invite you to contribute. We will ask you to confirm that your contribution will be licensed as Apache 2.0." 
  
   buttons:
     label_primary: Browse GitHub
@@ -20,7 +20,7 @@ forum:
   content: Engage with the community to ask questions, get answers, solve problems and discuss new ideas.
   buttons:
     label_primary: Join the conversation
-    url_primary: "https://opendistrocommunity.dev"
+    url_primary: "https://discuss.opendistrocommunity.dev/"
 
 meetups:
   img: "/assets/media/icons/meetups.png"
