@@ -15,7 +15,7 @@ software:
       actions:
         - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"    
           label: RPM Install guide
-        - url: "https://cloud.docker.com/u/amazon/repository/docker/amazon/opendistro-for-elasticsearch"
+        - url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
           label: Docker 
 
     - subtitle: Open Distro for Elasticsearch
@@ -25,7 +25,7 @@ software:
         - img_item: "/assets/media/icons/docker.png"
       description: "Kibana (Apache 2.0 licensed code only) - 6.5.4 <br> Includes Security and Alerting"
       actions:
-        - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
+        - url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
           label: RPM Install guide
         - url: "https://cloud.docker.com/u/amazon/repository/docker/amazon/opendistro-for-elasticsearch-kibana"
           label: Docker 
