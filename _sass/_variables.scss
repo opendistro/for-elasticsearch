@@ -1,0 +1,50 @@
+//
+// Color system
+//
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #ecf0f1 !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #b4bcc2 !default;
+$gray-600: #95a5a6 !default;
+$gray-700: #7b8a8b !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$blue:    #2C3E50 !default;
+$midnightblue: #0a1f72 !default;
+$aliceblue: #f3f6fc !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #E74C3C !default;
+$orange:  #fd7e14 !default;
+$yellow:  #F39C12 !default;
+$green:   #2797f4 !default;
+$teal:    #20c997 !default;
+$cyan:    #3498DB !default;
+$distro-pink: #DA00B1 !default;
+
+
+$primary:       #750EAD !default;
+$primary:       $white !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-200 !default;
+$dark:          $gray-700 !default;
+
+$yiq-contrasted-threshold:  175 !default;
+
+// Links
+
+$link-color:                $success !default;
+$navbar-light-color: $midnightblue !default;
+$navbar-light-active-color: $midnightblue !default;
+
+$fa-font-path:  "../fonts/font-awesome" !default;

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
+  {%- include banner.html banner=site.data.pages.es.faq.banner -%} 
+</div>  
+
+<div class="pt-5"/>
+
+<!-- Paragraphs -->
+<div class="container px-5">
+  {% for faq in site.data.pages.es.faq.faqs %}
+	   <div class="pt-5"></div>
+	    
+	    <!-- Title -->
+	    <h5 style="font-weight: 600;">{{faq.title | markdownify}}</h5>
+	    
+	    <!-- Content -->
+	    <div class="link-on-white-paragraph text">{{faq.content | markdownify }}</div>
+  {% endfor %}
+</div>
+
+<div class="pt-5"></div>

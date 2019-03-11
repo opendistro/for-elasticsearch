@@ -1,0 +1,1897 @@
+//    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
+
+@media (max-width: 576px) {  
+
+
+  /* ----- FEATURE ICONS ------ */
+
+  .feature-icons-container {
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: lightgrey;
+    padding-top:40px;
+  }
+
+  .feature-icons { 
+    width: 30px;
+    height:30px;
+  }
+
+  .page-content {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .page-footer {
+    background-color: black;
+    color: $white;
+  }
+
+  .page-footer a {
+    color: $white;
+  }
+
+  .text-on-white {
+    color: #777777;
+  }
+
+  .title {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+
+  .title-md {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    font-weight: 150;
+  }
+
+  .title-bg {
+    font-size: 2.0rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .title-footer {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .title-on-dark {
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .title-md-on-dark {
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    color: $white;
+  }
+
+  .title-in-banner {
+    font-size: 2.6rem;
+    font-weight: 300;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .overtitle-on-white {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $midnightblue;
+    margin-bottom: 0.9rem;
+  }
+
+  .subtitle-on-white {
+    font-size: 1.25rem;
+    font-weight: 140;
+    line-height: 1.6;
+    margin-bottom: 1.4rem;
+    .a:hover{
+    text-decoration: none; 
+    }
+  }
+
+  .subtitle-on-white:hover {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+    text-decoration: none; 
+  }
+
+  .subtitle-in-banner { 
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: $white;
+    font-weight: 300;
+    margin-bottom:0;
+  }
+
+  .title-in-box {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
+    color: $white;
+  }
+
+  .text-14 {
+    font-size: 14px;
+  }
+
+  .text { 
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #111;
+    font-weight: 200;
+  }
+
+  .text-md { 
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-small { 
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-footer { 
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-icon {
+    font-size: 0.7rem;
+    font-weight:400;
+  }
+
+  .text-on-dark { 
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    color: #ddd;
+    font-weight: lighter;
+  }
+
+  .text-in-box {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #fff;
+    font-weight: 100;
+    color: $white;
+  }
+
+  .text-in-banner { 
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: $white;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .a {
+    text-decoration: none; 
+  }
+
+  .link-on-white {
+    color: $midnightblue;  
+  }
+
+  .link-on-white:hover {
+    color: $midnightblue; 
+    text-decoration: none;  
+  }
+
+  .link-on-white-paragraph p a {
+    color: $waterblue; 
+    font-weight: 300;
+  }
+
+  .link-on-dark {
+    color: $white;
+    font-weight: none;  
+  }
+
+  .link-on-dark:hover {
+    color: $white;
+    text-decoration: none;  
+  }
+
+  .software-download {
+    color: $lightblue;
+    font-size: 0.8rem;
+  }
+
+  .vcenter {
+    align-items: center;
+  }
+
+  .homeBanner {
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 100px 20px 60px 20px;
+  }
+
+  .featureBanner {
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 50px 20px 40px 20px;
+  }
+
+  .greyBox {
+    background-color: #444444;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 80px 80px 30px 80px;
+  }
+
+  .btn-140{
+    max-width: 140px;
+  }
+
+  .nav-link.active {
+    color: $midnightblue;
+  }
+
+  .nav li.active a {
+    font-weight: 800;
+  }
+
+  .nav-item.active a {
+    font-weight: 800;
+  }
+
+  .nav-item .btn{
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
+  }
+
+  /*text-icon-three-col*/
+
+  .text-icon-three-col img{
+    width: 40px;
+    padding-bottom: 10px;
+  }
+
+  .text-icon-three-col p {
+    padding: 0 30px 30px 30px;
+  }
+
+  .text-img-with-background h3 { 
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-img-with-background h5 { 
+    font-size: 1.2rem;
+  }
+
+  .text-img-with-background p { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-background .btn { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-background{
+    background-color: #f3f6fc; 
+    padding: 40px 0;
+  }
+
+  .text-img-with-nobackground h3 { 
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-img-with-nobackground h5 { 
+    font-size: 1.2rem;
+  }
+
+  .text-img-with-nobackground p { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-nobackground .btn { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-nobackground{
+    padding: 40px 0;
+  } 
+
+  .intro-with-background {
+    padding: 50px 0;
+  }
+
+  .intro-with-background p{
+    font-size: 1rem;
+  }
+
+  .intro-with-background h1{
+    font-size: 1.7rem;
+  }
+
+  .intro-without-background {
+    padding: 50px 0;
+  }
+
+  .intro-without-background p{
+    font-size: 1rem;
+  }
+
+  .intro-without-background h1{
+    font-size: 1.7rem;
+  }
+
+  .download-img {
+    width: 80%;
+  }
+
+  .donwloadsContainer {
+    padding-top: 1rem;
+  }
+
+}
+ /* ----------------------------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 576px) {  
+
+  // Feature icons
+
+  .feature-icons-container {
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: lightgrey;
+    padding-top:80px;
+  }
+
+  .feature-icons { 
+    width: 42px;
+    height:42px;
+  }
+
+  .page-content {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .page-footer {
+    background-color: black;
+    color: $white;
+  }
+
+  .page-footer a {
+    color: $white;
+  }
+
+  .text-on-white {
+    color: #777777;
+  }
+
+  .title {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+
+  .title-md {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  .title-bg {
+    font-size: 3.0rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .title-footer {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .title-on-dark {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .title-md-on-dark {
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    color: $white;
+  }
+
+  .title-in-banner {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .overtitle-on-white {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $midnightblue;
+    margin-bottom: 0.9rem;
+  }
+
+  .subtitle-on-white {
+    font-size: 1.25rem;
+    font-weight: 140;
+    line-height: 1.6;
+    margin-bottom: 1.4rem;
+    .a:hover{
+    text-decoration: none; 
+    }
+  }
+
+  .subtitle-on-white:hover {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+    text-decoration: none; 
+  }
+
+  .subtitle-in-banner { 
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: $white;
+    font-weight: 300;
+    margin-bottom:0;
+  }
+
+  .title-in-box {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
+    color: $white;
+  }
+
+  .text-14 {
+    font-size: 14px;
+  }
+
+  .text { 
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #111;
+    font-weight: 200;
+  }
+
+  .text-md { 
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-small { 
+    font-size: 14PX;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-footer { 
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-icon {
+    font-size: 0.8rem;
+    line-height: 3;
+    font-weight:400;
+  }
+
+  .text-on-dark { 
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    color: #ddd;
+    font-weight: lighter;
+  }
+
+  .text-in-box {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #fff;
+    font-weight: 100;
+    color: $white;
+  }
+
+  .text-in-banner { 
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: $white;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .a {
+    text-decoration: none; 
+  }
+
+  .link-on-white {
+    color: $midnightblue;  
+  }
+
+  .link-on-white:hover {
+    color: $midnightblue; 
+    text-decoration: none;  
+  }
+
+  .link-on-white-paragraph p a {
+    color: $waterblue; 
+    font-weight: 300;
+  }
+
+  .link-on-dark {
+    color: $white;
+    font-weight: none;  
+  }
+
+  .link-on-dark:hover {
+    color: $white;
+    text-decoration: none;  
+  }
+
+  .software-download {
+    color: $lightblue;
+  }
+
+  .vcenter {
+    align-items: center;
+  }
+
+  .homeBanner {
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 100px 20px 60px 20px;
+  }
+
+  .featureBanner {
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 50px 20px 40px 20px;
+  }
+
+  .greyBox {
+    background-color: #444444;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 80px 80px 30px 80px;
+  }
+
+  .btn-140{
+    max-width: 140px;
+  }
+
+  .nav-link.active {
+    color: $midnightblue;
+  }
+
+  .nav li.active a {
+    font-weight: 800;
+  }
+
+  .nav-item .btn{
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
+  }
+
+  /*text-icon-three-col*/
+
+  .text-icon-three-col p{
+    padding: 0x;
+  }
+
+  .text-icon-three-col img{
+    width: 40px;
+  }
+
+  .text-img-with-background h3 { 
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-img-with-background h5 { 
+    font-size: 1.2rem;
+  }
+
+  .text-img-with-background p { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-background .btn { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-background{
+    background-color: #f3f6fc; 
+    padding: 40px 0;
+  }
+
+  .text-img-with-nobackground h3 { 
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-img-with-nobackground h5 { 
+    font-size: 1.2rem;
+  }
+
+  .text-img-with-nobackground p { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-nobackground .btn { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-nobackground{
+    padding: 40px 0;
+  }
+
+  .intro-without-background {
+    padding: 50px 0;
+  }
+
+  .intro-with-background {
+    padding: 50px 0;
+  }
+
+  .download-img {
+    width: 80%;
+  }
+
+  .donwloadsContainer {
+    padding-top: 1rem;
+  }
+  
+}
+ /* ----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+
+  // Feature Icons
+
+  .feature-icons-container {
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: lightgrey;
+    padding-top:80px;
+  }
+
+  .feature-icons { 
+    width: 42px;
+    height:42px;
+  }
+
+  .page-content {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .page-footer {
+    background-color: black;
+    color: $white;
+  }
+
+  .page-footer a {
+    color: $white;
+  }
+
+  .text-on-white {
+    color: #777777;
+  }
+
+  .title {
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+
+  .title-md {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  .title-bg {
+    font-size: 3.0rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .title-footer {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .title-on-dark {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .title-md-on-dark {
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    color: $white;
+  }
+
+  .title-in-banner {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .overtitle-on-white {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $midnightblue;
+    margin-bottom: 0.9rem;
+  }
+
+  .subtitle-on-white {
+    font-size: 1.25rem;
+    font-weight: 140;
+    line-height: 1.6;
+    margin-bottom: 1.4rem;
+    .a:hover{
+    text-decoration: none; 
+    }
+  }
+
+  .subtitle-on-white:hover {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+    text-decoration: none; 
+  }
+
+  .subtitle-in-banner { 
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: $white;
+    font-weight: 300;
+    margin-bottom:0;
+  }
+
+  .title-in-box {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
+    color: $white;
+  }
+
+  .text-14 {
+    font-size: 14px;
+  }
+
+  .text { 
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #111;
+    font-weight: 200;
+  }
+
+  .text-md { 
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-small { 
+    font-size: 14PX;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-footer { 
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-icon {
+    font-size: 0.8rem;
+    line-height: 3;
+    font-weight:400;
+  }
+
+  .text-on-dark { 
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    color: #ddd;
+    font-weight: lighter;
+  }
+
+  .text-in-box {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #fff;
+    font-weight: 100;
+    color: $white;
+  }
+
+  .text-in-banner { 
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: $white;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .a {
+    text-decoration: none; 
+  }
+
+  .link-on-white {
+    color: $midnightblue;  
+  }
+
+  .link-on-white:hover {
+    color: $midnightblue; 
+    text-decoration: none;  
+  }
+
+  .link-on-white-paragraph p a {
+    color: $waterblue; 
+    font-weight: 300;
+    word-break: break-all; 
+  }
+
+  .link-on-dark {
+    color: $white;
+    font-weight: none;  
+  }
+
+  .link-on-dark:hover {
+    color: $white;
+    text-decoration: none;  
+  }
+
+  .software-download {
+    color: $lightblue;
+    font-size: 1rem;
+  }
+
+  .vcenter {
+    align-items: center;
+  }
+
+  .featureBanner {
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 50px 20px 40px 20px;
+  }
+
+  .homeBanner {
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 140px 20px 60px 20px;
+  }
+
+  .greyBox {
+    background-color: #444444;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 80px 80px 30px 80px;
+  }
+
+  .btn-140{
+    max-width: 140px;
+  }
+
+  .nav-link.active {
+    color: $midnightblue;
+  }
+
+  .nav li.active a {
+    font-weight: 800;
+  }
+
+  .navbar-brand img {
+    width: 100%;
+    min-width: 300px;
+    vertical-align: middle; 
+  }
+
+  .nav-item .btn{
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
+  }
+
+  /*text-icon-three-col*/
+
+  .text-icon-three-col img{
+    width: 50px;
+  }  
+
+  .text-img-with-background h3 { 
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-img-with-background h5 { 
+    font-size: 1.2rem;
+  }
+
+  .text-img-with-background p { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-background .btn { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-background{
+    background-color: #f3f6fc; 
+    padding: 80px 0;
+  }
+
+  .text-img-with-nobackground h3 { 
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-img-with-nobackground h5 { 
+    font-size: 1.2rem;
+  }
+
+  .text-img-with-nobackground p { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-nobackground .btn { 
+    font-size: .9rem;
+  }
+
+  .text-img-with-nobackground{
+    padding: 80px 0;
+  }
+
+  .intro-without-background {
+    padding: 50px 0;
+  }
+
+  .intro-with-background {
+    padding: 50px 0;
+  }
+
+  .download-img {
+    width: 80%;
+  }
+
+  .donwloadsContainer {
+    padding-top: 1rem;
+  }
+
+}
+ /* ----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+  // Feature icons
+
+  .feature-icons-container {
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: lightgrey;
+    padding-top:80px;
+  }
+
+  .feature-icons { 
+    width: 42px;
+    height:42px;
+  }
+
+  .page-content {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .page-footer {
+    background-color: black;
+    color: $white;
+  }
+
+  .page-footer a {
+    color: $white;
+  }
+
+  .text-on-white {
+    color: #777777;
+  }
+
+  .title {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+
+  .title-md {
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  .title-bg {
+    font-size: 3.0rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .title-footer {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .title-on-dark {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .title-md-on-dark {
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    color: $white;
+  }
+
+  .title-in-banner {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .overtitle-on-white {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $midnightblue;
+    margin-bottom: 0.9rem;
+  }
+
+  .subtitle-on-white {
+    font-size: 1.25rem;
+    font-weight: 140;
+    line-height: 1.6;
+    margin-bottom: 1.4rem;
+    .a:hover{
+    text-decoration: none; 
+    }
+  }
+
+  .subtitle-on-white:hover {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+    text-decoration: none; 
+  }
+
+  .subtitle-in-banner { 
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: $white;
+    font-weight: 300;
+    margin-bottom:0;
+  }
+
+  .title-in-box {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
+    color: $white;
+  }
+
+  .text-14 {
+    font-size: 14px;
+  }
+
+  .text { 
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #111;
+    font-weight: 200;
+  }
+
+  .text-md { 
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 150;
+  }
+
+  .text-small { 
+    font-size: 14PX;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-footer { 
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-icon {
+    font-size: 0.8rem;
+    line-height: 3;
+    font-weight:400;
+  }
+
+  .text-on-dark { 
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    color: #ddd;
+    font-weight: lighter;
+  }
+
+  .text-in-box {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #fff;
+    font-weight: 100;
+    color: $white;
+  }
+
+  .text-in-banner { 
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: $white;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .a {
+    text-decoration: none; 
+  }
+
+  .link-on-white {
+    color: $midnightblue;  
+  }
+
+  .link-on-white:hover {
+    color: $midnightblue; 
+    text-decoration: none;  
+  }
+
+  .link-on-white-paragraph p a {
+    color: $waterblue; 
+    font-weight: 300;
+    word-break: break-all; 
+  }
+
+  .link-on-dark {
+    color: $white;
+    font-weight: none;  
+  }
+
+  .link-on-dark:hover {
+    color: $white;
+    text-decoration: none;  
+  }
+
+  .software-download {
+    color: $lightblue;
+    font-size: 1rem;
+  }
+
+  .vcenter {
+    align-items: center;
+  }
+
+  .homeBanner {
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 140px 20px 60px 20px;
+  }
+
+  .featureBanner {
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 46px 80px 62px 80px;
+  }
+
+  .greyBox {
+    background-color: #444444;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 80px 80px 30px 80px;
+  }
+
+  .btn-140{
+    max-width: 140px;
+  }
+
+  .nav-link.active {
+    color: $midnightblue;
+  }
+
+  .nav li.active a {
+    font-weight: 800;
+  }
+
+  .navbar-brand img {
+    width: 90%;
+    min-width: 180px;
+    vertical-align: middle; 
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 14px;
+    min-width: 73px;
+    text-align: center;
+  }
+
+  .nav-item .btn{
+    font-size: 14px;
+    margin-top:5px;
+    margin-left:22px;
+    width: 150px;
+  }
+
+  /*text-icon-three-col*/
+
+  .text-icon-three-col img {
+    width: 50px;
+  }
+
+  .text-img-with-background {
+    background-color: #f3f6fc; 
+    padding: 80px 0;
+  }
+
+  .text-img-with-background h3 { 
+     font-size: 1.4rem;
+  }
+
+  .text-img-with-background h5 { 
+     font-size: 1.2rem;
+  }
+
+  .text-img-with-background p { 
+    font-size: 1rem;
+  }
+
+  .text-img-with-background .btn { 
+    font-size: 1rem;
+  }
+
+  .text-img-with-nobackground{
+    padding: 80px 0;
+  }
+
+  .text-img-with-nobackground h3 { 
+     font-size: 1.4rem;
+  }
+
+  .text-img-with-nobackground h5 { 
+     font-size: 1.2rem;
+  }
+
+  .text-img-with-nobackground p { 
+    font-size: 1rem;
+  }
+
+  .text-img-with-nobackground .btn { 
+    font-size: 1rem;
+  }
+
+  .download-img {
+    width: 80%;
+  }
+
+  .donwloadsContainer {
+    padding-top: 1rem;
+  }
+  
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------*/
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  
+
+  // Feature icons
+
+  .feature-icons-container {
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: lightgrey;
+    padding-top:80px;
+  }
+
+  .feature-icons { 
+     width: 42px;
+     height:42px;
+  }
+
+  .page-content {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .page-footer {
+    background-color: black;
+    color: $white;
+  }
+
+  .page-footer a {
+    color: $white;
+  }
+
+  .text-on-white {
+    color: #777777;
+  }
+
+  .title {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
+
+  .title-md {
+    font-size: 2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  .title-bg {
+    font-size: 3.0rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .title-footer {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .title-on-dark {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .title-md-on-dark {
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+    color: $white;
+  }
+
+  .title-in-banner {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: $white;
+  }
+
+  .overtitle-on-white {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $midnightblue;
+    margin-bottom: 0.9rem;
+  }
+
+  .subtitle-on-white {
+    font-size: 1.25rem;
+    font-weight: 140;
+    line-height: 1.6;
+    margin-bottom: 1.4rem;
+    .a:hover{
+    text-decoration: none; 
+    }
+  }
+
+  .subtitle-on-white:hover {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1.4rem;
+    text-decoration: none; 
+  }
+
+  .subtitle-in-banner { 
+     font-size: 1.8rem;
+     letter-spacing: 1px;
+     color: $white;
+     font-weight: 300;
+     margin-bottom:0;
+  }
+
+  .title-in-box {
+   font-size: 1.25rem;
+   font-weight: bold;
+   margin-bottom: 1.4rem;
+   color: $white;
+  }
+
+  .text-14 {
+    font-size: 14px;
+  }
+
+  .text { 
+     font-size: 1.2rem;
+     letter-spacing: 1px;
+     line-height: 1.6;
+     color: #111;
+     font-weight: 200;
+  }
+
+  .text-md { 
+     font-size: 1.4rem;
+     letter-spacing: 1px;
+     line-height: 1.7;
+     color: #111;
+     font-weight: 150;
+  }
+
+  .text-small { 
+     font-size: 14PX;
+     letter-spacing: 1px;
+     line-height: 1.7;
+     color: #111;
+     font-weight: 300;
+  }
+
+  .text-footer { 
+     font-size: 1rem;
+     letter-spacing: 1px;
+     line-height: 1.6;
+     color: #111;
+     font-weight: 300;
+  }
+
+  .text-icon {
+    font-size: 0.8rem;
+    line-height: 3;
+    font-weight:400;
+  }
+
+  .text-on-dark { 
+     font-size: 1.3rem;
+     letter-spacing: 1.5px;
+     line-height: 1.6;
+     color: #ddd;
+     font-weight: lighter;
+  }
+
+  .text-in-box {
+     font-size: 1.1rem;
+     letter-spacing: 1px;
+     line-height: 1.6;
+     color: #fff;
+     font-weight: 100;
+     color: $white;
+  }
+
+  .text-in-banner { 
+     font-size: 1.8rem;
+     letter-spacing: 1px;
+     color: $white;
+     line-height: 1.6;
+     font-weight: 300;
+  }
+
+  .text-img-with-background{
+    background-color: #f3f6fc; 
+    padding: 80px 0;
+  }
+
+  .text-img-with-nobackground h3 { 
+       font-size: 2rem;
+       letter-spacing: 1px;
+       line-height: 1.5;
+       color: #111;
+       font-weight: 300;
+  }
+
+  .text-img-with-nobackground h5 { 
+     font-size: 1.4rem;
+  }
+
+  .text-img-with-nobackground p { 
+     font-size: 1.2rem;
+  }
+
+  .text-img-with-nobackground .btn { 
+     font-size: 1rem;
+  }
+
+  .text-img-with-nobackground{
+    padding: 80px 0;
+  }
+
+  .text-img-with-background h3 { 
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #111;
+    font-weight: 300;
+  }
+
+  .text-img-with-background h5 { 
+    font-size: 1.4rem;
+  }
+
+  .text-img-with-background p { 
+   font-size: 1.2rem;
+  }
+
+  .text-img-with-background .btn { 
+    font-size: 1rem;
+  }
+
+  .text-img-with-background{
+    padding: 80px 0;
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .a {
+    text-decoration: none; 
+  }
+
+  .link-on-white {
+    color: $midnightblue;  
+  }
+
+  .link-on-white:hover {
+    color: $midnightblue; 
+    text-decoration: none;  
+  }
+
+  .link-on-white-paragraph p a {
+    color: $waterblue; 
+    font-weight: 300;
+    word-break: break-all; 
+  }
+
+  .link-on-dark {
+    color: $white;
+    font-weight: none;  
+  }
+
+  .link-on-dark:hover {
+    color: $white;
+    text-decoration: none;  
+  }
+
+  .software-download {
+    color: $lightblue;
+    font-size:1rem;
+  }
+
+  .vcenter {
+      align-items: center;
+  }
+
+  .homeBanner {
+    //background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+    //background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 140px 80px 60px 80px;
+  }
+
+  .homeBannerBottom {
+    background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 46px 80px 62px 80px;
+  }
+
+  .distro-white {
+    background: url('/assets/media/backgrounds/homehero.svg') no-repeat;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 80px 80px 80px 80px;
+    min-height: 300px;
+  }
+
+  .securityBanner {
+    //background: url('/assets/media/backgrounds/darkPurpleRec.svg') no-repeat;
+    //background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 46px 80px 62px 80px;
+  }
+
+  .securityFeaturesContainer {
+    background: url('/assets/media/backgrounds/darkPurpleSquare.svg') no-repeat;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 40px 80px 60px 80px;
+  }
+
+  .alertingBanner {
+    //background: url('/assets/media/backgrounds/lightPinkRec.svg') no-repeat;
+    //background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 46px 80px 62px 80px;
+  }
+
+  .analyzerBanner {
+    //background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+    //background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 46px 80px 62px 80px;
+  }
+
+  .analyzerBannerBottom {
+    background: url('/assets/media/backgrounds/lightPurpleRec.svg') no-repeat;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 46px 80px 62px 80px;
+  }
+
+  .sqlSupportBanner {
+    //background: url('/assets/media/backgrounds/lightBlueRec.svg') no-repeat;
+    //background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 46px 80px 62px 80px;
+  }
+
+  .sqlSupportBox {
+    background: url('/assets/media/backgrounds/lightBlueSquare.svg') no-repeat;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 80px 80px 30px 80px;
+  }
+
+  .greyBox {
+    background-color: #444444;
+    background-size: cover;
+    color: $white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 80px 80px 30px 80px;
+  }
+
+  .intro-without-background {
+    padding: 80px 0;
+  }
+
+  .intro-with-background {
+    padding: 80px 0;
+  }
+
+  .btn-140{
+    max-width: 140px;
+  }
+
+  .nav-link.active {
+    color: $midnightblue;
+  }
+
+  .nav li.active a {
+    font-weight: 800;
+  }
+
+  .nav-link {
+    white-space: nowrap; 
+  }
+
+  .navbar-brand img {
+    width: 100%;
+    min-width: 300px;
+    vertical-align: middle; 
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+      font-size: 18px;
+      min-width: 80px;
+      text-align: center;
+  }
+
+  .nav-item .btn{
+      font-size: 16px;
+      margin-top:5px;
+      margin-left:22px;
+      width: 150px;
+  }
+
+  .navbar{
+    padding: 0 16px;
+  }
+
+  /*text-icon-three-col*/
+
+  .text-icon-three-col img{
+    width: 50px;
+  }
+
+  .download-img {
+    width: 100%;
+  }
+
+  .downloadsContainer {
+    padding-top: 3rem;
+  }
+
+}
+
+

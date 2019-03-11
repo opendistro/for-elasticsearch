@@ -1,0 +1,17 @@
+github:
+  security: 'https://www.github.com/opendistroforelasticsearch/security﻿'
+  alerting: 'https://www.github.com/opendistroforelasticsearch/alerting﻿'
+  analyzer: 'https://www.github.com/opendistroforelasticsearch/performance-analyzer﻿'
+  sql: 'https://www.github.com/opendistroforelasticsearch/sql﻿'
+  home: 'https://www.github.com/opendistroforelasticsearch'
+
+website:
+  docs: 'https://opendistro.github.io/for-elasticsearch-docs'
+  docs_rpm: 'https://opendistro.github.io/for-elasticsearch-docs﻿/install/rpm/'
+
+forum:
+  security: 'https://opendistrocommunity.dev/c/security'
+  alerting: 'https://opendistrocommunity.dev/c/alerting'
+  analyzer: 'https://opendistrocommunity.dev/c/performance-analyzer'
+  sql: 'https://opendistrocommunity.dev/c/sql'
+  home: 'https://opendistrocommunity.dev'

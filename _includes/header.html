@@ -1,0 +1,78 @@
+
+<!-- <div class="container-fluid"> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky" id="navbar">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand py-0" rel="author" href="{{ "/" | relative_url }}">
+      <img src= "{{site.baseurl}}/assets/media/logos/OpenDistro-logo.svg">
+    </a>
+
+    {%- assign links = site.data.navigation -%}
+    
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+      <ul class="nav navbar-nav">
+
+        {%- for link in links -%}
+
+        <!-- Active link -->
+            {% assign class = nil %}
+            {% if page.url contains link.url %}
+                {% assign class = 'active' %}
+            {% endif %}
+
+        <!-- Sublinks  -->
+            {% if link.sublinks %}
+            <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
+                <li class="dropdown  {{ class }}">
+                  <a href="{{ link.url }}" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        {% for sublink in link.sublinks %}
+                            <li class="nav-item {{ class }}">
+                                <a class="nav-link" href="{{ sublink.url | relative_url}}">{{ sublink.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% else %}
+
+                {%- if link.title -%}
+                  <li class="nav-item {{class}}">
+                    <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
+                  </li>
+                {%- endif -%}
+            {% endif %}
+        {% endfor -%}
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.data.links.website.docs }}">Docs</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.data.links.github.home | absolute_url }}">GitHub <i class="fas fa-external-link-alt"></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a
+            class="btn btn-blue-button btn-block link-on-dark"
+            href="{{site.baseurl}}/downloads.html"
+            role="button"
+            style="margin-top:5px; margin-left:22px;"
+            >{{site.data.pages.es.home.banner.actions.primary.text}} 
+          </a>
+        </li>  
+    
+
+      </ul>
+    </div>
+
+</nav>
+
+<!-- </div> -->

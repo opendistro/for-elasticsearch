@@ -1,0 +1,32 @@
+siteMap:
+  sections:
+    - title: 'FEATURES'
+      contents: 
+       - menu_item: "Alerting"
+         url: "/features/alerting.html"
+       - menu_item: "Security"
+         url: "/features/security.html"
+       - menu_item: "SQL Support"
+         url: "/features/SQL%20Support.html"
+       - menu_item: "Performance Analyzer"
+         url: "/features/analyzer.html"
+    - title: 'COMMUNITY'
+      contents: 
+       - menu_item: "FAQ"
+         url: "/faq.html"
+       - menu_item: "Contribute"
+         url: "/contribute.html"
+       - menu_item: "Code of Conduct"
+         url: "/codeofconduct.html"
+       - menu_item: "GitHub"
+         url: "https://www.github.com/opendistroforelasticsearch"
+       - menu_item: "Forum"
+         url: "https://opendistrocommunity.dev"
+       # - menu_item: "News"
+       #   url: "/news.html"
+    - title: 'DISCOVER'
+      contents: 
+       - menu_item: "Documentation"
+         url: "https://opendistro.github.io/for-elasticsearch-docs﻿"
+       - menu_item: "Download"
+         url: "/downloads.html"

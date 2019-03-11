@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
+  {%- include banner.html banner=site.data.pages.es.contribute.banner -%}
+</div>
+
+<div class="pt-5"/>
+<!-- Intro -->
+{%- include intro-one-col.html intro=site.data.pages.es.contribute.intro -%}
+
+<div class="pt-5"/>
+
+<!-- GitHub -->
+<div class="container-fluid" style="background-color: #f3f6fc; padding: 80px 30px;">  
+	<div class="row pt-5 justify-content-center text-center">
+	   {%- include community-banner.html y-position='-20%' intro=site.data.pages.es.community.github -%}
+	</div> 
+</div>
+
+<!-- Contribute Doc -->
+<div class="container-fluid" style="padding: 100px 0;">
+{%- include intro-one-col.html intro=site.data.pages.es.contribute.contributeDoc -%}
+</div>
+
+<!-- Upstream -->
+<div class="container-fluid" style="background-color: #f3f6fc; padding: 100px 0;">
+{%- include intro-one-col.html intro=site.data.pages.es.contribute.upstream -%}
+</div>
+
+<!-- Plug it in -->
+<div class="container-fluid" style="padding: 100px 0;">
+{%- include intro-one-col.html intro=site.data.pages.es.contribute.plugin -%}
+</div>
+

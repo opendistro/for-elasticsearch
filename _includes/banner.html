@@ -1,0 +1,19 @@
+<div class="row justify-content-center text-center">
+	<div class="col-lg-8 col-sm-11">
+	  <p class="subtitle-in-banner">{{include.banner.subtitle}}</p>
+	  <h1 class="title-in-banner">{{include.banner.title}}</h1>
+	</div>
+</div>
+
+{% if include.banner.actions %}
+	<div class="row pt-3 justify-content-center text-center">
+	    <div class="col-12 col-md-2">
+	      <a class="btn btn-outline-primary btn-block" style="color: {{include.banner.color}};" href="{{include.banner.actions.primary.url}}" role="button">{{include.banner.actions.primary.text}}</a
+	      >
+	    </div>
+	</div>
+{% endif %}
+
+
+
+

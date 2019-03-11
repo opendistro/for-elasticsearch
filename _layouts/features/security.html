@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<!-- Feature icons -->
+{%- include feature_icons.html -%}
+
+<!-- Banner -->
+<div class="container-fluid featureBanner" style="background: url('{{site.baseurl}}{{site.data.pages.es.security.bottomBanner.class}}') no-repeat; background-size: cover;">
+  {%- include banner.html banner=site.data.pages.es.security.banner -%}
+</div>
+
+<div class="pt-5"/>
+
+<!-- Intro -->
+{%- include intro.html intro=site.data.pages.es.security.intro -%}
+<!-- End -->
+
+<!-- Features -->
+{%- include text-img-with-background.html features=site.data.pages.es.security.features -%}
+
+<!-- Community Starts -->
+{%- include communities/es.html community=site.data.pages.es.security.bottomBanner github=site.data.links.github.security forum= site.data.links.forum.security-%}
+<!-- Community Ends -->

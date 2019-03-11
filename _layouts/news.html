@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<div class="container-fluid homeBanner">
+  {%- include banner.html banner=site.data.pages.es.news.banner -%}
+</div>
+
+<div class="pt-5"/>
+
+<!-- Livestream video -->
+<div class="row px-5 pt-5">
+	<div class="col col-md-8" min-width='769px' min-height="434px">
+		<!-- <iframe></iframe> -->
+	</div>
+
+	<!-- Main News -->
+	<div class="col col-md-4">
+	 <!-- Title -->
+       <div class="row title-on-white">
+         <div class="col col-md-12">
+             <h2 class="title">{{ site.data.pages.es.news.intro.title }}</h2>
+         </div>
+       </div>
+
+     <!-- Content -->
+       <div class="row">
+         <div class="col col-md-12 py-3">
+            <p class="text">{{ site.data.pages.es.news.intro.content }}</p>
+         </div>
+       </div>  
+
+	</div>
+</div>
+
+
+<!-- Mini news -->
+{%- include text-three-col.html features=site.data.pages.es.news.miniNews -%}
+
+<div class="pt-5"/>

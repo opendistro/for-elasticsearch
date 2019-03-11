@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1003 336" style="enable-background:new 0 0 1003 336;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{fill:url(#SVGID_4_);}
+</style>
+<title>light purple rec</title>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0.2" y="-0.1" width="1002.7" height="336"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="3415.0601" y1="6829.0391" x2="2142.23" y2="6821.8286" gradientTransform="matrix(-1 0 0 1 3289.2 -6887.5498)">
+			<stop  offset="0" style="stop-color:#500585"/>
+			<stop  offset="0" style="stop-color:#510585"/>
+			<stop  offset="8.000000e-02" style="stop-color:#5C0A7F"/>
+			<stop  offset="0.16" style="stop-color:#640E7A"/>
+			<stop  offset="0.25" style="stop-color:#6A1076"/>
+			<stop  offset="0.37" style="stop-color:#6E1373"/>
+			<stop  offset="0.54" style="stop-color:#711371"/>
+			<stop  offset="1" style="stop-color:#731472"/>
+		</linearGradient>
+		<rect x="-20" y="-561.6" class="st1" width="1117.2" height="998.7"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="1508.9677" y1="7280.3306" x2="801.9976" y2="6573.3711" gradientTransform="matrix(-0.92 -0.4 -0.4 0.92 4477.23 -6039.4902)">
+			<stop  offset="0" style="stop-color:#731472"/>
+			<stop  offset="0.28" style="stop-color:#711372"/>
+			<stop  offset="0.47" style="stop-color:#6E1274"/>
+			<stop  offset="0.64" style="stop-color:#681077"/>
+			<stop  offset="0.79" style="stop-color:#600C7C"/>
+			<stop  offset="0.93" style="stop-color:#550783"/>
+			<stop  offset="0.97" style="stop-color:#500585"/>
+		</linearGradient>
+		<circle class="st2" cx="676.4" cy="-142" r="416.4"/>
+	</g>
+</g>
+</svg>

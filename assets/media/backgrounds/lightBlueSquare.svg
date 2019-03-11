@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 505 482" style="enable-background:new 0 0 505 482;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{fill:url(#SVGID_4_);}
+</style>
+<title>light blue</title>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-6" y="-7" width="518" height="494.9"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="892.3328" y1="79.2612" x2="-414.528" y2="71.8584" gradientTransform="matrix(1 0 0 -1 0 484)">
+			<stop  offset="0" style="stop-color:#0000FF"/>
+			<stop  offset="5.000000e-02" style="stop-color:#0821FD"/>
+			<stop  offset="0.11" style="stop-color:#1140FA"/>
+			<stop  offset="0.17" style="stop-color:#185BF8"/>
+			<stop  offset="0.25" style="stop-color:#1D71F7"/>
+			<stop  offset="0.33" style="stop-color:#2282F5"/>
+			<stop  offset="0.44" style="stop-color:#258EF5"/>
+			<stop  offset="0.59" style="stop-color:#2795F4"/>
+			<stop  offset="1" style="stop-color:#2797F4"/>
+		</linearGradient>
+		<rect x="-320.5" y="-104.3" class="st1" width="1147" height="1025.3"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="450.3342" y1="380.3023" x2="-124.9935" y2="-272.9615" gradientTransform="matrix(1 0 0 -1 0 484)">
+			<stop  offset="0" style="stop-color:#2797F4"/>
+			<stop  offset="0.23" style="stop-color:#2694F4"/>
+			<stop  offset="0.39" style="stop-color:#248BF5"/>
+			<stop  offset="0.53" style="stop-color:#207CF6"/>
+			<stop  offset="0.66" style="stop-color:#1A66F8"/>
+			<stop  offset="0.78" style="stop-color:#1349FA"/>
+			<stop  offset="0.9" style="stop-color:#0A27FC"/>
+			<stop  offset="1" style="stop-color:#0000FF"/>
+		</linearGradient>
+		<ellipse class="st2" cx="107" cy="493.5" rx="427.5" ry="427.5"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,82 @@
+
+<div class="container-fluid">
+  <div class="px-3">
+
+	  {% for feature in include.features %}
+        
+	    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+	    {%if thecycle == 'odd' %}
+
+		  <div class="row vcenter px-3 py-6" style="padding:50px;">
+		  <!-- Text -->
+		    <div class="col-12 col-md-5">
+		      
+		      <!-- Title -->
+		      <div class="row px-5">
+		        <div class="col-12 col-md-12">
+		          <h2 class="subtitle-on-white">{{feature.title}}</h2>
+		        </div>  
+		       </div>
+
+		       <!-- Content 1 -->
+		       <div class="row px-5">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content}}</p>
+		        </div>  
+		       </div>
+
+		       <!-- Content 2 -->
+               {% if feature.content_2 %}
+		       <div class="row px-5 pt-3">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content_2}}</p>
+		        </div>  
+		       </div>
+		       {% endif %}
+		    </div>
+
+          <!-- Image -->
+		    <div class="col-12 col-md-7 text-left ">
+		     <img src="{{site.baseurl}}{{feature.img}}" width="100%"></img>
+		    </div>
+		  </div>
+
+		 {% else %}
+		 <div class="row vcenter px-3 py-5" style="margin-top:100px">
+		    <!-- Image -->
+		    <div class="col-12 col-md-7 text-left ">
+		      <img src="{{site.baseurl}}{{feature.img}}" width="100%"></img>
+		    </div>
+            
+            <!-- Text -->
+		    <div class="col-12 col-md-5" >
+		      
+		      <!-- Title -->
+		       <div class="row  px-5">
+		         <div class="col-12 col-md-12">
+		           <h2 class="subtitle-on-white">{{feature.title}}</h2>
+		         </div>  
+		       </div>
+		      
+		       <!-- Content 1 -->
+		       <div class="row  px-5">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content}}</p>
+		        </div>  
+		       </div>
+		       
+		       <!-- Content 2 -->
+		       {% if feature.content_2 %}
+		       <div class="row px-5 pt-3">
+		        <div class="col-12 col-md-12">
+		          <p class="text">{{feature.content_2}}</p>
+		        </div>  
+		       </div>
+
+		       {% endif %}
+		    </div>		    
+		  </div>
+		 {% endif %} 
+	  {% endfor %}
+  
+</div>

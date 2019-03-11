@@ -1,0 +1,22 @@
+
+  <div class="px-5">
+    
+    <!-- Title -->
+	<div class="row justify-content-center text-center">
+	    <div class="col-12"><h1 class="title">{{include.intro.title}}</h1></div>
+	</div>
+ 
+    <div class="row justify-content-center text-justify px-3 pt-3">
+        <div class="col col-md-6">
+          {% for parag in include.intro.content_1 %}
+	        <p class="text-small text-justify">{{parag.paragraph}}</p>
+          {% endfor %}
+	    </div>
+
+        <div class="col col-md-6">
+	      {% for parag in include.intro.content_2 %}
+	         <p class="text-small text-justify">{{{parag.paragraph}}</p>
+	      {% endfor %}  
+	    </div>	   
+	</div>
+  </div>  

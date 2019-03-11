@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1002 336" style="enable-background:new 0 0 1002 336;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:url(#SVGID_3_);}
+	.st2{fill:url(#SVGID_4_);}
+</style>
+<title>dark purple rec</title>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-0.5" y="-0.1" width="1002.7" height="336"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st0">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="7326.8901" y1="1895.6771" x2="6054.1802" y2="1888.467" gradientTransform="matrix(-1 0 0 1 7239.1997 -1945.55)">
+			<stop  offset="0" style="stop-color:#843F84"/>
+			<stop  offset="0" style="stop-color:#833F83"/>
+			<stop  offset="8.000000e-02" style="stop-color:#7D3B88"/>
+			<stop  offset="0.16" style="stop-color:#78388D"/>
+			<stop  offset="0.25" style="stop-color:#743691"/>
+			<stop  offset="0.37" style="stop-color:#703494"/>
+			<stop  offset="0.54" style="stop-color:#6E3496"/>
+			<stop  offset="1" style="stop-color:#6E3396"/>
+		</linearGradient>
+		<rect x="-23.7" y="-542.8" class="st1" width="1117.2" height="978.9"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="6900.9014" y1="2202.019" x2="6340.5312" y2="1565.7389" gradientTransform="matrix(-1 0 0 1 7239.2002 -1945.55)">
+			<stop  offset="0" style="stop-color:#6E3396"/>
+			<stop  offset="0.28" style="stop-color:#6E3395"/>
+			<stop  offset="0.48" style="stop-color:#713493"/>
+			<stop  offset="0.65" style="stop-color:#753790"/>
+			<stop  offset="0.81" style="stop-color:#7B3A8B"/>
+			<stop  offset="0.96" style="stop-color:#813D84"/>
+			<stop  offset="1" style="stop-color:#843F84"/>
+		</linearGradient>
+		<circle class="st2" cx="672.7" cy="-123.2" r="416.4"/>
+	</g>
+</g>
+</svg>

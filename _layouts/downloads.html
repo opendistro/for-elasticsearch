@@ -1,0 +1,120 @@
+---
+layout: default
+---
+
+<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
+  {%- include banner.html banner=site.data.pages.es.downloads.banner -%} 
+</div>  
+
+<!-- Intro -->
+{%- include intro.html intro=site.data.pages.es.downloads.intro -%}
+
+
+<div class="container-fluid" style="background-color: #f3f6fc; padding: 80px 30px;">
+<div class="container">
+{% for software in site.data.pages.es.downloads.software %}
+	{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+	{%if thecycle == 'odd' %}
+	    
+		<div class="row px-3 justify-content-center text-center">
+		  
+		    <div class="col-12 col-md-6 vcenter" style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
+	        
+		        <!-- Subtitle -->
+	            {% if software.subtitle %}
+		           <div class="pt-4">{{software.subtitle}}</div>
+		        {% else %}
+		           <div class="pt-5"></div>
+		        {% endif %}
+
+		        <!-- Title -->
+		        <a class="anchor" id="{{software.a}}"></a>
+		         <h1 class="title-bg">{{software.title}}</h1>
+		         
+		        <!-- Images -->
+		         <div class="row justify-content-center text-center downloadsContainer">
+		         {% for img in software.imgs %}
+		            <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{img.img_item}}" class="download-img" ></img> </div>
+		         {% endfor %}
+		         </div>  
+
+		        <!-- Downloads -->
+		        <div class="row justify-content-center text-center px-2">
+	               <div class="col-12 col-md-10" > </div>
+	                  {% for action in software.actions %}
+	                  <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
+	                     <a href="{{action.url}}" class="software-download">
+	                        {% if action.label contains 'RPM' %}
+	                           <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% else %}
+	                           <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% endif %} 
+	                        
+	                     </a>
+	                  </div>
+	                 {% endfor%}
+		           
+	            </div>
+
+		        <!-- Descriptions -->
+		        <div class="row justify-content-center text-center py-3 px-2">
+	               <div class="text-small"> {{software.description}}</div>
+		        </div>
+
+		        
+		    </div>
+
+	{% else %}  
+		    <div class="col-12 col-md-6 vcenter" style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
+		  	 
+			  	 <!-- Subtitle -->
+	            {% if software.subtitle %}
+		           <div class="pt-4">{{software.subtitle}}</div>
+		        {% else%}
+		           <div class="pt-5"></div>
+		        {% endif %}
+
+			  	 <!-- Title -->
+			  	 <a class="anchor" id="{{software.a}}"></a>
+		         <h1 class="title-bg"> {{software.title}}</h1>
+
+		         <!-- Images -->
+		         <div class="row justify-content-center text-center downloadsContainer">
+		         {% for img in software.imgs %}
+		            <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{img.img_item}}" class="download-img"></img> </div>
+		         {% endfor %}
+		         </div> 
+
+		        <!-- Downloads -->
+		        <div class="row justify-content-center text-center px-2">
+	               <div class="col-12 col-md-10" > </div>
+	                  {% for action in software.actions %}
+	                  <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
+	                     <a href="{{action.url}}" class="software-download">
+	                        {% if action.label contains 'RPM' %}
+	                           <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% else %}
+	                           <i class="fa fa-download"></i> <h7 style="font-weight:bold;">{{action.label}}</h7> 
+	                        {% endif %} 
+	                     </a>
+	                  </div>
+	                 {% endfor%}
+		           
+	            </div>
+
+		        <!-- Descriptions -->
+		        <div class="row justify-content-center text-center py-3 px-2">
+	               <div class="text-small"> {{software.description}}</div>
+		        </div>
+
+
+		    </div>
+	    </div>
+	{% endif %}
+ {% endfor %}   
+</div>
+</div>
+
+<!-- Community -->
+{%- include communities/es.html community=site.data.pages.es.downloads.bottomBanner github=site.data.links.github.alerting forum= site.data.links.forum.alerting-%}
+<!-- Community Ends -->

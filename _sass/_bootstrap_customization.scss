@@ -1,0 +1,124 @@
+// Flatly 4.2.1
+// Bootswatch
+// Variables ===================================================================
+
+$web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" !default;
+@import url($web-font-path);
+
+
+// Navbar =======================================================================
+.bg-light {
+  background-color: $white !important;
+}
+
+// Removes the rounded corner
+.jumbotron {
+  border-radius: 0 !important;
+}
+
+// Buttons =====================================================================
+.btn {
+  line-height: 1;
+
+  &-outline-primary {
+    border: 1px solid $white;
+    background-color: $white;
+    //color: $midnightblue;
+  }
+
+  &-outline-primary:hover {
+    border: 1px solid $white;
+    background-color: $white;
+    color: $midnightblue;
+  }
+
+  &-outline-secondary {
+    border: 1px solid $white;
+    color: $white;
+  }
+
+  &-outline-secondary:hover {
+    border: 1px solid $white;
+    color: $white;
+    background-color: transparent;
+  }
+  
+  &-outline:disabled,
+    .btn-outline.is-disabled {
+    opacity: .5;
+  }
+
+  &-outline-primary-on-white {
+    border: 1px solid $midnightblue;
+    color: $white;
+    background-color: $midnightblue;
+  }
+  
+  &-outline-primary-on-white:hover {
+    border: 1px solid $midnightblue;
+    color: $white;
+    background-color: $midnightblue;
+  }
+
+  &-outline-secondary-on-white {
+    border: 1px solid $midnightblue;
+    color: $midnightblue;
+  }
+  
+  &-outline-secondary-on-white:hover {
+    border: 1px solid $midnightblue;
+    color: $midnightblue;
+  }
+
+  &-primary {
+    background-color: $primary
+  }
+
+  &-primary:hover {
+    background-color: $white;
+    color: $distro-pink;
+  }
+
+  &-secondary {
+    background-color: $midnightblue;
+    color: $white;
+  }
+
+  &-blue-button {
+    color: $white;
+    background-color: $midnightblue;
+  }
+
+  &-link {
+    color: $white;
+    text-decoration: none; 
+  }
+}
+
+.btn-round{
+  border-radius: 17px;
+}
+
+.container {
+  font-family: Open Sans;
+  font-weight: lighter; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  left:0;
+  right:0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.sticky + .content {
+  padding-top: 20px;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+}
+
+

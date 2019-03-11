@@ -1,0 +1,63 @@
+<div class="container-fluid">
+	{% for feature in include.features%}
+	
+	  {% capture thecycle%}{% cycle 'one', 'two', 'three' %}{% endcapture %} 
+	  {% if thecycle == 'one' %}
+	    <div class="row px-5 pt-5">
+	      <div class="col col-md-4">
+	        {% if feature.subtitle %}
+
+	        <!-- Subtitle -->
+	           <div class="row" >
+		         <div class="col col-md-12"><h7 class="title">{{ feature.subtitle }}</h7></div>
+		       </div>
+	        {% endif %}
+
+	        <!-- Title -->
+		       <div class="row" >
+		         <div class="col col-md-12"><h2 class="title">{{ feature.title }}</h2></div>
+		       </div>
+
+		    <!-- Content -->
+		       <div class="row">
+		         <div class="col col-md-12 py-3"><p class="text">{{ feature.content }}</p></div>
+		       </div>  
+
+			<!-- Links -->
+		    {% if feature.link_url %}  
+			    <div class="row" style="display: inline;">   
+	              <a class="btn pt-md-3 pt-sm-1 link-on-white" href="{{ feature.link_url | relative_url }}" role="button"> {{ feature.link_label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+				</div>
+		    {% endif %} 
+
+	      </div>
+	  {% else %}
+	      <div class="col col-md-4">
+	      <!-- Subtitle -->
+	        {% if feature.subtitle %}
+	           <div class="row title-on-white" >
+		         <div class="col col-md-12"><h7 class="subtitle-on-white">{{ feature.subtitle }}</h7></div>
+		       </div>
+	        {% endif %}
+	        <!-- Title -->
+		       <div class="row title-on-white">
+		         <div class="col col-md-12"><h2 class="title">{{ feature.title }}</h2></div>
+		       </div>
+		    <!-- Content -->
+		       <div class="row">
+		         <div class="col col-md-12 py-3"><p class="text">{{ feature.content }}</p></div>
+		       </div> 
+		    <!-- Links -->
+		      {% if feature.link_url %}  
+			    <div class="row" style="display: inline;">   
+	              <a class="btn pt-md-3 pt-sm-1 link-on-white" href="{{ feature.link_url | relative_url }}" role="button"> {{ feature.link_label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+				</div>
+		      {% endif %}  
+	      </div> 
+		    {% if thecycle == 'three' %}
+		       </div>
+		    {% endif %}   
+	  {% endif %}
+	  
+	{% endfor %} 
+</div>

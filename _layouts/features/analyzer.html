@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<!-- Breadcrumbs -->
+<!-- <div class="container-fluid">
+  {% include breadcrumbs.html %}
+</div> -->
+
+<!-- Feature icons -->
+{%- include feature_icons.html -%}
+
+<!-- Banner -->
+<div class="container-fluid featureBanner" style="background: url('{{site.baseurl}}{{site.data.pages.es.analyzer.bottomBanner.class}}') no-repeat; background-size: cover;">
+  {%- include banner.html banner=site.data.pages.es.analyzer.banner -%}
+</div>
+
+<!-- Intro -->
+<div class="pt-5"/>
+{%- include intro.html intro=site.data.pages.es.analyzer.intro -%}
+
+<div class="pt-5"/>
+<!-- Features  -->
+{%- include text-img-with-background.html features=site.data.pages.es.analyzer.features -%}
+
+<div class="pt-5"/>
+{%- include intro.html intro=site.data.pages.es.analyzer.performance -%}
+
+<!-- Community -->
+{%- include communities/es.html community=site.data.pages.es.analyzer.bottomBanner github=site.data.links.github.analyzer forum= site.data.links.forum.analyzer-%}

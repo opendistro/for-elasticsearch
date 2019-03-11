@@ -1,0 +1,53 @@
+banner:
+  title: Download
+
+intro:
+  title: Getting started is easy
+  ext_content: Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as the SQL JDBC driver and Performance Analyzer client, PerfTop. Get started now.
+
+software:
+    - subtitle: Open Distro for Elasticsearch
+      title: Elasticsearch
+      imgs:
+        - img_item: "/assets/media/icons/rpm.png"
+        - img_item: "/assets/media/icons/docker.png"
+      description: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
+      actions:
+        - url: "https://opendistro.github.io/for-elasticsearch-docs﻿/install/rpm/"
+          label: RPM Install guide
+        - url: "https://cloud.docker.com/u/amazon/repository/docker/amazon/opendistro-for-elasticsearch"
+          label: Docker 
+
+    - subtitle: Open Distro for Elasticsearch
+      title: Kibana
+      imgs:
+        - img_item: "/assets/media/icons/rpm.png"
+        - img_item: "/assets/media/icons/docker.png"
+      description: "Kibana (Apache 2.0 licensed code only) - 6.5.4 <br> Includes Security and Alerting"
+      actions:
+        - url: "https://opendistro.github.io/for-elasticsearch-docs﻿/install/rpm/"
+          label: RPM Install guide
+        - url: "https://cloud.docker.com/u/amazon/repository/docker/amazon/opendistro-for-elasticsearch-kibana"
+          label: Docker 
+
+    - title: SQL JDBC
+      a: SQL
+      imgs:
+        - img_item: "/assets/media/icons/javajdbc.png"
+      actions:
+        - url: "#"
+          label: JDBC driver
+        
+    - title: PerfTop CLI
+      a: PerfTop
+      imgs:
+        - img_item: "/assets/media/icons/consol.png"
+      actions:
+        - url: "#"
+          label: PerfTop CLI
+
+bottomBanner:
+  class: '/assets/media/backgrounds/homehero.svg'
+  text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0'
+  color: "#0a1f72"
+    

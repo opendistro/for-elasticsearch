@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
+  {%- include banner-with-buttons.html banner=site.data.pages.es.home.banner -%} 
+</div>  
+<!-- End Banner -->
+
+<div class="pt-5"/>
+
+<!-- Features Icons-->
+{%- include text-icon-three-col.html features= site.data.pages.es.home.features -%}
+
+<div class="pt-5"/>
+<!-- Intro -->
+{%- include intro-with-background.html intro=site.data.pages.es.home.intro -%}
+
+<!-- Features Descriptions -->
+{%- include text-img-without-background.html features=site.data.pages.es.home.descriptions -%}
+
+<!-- Partners Starts-->
+{%- include intro-without-background.html intro=site.data.pages.es.home.partners -%} 
+<!-- Partners Ends-->
+
+<!-- Community -->
+{%- include communities/es.html community=site.data.pages.es.home.bottomBanner github=site.data.links.github.home forum= site.data.links.forum.home-%}
+<!-- Community Ends -->
+
+
+ 

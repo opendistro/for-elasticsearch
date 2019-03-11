@@ -1,0 +1,35 @@
+banner:
+  title: Alerting
+  subtitle: Open Distro for Elasticsearch
+
+intro:
+  title: Monitor and receive alerts on your data
+  ext_content: Open Distro for Elasticsearch enables you to monitor your data and send alert notifications automatically to your stakeholders. With an intuitive Kibana interface and a powerful API, it is easy to set up, manage, and monitor your alerts. Craft highly specific alert conditions using Elasticsearch's full query language and scripting capabilities.
+
+features:
+  - title: Easily create monitors
+    content: With Open Distro for Elastisearch, you can easily create monitors using the Kibana UI with a simple visual editor or with an Elasticsearch query. This gives you the flexibility to query the data most interesting to you and receive alerts on it. For instance, if you are ingesting access logs, you can choose to be notified when the same user logs in from multiple locations within an hour, enabling you to proactively address possible intrusion attempts.
+    img: "/assets/media/screenshots/create_monitors.png"
+    
+  - title: Customize multiple alert conditions
+    content: Trigger conditions allow you to define the alerting threshold and severity. Each monitor can have multiple trigger conditions, enabling you to query the data once and generate the appropriate action. Triggers, like monitors, are highly customizable and can be created using a simple visual editor or Painless scripts.
+    img: "/assets/media/screenshots/screen3.png"
+    
+  - title: Get notified
+    content: Open Distro for Elasticsearch provides multiple alerting options with built-in integrations for webhook and Slack. Webhook support integrates with your existing monitoring infrastructure or any third-party system. You can format alerts using Mustache to embed relevant information in the notifications to ensure your team knows what to do when they get them.
+    img: "/assets/media/screenshots/screen2.png"
+    
+alerts:
+  title: View your alerts
+  text: A complete history of all alert executions are indexed in Elasticsearch for easy tracking and visualization in Kibana. What are my active alerts? How frequently has this monitor been in alert? Are my alerts executing? What actions were taken? All of this information is easily accessible from the user interface.
+  img: "/assets/media/screenshots/alert_screen_1.png"
+
+bottomBanner:
+  class: "/assets/media/backgrounds/lightPinkRec.svg"
+  text: 'Join our community of developers in advancing the future of Alerting'
+  color: "#ff006b"
+
+
+
+
+    

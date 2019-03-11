@@ -1,0 +1,29 @@
+intro:
+  title: Open Distro for Elasticsearch Features
+  content: "The 100% open-source Elasticsearch distribution that extends Elasticsearch and Kibana to include advanced features including Security, Alerting, SQL, and Performance Analyzer"
+  buttons:
+    label_primary: 'Download'
+    url_primary: 'download.html'
+    label_secondary: 'Documentation'
+    url_secondary: 'http://ettea.aka.corp.amazon.com/opendist/'
+
+# Features
+featuresLink:
+  - title: Security
+    icon: "/assets/media/icons/security_64px.svg" 
+    url: "features/security.html"
+    color: "#9600ff"
+  - title: Alerting
+    icon: "/assets/media/icons/alerting_64px.svg" 
+    url: "features/alerting.html"
+    color: "#ff006b"
+  - title: SQL
+    icon: "/assets/media/icons/SQL_support_64px.svg" 
+    url: "features/SQL%20Support.html"
+    color: "#2797f4"
+  - title: Performance Analyzer
+    icon: "/assets/media/icons/performance_analyzer_64px.svg"   
+    url: "features/analyzer.html"    
+    color: "#ed20eb"   
+
+
