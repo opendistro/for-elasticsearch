@@ -121,5 +121,5 @@ partners:
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
-  text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0.'
+  text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0. Elasticsearch and Kibana are trademarks of Elasticsearch BV, registered in the U.S. and in other countries.'
   color: "#0a1f72"
