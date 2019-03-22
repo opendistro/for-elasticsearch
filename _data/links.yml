@@ -8,6 +8,7 @@ github:
 website:
   docs: 'https://opendistro.github.io/for-elasticsearch-docs'
   docs_rpm: 'https://opendistro.github.io/for-elasticsearch-docs﻿/install/rpm/'
+  news: 'https://opendistro.github.io/for-elasticsearch/news'
 
 forum:
   security: 'https://discuss.opendistrocommunity.dev/c/security'
