@@ -27,7 +27,7 @@ miniNews:
     author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
     published: "March 11th, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/11/photo-by-Adrian-at-Petra-March-10-2019.--1024x471.jpg"  
-    img_width: "120%"
+    img_width: "130%"
 
   - title: New – Open Distro for Elasticsearch
     content: "Today we are launching Open Distro for Elasticsearch. This is a value-added distribution of Elasticsearch that is 100% open source (Apache 2.0 license) and supported by AWS."
