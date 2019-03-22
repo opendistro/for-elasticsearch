@@ -1,31 +1,31 @@
 {% for item in include.items%}
 
-  {% capture thecycle%}{% cycle 'one', 'two', 'three' %}{% endcapture %} 
+  {% capture thecycle%}{% cycle 'one', 'two', 'three' %}{% endcapture %}
   {% if thecycle == 'one' %}
     <div class="row">
-      
+
       <div class="col-12 col-lg-4 col-md-12 col-sm-12 pt-4 px-2">
 
-      	<div class="newsTextContainer px-3">   
-	
+      	<div class="newsTextContainer px-3">
+
 		    <!-- Img -->
 		    <div class="row newsImgContainer mx-0">
-		    	<div class="col-12 px-0"> 
-		    		<a href="{{item.link}}" target="about:blank"> 
+		    	<div class="col-12 px-0">
+		    		<a href="{{item.link}}" target="about:blank">
 		    		  <img src="{{item.img}}" class="news_img" width="{{item.img_width}}"></img>
-		    		</a>  
+		    		</a>
 		    	</div>
 		    </div>
-		    	
+
 		    <!-- Text -->
             <div class="row pt-3">
 		    	<div class="col-12">
 		    	 <!-- Title -->
 		           <div class="row">
 		             <div class="col col-md-12">
-		                 <a class="link-blue" href="{{item.link}}" target="about:blank"> 
+		                 <a class="link-blue" href="{{item.link}}" target="about:blank">
 		                   <h5 class="news-title">{{ item.title }}</h5>
-		                 </a>  
+		                 </a>
 		             </div>
 		           </div>
 
@@ -33,46 +33,46 @@
 		           <div class="row">
 		             <div class="col col-md-12 py-0">
 		               <p class="text-small">{{ item.content }}<br>
-		               		<a class="link-small" href="{{item.link}}" target="about:blank"> Read more on aws.amazon.com <i class="fas fa-external-link-alt"></i></a>
+		               		<a class="link-small" href="{{item.link}}" target="about:blank"> Read more <i class="fas fa-external-link-alt"></i></a>
 		               </p>
-		             </div> 
-		           </div> 
+		             </div>
+		           </div>
 		    	</div>
 		    </div>
-		</div>  
-		  
+		</div>
+
         <!-- Author + Published Date  -->
 		<div class="newsAuthorContainer">
 		    <!-- Author -->
-		    <div class="row"> 
-		      <div class="col-12 text-left">Author: 
+		    <div class="row">
+		      <div class="col-12 text-left">Author:
                    <a href="{{item.author_link}}" target="about:blank">
                      {{item.author}}
                    </a>
 		      </div>
-		    </div> 
+		    </div>
 		    <!-- Published -->
-		    <div class="row"> 
+		    <div class="row">
 		      <div class="col-12 text-left">Published: {{item.published}}</div>
-		    </div>   
+		    </div>
 
-		</div> 
+		</div>
 
       </div>
   {% else %}
       <div class="col-12 col-lg-4 col-md-12 col-sm-12 pt-4 px-2">
 
-      	<div class="newsTextContainer px-3">   
+      	<div class="newsTextContainer px-3">
 
 		    <!-- Img -->
 		    <div class="row newsImgContainer mx-0">
-		    	<div class="col-12 px-0"> 
+		    	<div class="col-12 px-0">
 		    		<a href="{{item.link}}" target="about:blank">
 		    		   <img src="{{item.img}}" class="news_img" width="{{item.img_width}}"></img>
 		    		</a>
 		    	</div>
 		    </div>
-		    	
+
 		    <!-- Text -->
             <div class="row pt-3">
 		    	<div class="col-12">
@@ -81,7 +81,7 @@
 		             <div class="col col-md-12">
 		                <a class="link-blue" href="{{item.link}}" target="about:blank">
 		                   <h5 class="news-title">{{ item.title }}</h5>
-		                </a>   
+		                </a>
 		             </div>
 		           </div>
 
@@ -89,34 +89,34 @@
 		           <div class="row">
 		             <div class="col col-md-12 py-0">
 		                <p class="text-small">{{ item.content }}<br>
-		               		<a class="link-small" href="{{item.link}}" target="about:blank"> Read more on aws.amazon.com <i class="fas fa-external-link-alt"></i></a>
-		               	</p>	
-		             </div> 
-		           </div> 
+		               		<a class="link-small" href="{{item.link}}" target="about:blank"> Read more <i class="fas fa-external-link-alt"></i></a>
+		               	</p>
+		             </div>
+		           </div>
 		    	</div>
 		    </div>
-		</div>  
-		  
+		</div>
+
         <!-- Author + Published Date  -->
 		<div class="newsAuthorContainer">
 		    <!-- Author -->
-		    <div class="row"> 
-		      <div class="col-12 text-left"> Author: 
+		    <div class="row">
+		      <div class="col-12 text-left"> Author:
 		          <a href="{{item.author_link}}" target="about:blank">
                      {{item.author}}
                    </a>
-               </div>    
-		    </div> 
+               </div>
+		    </div>
 		    <!-- Published -->
-		    <div class="row"> 
+		    <div class="row">
 		      <div class="col-12 text-left">Published: {{item.published}}</div>
-		    </div>   
+		    </div>
 
-		</div>  
-	</div>	
+		</div>
+	</div>
 	    {% if thecycle == 'three' %}
 	       </div>
-	    {% endif %}   
+	    {% endif %}
   {% endif %}
-  
-{% endfor %} 
+
+{% endfor %}

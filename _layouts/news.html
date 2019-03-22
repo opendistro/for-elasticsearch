@@ -8,10 +8,10 @@ layout: default
 </div>
 
 <div class="container-fluid" style="background-color: #f3f6fc;">
-  <div class="container">  
-  
+  <div class="container">
+
     <div class="pt-5 px-0"/>
-   
+
     <!-- Main News Container-->
     <div class="row px-2">
     <div style="background-color: white; border: 1px solid silver; padding: 20px;">
@@ -19,7 +19,7 @@ layout: default
       <!-- Img + Text -->
       <div class="row">
         <!-- Img -->
-      	<div class="col-12 col-lg-8 col-md-12" min-width='769px' min-height="434px"> 
+      	<div class="col-12 col-lg-8 col-md-12" min-width='769px' min-height="434px">
       		<a href="{{site.data.pages.es.news.intro.link}}" target="about:blank">
              <img src="{{site.baseurl}}{{site.data.pages.es.news.intro.img}}" width="100%"></img>
           </a>
@@ -40,40 +40,38 @@ layout: default
              <div class="row">
                <div class="col col-md-12 py-0">
                   <p class="text-small">{{ site.data.pages.es.news.intro.content }}<br>
-                    <a class="link-small" href="{{site.data.pages.es.news.intro.link}}" target="about:blank">Watch on youtube.com <i class="fas fa-external-link-alt"></i></a>
+                    <a class="link-small" href="{{site.data.pages.es.news.intro.link}}" target="about:blank">Watch <i class="fas fa-external-link-alt"></i></a>
                 </p>
               </div>
             </div>
-              
+
       	</div>
       </div>
 
-    </div>  
-    
+    </div>
+
       <div class="newsAuthorContainer col-12">
         <!-- Author -->
-        <div class="row"> 
+        <div class="row">
           <div class="col-12 text-left">
              Author: <a href="{{site.data.pages.es.news.intro.author_link}}" target="about:blank">
                        {{site.data.pages.es.news.intro.author}}
                      </a>
           </div>
-        </div> 
+        </div>
         <!-- Published -->
-        <div class="row"> 
+        <div class="row">
           <div class="col-12 text-left">Published: {{site.data.pages.es.news.intro.published}}</div>
-        </div>   
+        </div>
 
-      </div>  
+      </div>
     </div>
     <!-- Mini news -->
     {%- include text-img-three-col.html items=site.data.pages.es.news.miniNews -%}
 
-  </div> 
-  </div> 
+  </div>
+  </div>
 </div>
 
 <div class="pt-5"></div>
 </div>
-
-
