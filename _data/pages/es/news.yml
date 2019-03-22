@@ -12,25 +12,25 @@ intro:
 
 miniNews:
   - title: Get Up and Running with Open Distro for Elasticsearch
-    content: "On March 11, 2019, we released Open Distro for Elasticsearch, a value-added distribution of Elasticsearch that is 100% open source (Apache 2.0 license) and supported by AWS."
+    content: "Jon Handler, Principal Solutions Architect at AWS, helps you configure a local testing environment."
     link: "https://aws.amazon.com/blogs/opensource/running-open-distro-for-elasticsearch/"
     author: Jon Handler
-    author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
+    author_link: https://aws.amazon.com/blogs/opensource/running-open-distro-for-elasticsearch/
     published: "March 20th, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/19/Kibana-large-1024x510.png"
     img_width: "120%"
 
   - title: Keeping Open Source Open – Open Distro for Elasticsearch
-    content: "At AWS, we focus on solving problems for customers. Over the years, customer usage and dependencies on open source technologies have been steadily increasing."
+    content: "Adrian Cockcroft, Vice President Cloud Architecture Strategy at AWS, discusses the need for Open Distro for Elasticsearch."
     link: "https://aws.amazon.com/blogs/opensource/keeping-open-source-open-open-distro-for-elasticsearch/"
     author: Adrian Cockcroft
-    author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
+    author_link: https://aws.amazon.com/blogs/opensource/keeping-open-source-open-open-distro-for-elasticsearch/
     published: "March 11th, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/11/photo-by-Adrian-at-Petra-March-10-2019.--1024x471.jpg"
     img_width: "130%"
 
   - title: New – Open Distro for Elasticsearch
-    content: "Today we are launching Open Distro for Elasticsearch. This is a value-added distribution of Elasticsearch that is 100% open source (Apache 2.0 license) and supported by AWS."
+    content: "Jeff Barr, Chief Evangelist for AWS, introduces Open Distro for Elasticsearch and provides a rundown of its key features."
     link: "https://aws.amazon.com/blogs/aws/new-open-distro-for-elasticsearch/"
     author: Jeff Barr
     author_link: https://aws.amazon.com/blogs/aws/author/jbarr/
@@ -39,7 +39,7 @@ miniNews:
     img_width: "120%"
 
   - title: Open Distro for Elasticsearch Kickstart Guide
-    content: "This guide provides a streamlined introduction to Open Distro for Elasticsearch, extends the examples on the website, and demonstrates key features."
+    content: "Nathan Glover provides a streamlined introduction to Open Distro for Elasticsearch and demonstrates key features."
     link: "https://devopstar.com/2019/03/13/open-distro-for-elasticsearch-kickstart-guide/"
     author: Nathan Glover
     author_link: https://devopstar.com/profile/nathan/
