@@ -5,12 +5,21 @@ intro:
   title: Keeping Open Source Open – Open Distro for Elasticsearch
   content: "Open source is more important now than ever. Customer usage and dependencies on open source technologies have been steadily increasing—both to drive innovation as well as to improve their day-to-day productivity. In this live session, you will hear from the AWS open source and product experts on the large, long-term commitments AWS is making to open source and how it's empowering the community to ensure open source projects continue to thrive."
   link: "https://www.youtube.com/watch?v=9PN2_Kuz-tw"
-  author: Amazon AWS
+  author: AWS on Youtube
   author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
   published: "March 14th, 2019"
   img: "/assets/media/youtube/News_cover.png"
 
 miniNews:
+  - title: Sematext reviews Open Distro for Elasticsearch
+    content: "See how Open Distro for Elasticsearch compares with various other Elasticsearch distributions out of the box."
+    link: "https://sematext.com/blog/open-distro-elasticsearch-review/"
+    author: Rafal Kuć
+    author_link: https://sematext.com/blog/author/kucrafal/
+    published: "March 22nd, 2019"
+    img: "https://sematext.com/wp-content/uploads/2019/03/FINAL_Open-distro-for-elasticsearch-review-copy.jpg"
+    img_width: "105%"
+
   - title: Get Up and Running with Open Distro for Elasticsearch
     content: "Jon Handler, Principal Solutions Architect at AWS, helps you configure a local testing environment."
     link: "https://aws.amazon.com/blogs/opensource/running-open-distro-for-elasticsearch/"
@@ -21,7 +30,7 @@ miniNews:
     img_width: "120%"
 
   - title: Keeping Open Source Open – Open Distro for Elasticsearch
-    content: "Adrian Cockcroft, Vice President Cloud Architecture Strategy at AWS, discusses the need for Open Distro for Elasticsearch."
+    content: "Adrian Cockcroft, Vice President Cloud Architecture Strategy at AWS, discusses the need for Open Distro for Elasticsearch.</br>"
     link: "https://aws.amazon.com/blogs/opensource/keeping-open-source-open-open-distro-for-elasticsearch/"
     author: Adrian Cockcroft
     author_link: https://aws.amazon.com/blogs/opensource/keeping-open-source-open-open-distro-for-elasticsearch/
@@ -39,7 +48,7 @@ miniNews:
     img_width: "120%"
 
   - title: Open Distro for Elasticsearch Kickstart Guide
-    content: "Nathan Glover provides a streamlined introduction to Open Distro for Elasticsearch and demonstrates key features."
+    content: "Nathan Glover provides a streamlined introduction to Open Distro for Elasticsearch and demonstrates key features.</br>"
     link: "https://devopstar.com/2019/03/13/open-distro-for-elasticsearch-kickstart-guide/"
     author: Nathan Glover
     author_link: https://devopstar.com/profile/nathan/
