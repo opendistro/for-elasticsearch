@@ -11,7 +11,16 @@ intro:
   img: "/assets/media/youtube/News_cover.png"
 
 miniNews:
-  - title: Sematext reviews Open Distro for Elasticsearch
+  - title: Build and Run the Open Distro For Elasticsearch SQL Plugin
+    content: "Learn how to build, install, and run the SQL plugin, which lets you query your data using the familiar syntax."
+    link: "https://aws.amazon.com/blogs/opensource/build-run-sql-plugin-open-distro-elasticsearch-oss/"
+    author: Jon Handler
+    author_link: https://aws.amazon.com/blogs/opensource/build-run-sql-plugin-open-distro-elasticsearch-oss/
+    published: "March 27th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+  - title: Sematext Reviews Open Distro for Elasticsearch
     content: "See how Open Distro for Elasticsearch compares with various other Elasticsearch distributions out of the box."
     link: "https://sematext.com/blog/open-distro-elasticsearch-review/"
     author: Rafal Kuć
