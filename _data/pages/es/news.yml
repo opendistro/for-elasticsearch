@@ -11,6 +11,15 @@ intro:
   img: "/assets/media/youtube/News_cover.png"
 
 miniNews:
+  - title: Set an Alert in Open Distro for Elasticsearch
+    content: "Learn how to use the alerting feature and receive automatic notifications in Slack."
+    link: "https://aws.amazon.com/blogs/opensource/iot-alerting-open-distro-for-elasticsearch/"
+    author: Jon Handler
+    author_link: https://aws.amazon.com/blogs/opensource/iot-alerting-open-distro-for-elasticsearch/
+    published: "April 3rd, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/04/03/Image9-Message.png"
+    img_width: "100%"
+
   - title: Add Your Own SSL Certificates to Open Distro for Elasticsearch
     content: "Swap out the demo security certificates for your own."
     link: "https://aws.amazon.com/blogs/opensource/add-ssl-certificates-open-distro-for-elasticsearch/"
@@ -19,7 +28,7 @@ miniNews:
     published: "March 29th, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
-    
+
   - title: Build and Run the Open Distro For Elasticsearch SQL Plugin
     content: "Learn how to build, install, and run the SQL plugin, which lets you query your data using the familiar syntax."
     link: "https://aws.amazon.com/blogs/opensource/build-run-sql-plugin-open-distro-elasticsearch-oss/"
