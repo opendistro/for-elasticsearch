@@ -11,33 +11,33 @@ software:
       imgs:
         - img_item: "/assets/media/icons/rpm.png"
         - img_item: "/assets/media/icons/docker.png"
-      description: "Elasticsearch (Apache 2.0 licensed code only) - 6.5.4 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
+      description: "Elasticsearch (Apache 2.0 licensed code only) - 6.6.2 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
       actions:
-        - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"    
+        - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
           label: RPM Install guide
         - url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
-          label: Docker 
+          label: Docker
 
     - subtitle: Open Distro for Elasticsearch
       title: Kibana
       imgs:
         - img_item: "/assets/media/icons/rpm.png"
         - img_item: "/assets/media/icons/docker.png"
-      description: "Kibana (Apache 2.0 licensed code only) - 6.5.4 <br> Includes Security and Alerting"
+      description: "Kibana (Apache 2.0 licensed code only) - 6.6.2 <br> Includes Security and Alerting"
       actions:
         - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
           label: RPM Install guide
         - url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
-          label: Docker 
+          label: Docker
 
     - title: SQL JDBC
       a: SQL
       imgs:
         - img_item: "/assets/media/icons/javajdbc.png"
       actions:
-        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-0.7.0.0.jar"
+        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-0.8.0.0.jar"
           label: JDBC driver
-        
+
     - title: PerfTop CLI
       a: PerfTop
       imgs:
@@ -52,4 +52,3 @@ bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
   text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0'
   color: "#0a1f72"
-    
