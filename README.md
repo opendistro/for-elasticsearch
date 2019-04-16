@@ -1,19 +1,21 @@
+# Open Distro for Elasticsearch website
 
-## OpenES Web
 
 ## License
 
-This library is licensed under the Apache 2.0 License. 
-=======
+This code is licensed under the Apache 2.0 License.
 
-# Open Distro Website
 
-To start development
+# Build
 
-* Make sure Ruby and Gem is install
+* Install Ruby and Jekyll
 * `bundle install`
-* `bundle exec jekyll serve` <- this will start the server.
+* `bundle exec jekyll serve`
+* Browse to http://127.0.0.1:4000/for-elasticsearch/
+
+For more documentation, visit https://jekyllrb.com/.
 
 
-For any more documentations please visit https://jekyllrb.com/
+# Attribution
 
+[Debian package logo](https://commons.wikimedia.org/wiki/File:Application-x-deb.svg) is used without modification under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
