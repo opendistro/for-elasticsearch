@@ -3,50 +3,39 @@ banner:
 
 intro:
   title: Getting started is easy
-  ext_content: Docker images and RPM files are available for the Elasticsearch and Kibana packages as well as the SQL JDBC driver and Performance Analyzer client, PerfTop. Get started now.
+  ext_content: Docker images, RPM files, and Debian files are available for the Elasticsearch and Kibana packages. You can also download the SQL JDBC driver and PerfTop, the Performance Analyzer client. Get started now.
 
-software:
-    - subtitle: Open Distro for Elasticsearch
-      title: Elasticsearch
-      imgs:
-        - img_item: "/assets/media/icons/rpm.png"
-        - img_item: "/assets/media/icons/docker.png"
-      description: "Elasticsearch (Apache 2.0 licensed code only) - 6.6.2 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
-      actions:
-        - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
-          label: RPM Install guide
-        - url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
-          label: Docker
+images:
+  rpm: "/assets/media/icons/rpm.png"
+  docker: "/assets/media/icons/docker.png"
+  deb: "/assets/media/icons/Application-x-deb.svg"
+  jdbc: "/assets/media/icons/javajdbc.png"
+  perftop: "/assets/media/icons/consol.png"
 
-    - subtitle: Open Distro for Elasticsearch
-      title: Kibana
-      imgs:
-        - img_item: "/assets/media/icons/rpm.png"
-        - img_item: "/assets/media/icons/docker.png"
-      description: "Kibana (Apache 2.0 licensed code only) - 6.6.2 <br> Includes Security and Alerting"
-      actions:
-        - url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
-          label: RPM Install guide
-        - url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
-          label: Docker
+elasticsearch:
+  title: Elasticsearch
+  subtitle: Open Distro for Elasticsearch
+  description: "Elasticsearch (Apache 2.0 licensed code only) - 6.6.2 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
+  rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
+  docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
+  deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/"
 
-    - title: SQL JDBC
-      a: SQL
-      imgs:
-        - img_item: "/assets/media/icons/javajdbc.png"
-      actions:
-        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-0.8.0.0.jar"
-          label: JDBC driver
+kibana:
+  title: Kibana
+  subtitle: Open Distro for Elasticsearch
+  description: "Kibana (Apache 2.0 licensed code only) - 6.6.2 <br> Includes Security and Alerting"
+  rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
+  docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
+  deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
 
-    - title: PerfTop CLI
-      a: PerfTop
-      imgs:
-        - img_item: "/assets/media/icons/consol.png"
-      actions:
-        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0-MACOS.zip"
-          label: PerfTop CLI macOS
-        - url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0-LINUX.zip"
-          label: PerfTop CLI Linux
+jdbc:
+  title: SQL JDBC
+  url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-0.8.0.0.jar"
+
+perftop:
+  title: PerfTop CLI
+  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0-MACOS.zip"
+  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0-LINUX.zip"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
