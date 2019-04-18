@@ -34,8 +34,8 @@ jdbc:
 
 perftop:
   title: PerfTop CLI
-  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0-MACOS.zip"
-  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.7.0.0-LINUX.zip"
+  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.9.0.0-MACOS.zip"
+  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-0.9.0.0-LINUX.zip"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
