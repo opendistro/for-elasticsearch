@@ -4,22 +4,18 @@ layout: default
 
 <!-- Banner -->
 <div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
-  {%- include banner.html banner=site.data.pages.es.codeofconduct.banner -%} 
+  {%- include banner.html banner=site.data.pages.es.events.banner -%} 
 </div>  
 
-<div class="pt-5"/>
+
 <!-- Intro -->
-{%- include intro-one-col.html intro=site.data.pages.es.codeofconduct.intro -%}
 
 <div class="pt-5"/>
 
 <!-- Paragraphs -->
 <div class="container px-5">
-  {% for codeofconduct in site.data.pages.es.codeofconduct.codes %}
-	   <div class="pt-5"></div>
 	    
 	    <div class="sparxo-nest-cards sparxo-id-388857020121686016"></div><script>(function (d, s, b) {if (d.getElementById(b)) {return;} var l, f = d.getElementsByTagName(s)[0];l = d.createElement(s);l.id = b;l.src = "https://e.sparxo.com/assets/shared/client.js";f.parentNode.insertBefore(l, f);}(document, 'script', 'sparxo-js'));</script>
-  {% endfor %}
 </div>
 
 <div class="pt-5"></div>
