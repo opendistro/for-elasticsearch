@@ -54,10 +54,10 @@ miniNews:
     author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-debian-packages-available-0-8-0/
     published: "April 17th, 2019"
     img: "https://emptysqua.re/blog/c-driver-ubuntu/debian-ubuntu.png"
-    img_width: "100%"
+    img_width: "105%"
 
-  - title: Lightweight Debugging with Performance Analyzer and PerfTop in Open Distro for Elasticsearch
-    content: "Open Distro for Elasticsearch ships with two components that combine to give you the lightweight tool you need to quickly retrieve and display core metrics."
+  - title: Lightweight Debugging with Performance Analyzer and PerfTop 
+    content: "Two components that combine to give you the lightweight tool you need to quickly retrieve and display core metrics."
     link: "https://aws.amazon.com/blogs/opensource/analyze-your-open-distro-for-elasticsearch-cluster-using-performance-analyzer-and-perftop/"
     author: Alolita Sharma
     author_link: https://aws.amazon.com/blogs/opensource/analyze-your-open-distro-for-elasticsearch-cluster-using-performance-analyzer-and-perftop/
@@ -74,7 +74,7 @@ miniNews:
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
 
-  - title: Use Open Distro for Elasticsearch to Alert on Security Events
+  - title: Open Distro for Elasticsearch - Alert on Security Events
     content: "Open Distro for Elasticsearch’s Security plugin ships with the capability to create an audit log to track access to your cluster."
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-alert-security-events/"
     author: Shivang Doshi
