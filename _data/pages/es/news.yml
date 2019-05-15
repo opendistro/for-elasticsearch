@@ -57,7 +57,7 @@ miniNews:
     img_width: "105%"
 
   - title: Lightweight Debugging with Performance Analyzer and PerfTop 
-    content: "Two components that combine to give you the lightweight tool you need to quickly retrieve and display core metrics."
+    content: "Two components that combine to give you the lightweight tool you need to quickly retrieve & display core metrics."
     link: "https://aws.amazon.com/blogs/opensource/analyze-your-open-distro-for-elasticsearch-cluster-using-performance-analyzer-and-perftop/"
     author: Alolita Sharma
     author_link: https://aws.amazon.com/blogs/opensource/analyze-your-open-distro-for-elasticsearch-cluster-using-performance-analyzer-and-perftop/
