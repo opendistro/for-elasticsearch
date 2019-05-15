@@ -11,6 +11,78 @@ intro:
   img: "/assets/media/youtube/News_cover.png"
 
 miniNews:
+  - title: Open Distro for Elasticsearch - Overview Demo
+    content: "Elastic has created Rally, a performance testing framework for Elasticsearch."
+    link: "https://www.youtube.com/watch?v=wBXabz6q_L4"
+    author: AWS on Youtube
+    author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
+    published: "May 8th, 2019"
+    img: "https://i.ytimg.com/vi/wBXabz6q_L4/maxresdefault.jpg"
+    img_width: "100%"
+
+  - title: Run Rally with Open Distro for Elasticsearch
+    content: "Elastic has created Rally, a performance testing framework for Elasticsearch."
+    link: "https://aws.amazon.com/blogs/opensource/esrally-open-distro-for-elasticsearch/"
+    author: Atri Sharma and Jon Handler
+    author_link: https://aws.amazon.com/blogs/opensource/esrally-open-distro-for-elasticsearch/
+    published: "May 9th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+  - title: Open Distro for Elasticsearch 0.9.0 Now Available
+    content: "The 0.9.0 release includes Elasticsearch 6.7.1, Kibana 6.7.1 from upstream and the latest Open Distro plugins."
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-0-9-0-now-available/"
+    author: Alolita Sharma
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-0-9-0-now-available/
+    published: "May 3rd, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+  - title: LDAP Integration for Open Distro for Elasticsearch
+    content: "Open Distro for Elasticsearch’s security plugin comes with authentication and access control out of the box."
+    link: "https://aws.amazon.com/blogs/opensource/ldap-integration-for-open-distro-for-elasticsearch/"
+    author: Jagadeesh Pusapadi
+    author_link: https://aws.amazon.com/blogs/opensource/ldap-integration-for-open-distro-for-elasticsearch/
+    published: "April 19th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/04/19/MSAD-dialog.png"
+    img_width: "100%"
+
+  - title: Open Distro for Elasticsearch Debian Packages Now Available for Version 0.8.0
+    content: "You can now download Open Distro for Elasticsearch version 0.8.0 for Debian and Ubuntu environments."
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-debian-packages-available-0-8-0/"
+    author: Alolita Sharma
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-debian-packages-available-0-8-0/
+    published: "April 17th, 2019"
+    img: "https://emptysqua.re/blog/c-driver-ubuntu/debian-ubuntu.png"
+    img_width: "100%"
+
+  - title: Lightweight Debugging with Performance Analyzer and PerfTop in Open Distro for Elasticsearch
+    content: "Open Distro for Elasticsearch ships with two components that combine to give you the lightweight tool you need to quickly retrieve and display core metrics."
+    link: "https://aws.amazon.com/blogs/opensource/analyze-your-open-distro-for-elasticsearch-cluster-using-performance-analyzer-and-perftop/"
+    author: Alolita Sharma
+    author_link: https://aws.amazon.com/blogs/opensource/analyze-your-open-distro-for-elasticsearch-cluster-using-performance-analyzer-and-perftop/
+    published: "April 12th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/04/12/perftop_diagram1.jpeg"
+    img_width: "100%"
+
+  - title: New Release - Open Distro for Elasticsearch version 0.8.0
+    content: "Release highlights include support for Elasticsearch 6.6.2, Kibana 6.6.2 and various minor enhancements and bug fixes for the plugins."
+    link: "https://aws.amazon.com/blogs/opensource/update-open-distro-for-elasticsearch-version-0-8-0/"
+    author: Alolita Sharma
+    author_link: https://aws.amazon.com/blogs/opensource/update-open-distro-for-elasticsearch-version-0-8-0/
+    published: "April 10th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+  - title: Use Open Distro for Elasticsearch to Alert on Security Events
+    content: "Open Distro for Elasticsearch’s Security plugin ships with the capability to create an audit log to track access to your cluster."
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-alert-security-events/"
+    author: Shivang Doshi
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-alert-security-events/
+    published: "April 5th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/04/04/image2-Define-Monitor-1024x580.png"
+    img_width: "100%"
+
   - title: Set an Alert in Open Distro for Elasticsearch
     content: "Learn how to use the alerting feature and receive automatic notifications in Slack."
     link: "https://aws.amazon.com/blogs/opensource/iot-alerting-open-distro-for-elasticsearch/"
