@@ -28,7 +28,7 @@ miniNews:
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/05/14/opendistro-elk-saadrana-white-1024x556.png"
     img_width: "100%"
   - title: Open Distro for Elasticsearch - Overview Demo
-    content: "Open Distro for Elasticsearch provides users with a fully featured, 100% open source, community-driven distribution for their log analytics and search use cases."
+    content: "Open Distro for Elasticsearch provides users with a fully featured, 100% open source, community-driven distribution for log analytics and search use cases."
     link: "https://www.youtube.com/watch?v=wBXabz6q_L4"
     author: AWS on Youtube
     author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
