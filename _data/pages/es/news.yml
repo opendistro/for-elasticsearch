@@ -11,15 +11,30 @@ intro:
   img: "/assets/media/youtube/News_cover.png"
 
 miniNews:
+  - title: Open Distro for Elasticsearch Build Scripts Now Available
+    content: "Want to craft your own Docker images using Open Distro for Elasticsearch build scripts?"
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-build-scripts-available/"
+    author: Alolita Sharma
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-build-scripts-available/
+    published: "May 16th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/05/16/image2.png"
+    img_width: "100%"
+  - title: Running Open Distro for Elasticsearch on Kubernetes
+    content: "This post is a walk-through on deploying Open Distro for Elasticsearch on Kubernetes as a production-grade deployment."
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-on-kubernetes/"
+    author: Saad Rana
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-on-kubernetes/
+    published: "May 15th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/05/14/opendistro-elk-saadrana-white-1024x556.png"
+    img_width: "100%"
   - title: Open Distro for Elasticsearch - Overview Demo
-    content: "Elastic has created Rally, a performance testing framework for Elasticsearch."
+    content: "Open Distro for Elasticsearch provides users with a fully featured, 100% open source, community-driven distribution for their log analytics and search use cases."
     link: "https://www.youtube.com/watch?v=wBXabz6q_L4"
     author: AWS on Youtube
     author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
     published: "May 8th, 2019"
     img: "https://i.ytimg.com/vi/wBXabz6q_L4/maxresdefault.jpg"
     img_width: "100%"
-
   - title: Run Rally with Open Distro for Elasticsearch
     content: "Elastic has created Rally, a performance testing framework for Elasticsearch."
     link: "https://aws.amazon.com/blogs/opensource/esrally-open-distro-for-elasticsearch/"
