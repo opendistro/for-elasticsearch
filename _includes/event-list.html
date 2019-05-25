@@ -1,0 +1,104 @@
+{% for item in include.items%}
+
+  {% capture thecycle%}{% cycle 'one', 'two', 'three' %}{% endcapture %}
+  {% if thecycle == 'one' %}
+ 	<div class="row justify-content-center">
+
+
+	      	<div class="eventContainer col-10">
+		      	<div class="row">	
+			      	<div class="eventImage col-lg-3 col-md-12 p-0" style="background-image: url('{{item.img}}'); background-size:cover; background-position: center; overflow: hidden;">
+			      		<div>
+			      		<a href="{{item.link}}" target="about:blank" >
+				    	</a>
+				    	</div>
+			      	</div>
+			      	<div class="eventDetails col-lg-9 col-md-12">
+			      		<div class="row">
+				      		<div class="eventMeta col-12">
+				      			<div class="row justify-content-between">
+					      			<div class="col-md-6 col-xs-12">
+					      			<p class="text-small">Location: {{ item.location }}</p>
+					      			</div>
+					      			<div class="col-md-6 col-xs-12">
+					      			<p class="text-small pdate">Date: {{ item.date }}</p>
+					      			</div>
+				      			</div>
+				      		</div>
+			      		</div>
+			      		<div class="row pt-2">
+				      		<div class="eventContent col-12 my-auto">
+				      			<div class="row justify-content-between">
+					      			<div class="eventTitle col-lg-9 col-md-12 py-lg-3 py-md-2">
+						                   <h5 class="">{{ item.title }}</h5>
+						                <p class="text-small">{{ item.content }}
+						               		
+						               </p>
+					      			</div>
+					      			<div class="eventButtonContainer col-lg-3 col-md-12 my-auto text-center">
+					      				<a class="btn btn-blue-button btn-block link-on-dark" href="{{ item.link }}" role="button" style="" target="about.blank">Details <i class="fas fa-external-link-alt"></i> </a>
+
+					      			</div>
+					      		</div>
+				      		</div>
+			      		</div>
+			      	
+			      	</div>
+			    </div> 	
+	      	</div>
+
+	</div>
+      	
+  {% else %}
+ 	<div class="row justify-content-center">
+
+
+	      	<div class="eventContainer col-10">
+		      	<div class="row">	
+			      	<div class="eventImage col-lg-3 col-md-12 p-0" style="background-image: url('{{item.img}}'); background-size:cover; background-position: center; overflow: hidden;">
+			      		<div>
+			      		<a href="{{item.link}}" target="about:blank" >
+				    	</a>
+				    	</div>
+			      	</div>
+			      	<div class="eventDetails col-lg-9 col-md-12">
+			      		<div class="row">
+				      		<div class="eventMeta col-12">
+				      			<div class="row justify-content-between">
+					      			<div class="col-md-6 col-xs-12">
+					      			<p class="text-small">Location: {{ item.location }}</p>
+					      			</div>
+					      			<div class="col-md-6 col-xs-12">
+					      			<p class="text-small pdate">Date: {{ item.date }}</p>
+					      			</div>
+				      			</div>
+				      		</div>
+			      		</div>
+			      		<div class="row pt-2">
+				      		<div class="eventContent col-12 my-auto">
+				      			<div class="row justify-content-between">
+					      			<div class="eventTitle col-lg-9 col-md-12 py-lg-3 py-md-2">
+						                   <h5 class="">{{ item.title }}</h5>
+						                <p class="text-small">{{ item.content }}
+						               		
+						               </p>
+					      			</div>
+					      			<div class="eventButtonContainer col-lg-3 col-md-12 my-auto text-center">
+					      				<a class="btn btn-blue-button btn-block link-on-dark" href="{{ item.link }}" role="button" style="" target="about.blank">Details <i class="fas fa-external-link-alt"></i> </a>
+
+					      			</div>
+					      		</div>
+				      		</div>
+			      		</div>
+			      	
+			      	</div>
+			    </div> 	
+	      	</div>
+
+	</div>
+     
+	    {% if thecycle == 'three' %}
+	    {% endif %}
+  {% endif %}
+
+{% endfor %}

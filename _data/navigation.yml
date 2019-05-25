@@ -12,6 +12,12 @@
   - title: News
     url: /news.html
   - title: Community
-    url: /community.html
+    sublinks:
+      - title: Events
+        url: events.html
+      - title: Forums
+        url: https://discuss.opendistrocommunity.dev/ 
+      - title: Overview
+        url: community.html
   - title: Contribute
     url: /contribute.html

@@ -1,7 +1,25 @@
 banner:
-  title: Upcoming Events
+  title: Events
 
 intro:
-  title: 
-  content: 
-    - paragraph: 
+  title: Events and Meetups
+  ext_content:  If you are interested in hosting a developer event to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>.
+
+upcomingEvent:
+  - title: AWS Summit
+    content: "Attend this session to learn more about Open Distro for Elasticsearch"
+    link: "https://awschi19.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=elasticsearch&searchType=session&tc=0&sortBy=abbreviationSort&p="
+    location: Chicago, IL
+    date: Thr 5/30/2019
+    img: "/for-elasticsearch/assets/media/eventimages/awssummit.png"
+    img_width: "100%"
+
+
+pastEvent:
+  - title: SF Apache Lucene/Solr Meetup
+    content: "Attend this session to learn more about Open Distro for Elasticsearch - Performance Analyzer"
+    link: "https://www.meetup.com/Downtown-SF-Apache-Lucene-Solr-Meetup/events/260512028/"
+    location: San Francisco, CA
+    date: Thr 5/16/2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"

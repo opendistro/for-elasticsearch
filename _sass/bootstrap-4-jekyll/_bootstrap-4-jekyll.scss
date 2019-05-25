@@ -401,6 +401,42 @@
     color: #333;
   }
 
+      .eventContainer{
+    background-color:white; 
+    border-width: 1px 1px 1px 1px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+    margin: 10px 0;
+  }
+  .eventImage{
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+    height: 150px;
+
+  }
+
+  .eventMeta{
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .eventMeta p{
+    margin: 0px 0;
+  }
+    .eventButtonContainer {
+    text-align: center;
+    }
+
+  .eventButtonContainer a{
+
+    max-width: 120px; 
+    margin: auto;
+    margin-bottom: 20px;
+
+  }
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -774,6 +810,43 @@
     font-size: 12px;
     font-weight: 400;
     color: #333;
+  }
+
+        .eventContainer{
+    background-color:white; 
+    border-width: 1px 1px 1px 1px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+    margin: 10px 0;
+  }
+  .eventImage{
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+    height: 250px;
+
+  }
+
+  .eventMeta{
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+        padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .eventMeta p{
+    margin: 0px 0;
+  }
+    .eventButtonContainer {
+    text-align: center;
+    }
+
+  .eventButtonContainer a{
+
+    max-width: 120px; 
+    margin: auto;
+    margin-bottom: 20px;
+
   }
   
 }
@@ -1156,6 +1229,46 @@
     color: #333;
   }
 
+      .eventContainer{
+    background-color:white; 
+    border-width: 1px 1px 1px 1px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+    margin: 10px 0;
+  }
+  .eventImage{
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+height: 250px;
+  }
+
+  .eventMeta{
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+  }
+  .eventMeta p{
+    margin: 2px 0;
+  }
+
+
+  .pdate{
+      text-align: right;
+  }
+    .eventButtonContainer {
+    text-align: center;
+    }
+
+  .eventButtonContainer a{
+
+    max-width: 120px; 
+    margin: auto;
+    margin-bottom: 20px;
+
+  }
+
+
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -1525,6 +1638,38 @@
     font-size: 12px;
     font-weight: 400;
     color: #333;
+  }
+    .eventContainer{
+    background-color:white; 
+    border-width: 1px 1px 1px 1px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+    margin: 10px 0;
+  }
+  .eventImage{
+    border-width: 0px 1px 0px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+height: 180px;
+  }
+
+  .eventMeta{
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+  }
+  .eventMeta p{
+    margin: 2px 0;
+  }
+
+
+  .pdate{
+      text-align: right;
+  }
+
+    .eventButtonContainer a{
+    max-width: 120px; 
+    float:right;
   }
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------*/
@@ -2001,6 +2146,39 @@
     font-size: 12px;
     font-weight: 400;
     color: #333;
+  }
+
+  .eventContainer{
+    background-color:white; 
+    border-width: 1px 1px 1px 1px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+    margin: 10px 0;
+  }
+  .eventImage{
+    border-width: 0px 1px 0px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF;
+height: 180px;
+  }
+
+  .eventMeta{
+    border-width: 0px 0px 1px 0px; 
+    border-style:solid; 
+    border-color: #DFDFDF; 
+  }
+  .eventMeta p{
+    margin: 5px 0;
+
+  }
+
+  .pdate{
+      text-align: right;
+  }
+
+  .eventButtonContainer a{
+    max-width: 120px; 
+    float:right;
   }
 }
 
