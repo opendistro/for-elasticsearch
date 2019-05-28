@@ -1,8 +1,8 @@
 banner:
-  title: Events
+  title: Events and Meetups
 
 intro:
-  title: Events and Meetups
+  title: 
   ext_content:  If you are interested in hosting a developer event to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>.
 
 upcomingEvent:
