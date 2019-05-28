@@ -11,6 +11,14 @@ intro:
   img: "/assets/media/youtube/News_cover.png"
 
 miniNews:
+  - title: Store Performance Analyzer Output in Elasticsearch
+    content: "Explore Performance Analyzer’s API through a code sample that reads Performance Analyzer’s metrics and writes them to Elasticsearch."
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearchs-performance-analyzer-kibana/"
+    author: Jon Handler
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearchs-performance-analyzer-kibana/
+    published: "May 23rd, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/05/24/image3.png"
+    img_width: "100%"
   - title: Use JSON Web Tokens to Authenticate in Open Distro for Elasticsearch
     content: "Token-based authentication systems are popular in the world of web services."
     link: "https://aws.amazon.com/blogs/opensource/json-web-tokens-jwt-authenticate-open-distro-for-elasticsearch-kibana/"

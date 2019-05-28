@@ -1,0 +1,56 @@
+<div class="row">	
+			      	<div class="eventImage col-lg-4 col-md-12 p-0">
+<div class="d-none d-lg-block" style="background-image: url('/for-elasticsearch/assets/media/eventimages/awssummit.png');background-size: contain;background-position: center;overflow: hidden;filter: blur(20px);-webkit-filter: blur(20px);background-position: center;background-repeat: no-repeat;background-size: auto;overflow: hidden;position: absolute;margin: -20px;width: 150%;height: 240px;">
+			      
+			      	</div>
+    
+    <div style="
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    margin-top: -21%;
+">
+			      		<a href="https://awschi19.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=elasticsearch&amp;searchType=session&amp;tc=0&amp;sortBy=abbreviationSort&amp;p=" target="about:blank">
+                            <img src="/for-elasticsearch/assets/media/eventimages/awssummit.png" style="
+    width: 100%;
+">
+				    	</a>
+				    	</div>
+</div>
+			      	<div class="eventDetails col-lg-8 col-md-12" style="
+    position: relative;
+    top: 10%;
+">
+			      		<div class="row">
+				      		<div class="eventMeta col-12">
+				      			<div class="row justify-content-between">
+					      			<div class="col-md-6 col-xs-12">
+					      			<p class="text-small">Location: Chicago, IL</p>
+					      			</div>
+					      			<div class="col-md-6 col-xs-12">
+					      			<p class="text-small pdate">Date: Thr 5/30/2019</p>
+					      			</div>
+				      			</div>
+				      		</div>
+			      		</div>
+			      		<div class="row pt-2">
+				      		<div class="eventContent col-12 my-auto">
+				      			<div class="row justify-content-between">
+					      			<div class="eventTitle col-lg-9 col-md-12 py-lg-3 py-md-2">
+						                   <h5 class="">AWS Summit</h5>
+						                <p class="text-small">Attend this session to learn more about Open Distro for Elasticsearch
+						               		
+						               </p>
+					      			</div>
+					      			<div class="eventButtonContainer col-lg-3 col-md-12 my-auto pt-4 text-center">
+					      				<a class="btn btn-blue-button btn-block link-on-dark" href="https://awschi19.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=elasticsearch&amp;searchType=session&amp;tc=0&amp;sortBy=abbreviationSort&amp;p=" role="button" style="" target="about.blank">Details <i class="fas fa-external-link-alt"></i> </a>
+
+					      			</div>
+					      		</div>
+				      		</div>
+			      		</div>
+			      	
+			      	</div>
+			    </div>
