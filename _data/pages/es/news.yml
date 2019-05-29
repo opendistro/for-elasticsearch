@@ -11,6 +11,14 @@ intro:
   img: "/assets/media/youtube/News_cover.png"
 
 miniNews:
+  - title: New! Open Distro for Elasticsearch’s Job Scheduler 
+    content: "Open Distro for Elasticsearch’s JobScheduler plugin provides a framework for developers to accomplish common, scheduled tasks on their cluster. "
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-job-scheduler-plugin/"
+    author: Alolita Sharma and Jon Handler
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-job-scheduler-plugin/
+    published: "May 29th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
   - title: Store Performance Analyzer Output in Elasticsearch
     content: "Explore Performance Analyzer’s API through a code sample that reads Performance Analyzer’s metrics and writes them to Elasticsearch."
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearchs-performance-analyzer-kibana/"

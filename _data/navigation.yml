@@ -9,8 +9,6 @@
         url: features/SQL%20Support.html
       - title: Performance Analyzer
         url: features/analyzer.html
-  - title: News
-    url: /news.html
   - title: Community
     sublinks:
       - title: Events
@@ -19,5 +17,7 @@
         url: https://discuss.opendistrocommunity.dev/ 
       - title: Overview
         url: community.html
+  - title: News
+    url: /news.html
   - title: Contribute
     url: /contribute.html
