@@ -2,15 +2,23 @@ banner:
   title: News
 
 intro:
-  title: Keeping Open Source Open – Open Distro for Elasticsearch
-  content: "Open source is more important now than ever. Customer usage and dependencies on open source technologies have been steadily increasing—both to drive innovation as well as to improve their day-to-day productivity. In this live session, you will hear from the AWS open source and product experts on the large, long-term commitments AWS is making to open source and how it's empowering the community to ensure open source projects continue to thrive."
-  link: "https://www.youtube.com/watch?v=9PN2_Kuz-tw"
+  title: Open Distro for Elasticsearch - Overview Demo
+  content: "Open Distro for Elasticsearch provides users with a fully featured, 100% open source, community-driven distribution for log analytics and search."
+  link: "https://www.youtube.com/watch?v=wBXabz6q_L4"
   author: AWS on Youtube
   author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
-  published: "March 14th, 2019"
-  img: "/assets/media/youtube/News_cover.png"
+  published: "May 8th, 2019"
+  img: "https://i.ytimg.com/vi/wBXabz6q_L4/maxresdefault.jpg"
 
 miniNews:
+  - title: Alerting Monitors With odfe-monitor-cli
+    content: "This blog post explains how to manage your monitors using YAML files through odfe-monitor-cli, available on GitHub under the Apache 2.0 license."
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-alerting-monitors-command-line/"
+    author: Mihir Soni
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-alerting-monitors-command-line/
+    published: "June 12th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/06/12/Screen-Shot-2019-06-03-at-5.50.40-PM.jpg"
+    img_width: "100%"
   - title: New! Open Distro for Elasticsearch’s Job Scheduler 
     content: "Open Distro for Elasticsearch’s JobScheduler plugin provides a framework for developers to accomplish common, scheduled tasks on their cluster. "
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-job-scheduler-plugin/"
@@ -51,14 +59,7 @@ miniNews:
     published: "May 15th, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/05/14/opendistro-elk-saadrana-white-1024x556.png"
     img_width: "100%"
-  - title: Open Distro for Elasticsearch - Overview Demo
-    content: "Open Distro for Elasticsearch provides users with a fully featured, 100% open source, community-driven distribution for log analytics and search."
-    link: "https://www.youtube.com/watch?v=wBXabz6q_L4"
-    author: AWS on Youtube
-    author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
-    published: "May 8th, 2019"
-    img: "https://i.ytimg.com/vi/wBXabz6q_L4/maxresdefault.jpg"
-    img_width: "100%"
+  
   - title: Run Rally with Open Distro for Elasticsearch
     content: "Elastic has created Rally, a performance testing framework for Elasticsearch."
     link: "https://aws.amazon.com/blogs/opensource/esrally-open-distro-for-elasticsearch/"
@@ -185,6 +186,15 @@ miniNews:
     img: "https://media.amazonwebservices.com/blog/2019/od_es_perftop_1.png"
     img_width: "120%"
 
+  - title: Keeping Open Source Open – Open Distro for Elasticsearch
+    content: "Open source is more important now than ever."
+    link: "https://www.youtube.com/watch?v=9PN2_Kuz-tw"
+    author: AWS on Youtube
+    author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
+    published: "March 14th, 2019"
+    img: "https://opendistro.github.io/for-elasticsearch/assets/media/youtube/News_cover.png"
+    img_width: "100%"
+
   - title: Open Distro for Elasticsearch Kickstart Guide
     content: "Nathan Glover provides a streamlined introduction to Open Distro for Elasticsearch and demonstrates key features.</br>"
     link: "https://devopstar.com/2019/03/13/open-distro-for-elasticsearch-kickstart-guide/"
@@ -193,3 +203,15 @@ miniNews:
     published: "March 13th, 2019"
     img: "https://devopstar.com/wp-content/uploads/2019/03/open-distro-for-elasticsearch-kickstart-guide.jpg"
     img_width: "100%"
+
+
+miniNewsasfeatureimage:
+  - title: Open Distro for Elasticsearch - Overview Demo
+    content: "Open Distro for Elasticsearch provides users with a fully featured, 100% open source, community-driven distribution for log analytics and search."
+    link: "https://www.youtube.com/watch?v=wBXabz6q_L4"
+    author: AWS on Youtube
+    author_link: https://www.youtube.com/channel/UCd6MoB9NC6uYN2grvUNT-Zg
+    published: "May 8th, 2019"
+    img: "https://i.ytimg.com/vi/wBXabz6q_L4/maxresdefault.jpg"
+    img_width: "100%"
+
