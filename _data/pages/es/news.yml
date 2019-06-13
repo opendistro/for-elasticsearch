@@ -19,6 +19,14 @@ miniNews:
     published: "June 12th, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/06/12/Screen-Shot-2019-06-03-at-5.50.40-PM.jpg"
     img_width: "100%"
+  - title: Set up Multi-Tenant Kibana Access
+    content: "Kibana multi-tenancy is enabled out of the box in Open Distro for Elasticsearch."
+    link: "https://aws.amazon.com/blogs/opensource/multi-tenant-kibana-open-distro-for-elasticsearch/"
+    author: Jon Handler
+    author_link: https://aws.amazon.com/blogs/opensource/multi-tenant-kibana-open-distro-for-elasticsearch/
+    published: "June 4th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/05/31/MTK-1-Roles-.jpeg"
+    img_width: "100%"
   - title: New! Open Distro for Elasticsearch’s Job Scheduler 
     content: "Open Distro for Elasticsearch’s JobScheduler plugin provides a framework for developers to accomplish common, scheduled tasks on their cluster. "
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-job-scheduler-plugin/"
