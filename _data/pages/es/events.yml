@@ -20,6 +20,13 @@ upcomingEvent:
     date: Fri 6/28/2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
+  - title: Get started with Open Distro for Elasticsearch
+    content: "Join Jon Handler and Eli Fisher of Amazon Web Services to learn about Open Distro for Elasticsearch."
+    link: "https://www.meetup.com/sfjava/events/262288964/"
+    location: San Francisco, CA
+    date: Fri 7/8/2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
 
 
 pastEvent:
