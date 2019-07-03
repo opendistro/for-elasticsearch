@@ -25,5 +25,9 @@ featuresLink:
     icon: "/assets/media/icons/performance_analyzer_64px.svg"   
     url: "features/analyzer.html"    
     color: "#ed20eb"   
+  - title: K-nn
+    icon: "/assets/media/icons/performance_analyzer_64px.svg"   
+    url: "features/analyzer.html"    
+    color: "#ed20eb" 
 
 
