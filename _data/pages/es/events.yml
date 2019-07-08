@@ -6,27 +6,12 @@ intro:
   ext_content:  If you are interested in hosting a developer event to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>.
 
 upcomingEvent:
-  - title: Get started with Open Distro for Elasticsearch for log analytics
-    content: "Join Javier Ramirez of Amazon Web Services to learn about Open Distro for Elasticsearch"
-    link: "https://www.meetup.com/Search-UG-Berlin/events/262092856/"
-    location: Berlin, Germany
-    date: Wed 6/26/2019
-    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
-    img_width: "100%"
-
-  - title: Elasticsearch and Journalism Content Recommendation
-    content: "Attend this session to learn more about Open Distro for Elasticsearch"
-    link: "https://www.meetup.com/SEA-Search-Engines-Amsterdam/events/qvfxgpyzjblc"
-    location: Amsterdam, Netherlands
-    date: Fri 6/28/2019
-    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
-    img_width: "100%"
 
   - title: Get started with Open Distro for Elasticsearch
     content: "Join Jon Handler and Eli Fisher of Amazon Web Services to learn about Open Distro for Elasticsearch."
     link: "https://www.meetup.com/sfjava/events/262288964/"
     location: San Francisco, CA
-    date: Fri 7/8/2019
+    date: Mon 7/8/2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
 
@@ -34,7 +19,7 @@ upcomingEvent:
     content: "On the second Wed of each month, join ~180 devs at SF Python's presentation night."
     link: "https://www.meetup.com/sfpython/events/xkwxvqyzkbnb/"
     location: San Francisco, CA
-    date: Fri 7/10/2019
+    date: Wed 7/10/2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
 
@@ -42,7 +27,7 @@ upcomingEvent:
     content: "Alolita Sharma and Mihir Soni detail the basic ingredients you need to create useful alerting."
     link: "https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/79469"
     location: Portland, OR
-    date: Fri 7/17/2019
+    date: Wed 7/17/2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2018/06/13/oscon-header.jpg"
     img_width: "100%"
 
@@ -56,6 +41,20 @@ upcomingEvent:
 
 
 pastEvent:
+  - title: Elasticsearch and Journalism Content Recommendation
+    content: "Attend this session to learn more about Open Distro for Elasticsearch"
+    link: "https://www.meetup.com/SEA-Search-Engines-Amsterdam/events/qvfxgpyzjblc"
+    location: Amsterdam, Netherlands
+    date: Fri 6/28/2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+  - title: Get started with Open Distro for Elasticsearch for log analytics
+    content: "Join Javier Ramirez of Amazon Web Services to learn about Open Distro for Elasticsearch"
+    link: "https://www.meetup.com/Search-UG-Berlin/events/262092856/"
+    location: Berlin, Germany
+    date: Wed 6/26/2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
   - title: AWS Summit
     content: "Attend this session to learn more about Open Distro for Elasticsearch"
     link: "https://awschi19.smarteventscloud.com/connect/search.ww#loadSearch-searchPhrase=elasticsearch&searchType=session&tc=0&sortBy=abbreviationSort&p="
@@ -70,3 +69,6 @@ pastEvent:
     date: Thr 5/16/2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
+
+
+  
