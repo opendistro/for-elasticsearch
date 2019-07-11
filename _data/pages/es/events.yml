@@ -70,17 +70,17 @@ pastEvent:
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
   - title: Get started with Open Distro for Elasticsearch for log analytics
-        content: "Join Javier Ramirez of Amazon Web Services to learn about Open Distro for Elasticsearch"
-        link: "https://www.meetup.com/Search-UG-Berlin/events/262092856/"
-        location: Berlin, Germany
-        date: Wed 6/26/2019
-        img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
-        img_width: "100%"
+    content: "Join Javier Ramirez of Amazon Web Services to learn about Open Distro for Elasticsearch"
+    link: "https://www.meetup.com/Search-UG-Berlin/events/262092856/"
+    location: Berlin, Germany
+    date: Wed 6/26/2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
 
   - title: Elasticsearch and Journalism Content Recommendation
-        content: "Attend this session to learn more about Open Distro for Elasticsearch"
-        link: "https://www.meetup.com/SEA-Search-Engines-Amsterdam/events/qvfxgpyzjblc"
-        location: Amsterdam, Netherlands
-        date: Fri 6/28/2019
-        img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
-        img_width: "100%"
+    content: "Attend this session to learn more about Open Distro for Elasticsearch"
+    link: "https://www.meetup.com/SEA-Search-Engines-Amsterdam/events/qvfxgpyzjblc"
+    location: Amsterdam, Netherlands
+    date: Fri 6/28/2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
