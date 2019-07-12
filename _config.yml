@@ -51,6 +51,13 @@ collections:
   features:
     permalink: /:features/:name/
 
+defaults:
+-
+    scope:
+      type: "posts"
+    values:
+      permalink: blog/:categories/:year/:month/:title/
+
 # gems:
 #   - jekyll-font-awesome-sass
 
