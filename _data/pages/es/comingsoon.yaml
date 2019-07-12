@@ -32,7 +32,7 @@ features:
 bottomBanner:
   class: "/assets/media/backgrounds/homehero.svg"
   text: 'Join our community of developers in advancing the future of Alerting'
-  color: "#ff006b"
+  color: "#0a1f72"
 
 
 
