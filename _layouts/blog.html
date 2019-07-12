@@ -3,14 +3,13 @@ layout: default
 ---
 
 <!-- Banner -->
-<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
-  {%- include banner.html banner=site.data.pages.es.blog.banner -%}
+<div class="container-fluid homeBanner" style="background-color; #FFF; background-size: cover;">
 </div>
 
 
 <!-- blog -->
 
-  <div class="container content">
+  <div class="container col-md-8 .offset-md-2 content">
 
     <article class="article  article--page  typeset">
 
@@ -34,4 +33,5 @@ layout: default
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
 
 
-
+<div class="container-fluid homeBanner" style="background-color; #FFF; background-size: cover;">
+</div>
