@@ -11,6 +11,22 @@ intro:
   img: "https://i.ytimg.com/vi/wBXabz6q_L4/maxresdefault.jpg"
 
 miniNews:
+  - title: SearchBlox 9.0 now available – uses Open Distro for Elasticsearch
+    content: "SearchBlox now uses Open Distro Elasticsearch a 100% Apache 2.0 licensed Elasticsearch & Kibana"
+    link: "https://www.searchblox.com/blog/searchblox-90-now-available"
+    author: SearchBlox
+    author_link: https://www.searchblox.com/blog/searchblox-90-now-available
+    published: "July 13th, 2019"
+    img: "https://www.searchblox.com/uploads/1/2/3/5/123532231/searchblox2_1_orig.png"
+    img_width: "100%"
+  - title: Open Distro for Elasticsearch version 1.0.0 is now available
+    content: "The 1.0.0 release includes Elasticsearch 7.0.1 and Kibana 7.0.1 from upstream and the latest versions of the Open Distro for Elasticsearch plugins."
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-version-1-0-0-available/"
+    author: Alolita Sharma 
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-version-1-0-0-available/
+    published: "July 1st, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
   - title: Alerting Monitors With odfe-monitor-cli
     content: "This blog post explains how to manage your monitors using YAML files through odfe-monitor-cli, available on GitHub under the Apache 2.0 license."
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-alerting-monitors-command-line/"
