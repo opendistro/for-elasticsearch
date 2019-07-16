@@ -45,22 +45,23 @@
 
                 {%- if link.title -%}
                   <li class="nav-item {{class}}">
+
                     <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
+
+                    
                   </li>
                 {%- endif -%}
             {% endif %}
         {% endfor -%}
 
-        <li class="nav-item">
-          <a class="nav-link" href="{{ site.data.links.website.docs }}">Docs</a>
+    
         </li>
-        </li>
-        <li class="nav-item">
+        <!--<li class="nav-item">
 
           <a class="nav-link" target="about:blank" href="{{ site.data.links.github.home | absolute_url }}">GitHub <i class="fas fa-external-link-alt"></i>
 
           </a>
-        </li>
+        </li>-->
 
         <li class="nav-item">
           <a

@@ -8,10 +8,16 @@ intro:
 
 features:
   - title: Index Management
-    content: We are planning to build an open source index management suite for Elasticsearch and Kibana that will be integrated into Open Distro for Elasticsearch. It will offer index automation to simplify managing indexes, while providing a Kibana based administrative panel for monitoring and managing indexes.
+    content: We are working on a new integrated job engine for Open Distro for Elasticsearch, Index Management. With Index Management, you will be able to run periodic operations on your indexes, eliminating the need build and manage external systems for these tasks. Index Management will enable you to defining custom policies, to optimize and move indices and apply them to index patterns. Each policy contains a default state and a list of states that you define for the index to transition between. Within each state you can define a list of actions to perform and transitions to enter a new state. Actions supported in the initial release of Index State Management include force merge, shrink split, allocation, snapshot, delete, rollover and more. Index Management will be configurable via REST or the associated Kibana plugin.
     img: "/assets/media/screenshots/"
-    action_download:
-      label: 'View RFC'
+    action_1:
+      label: 'Request for comment'
+      url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
+    action_2:
+      label: 'Open Distro for Elasticsearch plugin - Repo'
+      url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
+    action_3:
+      label: 'Open Distro for Elasticsearch Kibana plugin – Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
     
   - title: SQL Kibana Plug-in 

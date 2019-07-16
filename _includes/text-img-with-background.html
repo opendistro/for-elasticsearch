@@ -44,14 +44,35 @@
 
 			<!-- Links -->
 		       <div class="row px-5" style="display: inline;">
-
+		       	{% if feature.action_download %}
+		          <a class="btn pt-3 link-on-white" href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+                {% endif %}
 		        {% if feature.action_learn %}
 		          <a class="btn pt-3 link-on-white" href="{{ feature.action_learn.url | relative_url }}" role="button"> {{ feature.action_learn.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
 		        {% endif %}
-
-                {% if feature.action_download %}
-		          <a class="btn pt-3 link-on-white" href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+		        <ul style="    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start: 45px;
+    list-style-position: inside;">
+                {% if feature.action_1 %}
+                
+                	<li>
+		          <a class="btn pt-3 link-on-white" href="{{ feature.action_1.url | relative_url }}" role="button"> {{ feature.action_1.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+		          	</i>
                 {% endif %}
+                {% if feature.action_2 %}
+                
+                	<li>
+		          <a class="btn pt-3 link-on-white" href="{{ feature.action_2.url | relative_url }}" role="button"> {{ feature.action_2.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+		          	</i>
+                {% endif %}
+                {% if feature.action_3 %}
+                
+                	<li>
+		          <a class="btn pt-3 link-on-white" href="{{ feature.action_3.url | relative_url }}" role="button"> {{ feature.action_3.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
+		          	</i>
+                {% endif %}
+            	</ul>
 	          </div>
 
             </div>
