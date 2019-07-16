@@ -10,7 +10,7 @@ intro:
 # Features
 featuresLink:
   - title: Coming soon
-    icon: "/assets/media/icons/comingsoon.svg"   
+    icon: "/assets/media/icons/comingsoon_64px.svg"   
     url: "features/comingsoon.html"    
     color: "#0a1f72"
   - title: Security
