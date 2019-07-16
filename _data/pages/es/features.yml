@@ -9,10 +9,6 @@ intro:
 
 # Features
 featuresLink:
-  - title: Coming soon
-    icon: "/assets/media/icons/comingsoon_64px.svg"   
-    url: "features/comingsoon.html"    
-    color: "#0a1f72"
   - title: Security
     icon: "/assets/media/icons/security_64px.svg" 
     url: "features/security.html"
@@ -28,7 +24,11 @@ featuresLink:
   - title: Performance Analyzer
     icon: "/assets/media/icons/performance_analyzer_64px.svg"   
     url: "features/analyzer.html"    
-    color: "#ed20eb"   
+    color: "#ed20eb"  
+  - title: Coming soon
+    icon: "/assets/media/icons/comingsoon_64px.svg"   
+    url: "features/comingsoon.html"    
+    color: "#0a1f72" 
 
 
 
