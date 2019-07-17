@@ -22,7 +22,7 @@ features:
     
   - title: Security integration with alerting
     content: We are building an integration between the security and alerting plugins to secure your alerting configuration. With this integration, we will provide new pre-built roles, making it easier for you to enable who can create and view monitors, alerts, and destinations. The security and alerting integration will ensure that users can create monitors using only the data they have access to.  You will also be able to set a role on a monitor so that the monitor can only access the data you want it to. Learn more or contribute at&#58;
-    img: "/assets/media/screenshots/"
+    img: "/assets/media/screenshots/alert_access.png"
     action_download:
       label: 'Security plugin – Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/security'
