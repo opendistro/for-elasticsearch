@@ -8,30 +8,30 @@ intro:
 
 features:
   - title: Index Management
-    content: We are working on a new integrated job engine for Open Distro for Elasticsearch, Index Management. With Index Management, you will be able to run periodic operations on your indexes, eliminating the need build and manage external systems for these tasks. Index Management will enable you to defining custom policies, to optimize and move indices and apply them to index patterns. Each policy contains a default state and a list of states that you define for the index to transition between. Within each state you can define a list of actions to perform and transitions to enter a new state. Actions supported in the initial release of Index State Management include force merge, shrink split, allocation, snapshot, delete, rollover and more. Index Management will be configurable via REST or the associated Kibana plugin.
+    content: With Index Management, a new integrated job engine, you will be able to run periodic operations on your indexes, eliminating the need to build and manage external systems for these tasks. Index Management will enable you to define custom policies to optimize and move indices and apply them to index patterns. Each policy contains a default state and within each state you can define a list of actions to enter a new state. Actions supported in the initial release of Index Management will include force merge, shrink split, allocation, snapshot, delete, rollover, and more. Index Management will be configurable via REST or the associated Kibana plugin. Learn more or contribute at&#58;
     img: "/assets/media/screenshots/"
-    action_1:
+    action_no:
       label: 'Request for comment'
+      url: 'https://github.com/opendistro-for-elasticsearch/index-management'
+    action_download:
+      label: 'Index management - Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
-    action_2:
-      label: 'Open Distro for Elasticsearch plugin - Repo'
-      url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
-    action_3:
-      label: 'Open Distro for Elasticsearch Kibana plugin – Repo'
-      url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
+    action_learn:
+      label: 'Index management Kibana plugin – Repo'
+      url: 'https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin'
     
-  - title: SQL Kibana Plug-in 
-    content: Trigger conditions allow you to define the alerting threshold and severity. Each monitor can have multiple trigger conditions, enabling you to query the data once and generate the appropriate action. Triggers, like monitors, are highly customizable and can be created using a simple visual editor or Painless scripts.
+  - title: Security integration with alerting
+    content: We are building an integration between the security and alerting plugins to secure your alerting configuration. With this integration, we will provide new pre-built roles, making it easier for you to enable who can create and view monitors, alerts, and destinations. The security and alerting integration will ensure that users can create monitors using only the data they have access to.  You will also be able to set a role on a monitor so that the monitor can only access the data you want it to. Learn more or contribute at&#58;
     img: "/assets/media/screenshots/"
     action_download:
-      label: 'View RFC'
-      url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
+      label: 'Security plugin – Repo'
+      url: 'https://github.com/opendistro-for-elasticsearch/security'
     
-  - title: K-nn
-    content: Open Distro for Elasticsearch provides multiple alerting options with built-in integrations for webhook and Slack. Webhook support integrates with your existing monitoring infrastructure or any third-party system. You can format alerts using Mustache to embed relevant information in the notifications to ensure your team knows what to do when they get them.
-    img: "/assets/media/screenshots/"
+  - title: SQL Kibana plugin
+    content: We are adding a dedicated Kibana plugin for SQL, making it easier for you to run  SQL queries and explore your data. This plugin will support SQL syntax highlighting and output results in the familiar tabular format. The SQL Kibana UI will support nested documents allowing you to expand columns with these documents and drill-down into the nested data. The SQL Kibana plugin will also allow you to translate your SQL query to the Elasticsearch DSL with a single-click and support downloading results of the query as a CSV file. 
+    img: "/assets/media/screenshots/SQL_kibana.png"
     action_download:
-      label: 'View RFC'
+      label: 'SQL Kibana plugin - Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
     
 
