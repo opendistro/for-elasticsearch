@@ -4,12 +4,12 @@ banner:
 
 intro:
   title: 
-  ext_content: 
+  ext_content: Together, with the community, we are working to build new and exciting features on Open Distro for Elasticsearch. 
 
 features:
   - title: Index Management
     content: With Index Management, a new integrated job engine, you will be able to run periodic operations on your indexes, eliminating the need to build and manage external systems for these tasks. Index Management will enable you to define custom policies to optimize and move indices and apply them to index patterns. Each policy contains a default state and within each state you can define a list of actions to enter a new state. Actions supported in the initial release of Index Management will include force merge, shrink split, allocation, snapshot, delete, rollover, and more. Index Management will be configurable via REST or the associated Kibana plugin. Learn more or contribute at&#58;
-    img: "/assets/media/screenshots/"
+    img: "/assets/media/screenshots/managed_indicies.png"
     action_no:
       label: 'Request for comment'
       url: 'https://github.com/opendistro-for-elasticsearch/index-management'
