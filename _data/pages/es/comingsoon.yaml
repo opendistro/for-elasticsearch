@@ -30,6 +30,9 @@ features:
   - title: SQL Kibana plugin
     content: We are adding a dedicated Kibana plugin for SQL, making it easier for you to run  SQL queries and explore your data. This plugin will support SQL syntax highlighting and output results in the familiar tabular format. The SQL Kibana UI will support nested documents allowing you to expand columns with these documents and drill-down into the nested data. The SQL Kibana plugin will also allow you to translate your SQL query to the Elasticsearch DSL with a single-click and support downloading results of the query as a CSV file. 
     img: "/assets/media/screenshots/SQL_kibana.png"
+    action_learn:
+      label: 'SQL Kibana plugin – Repo'
+      url: 'https://github.com/opendistro-for-elasticsearch/sql-kibana-plugin'
 
     
 
