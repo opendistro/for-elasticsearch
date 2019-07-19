@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<!-- Breadcrumbs -->
+<!-- <div class="container-fluid">
+  {% include breadcrumbs.html %}
+</div> -->
+
+<!-- Feature icons -->
+{%- include feature_icons.html -%}
+
+<!-- Banner -->
+<div class="container-fluid featureBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
+  {%- include banner.html banner=site.data.pages.es.comingsoon.banner -%}
+</div>
+
+<!-- Intro -->
+{%- include intro.html intro=site.data.pages.es.comingsoon.intro -%}
+
+
+
+<!-- Features  -->
+{%- include text-img-with-background.html features=site.data.pages.es.comingsoon.features -%}
+
+<!-- Community -->
+{%- include communities/es.html style='/assets/media/backgrounds/homehero.svg' community=site.data.pages.es.comingsoon.bottomBanner github=site.data.links.github.home forum= site.data.links.forum.home-%}

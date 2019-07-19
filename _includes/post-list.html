@@ -1,0 +1,31 @@
+{% if paginator.posts %}
+  <section class="section  typeset">
+    <ul class="list  list--posts">
+      {% for page in paginator.posts %}
+          <article class="article  article--post">
+
+            <h3><a href="{{ site.baseurl }}{{ page.url }}" style="">{{ page.title }}</a></h3>
+            {% include post-meta.html %}
+            {{ page.excerpt | markdownify | truncatewords: 30 }}
+
+          </article>
+      {% endfor %}
+    </ul>
+    {% include post-pagination.html %}
+  </section>
+{% else %}
+  <section class="section  typeset">
+    <ul class="list  list--posts">
+      {% for page in site.posts %}
+        
+          <article class="article  article--post" style="margin: 50px 0;">
+            <h3><a href="{{ site.baseurl }}{{ page.url }}" style="font-weight: 400; color: #333;">{{ page.title }}</a></h3>
+            {% include post-meta.html %}
+            {{ page.excerpt | markdownify | truncatewords: 30 }}
+
+          </article>
+       
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

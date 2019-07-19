@@ -9,6 +9,8 @@
         url: features/SQL%20Support.html
       - title: Performance Analyzer
         url: features/analyzer.html
+      - title: Coming soon
+        url: features/comingsoon.html
   - title: Community
     sublinks:
       - title: Events
@@ -21,3 +23,11 @@
     url: /news.html
   - title: Contribute
     url: /contribute.html
+  - title: Docs
+    url: https://opendistro.github.io/for-elasticsearch-docs
+  - title: GitHub 
+    url: https://www.github.com/opendistro-for-elasticsearch
+  - title: Coming soon
+    url: features/comingsoon.html
+
+    

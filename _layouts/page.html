@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+
+<div class="container homeBanner" style="color: #000">
+
+  <article class="article  article--post  content  typeset">
+
+    <h2 style="font-weight: 500">{{ page.title }}</h2>
+    {% include post-meta.html %}
+    <div style="height: 30px"></div>
+    {{ content }}
+
+
+
+  </article>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+
+
+
+</div>
