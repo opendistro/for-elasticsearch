@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Check out our new plugin in development - Index Management Kibana UI Plugin
+title: Check out our new plugin in development - Index Management Kibana UI Plugin!
 categories:
 - Open Distro for Elasticsearch
 feature_image: "https://picsum.photos/2560/600?image=872"

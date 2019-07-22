@@ -6,7 +6,7 @@ categories:
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
-Open Distro for Elasticsearch 1.0.0 is now available for you to download and run with!
+Open Distro for Elasticsearch 1.0.0 is now available for you to download and run with
 
 The 1.0.0 release includes Elasticsearch 7.0.1 and Kibana 7.0.1 from upstream and the latest versions of the Open Distro for Elasticsearch plugins for alerting, performance analyzer, SQL and security. The Kibana UI components for security and alerting are also part of this release.
 
