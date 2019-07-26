@@ -14,7 +14,7 @@ images:
 
 elasticsearch:
   title: Elasticsearch
-  subtitle: Open Distro for Elasticsearch 1.0.2
+  subtitle: Open Distro for Elasticsearch 1.0.1
   description: "Elasticsearch (Apache 2.0 licensed code only) - 7.0.1 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
@@ -22,7 +22,7 @@ elasticsearch:
 
 kibana:
   title: Kibana
-  subtitle: Open Distro for Elasticsearch 1.0.2
+  subtitle: Open Distro for Elasticsearch 1.0.1
   description: "Kibana (Apache 2.0 licensed code only) - 7.0.1 <br> Includes Security and Alerting"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
