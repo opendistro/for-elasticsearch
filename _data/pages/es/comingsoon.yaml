@@ -7,6 +7,14 @@ intro:
   ext_content: Together, with the community, we are working to build new and exciting features on Open Distro for Elasticsearch. 
 
 features:
+
+  - title: k-Nearest Neighbor (k-NN) Search
+    content: Our new k-nearest neighbor search plugin, enables high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Nearest neighbor can be a powerful tool for providing product recommendations, fraud detection, image and video search, related document search, and more. Open Distro for Elasticsearch k-NN Search uses Non-Metric Space Library (NMSLIB), a highly efficient implementation of k-NN. To power k-NN, we have extended the Apache Lucene codec to introduce a new file format for storing vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax—designating a field as a k-NN vector you simply need to map it to the new k-NN field type provided by the k-NN plugin. Come check out the work in progress, download the artifacts and take it for a spin. Learn more or contribute at&#58;
+    img: "/assets/media/illustrations/K-nn-2.png"
+    action_learn:
+      label: 'k-Nearest Neighbor – Repo'
+      url: 'https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin'
+      
   - title: Index Management
     content: With Index Management, a new integrated job engine, you will be able to run periodic operations on your indexes, eliminating the need to build and manage external systems for these tasks. Index Management will enable you to define custom policies to optimize and move indices and apply them to index patterns. Each policy contains a default state and within each state you can define a list of actions to enter a new state. Actions supported in the initial release of Index Management will include force merge, shrink split, allocation, snapshot, delete, rollover, and more. Index Management will be configurable via REST or the associated Kibana plugin. Learn more or contribute at&#58;
     img: "/assets/media/screenshots/managed_indicies.png"
