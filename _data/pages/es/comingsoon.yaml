@@ -8,11 +8,11 @@ intro:
 
 features:
 
-  - title: k-Nearest Neighbor (k-NN) Search
-    content: Our new k-nearest neighbor search plugin, enables high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Nearest neighbor can be a powerful tool for providing product recommendations, fraud detection, image and video search, related document search, and more. Open Distro for Elasticsearch k-NN Search uses Non-Metric Space Library (NMSLIB), a highly efficient implementation of k-NN. To power k-NN, we have extended the Apache Lucene codec to introduce a new file format for storing vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax—designating a field as a k-NN vector you simply need to map it to the new k-NN field type provided by the k-NN plugin. Come check out the work in progress, download the artifacts and take it for a spin. Learn more or contribute at&#58;
+  - title: k-NN Search
+    content: Our new k-nearest neighbor (k-NN) Search plugin will enable high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Built using the Non-Metric Space Library (https://github.com/nmslib/nmslib) (NMSLIB), this plugin can power use cases such as product recommendations, fraud detection, and image, video, and related document search. We have also extended the Apache Lucene codec to introduce a new file format to store vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax —to designate a field as a k-NN vector you can simply map it to the new k-NN field type provided by the k-NN plugin. Learn more or contribute at&#58;
     img: "/assets/media/illustrations/K-nn-2.svg"
     action_learn:
-      label: 'k-Nearest Neighbor – Repo'
+      label: 'k-NN Search – Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/k-NN'
       
   - title: Index Management
