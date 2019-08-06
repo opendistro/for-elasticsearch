@@ -43,7 +43,7 @@
 		       {% endif %}
 
 			<!-- Links -->
-		       <div class="row px-5" style="display: inline;">
+		       <div class="row px-sm-3 px-md-5" style="display: inline;">
 		       	{% if feature.action_download %}
 		          <a class="btn pt-3 link-on-white" href="{{ feature.action_download.url | relative_url }}" role="button"> {{ feature.action_download.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
                 {% endif %}
@@ -129,7 +129,7 @@
 		       {% endif %}
 
 			   <!-- Links -->
-		       <div class="row px-5" style="display: inline;">
+		       <div class="row px-sm-3 px-md-5" style="display: inline;">
 
 		       {% if feature.action_learn %}
 		          <a class="btn pt-3 link-on-white" href="{{ feature.action_learn.url | relative_url }}" role="button"> {{ feature.action_learn.label }} <b> <i class='fa fa-chevron-right'></i> </b></a>
