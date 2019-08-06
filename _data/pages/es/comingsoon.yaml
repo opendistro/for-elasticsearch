@@ -1,10 +1,10 @@
 banner:
-  title: New Features Coming Soon 
-  subtitle: Open Distro for Elasticsearch 
+  title: New Features Coming Soon
+  subtitle: Open Distro for Elasticsearch
 
 intro:
-  title: 
-  ext_content: Together, with the community, we are working to build new and exciting features on Open Distro for Elasticsearch. 
+  title:
+  ext_content: Together, with the community, we are working to build new and exciting features on Open Distro for Elasticsearch.
 
 features:
 
@@ -14,7 +14,7 @@ features:
     action_learn:
       label: 'k-NN Search – Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/k-NN'
-      
+
   - title: Index Management
     content: With Index Management, a new integrated job engine, you will be able to run periodic operations on your indexes, eliminating the need to build and manage external systems for these tasks. Index Management will enable you to define custom policies to optimize and move indices and apply them to index patterns. Each policy contains a default state and within each state you can define a list of actions to enter a new state. Actions supported in the initial release of Index Management will include force merge, shrink split, allocation, snapshot, delete, rollover, and more. Index Management will be configurable via REST or the associated Kibana plugin. Learn more or contribute at&#58;
     img: "/assets/media/screenshots/managed_indicies.png"
@@ -27,30 +27,25 @@ features:
     action_learn:
       label: 'Index management Kibana plugin – Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin'
-    
+
   - title: Security integration with alerting
     content: We are building an integration between the security and alerting plugins to secure your alerting configuration. With this integration, we will provide new pre-built roles, making it easier for you to enable who can create and view monitors, alerts, and destinations. The security and alerting integration will ensure that users can create monitors using only the data they have access to.  You will also be able to set a role on a monitor so that the monitor can only access the data you want it to. Learn more or contribute at&#58;
     img: "/assets/media/screenshots/alert_access.png"
     action_download:
       label: 'Security plugin – Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/security'
-    
+
   - title: SQL Kibana plugin
-    content: We are adding a dedicated Kibana plugin for SQL, making it easier for you to run  SQL queries and explore your data. This plugin will support SQL syntax highlighting and output results in the familiar tabular format. The SQL Kibana UI will support nested documents allowing you to expand columns with these documents and drill-down into the nested data. The SQL Kibana plugin will also allow you to translate your SQL query to the Elasticsearch DSL with a single-click and support downloading results of the query as a CSV file. 
+    content: We are adding a dedicated Kibana plugin for SQL, making it easier for you to run  SQL queries and explore your data. This plugin will support SQL syntax highlighting and output results in the familiar tabular format. The SQL Kibana UI will support nested documents allowing you to expand columns with these documents and drill-down into the nested data. The SQL Kibana plugin will also allow you to translate your SQL query to the Elasticsearch DSL with a single-click and support downloading results of the query as a CSV file.
     img: "/assets/media/screenshots/SQL_kibana.png"
     #action_learn:
     #  label: 'SQL Kibana plugin – Repo'
     #  url: 'https://github.com/opendistro-for-elasticsearch/sql-kibana-plugin'
 
 
-    
+
 
 bottomBanner:
   class: "/assets/media/backgrounds/homehero.svg"
   text: 'Join our community of developers to start contributing to Open Distro for Elasticsearch'
   color: "#0a1f72"
-
-
-
-
-    
