@@ -9,7 +9,7 @@ intro:
 features:
 
   - title: k-NN Search
-    content: Our new k-nearest neighbor (k-NN) Search plugin will enable high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Built using the Non-Metric Space Library (<a href="https://github.com/nmslib/nmslib">https://github.com/nmslib/nmslib</a>) (NMSLIB), this plugin can power use cases such as product recommendations, fraud detection, and image, video, and related document search. We have extended the Apache Lucene codec to introduce a new file format to store vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax —to designate a field as a k-NN vector you can simply map it to the new k-NN field type provided by the k-NN plugin. Learn more or contribute at&#58;
+    content: Our new k-nearest neighbor (k-NN) Search plugin will enable high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Built using the <a href="https://github.com/nmslib/nmslib">Non-Metric Space Library (NMSLIB)</a>, this plugin can power use cases such as product recommendations, fraud detection, and image, video, and related document search. We have extended the Apache Lucene codec to introduce a new file format to store vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax —to designate a field as a k-NN vector you can simply map it to the new k-NN field type provided by the k-NN plugin. Learn more or contribute at&#58;
     img: "/assets/media/illustrations/K-nn-2.svg"
     action_learn:
       label: 'k-NN Search – Repo'
