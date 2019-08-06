@@ -7,6 +7,10 @@ intro:
 
 upcomingEvent:
 
+
+
+
+pastEvent:
   - title: Building Open Distro for Elasticsearch
     content: "DevConf.IN 2019 is the annual Developers' Conference organized by Red Hat in India."
     link: "https://www.meetup.com/sfjava/events/262288964/"
@@ -14,9 +18,6 @@ upcomingEvent:
     date: 8/2-8/3 2019
     img: "https://secure.meetupstatic.com/photos/event/7/c/e/7/600_473071975.jpeg"
     img_width: "100%"
-
-
-pastEvent:
   - title: Gourmet Alerting with Open Distro for Elasticsearch
     content: "Alolita Sharma and Mihir Soni detail the basic ingredients you need to create useful alerting."
     link: "https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/79469"
