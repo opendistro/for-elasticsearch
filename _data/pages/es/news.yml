@@ -12,6 +12,15 @@ intro:
 
 miniNews:
 
+  - title: Open Distro for Elasticsearch 1.1.0 Released
+    content: "Version 1.1.0 includes the upstream open source versions of Elasticsearch 7.1.1, Kibana 7.1.1, and the latest updates for alerting, SQL, security, performance analyzer, and Kibana plugins, as well as the SQL JDBC driver."
+    link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-rollover-storage-best-practice/"
+    author: Alolita Sharma and Jon Handler
+    author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-1-1-0-released/
+    published: "Aug 6th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "99%"
+
   - title: Use Elasticsearch’s _rollover API For Efficient Storage Distribution
     content: "You can use the _rollover API to manage the size of your indexes."
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-rollover-storage-best-practice/"
