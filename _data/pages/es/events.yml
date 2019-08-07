@@ -7,7 +7,6 @@ intro:
 
 upcomingEvent:
 
-
 pastEvent:
   - title: Building Open Distro for Elasticsearch
     content: "DevConf.IN 2019 is the annual Developers' Conference organized by Red Hat in India."
