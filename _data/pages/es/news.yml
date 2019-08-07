@@ -13,7 +13,7 @@ intro:
 miniNews:
 
   - title: Open Distro for Elasticsearch 1.1.0 Released
-    content: "Version 1.1.0 includes the upstream open source versions of Elasticsearch 7.1.1, Kibana 7.1.1, and the latest updates for alerting, SQL, security, performance analyzer, and more."
+    content: "Version 1.1.0 includes the upstream open source versions of Elasticsearch 7.1.1, Kibana 7.1.1, and the latest updates for Open Distro for Elasticsearch"
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-rollover-storage-best-practice/"
     author: Alolita Sharma and Jon Handler
     author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-1-1-0-released/
