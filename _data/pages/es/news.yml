@@ -13,7 +13,7 @@ intro:
 miniNews:
 
   - title: Open Distro for Elasticsearch 1.1.0 Released
-    content: "Version 1.1.0 includes the upstream open source versions of Elasticsearch 7.1.1, Kibana 7.1.1, and the latest updates for alerting, SQL, security, performance analyzer, and more."
+    content: "Version 1.1.0 includes the upstream open source versions of Elasticsearch 7.1.1, Kibana 7.1.1, and the latest updates for Open Distro for Elasticsearch"
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-rollover-storage-best-practice/"
     author: Alolita Sharma and Jon Handler
     author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-1-1-0-released/
@@ -48,7 +48,7 @@ miniNews:
   - title: Open Distro for Elasticsearch version 1.0.0 is now available
     content: "The 1.0.0 release includes Elasticsearch 7.0.1 and Kibana 7.0.1 from upstream and the latest versions of the Open Distro for Elasticsearch plugins."
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-version-1-0-0-available/"
-    author: Alolita Sharma 
+    author: Alolita Sharma
     author_link: https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-version-1-0-0-available/
     published: "July 1st, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
@@ -69,7 +69,7 @@ miniNews:
     published: "June 4th, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/05/31/MTK-1-Roles-.jpeg"
     img_width: "100%"
-  - title: New! Open Distro for Elasticsearch’s Job Scheduler 
+  - title: New! Open Distro for Elasticsearch’s Job Scheduler
     content: "Open Distro for Elasticsearch’s JobScheduler plugin provides a framework for developers to accomplish common, scheduled tasks on their cluster. "
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-job-scheduler-plugin/"
     author: Alolita Sharma and Jon Handler
@@ -109,7 +109,7 @@ miniNews:
     published: "May 15th, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/05/14/opendistro-elk-saadrana-white-1024x556.png"
     img_width: "100%"
-  
+
   - title: Run Rally with Open Distro for Elasticsearch
     content: "Elastic has created Rally, a performance testing framework for Elasticsearch."
     link: "https://aws.amazon.com/blogs/opensource/esrally-open-distro-for-elasticsearch/"
@@ -146,7 +146,7 @@ miniNews:
     img: "https://emptysqua.re/blog/c-driver-ubuntu/debian-ubuntu.png"
     img_width: "105%"
 
-  - title: Lightweight Debugging with Performance Analyzer and PerfTop 
+  - title: Lightweight Debugging with Performance Analyzer and PerfTop
     content: "Two components combine to give you a lightweight tool to quickly retrieve & display core metrics."
     link: "https://aws.amazon.com/blogs/opensource/analyze-your-open-distro-for-elasticsearch-cluster-using-performance-analyzer-and-perftop/"
     author: Alolita Sharma
@@ -264,4 +264,3 @@ miniNewsasfeatureimage:
     published: "May 8th, 2019"
     img: "https://i.ytimg.com/vi/wBXabz6q_L4/maxresdefault.jpg"
     img_width: "100%"
-
