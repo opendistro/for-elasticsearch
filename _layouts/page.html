@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
+<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
+    {%- include banner.html banner=site.data.pages.es.blog.banner -%}
 
+</div>
 <!-- Banner -->
 
 <div class="container homeBanner" style="color: #000">
 
   <article class="article  article--post  content  typeset">
 
-    <h2 style="font-weight: 500">{{ page.title }}</h2>
+    <h2 style="font-weight: 500">{{ page.title }} </h2>
     {% include post-meta.html %}
     <div style="height: 30px"></div>
     {{ content }}
@@ -16,10 +19,5 @@ layout: default
 
 
   </article>
-
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-
-
-
-
+  	{% include post-auther-bio.html authername=page.auther %}
 </div>

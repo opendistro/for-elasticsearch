@@ -16,7 +16,7 @@ pastEvent:
     date: 8/2-8/3 2019
     img: "https://secure.meetupstatic.com/photos/event/7/c/e/7/600_473071975.jpeg"
     img_width: "100%"
-    
+
   - title: Gourmet Alerting with Open Distro for Elasticsearch
     content: "Alolita Sharma and Mihir Soni detail the basic ingredients you need to create useful alerting."
     link: "https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/79469"
