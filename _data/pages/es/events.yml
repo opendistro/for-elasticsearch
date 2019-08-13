@@ -7,6 +7,29 @@ intro:
 
 upcomingEvent:
 
+  - title: Open Distro for Elasticsearch - Security
+    content: "Join this Twitch episode to learn more about the fine-grained access control, encryption in-transit, audit logging, and more."
+    link: "https://www.twitch.tv/events/QIK8pRPhQR6rvmpkjxMFxQ"
+    location: Live on Twitch
+    date: 9/27 2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+  - title: Open Distro for Elasticsearch - Community Meeting
+    content: "Join this 30-minute virtual meeting to learn more about the roadmap, how to get involved, and provide any feedback."
+    link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/cdmngryzlbkc/"
+    location: Virtual
+    date: 9/26 2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+  - title: A deep dive into performance diagnostics for Elasticsearch
+    content: "Learn more about PerfTop and Open Distro for Elasticsearch. Join Alolita Sharma of Amazon Web Services to learn more about cluster diagnosis using Open Distro for Elasticsearch."
+    link: "https://www.meetup.com/sfnode/events/mxstsmyzmbhb/"
+    location: San Francisco
+    date: 9/5 2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
 
 pastEvent:
   - title: Building Open Distro for Elasticsearch
