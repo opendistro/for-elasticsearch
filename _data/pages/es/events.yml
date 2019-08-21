@@ -30,6 +30,22 @@ upcomingEvent:
     date: 9/5 2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
+    
+  - title: ApacheCon - Real time performance diagnosis in distributed databases
+    content: "Good and predictable performance is a common expectation across customers of Elasticsearch, an unstructured, distributed database. Elasticsearch, however, is not built with performance diagnosis as a design tenet and this makes it hard for customers to troubleshoot performance problems or provision a cluster."
+    link: "https://www.apachecon.com/acna19/s/#/scheduledEvent/1321"
+    location: Las Vegas
+    date: 9/12 2019
+    img: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwihqJz6-pTkAhUWHDQIHXgLCXEQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.opengeospatial.org%2Fpressroom%2Fpressreleases%2F2986&psig=AOvVaw3D7taKBldEioqnsWn6awoL&ust=1566511155097464"
+    img_width: "100%"
+
+  - title: Open Distro for Elasticsearch - Deployment and Security
+    content: "Join us at this in-person meetup to learn how to deploy Open Distro for Elasticsearch, its security plugin, and how you can contribute to the project"
+    link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/263980142/"
+    location: Palo Alto
+    date: 9/16 2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
 
 pastEvent:
   - title: Building Open Distro for Elasticsearch
