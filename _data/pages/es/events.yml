@@ -32,7 +32,7 @@ upcomingEvent:
     img_width: "100%"
     
   - title: ApacheCon - Real time performance diagnosis in distributed databases
-    content: "Good and predictable performance is a common expectation across customers of Elasticsearch, an unstructured, distributed database. Elasticsearch, however, is not built with performance diagnosis as a design tenet and this makes it hard for customers to troubleshoot performance problems or provision a cluster."
+    content: "Good and predictable performance is a common expectation across customers of Elasticsearch, an unstructured, distributed database."
     link: "https://www.apachecon.com/acna19/s/#/scheduledEvent/1321"
     location: Las Vegas
     date: 9/12 2019
