@@ -36,7 +36,7 @@ upcomingEvent:
     link: "https://www.apachecon.com/acna19/s/#/scheduledEvent/1321"
     location: Las Vegas
     date: 9/12 2019
-    img: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwihqJz6-pTkAhUWHDQIHXgLCXEQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.opengeospatial.org%2Fpressroom%2Fpressreleases%2F2986&psig=AOvVaw3D7taKBldEioqnsWn6awoL&ust=1566511155097464"
+    img: "/for-elasticsearch/assets/media/eventimages/apachecon.png"
     img_width: "100%"
 
   - title: Open Distro for Elasticsearch - Deployment and Security
