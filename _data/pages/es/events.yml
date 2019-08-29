@@ -6,20 +6,20 @@ intro:
   ext_content:  If you are interested in hosting a developer event to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>.
 
 upcomingEvent:
-
-  - title: SF Kotlin Meetup - Get started with Open Distro for Elasticsearch
-    content: "Jon from AWS will give us the lowdown on how to get started with Open Distro for Elasticsearch."
-    link: "https://www.meetup.com/San-Francisco-Kotlin-Meetup/events/264264176/"
-    location: San Francisco
-    date: 9/12 2019
-    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
-    img_width: "100%"
     
   - title: A deep dive into performance diagnostics for Elasticsearch
     content: "Learn more about PerfTop and Open Distro for Elasticsearch. Join Alolita Sharma of Amazon Web Services to learn more about cluster diagnosis using Open Distro for Elasticsearch."
     link: "https://www.meetup.com/sfnode/events/mxstsmyzmbhb/"
     location: San Francisco
     date: 9/5 2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+- title: SF Kotlin Meetup - Get started with Open Distro for Elasticsearch
+    content: "Jon from AWS will give us the lowdown on how to get started with Open Distro for Elasticsearch."
+    link: "https://www.meetup.com/San-Francisco-Kotlin-Meetup/events/264264176/"
+    location: San Francisco
+    date: 9/12 2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
     
