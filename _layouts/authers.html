@@ -14,7 +14,7 @@ layout: default
 
     <article class="article  article--page  typeset">
 
-      {% if paginator.posts %}
+      {% if paginator.authers %}
         {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
         <h1>{{ collectiondata.title }}</h1>
         {{ collectiondata.description | markdownify }}
@@ -27,7 +27,7 @@ layout: default
 
     </article>
 
-    {% include post-list.html %}
+    {% include auther-list.html %}
 
   </div>
 
