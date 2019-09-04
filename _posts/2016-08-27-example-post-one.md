@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: posts
 auther: Jon Handler
+comments: true
 title: Use Elasticsearch’s _rollover API For Efficient Storage Distribution
 categories:
 - Open Distro for Elasticsearch updates
