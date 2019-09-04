@@ -2,13 +2,24 @@
   <section class="section  typeset">
     <ul class="list  list--posts">
       {% for page in paginator.posts %}
-          <article class="article  article--post">
+          <div class="col-10">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 p-0" style="background-image: url('{{page.feature_image}}'); background-size:cover; background-position: center; overflow: hidden;">
+              
+              </div>
+              <div class="col-lg-8 col-md-12">
+              
+                    <article class="article  article--post" style="margin: 10px 0;">
+                      <h3><a href="{{ site.baseurl }}{{ page.url }}" style="font-weight: 400; color: #333;">{{ page.title }}</a></h3>
+                      {% include post-meta.html %}
+                      {{ page.excerpt | markdownify | truncatewords: 30 }}
+                      <a class="btn btn-block btn-outline-secondary" href="{{ site.baseurl }}{{ page.url }}" role="button" style="border: 1px solid #0a1f72; color: #0a1f72; width: 140px" target="about.blank">Read more <i class="fas fa-external-link-alt"></i> </a>
+                    </article>
+              {% include nav-share.html %}
 
-            <h3><a href="{{ site.baseurl }}{{ page.url }}" style="">{{ page.title }}</a></h3>
-            {% include post-meta.html %}
-            {{ page.excerpt | markdownify | truncatewords: 30 }}
-
-          </article>
+              </div>
+            </div>
+          </div>
       {% endfor %}
     </ul>
     {% include post-pagination.html %}
@@ -17,14 +28,24 @@
   <section class="section  typeset">
     <ul class="list  list--posts">
       {% for page in site.posts %}
-        
-          <article class="article  article--post" style="margin: 50px 0;">
+<div class="col-10">
+  <div class="row">
+    <div class="col-lg-4 col-md-12 p-0" style="background-image: url('{{page.feature_image}}'); background-size:cover; background-position: center; overflow: hidden;">
+    
+    </div>
+    <div class="col-lg-8 col-md-12">
+    
+          <article class="article  article--post" style="margin: 10px 0;">
             <h3><a href="{{ site.baseurl }}{{ page.url }}" style="font-weight: 400; color: #333;">{{ page.title }}</a></h3>
             {% include post-meta.html %}
             {{ page.excerpt | markdownify | truncatewords: 30 }}
-
+            <a class="btn btn-block btn-outline-secondary" href="{{ site.baseurl }}{{ page.url }}" role="button" style="border: 1px solid #0a1f72; color: #0a1f72; width: 140px" target="about.blank">Read more <i class="fas fa-external-link-alt"></i> </a>
           </article>
-       
+    {% include nav-share.html %}
+
+    </div>
+  </div>
+</div>
       {% endfor %}
     </ul>
   </section>

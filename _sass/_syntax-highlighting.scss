@@ -8,14 +8,16 @@
   pre {
     margin: 0;
     padding: 8px 12px;
-    background: #eef;
+    background: #eee;
     border: 1px solid #e8e8e8;
+    font-family: Consolas, monaco, monospace;
+    font-weight: 400;
   }
 
   .c     { color: #998; font-style: italic } // Comment
-  .err   { color: #a61717; background-color: #e3d2d2 } // Error
+  .err   { color: #000; } // Error color: #a61717; background-color: #e3d2d2
   .k     { font-weight: bold } // Keyword
-  .o     { font-weight: bold } // Operator
+  .o     {  } // Operator font-weight: bold
   .cm    { color: #998; font-style: italic } // Comment.Multiline
   .cp    { color: #999; font-weight: bold } // Comment.Preproc
   .c1    { color: #998; font-style: italic } // Comment.Single
@@ -32,7 +34,7 @@
   .gs    { font-weight: bold } // Generic.Strong
   .gu    { color: #aaa } // Generic.Subheading
   .gt    { color: #a00 } // Generic.Traceback
-  .kc    { font-weight: bold } // Keyword.Constant
+  .kc    { } // Keyword.Constant font-weight: bold 
   .kd    { font-weight: bold } // Keyword.Declaration
   .kp    { font-weight: bold } // Keyword.Pseudo
   .kr    { font-weight: bold } // Keyword.Reserved
@@ -58,7 +60,7 @@
   .sb    { color: #d14 } // Literal.String.Backtick
   .sc    { color: #d14 } // Literal.String.Char
   .sd    { color: #d14 } // Literal.String.Doc
-  .s2    { color: #d14 } // Literal.String.Double
+  .s2    { color: #2797f4 } // Literal.String.Double #d14
   .se    { color: #d14 } // Literal.String.Escape
   .sh    { color: #d14 } // Literal.String.Heredoc
   .si    { color: #d14 } // Literal.String.Interpol
