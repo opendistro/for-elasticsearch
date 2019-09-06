@@ -65,9 +65,20 @@ defaults:
 
 #google_analytics_tracking_id: UA-60112281-1
 
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+markdown: kramdown
 highlighter: rouge
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: true
   facebook: true
   LinkedIn: true
+  Email: true
+
+twitter:
+  username: stevensideyliu # jekyll-seo-tag > Owners twitter username
+
+
