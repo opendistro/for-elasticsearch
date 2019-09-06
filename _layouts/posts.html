@@ -9,21 +9,33 @@ layout: default
 
 <div class="container-fluid" style="background-color: #f3f6fc;">
 
-<main class="main  container">
-
+<main class="main container">
+	<div class="row blogpost justify-content-center" style="background:#fff;">
+	
+    <div class="col-12" style="text-align: right; padding: 15px 10px 0 0;">
+      <span style="position: relative;top: -8px; font-size: 12px; right: 3px; color: #666;"> Share:</span>
+      <div style="display: inline-block;"> {% include nav-share.html %}</div>
+    </div>
+               
+	<div class="col-10">
+	
+		
   <article class="article  article--post  content  typeset">
 
-    <h1>{{ page.title }}</h1> 
+    
+    <h1 style="font-size: 32px; font-weight: 600; padding: 0; margin: 0;">{{ page.title }}</h1> 
     {% include post-meta.html %}
+    <div class="pt-3">
     {{ content }}
-
-    {% include nav-share.html %}
+    </div>
+    <div style="margin-top:50px;">
     {% include post-comments.html %}
-
+	</div>
   </article>
 
   {% if page.aside == true %}{% include site-aside.html %}{% endif %}
-
+</div>
+</div>
 </main>
 
 </div>

@@ -1,0 +1,43 @@
+.social-icons {
+    list-style-type:none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.social-icons a {
+  display: block;   
+  opacity: .6;
+  cursor: pointer;
+}
+
+.social-icons .facebook a{
+    width: 26px;
+    height: 26px;
+    background: url(media/icons/social-icons.png) no-repeat top left;
+    background-position: -1px 0px; 
+}
+
+.social-icons .twitter a{
+    width: 26px;
+    height: 26px;
+    background: url(media/icons/social-icons.png) no-repeat top left;
+    background-position: -33px 0px; 
+}
+.social-icons .linkedin a{
+    width: 26px;
+    height: 26px;
+    background: url(media/icons/social-icons.png) no-repeat top left;
+    background-position: -197px 0px; 
+}
+
+.social-icons .email a{
+    width: 26px;
+    height: 26px;
+    background: url(media/icons/social-icons.png) no-repeat top left;
+    background-position: -66px -65px; 
+}
+

@@ -1,17 +1,21 @@
-<nav class="nav  nav--paginator">
+<div class="col-12" style="text-align:center;">
+  <div>
+  <nav class="nav  nav--paginator" style="position: absolute; left: 50%; transform: translatex(-50%);">
 
-  {% if paginator.previous_page %}
-    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination  pagination--previous">&larr; Newer</a>
-  {% else %}
-    <span class="pagination  pagination--previous">&larr; Newer</span>
-  {% endif %}
+    {% if paginator.previous_page %}
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination  pagination--previous"><i class="fas fa-angle-left" ></i></a>
+    {% else %}
+      <span class="pagination  pagination--previous"><i class="fas fa-angle-left" ></i></span>
+    {% endif %}
 
-  <span class="pagination  pagination--counter">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="pagination  pagination--counter" style="font-size: 12px; margin: 0 12px">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
-  {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next">Older &rarr;</a>
-  {% else %}
-    <span class="pagination  pagination--next">Older &rarr;</span>
-  {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next"><i class="fas fa-angle-right" ></i></a>
+    {% else %}
+      <span class="pagination  pagination--next"><i class="fas fa-angle-right"></i></span>
+    {% endif %}
 
-</nav>
+  </nav>
+</div>
+</div>

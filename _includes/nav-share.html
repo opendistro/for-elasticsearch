@@ -1,4 +1,6 @@
 <div class="share">
+
+    <ul class="social-icons">
   {% for network in site.sharing_links %}
     {% if network[1] != blank %}
       {% assign name = network[0] %}
@@ -21,4 +23,5 @@
       {% include button.html text=name icon=id link=share_link color=color %}
     {% endif %}
   {% endfor %}
+    </ul>
 </div>
