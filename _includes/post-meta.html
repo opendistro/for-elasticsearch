@@ -11,18 +11,18 @@
   {% endcapture %}
 {% endif %}
 
-{% if page.auther %}
-  {% capture auther %}
+{% if page.author %}
+  {% capture author %}
 
 
-    <span class="label  label--category">{{ page.auther }}</span>
+    <span class="label  label--category">{{ page.author }}</span>
   
   {% endcapture %}
 {% endif %}
 
-<small class="small  post-meta">
-  {% assign date_format = site.date_format | default: "%d %b %Y" %}
-  by: {{ auther | append: "&nbsp;&middot;&nbsp;"}}
+<small class="small post-meta" style="color: #aaa; font-size: 12px;">
+  {% assign date_format = site.date_format | default: "%b %d %Y" %}
+  by: {{ author | append: "&nbsp;&middot;&nbsp;"}}
   on: <time datetime="{{ page.date | date_to_xmlschema }}" class="time">
-  {{ page.date | date: date_format }} in {{ categories | prepend: "&nbsp;&middot;&nbsp;" }}</time>
+  {{ page.date | date: date_format }} {{ categories | prepend: "&nbsp;&middot;&nbsp;" }}</time>
 </small>
