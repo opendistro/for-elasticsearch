@@ -1,5 +1,13 @@
 //    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
 
+code {
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-break: break-word;
+    background: #eee;
+    padding: 2px 5px;
+}
+
 .anchor{
   display: block;
   height: 115px; /*same height as header*/
@@ -21,6 +29,11 @@
 
 .blogpost h2 {
     font-size: 20px;
+    font-weight: 600;
+}
+
+.blogpost h3 {
+    font-size: 17px;
     font-weight: 600;
 }
 
