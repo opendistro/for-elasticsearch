@@ -1,5 +1,3 @@
-@import url(monokai.css);
-
 //    (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
 
 .anchor{
@@ -11,6 +9,24 @@
 
 .navbar-nav .nav-link {
     margin: 0 10px;
+}
+
+.blogpost p {
+  
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #6d6d6d;
+}
+
+.blogpost h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blogpost h1 {
+    font-size: 28px;
+    font-weight: 600;
 }
 
 @media (max-width: 576px) {  

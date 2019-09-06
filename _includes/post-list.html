@@ -1,21 +1,37 @@
 {% if paginator.posts %}
   <section class="section  typeset">
-    <ul class="list  list--posts">
+    <ul class="list  list--posts" style="padding:0;">
       {% for page in paginator.posts %}
-          <div class="col-10">
-            <div class="row">
-              <div class="col-lg-4 col-md-12 p-0" style="background-image: url('{{page.feature_image}}'); background-size:cover; background-position: center; overflow: hidden;">
-              
+          <div class="col-12 m-0 p-0">
+            <div class="row" style="border: 1px #ddd solid; background-color: #fff; margin: 30px 0;">
+              <div class="col-lg-12 col-xl-4 p-0" style="background-image: url('{{page.feature_image}}'); background-size:cover; background-position: center; overflow: hidden; height: 220px;">
+                <div>
+                  <a href="{{item.link}}" target="about:blank" >
+                  </a>
+                </div>
               </div>
-              <div class="col-lg-8 col-md-12">
-              
-                    <article class="article  article--post" style="margin: 10px 0;">
-                      <h3><a href="{{ site.baseurl }}{{ page.url }}" style="font-weight: 400; color: #333;">{{ page.title }}</a></h3>
-                      {% include post-meta.html %}
-                      {{ page.excerpt | markdownify | truncatewords: 30 }}
-                      <a class="btn btn-block btn-outline-secondary" href="{{ site.baseurl }}{{ page.url }}" role="button" style="border: 1px solid #0a1f72; color: #0a1f72; width: 140px" target="about.blank">Read more <i class="fas fa-external-link-alt"></i> </a>
-                    </article>
-              {% include nav-share.html %}
+            
+              <div class="col-lg-12 col-xl-8" style="border-left:1px #ddd solid;">
+                <div class="row">
+                  <div class="col-12" style="text-align: right; padding: 15px 10px 0 0;">
+                  <span style="position: relative;top: -8px; font-size: 12px; right: 3px; color: #666;"> Share:</span>
+                    <div style="display: inline-block;"> {% include nav-share.html %}</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                      <article class="article  article--post" style="margin: -5px 0 0 0;">
+                        <h3 style="margin:0px;"><a href="{{ site.baseurl }}{{ page.url }}" style="font-weight: 400; color: #333; font-size: 20px;">{{ page.title }}</a></h3>
+                        {% include post-meta.html %}
+                        <div style="font-size: 13px; line-height: 18px; margin-top: 5px; color: #666; font-weight: 300;">
+                        {{ page.excerpt | markdownify | truncatewords: 75 }}
+                        </div>
+                        <div style="width:100%; text-align: right;">
+                        <a class="btn btn-block btn-outline-secondary" href="{{ site.baseurl }}{{ page.url }}" role="button" style="border: 1px solid #0a1f72; color: #0a1f72; width: 110px; display: inline-block; font-size: 13px; margin-bottom: 15px;" target="about.blank">Read more <span > <i class="fas fa-angle-right" style="top: 2px; position: relative;"></i></span> </a>
+                        </div>
+                      </article>
+                  </div>
+                </div>
 
               </div>
             </div>

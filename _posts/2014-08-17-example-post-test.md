@@ -1,11 +1,11 @@
 ---
 layout: posts
-auther: Jon Handler
+author: Jon Handler
 comments: true
 title: Use Elasticsearch’s _rollover API For Efficient Storage Distribution
 categories:
 - Open Distro for Elasticsearch updates
-feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/08/06/Rollover1.jpg"
+feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
 ---
 
 Many [Open Distro for Elasticsearch](https://opendistro.github.io/for-elasticsearch/) users manage data life cycle in their clusters by creating an index based on a standard time period, usually one index per day. This pattern has many advantages: ingest tools like Logstash support index rollover out of the box; defining a retention window is straightforward; and deleting old data is as simple as dropping an index.
