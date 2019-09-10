@@ -14,7 +14,7 @@ contributeDoc:
     label_primary: Browse documentation
     url_primary: "https://opendistro.github.io/for-elasticsearch-docs"
 
-    contributeBlog:
+contributeBlog:
   title: Write a blog
   content: 
     - paragraph: "Contributing a blog post is simple. We use Markdown, which is easy to read and easy to write. Code snippets and examples are essential in helping users get up to speed. The documentation repository has everything you need to get started."
