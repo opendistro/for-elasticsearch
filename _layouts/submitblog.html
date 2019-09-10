@@ -4,7 +4,7 @@ layout: default
 
 <!-- Banner -->
 <div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
-  {%- include banner.html banner=site.data.pages.es.blog.null -%}
+  {%- include banner.html banner=site.data.pages.es.submitblog.banner -%}
 </div>
 
 <div class="container-fluid" style="background-color: #f3f6fc;">
@@ -12,10 +12,9 @@ layout: default
 <main class="main container">
 	<div class="row blogpost justify-content-center" style="background:#fff;">
 	
-    <div class="col-10" style="text-align: right; padding: 15px 10px 0 0;">
-    <span style="float:left; font-size: 12px; font-weight: 400; color: #6a6a6a; top: 5px; left: 17px; display: inline-block; position: relative;"><a href="/for-elasticsearch/blog/">blog</a> / {{ page.title }}</span>
-      <span style="position: relative;top: -8px; font-size: 12px; right: 3px; color: #666;"> Share:</span>
-      <div style="display: inline-block;"> {% include nav-share.html %}</div>
+    <div class="col-10" style="text-align: right; padding: 25px 10px 0 0;">
+    
+      
     </div>
                
 	<div class="col-10">
@@ -25,12 +24,10 @@ layout: default
 
     
     <h1 style="font-size: 32px; font-weight: 600; padding: 0; margin: 0;">{{ page.title }}</h1> 
-    {% include post-meta.html %}
     <div class="pt-3">
     {{ content }}
     </div>
     <div style="margin-top:50px;">
-    {% include post-comments.html %}
 	</div>
   </article>
 
@@ -40,5 +37,3 @@ layout: default
 </main>
 
 </div>
-
-
