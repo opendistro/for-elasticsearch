@@ -24,7 +24,9 @@
   {% assign date_format = site.date_format | default: "%b %d %Y" %}
   by: {{ author | append: "&nbsp;&middot;&nbsp;"}}
   on: <time datetime="{{ page.date | date_to_xmlschema }}" class="time">
+
   {{ page.date | date: date_format }} </time>
+
 </small>
 
 <!--{{ categories | prepend: "&nbsp;&middot;&nbsp;" }}-->
