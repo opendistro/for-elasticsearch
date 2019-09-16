@@ -20,7 +20,7 @@ code {
 }
 
 .blogpost p {
-  
+
     font-size: 15px;
     line-height: 25px;
     font-weight: 400;
@@ -32,17 +32,19 @@ code {
     font-weight: 600;
 }
 
+
 .blogpost h3 {
     font-size: 17px;
     font-weight: 600;
 }
+
 
 .blogpost h1 {
     font-size: 28px;
     font-weight: 600;
 }
 
-@media (max-width: 576px) {  
+@media (max-width: 576px) {
 
 
   /* ----- FEATURE ICONS ------ */
@@ -54,7 +56,7 @@ code {
     padding-top:40px;
   }
 
-  .feature-icons { 
+  .feature-icons {
     width: 30px;
     height:30px;
   }
@@ -143,7 +145,7 @@ code {
     line-height: 1.6;
     margin-bottom: 1.4rem;
     .a:hover{
-    text-decoration: none; 
+    text-decoration: none;
     }
   }
 
@@ -151,10 +153,10 @@ code {
     font-size: 1.25rem;
     font-weight: 300;
     margin-bottom: 1.4rem;
-    text-decoration: none; 
+    text-decoration: none;
   }
 
-  .subtitle-in-banner { 
+  .subtitle-in-banner {
     font-size: 1.2rem;
     letter-spacing: 1px;
     color: $white;
@@ -173,14 +175,14 @@ code {
     font-size: 14px;
   }
 
-  .text { 
+  .text {
     font-size: 1.2rem;
     line-height: 1.6;
     color: #111;
     font-weight: 200;
   }
 
-  .text-md { 
+  .text-md {
     font-size: 1.4rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -188,7 +190,7 @@ code {
     font-weight: 150;
   }
 
-  .text-small { 
+  .text-small {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -196,7 +198,7 @@ code {
     font-weight: 300;
   }
 
-  .text-footer { 
+  .text-footer {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.6;
@@ -209,7 +211,7 @@ code {
     font-weight:400;
   }
 
-  .text-on-dark { 
+  .text-on-dark {
     font-size: 0.9rem;
     letter-spacing: 1.5px;
     line-height: 1.6;
@@ -226,7 +228,7 @@ code {
     color: $white;
   }
 
-  .text-in-banner { 
+  .text-in-banner {
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: $white;
@@ -239,31 +241,31 @@ code {
   }
 
   .a {
-    text-decoration: none; 
+    text-decoration: none;
   }
 
   .link-on-white {
-    color: $midnightblue;  
+    color: $midnightblue;
   }
 
   .link-on-white:hover {
-    color: $midnightblue; 
-    text-decoration: none;  
+    color: $midnightblue;
+    text-decoration: none;
   }
 
   .link-on-white-paragraph p a {
-    color: $waterblue; 
+    color: $waterblue;
     font-weight: 300;
   }
 
   .link-on-dark {
     color: $white;
-    font-weight: none;  
+    font-weight: none;
   }
 
   .link-on-dark:hover {
     color: $white;
-    text-decoration: none;  
+    text-decoration: none;
   }
 
   .software-download {
@@ -331,7 +333,7 @@ code {
     padding: 0 30px 30px 30px;
   }
 
-  .text-img-with-background h3 { 
+  .text-img-with-background h3 {
     font-size: 1.6rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -339,24 +341,24 @@ code {
     font-weight: 150;
   }
 
-  .text-img-with-background h5 { 
+  .text-img-with-background h5 {
     font-size: 1.2rem;
   }
 
-  .text-img-with-background p { 
+  .text-img-with-background p {
     font-size: .9rem;
   }
 
-  .text-img-with-background .btn { 
+  .text-img-with-background .btn {
     font-size: .9rem;
   }
 
   .text-img-with-background{
-    background-color: #f3f6fc; 
+    background-color: #f3f6fc;
     padding: 40px 0;
   }
 
-  .text-img-with-nobackground h3 { 
+  .text-img-with-nobackground h3 {
     font-size: 1.6rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -364,21 +366,21 @@ code {
     font-weight: 150;
   }
 
-  .text-img-with-nobackground h5 { 
+  .text-img-with-nobackground h5 {
     font-size: 1.2rem;
   }
 
-  .text-img-with-nobackground p { 
+  .text-img-with-nobackground p {
     font-size: .9rem;
   }
 
-  .text-img-with-nobackground .btn { 
+  .text-img-with-nobackground .btn {
     font-size: .9rem;
   }
 
   .text-img-with-nobackground{
     padding: 40px 0;
-  } 
+  }
 
   .intro-with-background {
     padding: 50px 0;
@@ -418,17 +420,17 @@ code {
   }
 
   .newsTextContainer {
-    background-color: white; 
-    border: 1px solid silver; 
-    padding: 20px 30px; 
+    background-color: white;
+    border: 1px solid silver;
+    padding: 20px 30px;
     height: 440px;
   }
 
   .newsAuthorContainer {
-    background-color:white; 
-    border-width: 0 1px 1px 1px; 
-    border-style:solid; 
-    border-color:silver; 
+    background-color:white;
+    border-width: 0 1px 1px 1px;
+    border-style:solid;
+    border-color:silver;
     padding: 10px 15px;
     font-size: 12px;
     font-weight: 400;
@@ -436,24 +438,24 @@ code {
   }
 
       .eventContainer{
-    background-color:white; 
-    border-width: 1px 1px 1px 1px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    background-color:white;
+    border-width: 1px 1px 1px 1px;
+    border-style:solid;
+    border-color: #DFDFDF;
     margin: 10px 0;
   }
   .eventImage{
-    border-width: 0px 0px 1px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 0px 1px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
     height: 120px;
 
   }
 
   .eventMeta{
-    border-width: 0px 0px 1px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 0px 1px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
     padding-top: 3px;
     padding-bottom: 3px;
   }
@@ -466,7 +468,7 @@ code {
 
   .eventButtonContainer a{
 
-    max-width: 120px; 
+    max-width: 120px;
     margin: auto;
     margin-bottom: 20px;
 
@@ -474,7 +476,7 @@ code {
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
-@media (min-width: 576px) {  
+@media (min-width: 576px) {
 
   // Feature icons
 
@@ -485,7 +487,7 @@ code {
     padding-top:80px;
   }
 
-  .feature-icons { 
+  .feature-icons {
     width: 42px;
     height:42px;
   }
@@ -573,7 +575,7 @@ code {
     line-height: 1.6;
     margin-bottom: 1.4rem;
     .a:hover{
-    text-decoration: none; 
+    text-decoration: none;
     }
   }
 
@@ -581,10 +583,10 @@ code {
     font-size: 1.25rem;
     font-weight: 300;
     margin-bottom: 1.4rem;
-    text-decoration: none; 
+    text-decoration: none;
   }
 
-  .subtitle-in-banner { 
+  .subtitle-in-banner {
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: $white;
@@ -603,21 +605,21 @@ code {
     font-size: 14px;
   }
 
-  .text { 
+  .text {
     font-size: 1.2rem;
      line-height: 1.6;
     color: #111;
     font-weight: 200;
   }
 
-  .text-md { 
+  .text-md {
     font-size: 1.4rem;
     line-height: 1.7;
     color: #111;
     font-weight: 150;
   }
 
-  .text-small { 
+  .text-small {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -625,7 +627,7 @@ code {
     font-weight: 300;
   }
 
-  .text-footer { 
+  .text-footer {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.6;
@@ -639,7 +641,7 @@ code {
     font-weight:400;
   }
 
-  .text-on-dark { 
+  .text-on-dark {
     font-size: 1.3rem;
     letter-spacing: 1.5px;
     line-height: 1.6;
@@ -656,7 +658,7 @@ code {
     color: $white;
   }
 
-  .text-in-banner { 
+  .text-in-banner {
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: $white;
@@ -669,31 +671,31 @@ code {
   }
 
   .a {
-    text-decoration: none; 
+    text-decoration: none;
   }
 
   .link-on-white {
-    color: $midnightblue;  
+    color: $midnightblue;
   }
 
   .link-on-white:hover {
-    color: $midnightblue; 
-    text-decoration: none;  
+    color: $midnightblue;
+    text-decoration: none;
   }
 
   .link-on-white-paragraph p a {
-    color: $waterblue; 
+    color: $waterblue;
     font-weight: 300;
   }
 
   .link-on-dark {
     color: $white;
-    font-weight: none;  
+    font-weight: none;
   }
 
   .link-on-dark:hover {
     color: $white;
-    text-decoration: none;  
+    text-decoration: none;
   }
 
   .software-download {
@@ -755,7 +757,7 @@ code {
     width: 40px;
   }
 
-  .text-img-with-background h3 { 
+  .text-img-with-background h3 {
     font-size: 1.6rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -763,24 +765,24 @@ code {
     font-weight: 150;
   }
 
-  .text-img-with-background h5 { 
+  .text-img-with-background h5 {
     font-size: 1.2rem;
   }
 
-  .text-img-with-background p { 
+  .text-img-with-background p {
     font-size: .9rem;
   }
 
-  .text-img-with-background .btn { 
+  .text-img-with-background .btn {
     font-size: .9rem;
   }
 
   .text-img-with-background{
-    background-color: #f3f6fc; 
+    background-color: #f3f6fc;
     padding: 40px 0;
   }
 
-  .text-img-with-nobackground h3 { 
+  .text-img-with-nobackground h3 {
     font-size: 1.6rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -788,15 +790,15 @@ code {
     font-weight: 150;
   }
 
-  .text-img-with-nobackground h5 { 
+  .text-img-with-nobackground h5 {
     font-size: 1.2rem;
   }
 
-  .text-img-with-nobackground p { 
+  .text-img-with-nobackground p {
     font-size: .9rem;
   }
 
-  .text-img-with-nobackground .btn { 
+  .text-img-with-nobackground .btn {
     font-size: .9rem;
   }
 
@@ -826,17 +828,17 @@ code {
   }
 
   .newsTextContainer {
-    background-color: white; 
-    border: 1px solid silver; 
-    padding: 20px 30px; 
+    background-color: white;
+    border: 1px solid silver;
+    padding: 20px 30px;
     height: 460px;
   }
 
   .newsAuthorContainer {
-    background-color:white; 
-    border-width: 0 1px 1px 1px; 
-    border-style:solid; 
-    border-color:silver; 
+    background-color:white;
+    border-width: 0 1px 1px 1px;
+    border-style:solid;
+    border-color:silver;
     padding: 10px 15px;
     font-size: 12px;
     font-weight: 400;
@@ -844,24 +846,24 @@ code {
   }
 
         .eventContainer{
-    background-color:white; 
-    border-width: 1px 1px 1px 1px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    background-color:white;
+    border-width: 1px 1px 1px 1px;
+    border-style:solid;
+    border-color: #DFDFDF;
     margin: 10px 0;
   }
   .eventImage{
-    border-width: 0px 0px 1px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 0px 1px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
     height: 250px;
 
   }
 
   .eventMeta{
-    border-width: 0px 0px 1px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 0px 1px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
         padding-top: 3px;
     padding-bottom: 3px;
   }
@@ -874,17 +876,17 @@ code {
 
   .eventButtonContainer a{
 
-    max-width: 120px; 
+    max-width: 120px;
     margin: auto;
     margin-bottom: 20px;
 
   }
-  
+
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
 
   // Feature Icons
 
@@ -895,7 +897,7 @@ code {
     padding-top:80px;
   }
 
-  .feature-icons { 
+  .feature-icons {
     width: 42px;
     height:42px;
   }
@@ -984,7 +986,7 @@ code {
     line-height: 1.6;
     margin-bottom: 1.4rem;
     .a:hover{
-    text-decoration: none; 
+    text-decoration: none;
     }
   }
 
@@ -992,10 +994,10 @@ code {
     font-size: 1.25rem;
     font-weight: 300;
     margin-bottom: 1.4rem;
-    text-decoration: none; 
+    text-decoration: none;
   }
 
-  .subtitle-in-banner { 
+  .subtitle-in-banner {
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: $white;
@@ -1014,14 +1016,14 @@ code {
     font-size: 14px;
   }
 
-  .text { 
+  .text {
     font-size: 1.2rem;
     line-height: 1.6;
     color: #111;
     font-weight: 200;
   }
 
-  .text-md { 
+  .text-md {
     font-size: 1.4rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -1029,7 +1031,7 @@ code {
     font-weight: 150;
   }
 
-  .text-small { 
+  .text-small {
     font-size: 14PX;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -1037,7 +1039,7 @@ code {
     font-weight: 300;
   }
 
-  .text-footer { 
+  .text-footer {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.6;
@@ -1051,7 +1053,7 @@ code {
     font-weight:400;
   }
 
-  .text-on-dark { 
+  .text-on-dark {
     font-size: 1.3rem;
     letter-spacing: 1.5px;
     line-height: 1.6;
@@ -1068,7 +1070,7 @@ code {
     color: $white;
   }
 
-  .text-in-banner { 
+  .text-in-banner {
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: $white;
@@ -1081,31 +1083,31 @@ code {
   }
 
   .a {
-    text-decoration: none; 
+    text-decoration: none;
   }
 
   .link-on-white {
-    color: $midnightblue;  
+    color: $midnightblue;
   }
 
   .link-on-white:hover {
-    color: $midnightblue; 
-    text-decoration: none;  
+    color: $midnightblue;
+    text-decoration: none;
   }
 
   .link-on-white-paragraph p a {
-    color: $waterblue; 
+    color: $waterblue;
     font-weight: 300;
   }
 
   .link-on-dark {
     color: $white;
-    font-weight: none;  
+    font-weight: none;
   }
 
   .link-on-dark:hover {
     color: $white;
-    text-decoration: none;  
+    text-decoration: none;
   }
 
   .software-download {
@@ -1155,7 +1157,7 @@ code {
   .navbar-brand img {
     width: 100%;
     min-width: 300px;
-    vertical-align: middle; 
+    vertical-align: middle;
   }
 
   .nav-item .btn{
@@ -1168,9 +1170,9 @@ code {
 
   .text-icon-three-col img{
     width: 50px;
-  }  
+  }
 
-  .text-img-with-background h3 { 
+  .text-img-with-background h3 {
     font-size: 1.6rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -1178,24 +1180,24 @@ code {
     font-weight: 150;
   }
 
-  .text-img-with-background h5 { 
+  .text-img-with-background h5 {
     font-size: 1.2rem;
   }
 
-  .text-img-with-background p { 
+  .text-img-with-background p {
     font-size: .9rem;
   }
 
-  .text-img-with-background .btn { 
+  .text-img-with-background .btn {
     font-size: .9rem;
   }
 
   .text-img-with-background{
-    background-color: #f3f6fc; 
+    background-color: #f3f6fc;
     padding: 80px 0;
   }
 
-  .text-img-with-nobackground h3 { 
+  .text-img-with-nobackground h3 {
     font-size: 1.6rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -1203,15 +1205,15 @@ code {
     font-weight: 150;
   }
 
-  .text-img-with-nobackground h5 { 
+  .text-img-with-nobackground h5 {
     font-size: 1.2rem;
   }
 
-  .text-img-with-nobackground p { 
+  .text-img-with-nobackground p {
     font-size: .9rem;
   }
 
-  .text-img-with-nobackground .btn { 
+  .text-img-with-nobackground .btn {
     font-size: .9rem;
   }
 
@@ -1241,17 +1243,17 @@ code {
   }
 
   .newsTextContainer {
-    background-color: white; 
-    border: 1px solid silver; 
-    padding: 20px 30px; 
+    background-color: white;
+    border: 1px solid silver;
+    padding: 20px 30px;
     height: 570px;
   }
 
   .newsAuthorContainer {
-    background-color:white; 
-    border-width: 0 1px 1px 1px; 
-    border-style:solid; 
-    border-color:silver; 
+    background-color:white;
+    border-width: 0 1px 1px 1px;
+    border-style:solid;
+    border-color:silver;
     padding: 10px 15px;
     font-size: 12px;
     font-weight: 400;
@@ -1259,23 +1261,23 @@ code {
   }
 
       .eventContainer{
-    background-color:white; 
-    border-width: 1px 1px 1px 1px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    background-color:white;
+    border-width: 1px 1px 1px 1px;
+    border-style:solid;
+    border-color: #DFDFDF;
     margin: 10px 0;
   }
   .eventImage{
-    border-width: 0px 0px 1px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 0px 1px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
 height: 250px;
   }
 
   .eventMeta{
-    border-width: 0px 0px 1px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 0px 1px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
   }
   .eventMeta p{
     margin: 2px 0;
@@ -1291,7 +1293,7 @@ height: 250px;
 
   .eventButtonContainer a{
 
-    max-width: 120px; 
+    max-width: 120px;
     margin: auto;
     margin-bottom: 20px;
 
@@ -1302,7 +1304,7 @@ height: 250px;
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 
   // Feature icons
 
@@ -1313,7 +1315,7 @@ height: 250px;
     padding-top:80px;
   }
 
-  .feature-icons { 
+  .feature-icons {
     width: 42px;
     height:42px;
   }
@@ -1402,7 +1404,7 @@ height: 250px;
     line-height: 1.6;
     margin-bottom: 1.4rem;
     .a:hover{
-    text-decoration: none; 
+    text-decoration: none;
     }
   }
 
@@ -1410,10 +1412,10 @@ height: 250px;
     font-size: 1.25rem;
     font-weight: 300;
     margin-bottom: 1.4rem;
-    text-decoration: none; 
+    text-decoration: none;
   }
 
-  .subtitle-in-banner { 
+  .subtitle-in-banner {
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: $white;
@@ -1432,14 +1434,14 @@ height: 250px;
     font-size: 14px;
   }
 
-  .text { 
+  .text {
     font-size: 1.2rem;
     line-height: 1.6;
     color: #111;
     font-weight: 200;
   }
 
-  .text-md { 
+  .text-md {
     font-size: 1.4rem;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -1447,7 +1449,7 @@ height: 250px;
     font-weight: 150;
   }
 
-  .text-small { 
+  .text-small {
     font-size: 14PX;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -1455,7 +1457,7 @@ height: 250px;
     font-weight: 300;
   }
 
-  .text-footer { 
+  .text-footer {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.6;
@@ -1469,7 +1471,7 @@ height: 250px;
     font-weight:400;
   }
 
-  .text-on-dark { 
+  .text-on-dark {
     font-size: 1.3rem;
     letter-spacing: 1.5px;
     line-height: 1.6;
@@ -1486,7 +1488,7 @@ height: 250px;
     color: $white;
   }
 
-  .text-in-banner { 
+  .text-in-banner {
     font-size: 1.8rem;
     letter-spacing: 1px;
     color: $white;
@@ -1499,31 +1501,31 @@ height: 250px;
   }
 
   .a {
-    text-decoration: none; 
+    text-decoration: none;
   }
 
   .link-on-white {
-    color: $midnightblue;  
+    color: $midnightblue;
   }
 
   .link-on-white:hover {
-    color: $midnightblue; 
-    text-decoration: none;  
+    color: $midnightblue;
+    text-decoration: none;
   }
 
   .link-on-white-paragraph p a {
-    color: $waterblue; 
+    color: $waterblue;
     font-weight: 300;
   }
 
   .link-on-dark {
     color: $white;
-    font-weight: none;  
+    font-weight: none;
   }
 
   .link-on-dark:hover {
     color: $white;
-    text-decoration: none;  
+    text-decoration: none;
   }
 
   .software-download {
@@ -1573,7 +1575,7 @@ height: 250px;
   .navbar-brand img {
     width: 200px;
     min-width: 200px;
-    vertical-align: middle; 
+    vertical-align: middle;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -1587,7 +1589,7 @@ height: 250px;
     font-size: 14px;
     width: 90px;
     margin-top: 5px;
-    margin-left: 11px !important; 
+    margin-left: 11px !important;
   }
 
   .navbar-nav .nav-link {
@@ -1601,23 +1603,23 @@ height: 250px;
   }
 
   .text-img-with-background {
-    background-color: #f3f6fc; 
+    background-color: #f3f6fc;
     padding: 80px 0;
   }
 
-  .text-img-with-background h3 { 
+  .text-img-with-background h3 {
      font-size: 1.4rem;
   }
 
-  .text-img-with-background h5 { 
+  .text-img-with-background h5 {
      font-size: 1.2rem;
   }
 
-  .text-img-with-background p { 
+  .text-img-with-background p {
     font-size: 1rem;
   }
 
-  .text-img-with-background .btn { 
+  .text-img-with-background .btn {
     font-size: 1rem;
   }
 
@@ -1625,19 +1627,19 @@ height: 250px;
     padding: 80px 0;
   }
 
-  .text-img-with-nobackground h3 { 
+  .text-img-with-nobackground h3 {
      font-size: 1.4rem;
   }
 
-  .text-img-with-nobackground h5 { 
+  .text-img-with-nobackground h5 {
      font-size: 1.2rem;
   }
 
-  .text-img-with-nobackground p { 
+  .text-img-with-nobackground p {
     font-size: 1rem;
   }
 
-  .text-img-with-nobackground .btn { 
+  .text-img-with-nobackground .btn {
     font-size: 1rem;
   }
 
@@ -1655,39 +1657,39 @@ height: 250px;
   }
 
   .newsTextContainer {
-    background-color: white; 
-    border: 1px solid silver; 
-    padding: 20px 30px; 
+    background-color: white;
+    border: 1px solid silver;
+    padding: 20px 30px;
     height: 400px;
   }
   .newsAuthorContainer {
-    background-color:white; 
-    border-width: 0 1px 1px 1px; 
-    border-style:solid; 
-    border-color:silver; 
+    background-color:white;
+    border-width: 0 1px 1px 1px;
+    border-style:solid;
+    border-color:silver;
     padding: 10px 15px;
     font-size: 12px;
     font-weight: 400;
     color: #333;
   }
     .eventContainer{
-    background-color:white; 
-    border-width: 1px 1px 1px 1px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    background-color:white;
+    border-width: 1px 1px 1px 1px;
+    border-style:solid;
+    border-color: #DFDFDF;
     margin: 10px 0;
   }
   .eventImage{
-    border-width: 0px 1px 0px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 1px 0px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
 height: 180px;
   }
 
   .eventMeta{
-    border-width: 0px 0px 1px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 0px 1px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
   }
   .eventMeta p{
     margin: 2px 0;
@@ -1699,14 +1701,14 @@ height: 180px;
   }
 
     .eventButtonContainer a{
-    max-width: 120px; 
+    max-width: 120px;
     float:right;
   }
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------*/
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-  
+@media (min-width: 1200px) {
+
 
   // Feature icons
 
@@ -1717,7 +1719,7 @@ height: 180px;
     padding-top:80px;
   }
 
-  .feature-icons { 
+  .feature-icons {
      width: 42px;
      height:42px;
   }
@@ -1806,7 +1808,7 @@ height: 180px;
     line-height: 1.6;
     margin-bottom: 1.4rem;
     .a:hover{
-    text-decoration: none; 
+    text-decoration: none;
     }
   }
 
@@ -1814,10 +1816,10 @@ height: 180px;
     font-size: 1.25rem;
     font-weight: 300;
     margin-bottom: 1.4rem;
-    text-decoration: none; 
+    text-decoration: none;
   }
 
-  .subtitle-in-banner { 
+  .subtitle-in-banner {
      font-size: 1.8rem;
      letter-spacing: 1px;
      color: $white;
@@ -1836,14 +1838,14 @@ height: 180px;
     font-size: 14px;
   }
 
-  .text { 
+  .text {
      font-size: 1.2rem;
      line-height: 1.6;
      color: #111;
      font-weight: 200;
   }
 
-  .text-md { 
+  .text-md {
      font-size: 1.4rem;
      letter-spacing: 1px;
      line-height: 1.7;
@@ -1851,7 +1853,7 @@ height: 180px;
      font-weight: 150;
   }
 
-  .text-small { 
+  .text-small {
      font-size: 14px;
      letter-spacing: 1px;
      line-height: 1.7;
@@ -1859,7 +1861,7 @@ height: 180px;
      font-weight: 300;
   }
 
-  .text-footer { 
+  .text-footer {
      font-size: 1rem;
      letter-spacing: 1px;
      line-height: 1.6;
@@ -1873,7 +1875,7 @@ height: 180px;
     font-weight:400;
   }
 
-  .text-on-dark { 
+  .text-on-dark {
      font-size: 1.3rem;
      letter-spacing: 1.5px;
      line-height: 1.6;
@@ -1890,7 +1892,7 @@ height: 180px;
      color: $white;
   }
 
-  .text-in-banner { 
+  .text-in-banner {
      font-size: 1.8rem;
      letter-spacing: 1px;
      color: $white;
@@ -1899,11 +1901,11 @@ height: 180px;
   }
 
   .text-img-with-background{
-    background-color: #f3f6fc; 
+    background-color: #f3f6fc;
     padding: 80px 0;
   }
 
-  .text-img-with-nobackground h3 { 
+  .text-img-with-nobackground h3 {
        font-size: 2rem;
        letter-spacing: 1px;
        line-height: 1.5;
@@ -1911,15 +1913,15 @@ height: 180px;
        font-weight: 300;
   }
 
-  .text-img-with-nobackground h5 { 
+  .text-img-with-nobackground h5 {
      font-size: 1.4rem;
   }
 
-  .text-img-with-nobackground p { 
+  .text-img-with-nobackground p {
      font-size: 1.2rem;
   }
 
-  .text-img-with-nobackground .btn { 
+  .text-img-with-nobackground .btn {
      font-size: 1rem;
   }
 
@@ -1927,7 +1929,7 @@ height: 180px;
     padding: 80px 0;
   }
 
-  .text-img-with-background h3 { 
+  .text-img-with-background h3 {
     font-size: 2rem;
     letter-spacing: 1px;
     line-height: 1.5;
@@ -1935,15 +1937,15 @@ height: 180px;
     font-weight: 300;
   }
 
-  .text-img-with-background h5 { 
+  .text-img-with-background h5 {
     font-size: 1.4rem;
   }
 
-  .text-img-with-background p { 
+  .text-img-with-background p {
    font-size: 1.2rem;
   }
 
-  .text-img-with-background .btn { 
+  .text-img-with-background .btn {
     font-size: 1rem;
   }
 
@@ -1956,31 +1958,31 @@ height: 180px;
   }
 
   .a {
-    text-decoration: none; 
+    text-decoration: none;
   }
 
   .link-on-white {
-    color: $midnightblue;  
+    color: $midnightblue;
   }
 
   .link-on-white:hover {
-    color: $midnightblue; 
-    text-decoration: none;  
+    color: $midnightblue;
+    text-decoration: none;
   }
 
   .link-on-white-paragraph p a {
-    color: $waterblue; 
+    color: $waterblue;
     font-weight: 300;
   }
 
   .link-on-dark {
     color: $white;
-    font-weight: none;  
+    font-weight: none;
   }
 
   .link-on-dark:hover {
     color: $white;
-    text-decoration: none;  
+    text-decoration: none;
   }
 
   .software-download {
@@ -2113,13 +2115,13 @@ height: 180px;
   }
 
   .nav-link {
-    white-space: nowrap; 
+    white-space: nowrap;
   }
 
   .navbar-brand img {
     width: 100%;
     min-width: 300px;
-    vertical-align: middle; 
+    vertical-align: middle;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -2160,17 +2162,17 @@ height: 180px;
   }
 
   .newsTextContainer {
-    background-color: white; 
-    border: 1px solid silver; 
-    padding: 20px 30px; 
+    background-color: white;
+    border: 1px solid silver;
+    padding: 20px 30px;
     height: 380px;
   }
-  
+
   .newsAuthorContainer {
-    background-color:white; 
-    border-width: 0 1px 1px 1px; 
-    border-style:solid; 
-    border-color:silver; 
+    background-color:white;
+    border-width: 0 1px 1px 1px;
+    border-style:solid;
+    border-color:silver;
     padding: 10px 15px;
     font-size: 12px;
     font-weight: 400;
@@ -2178,23 +2180,23 @@ height: 180px;
   }
 
   .eventContainer{
-    background-color:white; 
-    border-width: 1px 1px 1px 1px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    background-color:white;
+    border-width: 1px 1px 1px 1px;
+    border-style:solid;
+    border-color: #DFDFDF;
     margin: 10px 0;
   }
   .eventImage{
-    border-width: 0px 1px 0px 0px; 
-    border-style:solid; 
+    border-width: 0px 1px 0px 0px;
+    border-style:solid;
     border-color: #DFDFDF;
 height: 180px;
   }
 
   .eventMeta{
-    border-width: 0px 0px 1px 0px; 
-    border-style:solid; 
-    border-color: #DFDFDF; 
+    border-width: 0px 0px 1px 0px;
+    border-style:solid;
+    border-color: #DFDFDF;
   }
   .eventMeta p{
     margin: 5px 0;
@@ -2206,7 +2208,7 @@ height: 180px;
   }
 
   .eventButtonContainer a{
-    max-width: 120px; 
+    max-width: 120px;
     float:right;
   }
 
@@ -2214,4 +2216,3 @@ height: 180px;
     margin: 0 17px;
 }
 }
-
