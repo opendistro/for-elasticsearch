@@ -67,8 +67,6 @@ defaults:
 
 paginate: 5
 paginate_path: "/blog/page:num/"
-
-
 markdown: kramdown
 highlighter: rouge
 
@@ -77,7 +75,6 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
   facebook: true
   LinkedIn: true
   Email: true
-
 
 twitter:
   username: # jekyll-seo-tag > Owners twitter username
