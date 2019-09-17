@@ -20,21 +20,24 @@ You can use the _rollover API to manage the size of your indexes. You call _roll
 
 Elasticsearch distributes shards to nodes based primarily on the count of shards on each node (it’s more complicated than that, but that’s a good first approximation). When you have a single index, because the shards are all approximately the same size, you can ensure even distribution of data by making your shard count divisible by your node count. For example, if you have five primaries and one replica, or ten total shards, and you deploy two nodes, you will have five shards on each node (Elasticsearch always places a primary and its first replica on different nodes).
 
-
-![](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/08/06/Rollover1.jpg)
-
+<div style="text-align: center;">
+<img src="https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/08/06/Rollover1.jpg" style="width: 100%; max-width: 600px;">
+</div>
 
 When you have multiple indexes, you get heterogeneity in the storage per node. For example, say your application is generating one GB of log data per day and your VPC Flow Logs are ten GB per day. For both of these data streams, you use one primary shard,and one replica, following the best practice of up to 50GB per shard. Further, assume you have six nodes in your cluster. After seven days, each index has 14 total shards (one primary and one replica per day). Your cluster might look like the following – in the best case, you have even distribution of data:
 
+<div style="text-align: center;">
+	<img src="https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/08/06/Rollover2.jpg" style="width: 100%; max-width: 600px;">
+</div>
 
-![](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/08/06/Rollover2.jpg)
 
 
 In the worst case, assume you have five nodes. Then your shard count is indivisible by your node count, so larger shards can land together on one node, as in the image below. The nodes with larger shards use ten times more storage than the nodes with smaller shards.
 While this example is somewhat manufactured, it represents a real problem that Elasticsearch users must solve.
 
-
-![](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/08/06/Rollover3.jpg)
+<div style="text-align: center;">
+	<img src="https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/08/06/Rollover3.jpg" style="width: 100%; max-width: 600px;">
+</div>
 
 
 ## Rollover instead!

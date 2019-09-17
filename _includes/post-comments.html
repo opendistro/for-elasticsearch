@@ -1,10 +1,10 @@
+{% if site.disqs and page.comments != false  %}
 
-{% if page.comments != false  %}
 
 <div id='discourse-comments'></div>
 
 <script type="text/javascript">
-  window.DiscourseEmbed = { discourseUrl: 'https://discuss.opendistrocommunity.dev/',
+  window.DiscourseEmbed = { discourseUrl: 'https://discuss.opendistrocommunity.dev',
                      discourseEmbedUrl: '{{ site.url }}{{ site.baseurl }}{{ page.url }}' };
 
   (function() {
