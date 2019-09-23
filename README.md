@@ -34,3 +34,5 @@ For documentation on using Jekyll, visit https://jekyllrb.com/docs/.
 ## Attribution
 
 [Debian package logo](https://commons.wikimedia.org/wiki/File:Application-x-deb.svg) is used without modification under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
+
+[TAR icon](http://www.softicons.com/system-icons/hycons-icon-theme-by-gomez-hyuuga) is used without modification under the [Creative Commons Attribution-ShareAlike 2.5 Generic License](https://creativecommons.org/licenses/by-sa/2.5/).
