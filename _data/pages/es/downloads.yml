@@ -9,6 +9,7 @@ images:
   rpm: "/assets/media/icons/rpm.png"
   docker: "/assets/media/icons/docker.png"
   deb: "/assets/media/icons/Application-x-deb.svg"
+  tar: "/assets/media/icons/tar.png"
   jdbc: "/assets/media/icons/javajdbc.png"
   perftop: "/assets/media/icons/consol.png"
 
@@ -19,6 +20,7 @@ elasticsearch:
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/"
+  tar_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/tar/"
 
 kibana:
   title: Kibana
@@ -27,6 +29,7 @@ kibana:
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
+  tar_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
 
 jdbc:
   title: SQL JDBC
