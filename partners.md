@@ -1,0 +1,4 @@
+---
+layout: partners
+title: Partners
+---
