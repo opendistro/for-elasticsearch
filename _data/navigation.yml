@@ -13,6 +13,8 @@
         url: features/comingsoon.html
   - title: Community
     sublinks:
+      - title: Partners
+        url: /partners/
       - title: Blog
         url: /blog/
       - title: Events
