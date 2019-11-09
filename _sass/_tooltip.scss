@@ -1,0 +1,42 @@
+.partnerinfo {
+  position: relative;
+  display: inline-block;
+}
+
+.partnerinfo .partnerinfotext {
+  visibility: hidden;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 100000;
+  top: 70;
+  left: 50%;
+  margin-left: -200px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.20);
+  box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.20);
+}
+
+.partnerinfo .partnerinfotext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+
+}
+
+.partnerinfo:hover .partnerinfotext {
+  visibility: visible;
+  opacity: 1;
+}
