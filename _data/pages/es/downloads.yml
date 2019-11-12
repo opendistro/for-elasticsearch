@@ -33,7 +33,7 @@ kibana:
 
 jdbc:
   title: SQL JDBC
-  url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.2.0.0.jar"
+  url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.2.1.0.jar"
 
 perftop:
   title: PerfTop CLI
