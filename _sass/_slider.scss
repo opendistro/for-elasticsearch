@@ -9,13 +9,13 @@ a {
   color: #fff;
 }
 .intro {
-  text-align: center; 
+  text-align: left; 
 }
 
 .slider {
   color: #444;
   position: relative;
-  height: 300px;
+  height: 420px;
   margin: 25px 10px;
   border: 1px solid #ddd; 
   border-radius: 5px;
@@ -39,6 +39,7 @@ a {
     z-index: 10;
   }
   &__button {
+    cursor: pointer;
     font-size: 2rem;
     background: none;
     border: none;
@@ -47,10 +48,10 @@ a {
     transform: translateY(-50%);
     z-index: 20;
     &--prev {
-      left: 10px;  
+      left: -50px;  
     }
     &--next {
-      right: 10px;  
+      right: -50px;  
     }
   }
 
@@ -74,10 +75,10 @@ a {
       left: 0;
       width: 100%;
       height: 100%;
-      padding: 20px;
+      padding: 20px 0;
       box-sizing: border-box;
       font-size: 1rem;
-      text-align: center;
+      text-align: left;
     }
 }
 
@@ -95,4 +96,13 @@ a {
   padding: 0;
   margin: 0 5px;
   background-color: #fff;
+}
+
+.slider-p{
+  margin-top: 0;
+    margin-bottom: 1rem;
+    word-break: break;
+    white-space: normal;
+    line-height: 30px;
+    padding: 0 0;
 }
