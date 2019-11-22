@@ -13,16 +13,14 @@
         url: features/comingsoon.html
   - title: Community
     sublinks:
-      - title: Partners
-        url: /partners/
       - title: Blog
         url: /blog/
       - title: Events
         url: events.html
       - title: Forums
         url: https://discuss.opendistrocommunity.dev/ 
-      - title: Overview
-        url: community.html
+      - title: Partners
+        url: /partners/
   - title: News
     url: /news.html
   - title: Contribute
