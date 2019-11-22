@@ -15,7 +15,7 @@ a {
 .slider {
   color: #444;
   position: relative;
-  height: 420px;
+  height: 300px;
   margin: 25px 10px;
   border: 1px solid #ddd; 
   border-radius: 5px;
@@ -75,7 +75,7 @@ a {
       left: 0;
       width: 100%;
       height: 100%;
-      padding: 20px 0;
+      padding: 10px 10px;
       box-sizing: border-box;
       font-size: 1rem;
       text-align: left;
@@ -103,6 +103,43 @@ a {
     margin-bottom: 1rem;
     word-break: break;
     white-space: normal;
-    line-height: 30px;
+    line-height: 26px;
     padding: 0 0;
+    font-size: 18px;
+}
+
+blockquote {
+word-break: break;
+  font-weight: 100;
+  width: 91%;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding:  2rem .5rem;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #f1efe6;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: '“';
+  left: -1.9rem;
+  top: -1.7rem;
+}
+
+blockquote:after {
+  content: '”';
+  right: -2rem;
+  bottom: 3.5rem;
+}
+
+cite {
+  line-height: 3;
+  text-align: left;
 }
