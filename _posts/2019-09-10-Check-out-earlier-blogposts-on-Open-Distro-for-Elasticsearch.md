@@ -4,7 +4,7 @@ author: Alolita Sharma
 comments: true
 title: "Check out earlier blog posts on Open Distro for Elasticsearch"
 categories:
-- Open Distro for Elasticsearch updates
+- odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
 ---
 Hi Open Distro blog readers,
