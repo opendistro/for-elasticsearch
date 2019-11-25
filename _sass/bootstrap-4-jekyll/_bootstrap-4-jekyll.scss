@@ -471,6 +471,23 @@ code {
     margin-bottom: 20px;
 
   }
+  .slider {
+    height: 500px;
+  }
+  blockquote {
+    word-break: break;
+    font-weight: 100;
+    width: 100%;
+    line-height: 1.4;
+    position: relative;
+    margin: 0;
+    padding: 2rem 2rem;
+  }
+  blockquote:before {
+    content: '“';
+    left: -.5rem;
+    top: -1.7rem;
+  }
 }
  /* ----------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -878,6 +895,23 @@ code {
     margin: auto;
     margin-bottom: 20px;
 
+  }
+  .slider {
+    height: 500px;
+  }
+  blockquote {
+    word-break: break;
+    font-weight: 100;
+    width: 100%;
+    line-height: 1.4;
+    position: relative;
+    margin: 0;
+    padding: 2rem 2rem;
+  }
+  blockquote:before {
+    content: '“';
+    left: -.5rem;
+    top: -1.7rem;
   }
 
 }
@@ -1296,6 +1330,9 @@ height: 250px;
     margin-bottom: 20px;
 
   }
+  .slider {
+    height: 370px;
+  }
 
 
 }
@@ -1701,6 +1738,9 @@ height: 180px;
     .eventButtonContainer a{
     max-width: 120px;
     float:right;
+  }
+  .slider {
+    height: 320px;
   }
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------*/
@@ -2210,7 +2250,10 @@ height: 180px;
     float:right;
   }
 
-    .navbar-nav .nav-link {
+  .navbar-nav .nav-link {
     margin: 0 17px;
-}
+  }
+  .slider {
+    height: 280px;
+  }
 }
