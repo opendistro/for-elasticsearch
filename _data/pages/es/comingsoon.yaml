@@ -8,10 +8,23 @@ intro:
 
 features:
 
+  - title: Anomaly Detection
+    content: Our new anomaly detection feature identifies data patterns during ingestion and detect outliers in real-time using the Random Cut Forest (RCF) algorithm. RCF is an unsupervised machine learning algorithm that computes an anomaly score for each incoming data point. The final anomaly score is an average of scores from all data points and used to differentiate an anomaly from normal variations. You can monitor multiple data points in an index, also called features, by configuring detectors. A detector can discover anomalies across one or more features. Anomaly detection is integrated with our Alerting plugin to trigger a notification whenever a detector identifies an anomaly. Learn more or contribute at&#58;
+    img: "/assets/media/screenshots/anomalydetection.png"
+    action_1:
+      label: 'Random Cut Forest by AWS - Repo'
+      url: 'https://github.com/aws/random-cut-forest-by-aws'
+    action_3:
+      label: 'Anomaly detection - Repo'
+      url: 'https://github.com/opendistro-for-elasticsearch/anomaly-detection'
+    action_2:
+      label: 'Anomaly detection for Kibana - Repo'
+      url: 'https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin'
+
   - title: k-NN Search
     content: Our new k-nearest neighbor (k-NN) Search plugin will enable high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Built using the <a href="https://github.com/nmslib/nmslib">Non-Metric Space Library (NMSLIB)</a>, this plugin can power use cases such as product recommendations, fraud detection, and image, video, and related document search. We have extended the Apache Lucene codec to introduce a new file format to store vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax —to designate a field as a k-NN vector you can simply map it to the new k-NN field type provided by the k-NN plugin. Learn more or contribute at&#58;
     img: "/assets/media/illustrations/K-nn-2.svg"
-    action_learn:
+    action_download:
       label: 'k-NN Search – Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/k-NN'
       
