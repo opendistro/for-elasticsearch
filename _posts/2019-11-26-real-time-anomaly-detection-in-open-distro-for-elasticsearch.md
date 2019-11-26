@@ -43,7 +43,7 @@ Across both input and output user intents, the most useful intent is the feature
 The output of an anomaly detector (i.e., anomalies) can be consumed by the user using Open Distro for Elasticsearch Alerts, or can be browsed using Kibana (including historic anomalies and feature timeseries). We want to enable an interactive experience when defining a detector using Kibana — the user should be able to interactively add/modify feature definitions and see changes in anomalies detected (along with the feature timeseries) in real time. We divide the design discussion into algorithms and systems aspects.
 
 
-## Building on the Random Cut Forest Algorithm\
+## Building on the Random Cut Forest Algorithm
 
 
 There are several unsupervised learning approaches to anomaly detection: from the traditional statistical timeseries methods to machine learning (e.g., nearest neighbor, clustering, subspace/spectral methods, density estimation, including ensemble methods) [[6](https://dl.acm.org/citation.cfm?id=1541882)]. We focus on the latter, since we are also interested in non-distributional changes in data (frequency content and phase). Anomaly detections by many of the machine learning methods are hard to explain for the user and compute-heavy.
