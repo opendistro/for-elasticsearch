@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<!-- Breadcrumbs -->
+<!-- <div class="container-fluid">
+  {% include breadcrumbs.html %}
+</div> -->
+
+<!-- Feature icons -->
+{%- include feature_icons.html -%}
+
+<!-- Banner -->
+<div class="container-fluid featureBanner" style="background: url('{{site.baseurl}}{{site.data.pages.es.indexmanagement.bottomBanner.class}}') no-repeat; background-size: cover;">
+  {%- include banner.html banner=site.data.pages.es.indexmanagement.banner -%}
+</div>
+
+<div class="pt-5"/>
+{%- include intro.html intro=site.data.pages.es.indexmanagement.intro -%}
+
+<div class="pt-5"/>
+<!-- Features  -->
+{%- include text-img-with-background.html features=site.data.pages.es.indexmanagement.features -%}
+
+
+<!-- Community -->
+{%- include communities/es.html style='/assets/media/backgrounds/lightPinkRec.svg' community=site.data.pages.es.indexmanagement.bottomBanner github=site.data.links.github.indexmanagement forum= site.data.links.forum.indexmanagement-%}
