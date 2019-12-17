@@ -42,7 +42,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
     color: $white;
     background-color: transparent;
   }
-  
+
   &-outline:disabled,
     .btn-outline.is-disabled {
     opacity: .5;
@@ -53,7 +53,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
     color: $white;
     background-color: $midnightblue;
   }
-  
+
   &-outline-primary-on-white:hover {
     border: 1px solid $midnightblue;
     color: $white;
@@ -64,7 +64,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
     border: 1px solid $midnightblue;
     color: $midnightblue;
   }
-  
+
   &-outline-secondary-on-white:hover {
     border: 1px solid $midnightblue;
     color: $midnightblue;
@@ -91,7 +91,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
 
   &-link {
     color: $white;
-    text-decoration: none; 
+    text-decoration: none;
   }
 }
 
@@ -101,7 +101,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
 
 .container {
   font-family: Open Sans;
-  font-weight: lighter; 
+  font-weight: lighter;
 }
 
 .sticky {
@@ -131,7 +131,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
   font-size: 0.9rem;
   word-wrap:break-word;
   padding: 6px 0;
- 
+
 }
 
 .link-small:hover {
@@ -154,3 +154,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
   top:-20px;
 }
 
+.blog-image {
+  max-width: 800px;
+}

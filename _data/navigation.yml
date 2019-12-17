@@ -18,16 +18,14 @@
       - title: Events
         url: events.html
       - title: Forums
-        url: https://discuss.opendistrocommunity.dev/ 
+        url: https://discuss.opendistrocommunity.dev/
       - title: Partners
-        url: /partners/
+        url: /partners.html
   - title: News
     url: /news.html
   - title: Contribute
     url: /contribute.html
   - title: Docs
     url: https://opendistro.github.io/for-elasticsearch-docs
-  - title: GitHub 
+  - title: GitHub
     url: https://www.github.com/opendistro-for-elasticsearch
-
-    

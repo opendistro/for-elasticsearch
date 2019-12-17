@@ -1,0 +1,32 @@
+banner:
+  title: Index Management
+  subtitle: Open Distro for Elasticsearch
+
+intro:
+  title: Monitor and automate index management  
+  ext_content: Index management suite in Open Distro Elasticsearch provides an automated system for recurring index state management tasks, eliminating the need rely on external systems to execute them periodically. The Kibana plugin for index management provides users an administrative panel to monitor the indices and apply policies at different stages in its lifecycle based on user defined criteria like index age, size, or number of documents. 
+
+features:
+  - title: Customize index state management policies
+    content: Index state management lets users define unlimited custom policies to be applied on routine tasks to index patterns, and move indices from one state to another. Each policy contains a default state and a list of states that users define for the index to transition between. Within each state users can define a list of actions to perform and the criteria to transition to a new state.
+    img: "/assets/media/screenshots/ism-continuous-states.png"
+    
+  - title: Define actions for each state  
+    content: Index state management lets users define actions like force merge, snapshot, rollover when transitioning to a new state. Once a managed index enters a state it will sequentially execute the actions in the same order listed in the policy. All actions have their own default retry, back-off, timeout settings and can also be customized individually for every state. 
+    img: "/assets/media/screenshots/ism-create-policy-actions.png"
+    
+  - title: Keep track of operations  
+    content: Every operation executed using index management is recorded in temporal logs. This provides users insights into activities around index management and update the required security permissions and policies accordingly. 
+    img: "/assets/media/screenshots/ism-logs.png"
+    
+
+
+bottomBanner:
+  class: "/assets/media/backgrounds/blueRec.svg"
+  text: 'Join our community of developers in advancing the future of Index Management'
+  color: "#0000FF"
+
+
+
+
+    
