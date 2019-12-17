@@ -15,8 +15,8 @@ images:
 
 elasticsearch:
   title: Elasticsearch
-  subtitle: Open Distro for Elasticsearch 1.2.0
-  description: "Elasticsearch (Apache 2.0 licensed code only) - 7.2.0 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
+  subtitle: Open Distro for Elasticsearch 1.2.1
+  description: "Elasticsearch (Apache 2.0 licensed code only) - 7.2.1 <br> Includes Security, Alerting, SQL, and Performance Analyzer"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/"
@@ -24,8 +24,8 @@ elasticsearch:
 
 kibana:
   title: Kibana
-  subtitle: Open Distro for Elasticsearch 1.2.0
-  description: "Kibana (Apache 2.0 licensed code only) - 7.2.0 <br> Includes Security and Alerting"
+  subtitle: Open Distro for Elasticsearch 1.2.1
+  description: "Kibana (Apache 2.0 licensed code only) - 7.2.1 <br> Includes Security and Alerting"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
@@ -33,12 +33,12 @@ kibana:
 
 jdbc:
   title: SQL JDBC
-  url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.2.0.0.jar"
+  url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.2.1.0.jar"
 
 perftop:
   title: PerfTop CLI
-  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.2.0.0-MACOS.zip"
-  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.2.0.0-LINUX.zip"
+  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.2.1.0-MACOS.zip"
+  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.2.1.0-LINUX.zip"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
