@@ -4,7 +4,7 @@ banner:
 
 intro:
   title: Monitor and automate index management  
-  ext_content: Index management suite in Open Distro Elasticsearch provides an automated system for recurring index state management tasks, eliminating the need rely on external systems to execute them periodically. The Kibana plugin for index management provides users an administrative panel to monitor the indices and apply policies at different stages in its lifecycle based on user defined criteria like index age, size, or number of documents. 
+  ext_content: Index management plugin in Open Distro for Elasticsearch helps automate recurring index state management tasks, eliminating the need to rely on external systems to execute them periodically. The Kibana plugin for index management provides users an administrative panel to monitor the indices and apply policies at different stages in its lifecycle based on user defined criteria like index age, size, or number of documents. 
 
 features:
   - title: Customize index state management policies
