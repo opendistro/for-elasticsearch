@@ -19,8 +19,8 @@
         url: events.html
       - title: Forums
         url: https://discuss.opendistrocommunity.dev/ 
-      - title: Overview
-        url: community.html
+      - title: Partners
+        url: /partners.html
   - title: News
     url: /news.html
   - title: Contribute

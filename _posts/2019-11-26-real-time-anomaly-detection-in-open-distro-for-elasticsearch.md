@@ -52,8 +52,9 @@ There are several unsupervised learning approaches to anomaly detection: from th
 We restrict to a specific class of ensemble methods based on random forests. Random forests have been used successfully for lightweight density estimation. The Isolation Forest (2008) method [[1](https://dl.acm.org/citation.cfm?id=1511387)] uses random forests to *isolate* anomalous data. Isolation Forest recursively partitions the hyperspace of features to construct trees (the leaf nodes are feature samples), and assigns an *anomaly score* to each data point based on the sample tree heights. It is a batch processing method. The Random Cut Forest (RCF, 2016) method [[2](https://dl.acm.org/citation.cfm?id=3045676)] adapted Isolation Forest to work on data streams with bounded memory and lightweight compute. RCF incrementally updates the forest on each feature sample and interleaves training and inference. RCF also emits an anomaly score for each feature sample. The RCF estimator has been proven as it have been used in production settings, for example Amazon Kinesis Analytics [[3](https://docs.aws.amazon.com/kinesisanalytics/latest/sqlref/sqlrf-random-cut-forest.html)], Quicksight [[4](https://docs.aws.amazon.com/quicksight/latest/user/what-is-random-cut-forest.html)] and SageMaker [[5](https://docs.aws.amazon.com/sagemaker/latest/dg/randomcutforest.html)]. Using data shingling, RCFs can detect non-distributional anomalies such as frequency and phase changes. RCFs scale to high-dimensional data streams.
 
 
-![Isolation Forest tree construction](images/isolationforest.png)
-![RCF pre-processing to learn non-distributional patterns](images/preprocessing.png)
+![Isolation Forest tree construction]({{ site.baseurl }}/assets/media/blog-images/isolationforest.png){: .blog-image }
+
+![RCF pre-processing to learn non-distributional patterns]({{ site.baseurl }}/assets/media/blog-images/preprocessing.png){: .blog-image }
 
 
 Putting RCFs to practice for real time anomaly detection in a "set it and forget it" environment requires additional work; we list them down here. First, RCFs emit an anomaly score that is hard to reason about for the user, its magnitude is a function of the data timeseries on which the RCF is trained. We need an additional learning primitive that continuously learns the baseline anomaly score distribution to detect *large* score values it is a classifier function that maps the anomaly score to a boolean outcome (anomaly or not). Note that this classifier is different from RCF itself. RCF isolates anomalies (i.e., not the baseline) and gives a score timeseries that captures and quantifies anomalous events; the classifier can also be simple, since it operates on one-dimensional positive data. The classifier needs to work with small amounts of data, so it does not block anomaly detection. The classifier emits two values to aid the user: (1) anomaly grade, quantifying severity of the anomaly, and (2) confidence, quantifying the amount of data seen and RCF size.
@@ -79,7 +80,9 @@ The first step to anomaly detection is feature computation. The user defines fea
 
 The next step is to schedule training and inference for anomaly detection. Since a random forest is an independent set of trees, this is a parallel execution on the cluster. An elected node on the cluster acts as the coordinator node for an anomaly detector. The coordinator schedules queries for feature computation; and schedules and manages partitions of the RCF on different nodes and the computation for the classifier (score-to-detection function). Changes in cluster membership trigger reassignments of the compute jobs. Each compute job periodically checkpoints its state (i.e., trees and classifier parameters) in an Elasticsearch index to handle job reassignments and for fault tolerance. The checkpoints eliminate the need to re-train trees and classifier for a new job assignment. Reassignments are also throttled when necessary.
 
-![Orchestrating RCF and score classifier computation on Elasticsearch cluster](images/system.png)
+![Orchestrating RCF and score classifier computation on Elasticsearch cluster]({{ site.baseurl }}/assets/media/blog-images/system.png){: .blog-image }
+
+*Orchestrating RCF and score classifier computation on Elasticsearch cluster.*
 
 
 ### **Fault tolerance, Elasticity and Availability**
