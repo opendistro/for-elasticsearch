@@ -35,8 +35,6 @@ The framework is  also fault tolerant for Elasticsearch, JVM and infrastructure 
 
 All RCAs must be registered with the framework. This allows the framework to de-dup computations and optimize the streaming runtime. It exposes root causes and their context for applications to consume. Note that the framework resides in the agent process, so it is isolated from failures and performance problems in the Elasticsearch JVM. The architecture is shown below.
 
-INSERT image
-
 ![RCA architecture]({{ site.baseurl }}/assets/media/blog-images/rca-architecture.png){: .blog-image }
 
 The framework is designed to be fast and compute root causes in parallel. It executes each graph node in topological order as defined in the analysis graph. Nodes with no dependency are executed in parallel. If a host depends on a remote data stream for RCA computation, it subscribes to the data stream on startup. Subsequently, the output of every RCA execution on the upstream host is streamed to the downstream subscriber.
