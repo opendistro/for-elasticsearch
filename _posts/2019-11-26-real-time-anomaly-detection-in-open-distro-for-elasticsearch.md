@@ -79,7 +79,7 @@ The first step to anomaly detection is feature computation. The user defines fea
 
 The next step is to schedule training and inference for anomaly detection. Since a random forest is an independent set of trees, this is a parallel execution on the cluster. An elected node on the cluster acts as the coordinator node for an anomaly detector. The coordinator schedules queries for feature computation; and schedules and manages partitions of the RCF on different nodes and the computation for the classifier (score-to-detection function). Changes in cluster membership trigger reassignments of the compute jobs. Each compute job periodically checkpoints its state (i.e., trees and classifier parameters) in an Elasticsearch index to handle job reassignments and for fault tolerance. The checkpoints eliminate the need to re-train trees and classifier for a new job assignment. Reassignments are also throttled when necessary.
 
-![Orchestrating RCF and score classifier computation on Elasticsearch cluster](images/system.png)*Orchestrating RCF and score classifier computation on Elasticsearch cluster.*
+![Orchestrating RCF and score classifier computation on Elasticsearch cluster](images/system.png)
 
 
 ### **Fault tolerance, Elasticity and Availability**
