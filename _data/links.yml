@@ -4,6 +4,7 @@ github:
   analyzer: 'https://github.com/opendistro-for-elasticsearch/performance-analyzer'
   sql: 'https://github.com/opendistro-for-elasticsearch/sql'
   home: 'https://www.github.com/opendistro-for-elasticsearch'
+  knn: 'https://github.com/opendistro-for-elasticsearch/k-NN'
   indexmanagement: 'https://github.com/opendistro-for-elasticsearch/index-management'
 
 website:

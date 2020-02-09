@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="32" cy="32" r="21.3333333"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="42.6666667" height="42.6666667" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="K-nn-icon" stroke="#00671A">
+            <g id="Group">
+                <circle id="Oval" stroke-width="3.86976744" cx="32" cy="32" r="30.0651163"></circle>
+                <use id="Oval" mask="url(#mask-2)" stroke-width="4.46511628" stroke-dasharray="1.488372093023256,2.976744186046512" xlink:href="#path-1"></use>
+                <circle id="Oval" stroke-width="2.97674419" cx="22" cy="24.6666667" r="4.51162791"></circle>
+                <circle id="Oval" stroke-width="2.97674419" cx="32" cy="32" r="6.51162791"></circle>
+                <circle id="Oval" stroke-width="2.97674419" cx="32.7906977" cy="44.6976744" r="4.51162791"></circle>
+                <circle id="Oval" stroke-width="2.97674419" cx="14" cy="50.1550388" r="4.51162791"></circle>
+                <circle id="Oval" stroke-width="3.33333333" cx="48.6666667" cy="12.5116279" r="4.33333333"></circle>
+                <circle id="Oval" stroke-width="2.97674419" cx="44.6666667" cy="30" r="4.51162791"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
