@@ -4,24 +4,25 @@ banner:
 
 intro:
   title: Build efficient similarity search architecture<br> using k-Nearest Neighbor Search 
-  ext_content: K-nearest neighbor (KNN) search, widely used for similarity search and image recognition, finds the nearest K points in a vector space by Euclidean distance. With the new KNN plugin support in Open Distro for Elasticsearch, users can submit the K-dimensional vector as a field in the Elasticsearch documents and fetch nearest neighbors for a given point using the Elasticsearch query syntax.
+  ext_content: Open Distro for Elasticsearch k-NN plugin enables users to run nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Use aggregations and filter clauses to further refine your similarity search operations. Power uses cases such as product recommendations, fraud detection, image and video search, related document search, and more.
 
 features:
   - title: Integrated with NMSLIB
-    content: The KNN plugin leverages the lightweight open source library Non-Metric Space Library (<a href="https://github.com/nmslib/nmslib">NMSLIB</a>) that implements the approximate kNN search based on Hierarchical Navigable Small world (<a href="https://arxiv.org/pdf/1603.09320.pdf">HNSW</a>) graphs. NMSLIB can be easily extended to add new search methods and distance functions. 
+    content: The k-NN plugin leverages the lightweight open source library Non-Metric Space Library (<a href="https://github.com/nmslib/nmslib">NMSLIB</a>) that implements the approximate k-NN search based on Hierarchical Navigable Small world (<a href="https://arxiv.org/pdf/1603.09320.pdf">HNSW</a>) graphs. NMSLIB is a highly efficient implementation of k-NN, which has consistently out-performed most of the other solutions as per the ANN-Benchmarks published <a href="https://github.com/erikbern/ann-benchmarks">here</a>. NMSLIB can be easily extended to add new search methods and distance functions. 
     img: "/assets/media/illustrations/K-nn-2-00671A.svg"
     
-  - title: New KNN codec and datatype
-    content: The plugin introduces a new KNN codec in Lucene for handling storage and retrieval of data. Datasets in KNN are vectors that are represented in Elasticsearch fields by the new datatype called knn_vector. This vector can support a single list of up to 10000 float values. 
+  - title: New k-NN codec and datatype
+    content: The solution has extended Lucene codec to introduce a separate file format for storing and retrieving k-NN indices to deliver high efficiency k-NN search operations on Elasticsearch.  Datasets in k-NN are vectors that are represented in Elasticsearch fields by the new datatype called k-NN_vector. This vector can support a single list of up to 10000 float values.  
     img: "/assets/media/screenshots/knn-codec.png"
     
-  - title: Efficient queries
-    content: Users can seamlessly do KNN search with their data using the new ‘knn’ clause in the query DSL. They can further improve the results by combining KNN query with the existing Elasticsearch queries. 
+  - title: Combine with other Elasticsearch features
+    content: k-NN functionality integrates seamlessly with other Elasticsearch features. This provides users the flexibility to use Elasticsearch’s extensive search features such as aggregations and filtering with k-NN to further slice and dice the data to increase the precision of the searches.
     img: "/assets/media/screenshots/knn-query.png"
     
 alerts:
   title: Performance at scale
-  text: By leveraging Elasticsearch’s distributed architecture, KNN plugin can ingest large datasets, support incremental updates and efficiently process the machine learning model, thereby delivering a highly scalable and performant similarity search engine. 
+  text: By leveraging Elasticsearch’s distributed architecture, k-NN plugin can ingest large datasets, support incremental updates and efficiently process the machine learning model, thereby delivering a highly performant and scalable similarity search engine. 
+
 
 bottomBanner:
   class: "/assets/media/backgrounds/lightGreenRec.svg"
