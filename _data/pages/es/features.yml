@@ -30,9 +30,13 @@ featuresLink:
     url: "features/knn.html"
     color: "#00671A"
   - title: Performance Analyzer
-    icon: "/assets/media/icons/performance_analyzer_64px.svg"
-    url: "features/analyzer.html"
+    icon: "/assets/media/icons/performance_analyzer_64px.svg"   
+    url: "features/analyzer.html"    
     color: "#ed20eb" 
+  - title: Index Management
+    icon: "/assets/media/icons/index_management_64px.svg"   
+    url: "features/indexmanagement.html"    
+    color: "#0000FF"  
   - title: Coming soon
     icon: "/assets/media/icons/comingsoon_64px.svg"
     url: "features/comingsoon.html"
