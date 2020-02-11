@@ -20,23 +20,23 @@ featuresLink:
   - title: SQL
     icon: "/assets/media/icons/SQL_support_64px.svg"
     url: "features/SQL%20Support.html"
-    color: "#2797f4" 
+    color: "#2797f4"
   - title: Index Management
     icon: "/assets/media/icons/index_management_64px.svg"
     url: "features/indexmanagement.html"
     color: "#0000FF"
-  - title: K-nn
+  - title: k-NN
     icon: "/assets/media/icons/Knn_64px.svg"
     url: "features/knn.html"
     color: "#00671A"
   - title: Performance Analyzer
-    icon: "/assets/media/icons/performance_analyzer_64px.svg"   
-    url: "features/analyzer.html"    
-    color: "#ed20eb" 
+    icon: "/assets/media/icons/performance_analyzer_64px.svg"
+    url: "features/analyzer.html"
+    color: "#ed20eb"
   - title: Index Management
-    icon: "/assets/media/icons/index_management_64px.svg"   
-    url: "features/indexmanagement.html"    
-    color: "#0000FF"  
+    icon: "/assets/media/icons/index_management_64px.svg"
+    url: "features/indexmanagement.html"
+    color: "#0000FF"
   - title: Coming soon
     icon: "/assets/media/icons/comingsoon_64px.svg"
     url: "features/comingsoon.html"
