@@ -3,23 +3,23 @@ banner:
 
 intro:
   title:
-  ext_content: If you are interested in hosting a developer event to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>.
+  ext_content:  If you are interested in hosting a developer event to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>.
 
 upcomingEvent:
-    
-  - title: A deep dive into performance diagnostics for Elasticsearch
-    content: "Learn more about PerfTop and Open Distro for Elasticsearch. Join Alolita Sharma of Amazon Web Services to learn more about cluster diagnosis using Open Distro for Elasticsearch."
-    link: "https://www.meetup.com/sfnode/events/mxstsmyzmbhb/"
-    location: San Francisco
-    date: 9/5 2019
-    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
-    img_width: "100%"
 
   - title: SF Kotlin Meetup - Get started with Open Distro for Elasticsearch
     content: "Jon from AWS will give us the lowdown on how to get started with Open Distro for Elasticsearch."
     link: "https://www.meetup.com/San-Francisco-Kotlin-Meetup/events/264264176/"
     location: San Francisco
     date: 9/12 2019
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+  - title: A deep dive into performance diagnostics for Elasticsearch
+    content: "Learn more about PerfTop and Open Distro for Elasticsearch. Join Alolita Sharma of Amazon Web Services to learn more about cluster diagnosis using Open Distro for Elasticsearch."
+    link: "https://www.meetup.com/sfnode/events/mxstsmyzmbhb/"
+    location: San Francisco
+    date: 9/5 2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
     
@@ -61,6 +61,7 @@ pastEvent:
     date: 8/2-8/3 2019
     img: "https://secure.meetupstatic.com/photos/event/7/c/e/7/600_473071975.jpeg"
     img_width: "100%"
+
   - title: Gourmet Alerting with Open Distro for Elasticsearch
     content: "Alolita Sharma and Mihir Soni detail the basic ingredients you need to create useful alerting."
     link: "https://conferences.oreilly.com/oscon/oscon-or/public/schedule/detail/79469"
@@ -68,7 +69,7 @@ pastEvent:
     date: Wed 7/17/2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2018/06/13/oscon-header.jpg"
     img_width: "100%"
-    
+
   - title: Open Distro for Elasticsearch – Lightning Talk
     content: "On the second Wed of each month, join ~180 devs at SF Python's presentation night."
     link: "https://www.meetup.com/sfpython/events/xkwxvqyzkbnb/"
@@ -84,7 +85,7 @@ pastEvent:
     date: Mon 7/8/2019
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
-  
+
   - title: Elasticsearch and Journalism Content Recommendation
     content: "Attend this session to learn more about Open Distro for Elasticsearch"
     link: "https://www.meetup.com/SEA-Search-Engines-Amsterdam/events/qvfxgpyzjblc"

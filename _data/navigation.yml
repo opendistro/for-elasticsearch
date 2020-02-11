@@ -9,6 +9,8 @@
         url: features/SQL%20Support.html
       - title: Performance Analyzer
         url: features/analyzer.html
+      - title: K-nn
+        url: features/knn.html
       - title: Index Management
         url: features/indexmanagement.html
       - title: Coming soon
@@ -20,7 +22,7 @@
       - title: Events
         url: events.html
       - title: Forums
-        url: https://discuss.opendistrocommunity.dev/ 
+        url: https://discuss.opendistrocommunity.dev/
       - title: Partners
         url: /partners.html
   - title: News
@@ -29,8 +31,5 @@
     url: /contribute.html
   - title: Docs
     url: https://opendistro.github.io/for-elasticsearch-docs
-  - title: GitHub 
+  - title: GitHub
     url: https://www.github.com/opendistro-for-elasticsearch
-
-
-    

@@ -24,6 +24,7 @@ elasticsearch:
 
 kibana:
   title: Kibana
+
   subtitle: Open Distro for Elasticsearch 1.3.0
   description: "Kibana (Apache 2.0 licensed code only) - 7.3.2 <br> Includes Security, Alerting, and Index Management"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
