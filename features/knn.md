@@ -1,4 +1,4 @@
 ---
 layout: features/knn
-title: K-nn
+title: k-NN
 ---
