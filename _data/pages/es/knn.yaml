@@ -23,6 +23,7 @@ alerts:
   title: Performance at scale
   text: By leveraging Elasticsearch’s distributed architecture, k-NN plugin can ingest large datasets, support incremental updates and efficiently process the machine learning model, thereby delivering a highly performant and scalable similarity search engine. 
 
+
 bottomBanner:
   class: "/assets/media/backgrounds/lightGreenRec.svg"
   text: 'Join our community of developers in advancing the future of K-nn'
