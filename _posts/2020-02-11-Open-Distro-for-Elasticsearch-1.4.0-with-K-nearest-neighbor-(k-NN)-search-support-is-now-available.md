@@ -14,12 +14,14 @@ You can find Docker Hub images [Open Distro for Elasticsearch 1.4.0](https://hub
 
 Note:  k-NN plugin is only available as part of docker image in this release.
 
+
 ## New Features
 
 ### k-NN plugin 
 
 Our new k-NN search plugin enables high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Built using the [Non-Metric Space Library](https://github.com/nmslib/nmslib) (NMSLIB), this plugin can power use cases such as product recommendations, fraud detection, and image, video, and related document search. We have extended the Apache Lucene codec to introduce a new file format to store vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax —to designate a field as a k-NN vector you can simply map it to the new k-NN field type provided by the k-NN plugin. k-NN functionality integrates seamlessly with other Elasticsearch features. This provides users  the flexibility to use Elasticsearch’s extensive search features such as 
 aggregations and filtering with k-NN to further improve the search results. Learn more at [k-NN](https://github.com/opendistro-for-elasticsearch/k-NN)
+
 
 
 ## Packages and features under development
