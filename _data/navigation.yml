@@ -9,6 +9,8 @@
         url: features/SQL%20Support.html
       - title: Performance Analyzer
         url: features/analyzer.html
+      - title: K-nn
+        url: features/knn.html
       - title: Index Management
         url: features/indexmanagement.html
       - title: Coming soon
