@@ -21,19 +21,6 @@ features:
       label: 'Anomaly detection for Kibana - Repo'
       url: 'https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin'
 
-  - title: Index Management
-    content: With Index Management, a new integrated job engine, you will be able to run periodic operations on your indexes, eliminating the need to build and manage external systems for these tasks. Index Management will enable you to define custom policies to optimize and move indices and apply them to index patterns. Each policy contains a default state and within each state you can define a list of actions to enter a new state. Actions supported in the initial release of Index Management will include force merge, shrink split, allocation, snapshot, delete, rollover, and more. Index Management will be configurable via REST or the associated Kibana plugin. Learn more or contribute at&#58;
-    img: "/assets/media/screenshots/managed_indicies.png"
-    action_no:
-      label: 'Request for comment'
-      url: 'https://github.com/opendistro-for-elasticsearch/index-management'
-    action_download:
-      label: 'Index management - Repo'
-      url: 'https://github.com/opendistro-for-elasticsearch/index-management/blob/development/RFC.md'
-    action_learn:
-      label: 'Index management Kibana plugin – Repo'
-      url: 'https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin'
-
   - title: Security integration with alerting
     content: We are building an integration between the security and alerting plugins to secure your alerting configuration. With this integration, we will provide new pre-built roles, making it easier for you to enable who can create and view monitors, alerts, and destinations. The security and alerting integration will ensure that users can create monitors using only the data they have access to.  You will also be able to set a role on a monitor so that the monitor can only access the data you want it to. Learn more or contribute at&#58;
     img: "/assets/media/screenshots/alert_access.png"
