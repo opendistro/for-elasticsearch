@@ -15,7 +15,7 @@ faqs:
     content: All of the plugins included in Open Distro for Elasticsearch are licensed under the Apache License, Version 2.0.
 
   - title: Will you be making contributions back to Elasticsearch open-source?
-    content: Yes. Open Distro for Elasticsearch includes the Apache 2.0 licensed Elasticsearch and Kibana code. As we identify issues or make enhancements to that code, we contribute back to Elastic. We will continue to make contributions to Apache 2.0 licensed Elastic code. Whether or not Elastic accepts those contributions, is not within our control, but we will make every attempt to work with Elastic to provide the best possible open source software.
+    content: Yes. Open Distro for Elasticsearch includes the Apache 2.0 licensed Elasticsearch and Kibana code. As we identify issues or make enhancements to that code, we contribute back to open source Elasticsearch. We will continue to make contributions to Apache 2.0 licensed code. Whether Elastic (the maintainers of Elasticsearch) accepts those contributions is not within our control, but we make every attempt to work with Elastic to provide the best possible open source software.
 
   - title: Can Open Distro for Elasticsearch components be installed as standalone plugins?
     content: Yes. Open Distro for Elasticsearch is an Elasticsearch-compatible stack that is made up of several projects. Each of these projects can be built and installed independently of Open Distro for Elasticsearch on the corresponding version of open source Elasticsearch.
@@ -27,4 +27,4 @@ faqs:
     content: Open Distro for Elasticsearch is powered by the Apache 2.0-licensed distributions of Elasticsearch and Kibana. All clients and tools that are compatible with the underlying version of Elasticsearch should work without modification.
 
   - title: What is your roadmap for Open Distro for Elasticsearch?
-    content: We are just getting started. There are many new features that we are excited to build, and we can’t wait to see what the community comes up with. For example, we plan to create a new index management plugin project and add a Kibana-based user interface for the SQL plugin. You are invited to join us in creating innovative new features. [Learn more about how to contribute](https://opendistro.github.io/for-elasticsearch/contribute.html).
+    content: We are just getting started. There are many new features that we are excited to build, and we can’t wait to see what the community comes up with. You are invited to join us in creating innovative new features. To learn more about features in developement, see our [coming soon](https://opendistro.github.io/for-elasticsearch/features/comingsoon.html) page.
