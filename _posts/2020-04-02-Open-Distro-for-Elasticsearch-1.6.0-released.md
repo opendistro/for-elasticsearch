@@ -31,7 +31,7 @@ Release highlights include security plugin optimization for a faster version of 
 
 Please take a look at the 1.6.0 [release notes](https://github.com/opendistro-for-elasticsearch/) for the latest features, enhancements, infra and config updates and bug fixes. [Upgrade to 1.6.0](https://opendistro.github.io/for-elasticsearch/downloads.html) to leverage the latest features and bug fixes.
 
-We invite you to get involved in ongoing development of new Open Distro for Elasticsearch plugins. Consider contributing code, documentation or tests for [Performance Analyzer RCA Engine](https://github.com/opendistro-for-elasticsearch/performance-analyzer-rca),  machine learning components like [Anomaly Detection](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin) and its [Kibana UI](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin)as well as the [_SQL ODBC Driver_](https://github.com/opendistro-for-elasticsearch/sql-odbc).
+We invite you to get involved in ongoing development of new Open Distro for Elasticsearch plugins. Consider contributing code, documentation or tests for [Performance Analyzer RCA Engine](https://github.com/opendistro-for-elasticsearch/performance-analyzer-rca),  machine learning components like [Anomaly Detection](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin) and its [Kibana UI](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin) as well as the [SQL ODBC Driver](https://github.com/opendistro-for-elasticsearch/sql-odbc).
 
 ## Come join our community!
 
