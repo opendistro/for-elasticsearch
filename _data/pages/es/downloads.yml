@@ -26,7 +26,7 @@ kibana:
   title: Kibana
 
   subtitle: Open Distro for Elasticsearch 1.6.0
-  description: "Kibana (Apache 2.0 licensed code only) - 7.4.2 <br> Includes Security, Alerting, and Index Management"
+  description: "Kibana (Apache 2.0 licensed code only) - 7.6.1 <br> Includes Security, Alerting, and Index Management"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
