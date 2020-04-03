@@ -29,7 +29,7 @@ You can find our Open Distro for Elasticsearch security plugin artifacts on [Mav
 
 Release highlights include security plugin optimization for a faster version of the implied permission type, memoization of results for batch requests, implementation of lazy loading for efSearch parameter in the k-NN plugin, improved exception handling and report date handling using standard formats for the SQL plugin.
 
-Please take a look at the 1.6.0 [release notes](https://github.com/opendistro-for-elasticsearch/) for the latest features, enhancements, infra and config updates and bug fixes. [Upgrade to 1.6.0](https://opendistro.github.io/for-elasticsearch/downloads.html) to leverage the latest features and bug fixes.
+Please take a look at the 1.6.0 [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/release-notes-odfe-1.6.0.md) for the latest features, enhancements, infra and config updates and bug fixes. [Upgrade to 1.6.0](https://opendistro.github.io/for-elasticsearch/downloads.html) to leverage the latest features and bug fixes.
 
 We invite you to get involved in ongoing development of new Open Distro for Elasticsearch plugins. Consider contributing code, documentation or tests for [Performance Analyzer RCA Engine](https://github.com/opendistro-for-elasticsearch/performance-analyzer-rca),  machine learning components like [Anomaly Detection](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin) and its [Kibana UI](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin) as well as the [SQL ODBC Driver](https://github.com/opendistro-for-elasticsearch/sql-odbc).
 
