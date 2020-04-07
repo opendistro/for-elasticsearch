@@ -14,12 +14,12 @@ A k-nearest neighbors (k-NN) algorithm is a technique for performing similarity 
 
 We evaluated four primary dimensions to measure the effectiveness of a k-NN algorithm:
 
-1. **Speed **- How quickly does the algorithm return the approximate k-nearest neighbors, measured in latency of a single or batch query?
-2. **Recall **- How accurate are the results, measured by ratio of the returned k-nearest neighbors indeed in the list of the actual k nearest neighbors to the value of k?
+1. **Speed** - How quickly does the algorithm return the approximate k-nearest neighbors, measured in latency of a single or batch query?
+2. **Recall** - How accurate are the results, measured by ratio of the returned k-nearest neighbors indeed in the list of the actual k nearest neighbors to the value of k?
 3. **Scalability** - Can the algorithm handle data sets with millions or billions of vectors and thousands of dimensions?
 4. **Updates** - Does the algorithm allow addition, deletion, and updating points without having to rebuild an index, a process that can take hours or more?
 
-We selected “[**Hierarchical Navigable Small World**](https://arxiv.org/pdf/1603.09320.pdf)”(HNSW) graphs developed under the open source library “**Non-Metric Space Library (**[**NMSLIB**](https://github.com/nmslib/nmslib)**)**” as it aligned with our architectural requirements and met most of our evaluation criteria. Given a dataset, the algorithm constructs a graph on the data such that the greedy search algorithm finds the approximate nearest neighbor to a query in logarithmic time. HSNW consistently outperforms other libraries in this space based on [ANN benchmark](https://github.com/erikbern/ann-benchmarks) metrics. HNSW excels at speed, recall, and cost, though it is restricted in scalability and updates. While the HNSW algorithm allows incremental addition of points, it forbids deletion and modification of indexed points. We offset the scalability and updates challenges by leveraging Elasticsearch’s distributed architecture, which scales with large data sets and inherently supports incremental updates to the data sets that become available in the search results in near real-time. The rest of this post discusses the integration of NMSLIB with Elasticsearch and the customizations made to support the feature in Elasticsearch.
+We selected “[**Hierarchical Navigable Small World**](https://arxiv.org/pdf/1603.09320.pdf)”(HNSW) graphs developed under the open source library “**Non-Metric Space Library" ([NMSLIB](https://github.com/nmslib/nmslib))** as it aligned with our architectural requirements and met most of our evaluation criteria. Given a dataset, the algorithm constructs a graph on the data such that the greedy search algorithm finds the approximate nearest neighbor to a query in logarithmic time. HSNW consistently outperforms other libraries in this space based on [ANN benchmark](https://github.com/erikbern/ann-benchmarks) metrics. HNSW excels at speed, recall, and cost, though it is restricted in scalability and updates. While the HNSW algorithm allows incremental addition of points, it forbids deletion and modification of indexed points. We offset the scalability and updates challenges by leveraging Elasticsearch’s distributed architecture, which scales with large data sets and inherently supports incremental updates to the data sets that become available in the search results in near real-time. The rest of this post discusses the integration of NMSLIB with Elasticsearch and the customizations made to support the feature in Elasticsearch.
 
 
 ## Hierarchical Navigable Small World Algorithm (HNSW)
@@ -35,7 +35,7 @@ The HNSW algorithm focuses on the first of these approaches by building a graph 
 
 With a graph data structure on the data set, approximate nearest neighbors can be found using graph traversal methods. Given a query point, we find its nearest neighbors by starting at a random point in the graph and computing its distance to the query point. From this entry point, we explore the graph, computing the distance to the query of each newly visited data point until the traversal can find no closer data points. To compute fewer distances while still retaining high accuracy, the HNSW algorithm builds on top of previous work on Navigable Small World (NSW) graphs. The NSW algorithm builds a graph with two key properties. The “small world” property is such that the number of edges in the shortest path between any pair of points grows poly-logarithmically with the number of points in the graph. The “navigable” property asserts that the greedy algorithm is likely to stay on this shortest path. Combining these two properties results in a graph structure so the greedy algorithm is likely to find the nearest data point to a query in logarithmic time.
 
-[Image: graph_2.png]
+[Image: knn_graph_2.png]
 > **Figure 1.** — A depiction of an NSW graph built on blue data points. The dark blue edges represent long-range connections that help ensure the small-world property. Starting at the entry point, at each iteration the greedy algorithm will move to the neighbor closest to the query point. The chosen path from the entry point to the query’s nearest neighbor is highlighted in magenta and, by the “navigable” property, is likely to be the shortest path from the entry point to the query’s nearest neighbor.
 
 
@@ -51,7 +51,7 @@ Elasticsearch’s distributed engine allows us to distribute the millions of vec
 
 First, we added a new field type, **knn_vector**, using the Mapper plugin, to represent the vectors as a an array of floating point numbers in a document. ANN requires support for storing high cardinality vectors. The **knn_vector** field support vectors up to 10k dimensions. We also introduced a new Apache Lucene codec, **KNNCodec**, to add a new index file format for storing and retrieving the vectors and make Apache Lucene aware of the graphs built by NMSLIB. These file formats co-exist with the other Apache Lucene file formats and are immutable just like the other Apache Lucene files, making them file system cache friendly and thread safe.
 
-Let’s create a KNN index **myindex **and add data of type knn_vector to the field my_vector. You could then index your documents as you would normally do using any of Elasticsearch index APIs.
+Let’s create a KNN index **myindex** and add data of type knn_vector to the field my_vector. You could then index your documents as you would normally do using any of Elasticsearch index APIs.
 
 ```
 PUT /myindex
