@@ -53,7 +53,7 @@ First, we added a new field type, **knn_vector**, using the Mapper plugin, to re
 
 Let’s create a KNN index **myindex** and add data of type knn_vector to the field my_vector. You could then index your documents as you would normally do using any of Elasticsearch index APIs.
 
-```
+```json
 PUT /myindex
 {
   "settings": {
@@ -73,23 +73,21 @@ PUT /myindex
 
 
 
-```
+```json
 PUT /myindex/_doc/1
 {
   "my_vector": [1.5, 2.5]
 }
 
-
 PUT/myindex/_doc/2
 {
   "my_vector": [2.5, 3.5]
 }
-
 ```
 
 We also added a new query clause `knn`. You can use the this clause in the query DSL and specify the point of interest as my_vector (knn_vector) and the number of nearest neighbors to fetch as ‘k’. The response below, which shows 2 nearest docs as defined by k to the input point [3, 4]. The score indicates the distance between the two vectors and is the deciding factor for selecting the neighbors.
 
-```
+```json
 POST /myindex/_search
 {
   "size": 2,
@@ -151,7 +149,7 @@ Output:
 
 You can also combine the `knn` query clause with other query clauses as you would normally do with compound queries. In the example provided, the user first runs the `knn` query to find the closest five neighbors (k=5) to the vector [3,4] and then applies post filter to the results using the boolean query to focus on items that are priced less than 15 units.
 
-```
+```json
 POST /myindex/_search
 {
   "size": 5,
