@@ -39,7 +39,6 @@ With a graph data structure on the data set, approximate nearest neighbors can b
 
 > **Figure 1.** — A depiction of an NSW graph built on blue data points. The dark blue edges represent long-range connections that help ensure the small-world property. Starting at the entry point, at each iteration the greedy algorithm will move to the neighbor closest to the query point. The chosen path from the entry point to the query’s nearest neighbor is highlighted in magenta and, by the “navigable” property, is likely to be the shortest path from the entry point to the query’s nearest neighbor.
 
-
 HNSW extends the NSW algorithm by building multiple layers of interconnected NSW-like graphs. The top layer is a coarse graph built on a small subset of the data points in the index. Each lower layer incorporates more points in its graph until reaching the bottom layer, which consists of an NSW-like graph on every data point. To find the approximate nearest neighbors to a query, the search process finds the nearest neighbors in the graph at the top layer and uses these points as the entry points to the subsequent layer. This strategy results in a nearest neighbors search algorithm which runs logarithmically with respect to the number of data points in the index.
 
 ### Non Metric Space Library (NMSLIB)
@@ -57,16 +56,16 @@ Let’s create a KNN index **myindex** and add data of type knn_vector to the fi
 ```
 PUT /myindex
 {
-  "settings" : {
-  "**index.knn**": true
+  "settings": {
+    "index.knn": true
   },
   "mappings": {
-      "properties": {
-        "my_vector": {
-          "type": "knn_vector",
-          "dimension": 2
-        }
+    "properties": {
+      "my_vector": {
+        "type": "knn_vector",
+        "dimension": 2
       }
+    }
   }
 }
 
@@ -77,70 +76,69 @@ PUT /myindex
 ```
 PUT /myindex/_doc/1
 {
-"my_vector" : [1.5, 2.5]
+  "my_vector": [1.5, 2.5]
 }
 
 
-PUT/myindex_doc/2
+PUT/myindex/_doc/2
 {
-"my_vector" : [2.5, 3.5]
+  "my_vector": [2.5, 3.5]
 }
 
 ```
 
-We also added a new query clause **knn**. You can use the this clause in the query DSL and specify the point of interest as my_vector (knn_vector) and the number of nearest neighbors to fetch as ‘k’. The response below, which shows 2 nearest docs as defined by k to the input point [3, 4]. The score indicates the distance between the two vectors and is the deciding factor for selecting the neighbors.
+We also added a new query clause `knn`. You can use the this clause in the query DSL and specify the point of interest as my_vector (knn_vector) and the number of nearest neighbors to fetch as ‘k’. The response below, which shows 2 nearest docs as defined by k to the input point [3, 4]. The score indicates the distance between the two vectors and is the deciding factor for selecting the neighbors.
 
 ```
 POST /myindex/_search
 {
- "size" : 2,
- "query": {
-  "knn": {
-   "my_vector": {
-     "vector": [3, 4],
-     "k": 2
-   }
+  "size": 2,
+  "query": {
+    "knn": {
+      "my_vector": {
+        "vector": [3, 4],
+        "k": 2
+      }
+    }
   }
- }
 }
 
-Output:-
+Output:
 
 {
-  "took" : 7,
-  "timed_out" : false,
-  "_shards" : {
-    "total" : 5,
-    "successful" : 5,
-    "skipped" : 0,
-    "failed" : 0
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
   },
-  "hits" : {
-    "total" : {
-      "value" : 2,
-      "relation" : "eq"
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
     },
-    "max_score" : 0.5857864,
-    "hits" : [
-      {
-        "_index" : "myindex",
-        "_type" : "_doc",
-        "_id" : "2",
-        "_score" : 0.5857864,
-        "_source" : {
-          "my_vector" : [
+    "max_score": 0.5857864,
+    "hits": [{
+        "_index": "myindex",
+        "_type": "_doc",
+        "_id": "2",
+        "_score": 0.5857864,
+        "_source": {
+          "my_vector": [
             2.5,
             3.5
           ]
         }
       },
       {
-        "_index" : "myindex",
-        "_type" : "_doc",
-        "_id" : "1",
-        "_score" : 0.32037726,
-        "_source" : {
-          "my_vector" : [
+        "_index": "myindex",
+        "_type": "_doc",
+        "_id": "1",
+        "_score": 0.32037726,
+        "_source": {
+          "my_vector": [
             1.5,
             2.5
           ]
@@ -149,19 +147,17 @@ Output:-
     ]
   }
 }
-
 ```
 
-You can also combine “knn” query clause with other query clauses as you would normally do with compound queries. In the example provided, the user first runs the knn query to find the closest five neighbors (k=5) to the vector [3,4] and then applies post filter to the results using the boolean query to focus on items that are priced less than 15 units.
+You can also combine the `knn` query clause with other query clauses as you would normally do with compound queries. In the example provided, the user first runs the `knn` query to find the closest five neighbors (k=5) to the vector [3,4] and then applies post filter to the results using the boolean query to focus on items that are priced less than 15 units.
 
 ```
 POST /myindex/_search
-
 {
-  "size" : 5,
+  "size": 5,
   "query": {
     "bool": {
-      "must" : {
+      "must": {
         "knn": {
           "my_vector": {
             "vector": [3, 4],
@@ -170,7 +166,11 @@ POST /myindex/_search
         }
       },
       "filter": {
-        "range" : { "price" : { "lt" : 15 } }
+        "range": {
+          "price": {
+            "lt": 15
+          }
+        }
       }
     }
   }
