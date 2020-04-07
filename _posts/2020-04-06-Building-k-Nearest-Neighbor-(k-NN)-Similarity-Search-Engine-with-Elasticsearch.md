@@ -19,7 +19,7 @@ We evaluated four primary dimensions to measure the effectiveness of a k-NN algo
 3. **Scalability** - Can the algorithm handle data sets with millions or billions of vectors and thousands of dimensions?
 4. **Updates** - Does the algorithm allow addition, deletion, and updating points without having to rebuild an index, a process that can take hours or more?
 
-We selected “[**Hierarchical Navigable Small World**](https://arxiv.org/pdf/1603.09320.pdf)”(HNSW) graphs developed under the open source library “**Non-Metric Space Library" ([NMSLIB](https://github.com/nmslib/nmslib))** as it aligned with our architectural requirements and met most of our evaluation criteria. Given a dataset, the algorithm constructs a graph on the data such that the greedy search algorithm finds the approximate nearest neighbor to a query in logarithmic time. HSNW consistently outperforms other libraries in this space based on [ANN benchmark](https://github.com/erikbern/ann-benchmarks) metrics. HNSW excels at speed, recall, and cost, though it is restricted in scalability and updates. While the HNSW algorithm allows incremental addition of points, it forbids deletion and modification of indexed points. We offset the scalability and updates challenges by leveraging Elasticsearch’s distributed architecture, which scales with large data sets and inherently supports incremental updates to the data sets that become available in the search results in near real-time. The rest of this post discusses the integration of NMSLIB with Elasticsearch and the customizations made to support the feature in Elasticsearch.
+We selected “[**Hierarchical Navigable Small World**](https://arxiv.org/pdf/1603.09320.pdf)” (HNSW) graphs developed under the open source library “**Non-Metric Space Library**" ([NMSLIB](https://github.com/nmslib/nmslib)) as it aligned with our architectural requirements and met most of our evaluation criteria. Given a dataset, the algorithm constructs a graph on the data such that the greedy search algorithm finds the approximate nearest neighbor to a query in logarithmic time. HSNW consistently outperforms other libraries in this space based on [ANN benchmark](https://github.com/erikbern/ann-benchmarks) metrics. HNSW excels at speed, recall, and cost, though it is restricted in scalability and updates. While the HNSW algorithm allows incremental addition of points, it forbids deletion and modification of indexed points. We offset the scalability and updates challenges by leveraging Elasticsearch’s distributed architecture, which scales with large data sets and inherently supports incremental updates to the data sets that become available in the search results in near real-time. The rest of this post discusses the integration of NMSLIB with Elasticsearch and the customizations made to support the feature in Elasticsearch.
 
 
 ## Hierarchical Navigable Small World Algorithm (HNSW)
@@ -35,7 +35,7 @@ The HNSW algorithm focuses on the first of these approaches by building a graph 
 
 With a graph data structure on the data set, approximate nearest neighbors can be found using graph traversal methods. Given a query point, we find its nearest neighbors by starting at a random point in the graph and computing its distance to the query point. From this entry point, we explore the graph, computing the distance to the query of each newly visited data point until the traversal can find no closer data points. To compute fewer distances while still retaining high accuracy, the HNSW algorithm builds on top of previous work on Navigable Small World (NSW) graphs. The NSW algorithm builds a graph with two key properties. The “small world” property is such that the number of edges in the shortest path between any pair of points grows poly-logarithmically with the number of points in the graph. The “navigable” property asserts that the greedy algorithm is likely to stay on this shortest path. Combining these two properties results in a graph structure so the greedy algorithm is likely to find the nearest data point to a query in logarithmic time.
 
-[Image: knn_graph_2.png](https://github.com/opendistro/for-elasticsearch/blob/master/assets/media/blog-images/knn_graph_2.png "k-NN Graph")
+[k-NN Graph]({{ site.baseurl }}/assets/media/blog-images/knn_graph_2.png){: .blog-image }
 
 > **Figure 1.** — A depiction of an NSW graph built on blue data points. The dark blue edges represent long-range connections that help ensure the small-world property. Starting at the entry point, at each iteration the greedy algorithm will move to the neighbor closest to the query point. The chosen path from the entry point to the query’s nearest neighbor is highlighted in magenta and, by the “navigable” property, is likely to be the shortest path from the entry point to the query’s nearest neighbor.
 
@@ -75,7 +75,7 @@ PUT /myindex
 
 
 ```
-PUT /myindex/\_doc/1
+PUT /myindex/_doc/1
 {
 "my_vector" : [1.5, 2.5]
 }
@@ -91,7 +91,7 @@ PUT/myindex_doc/2
 We also added a new query clause **knn**. You can use the this clause in the query DSL and specify the point of interest as my_vector (knn_vector) and the number of nearest neighbors to fetch as ‘k’. The response below, which shows 2 nearest docs as defined by k to the input point [3, 4]. The score indicates the distance between the two vectors and is the deciding factor for selecting the neighbors.
 
 ```
-POST /myindex/\_search
+POST /myindex/_search
 {
  "size" : 2,
  "query": {
@@ -109,7 +109,7 @@ Output:-
 {
   "took" : 7,
   "timed_out" : false,
-  "\_shards" : {
+  "_shards" : {
     "total" : 5,
     "successful" : 5,
     "skipped" : 0,
@@ -123,11 +123,11 @@ Output:-
     "max_score" : 0.5857864,
     "hits" : [
       {
-        "\_index" : "myindex",
-        "\_type" : "\_doc",
-        "\_id" : "2",
-        "\_score" : 0.5857864,
-        "\_source" : {
+        "_index" : "myindex",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_score" : 0.5857864,
+        "_source" : {
           "my_vector" : [
             2.5,
             3.5
@@ -135,11 +135,11 @@ Output:-
         }
       },
       {
-        "\_index" : "myindex",
-        "\_type" : "\_doc",
-        "\_id" : "1",
-        "\_score" : 0.32037726,
-        "\_source" : {
+        "_index" : "myindex",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_score" : 0.32037726,
+        "_source" : {
           "my_vector" : [
             1.5,
             2.5
@@ -155,7 +155,7 @@ Output:-
 You can also combine “knn” query clause with other query clauses as you would normally do with compound queries. In the example provided, the user first runs the knn query to find the closest five neighbors (k=5) to the vector [3,4] and then applies post filter to the results using the boolean query to focus on items that are priced less than 15 units.
 
 ```
-POST /myindex/\_search
+POST /myindex/_search
 
 {
   "size" : 5,
