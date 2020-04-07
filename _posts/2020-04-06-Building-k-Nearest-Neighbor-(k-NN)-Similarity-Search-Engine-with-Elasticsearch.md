@@ -35,7 +35,7 @@ The HNSW algorithm focuses on the first of these approaches by building a graph 
 
 With a graph data structure on the data set, approximate nearest neighbors can be found using graph traversal methods. Given a query point, we find its nearest neighbors by starting at a random point in the graph and computing its distance to the query point. From this entry point, we explore the graph, computing the distance to the query of each newly visited data point until the traversal can find no closer data points. To compute fewer distances while still retaining high accuracy, the HNSW algorithm builds on top of previous work on Navigable Small World (NSW) graphs. The NSW algorithm builds a graph with two key properties. The “small world” property is such that the number of edges in the shortest path between any pair of points grows poly-logarithmically with the number of points in the graph. The “navigable” property asserts that the greedy algorithm is likely to stay on this shortest path. Combining these two properties results in a graph structure so the greedy algorithm is likely to find the nearest data point to a query in logarithmic time.
 
-![k-NN Graph]({{ site.baseurl }}/assets/media/blog-images/knn_graph_2.png){: .blog-image }
+![k-NN Graph]({{ site.baseurl }}/assets/media/blog-images/knn_graph_1.png){: .blog-image }
 
 > **Figure 1.** — A depiction of an NSW graph built on blue data points. The dark blue edges represent long-range connections that help ensure the small-world property. Starting at the entry point, at each iteration the greedy algorithm will move to the neighbor closest to the query point. The chosen path from the entry point to the query’s nearest neighbor is highlighted in magenta and, by the “navigable” property, is likely to be the shortest path from the entry point to the query’s nearest neighbor.
 
@@ -53,7 +53,7 @@ First, we added a new field type, **knn_vector**, using the Mapper plugin, to re
 
 Let’s create a KNN index **myindex** and add data of type knn_vector to the field my_vector. You could then index your documents as you would normally do using any of Elasticsearch index APIs.
 
-```json
+````json
 PUT /myindex
 {
   "settings": {
@@ -69,11 +69,11 @@ PUT /myindex
   }
 }
 
-```
+````
 
 
 
-```json
+````json
 PUT /myindex/_doc/1
 {
   "my_vector": [1.5, 2.5]
@@ -83,11 +83,11 @@ PUT/myindex/_doc/2
 {
   "my_vector": [2.5, 3.5]
 }
-```
+````
 
 We also added a new query clause `knn`. You can use the this clause in the query DSL and specify the point of interest as my_vector (knn_vector) and the number of nearest neighbors to fetch as ‘k’. The response below, which shows 2 nearest docs as defined by k to the input point [3, 4]. The score indicates the distance between the two vectors and is the deciding factor for selecting the neighbors.
 
-```json
+````json
 POST /myindex/_search
 {
   "size": 2,
@@ -145,11 +145,11 @@ Output:
     ]
   }
 }
-```
+````
 
 You can also combine the `knn` query clause with other query clauses as you would normally do with compound queries. In the example provided, the user first runs the `knn` query to find the closest five neighbors (k=5) to the vector [3,4] and then applies post filter to the results using the boolean query to focus on items that are priced less than 15 units.
 
-```json
+````json
 POST /myindex/_search
 {
   "size": 5,
@@ -173,7 +173,7 @@ POST /myindex/_search
     }
   }
 }
-```
+````
 
 ### Memory Monitoring
 
