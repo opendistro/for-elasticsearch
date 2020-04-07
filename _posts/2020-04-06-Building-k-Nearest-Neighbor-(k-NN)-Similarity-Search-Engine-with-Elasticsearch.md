@@ -35,7 +35,8 @@ The HNSW algorithm focuses on the first of these approaches by building a graph 
 
 With a graph data structure on the data set, approximate nearest neighbors can be found using graph traversal methods. Given a query point, we find its nearest neighbors by starting at a random point in the graph and computing its distance to the query point. From this entry point, we explore the graph, computing the distance to the query of each newly visited data point until the traversal can find no closer data points. To compute fewer distances while still retaining high accuracy, the HNSW algorithm builds on top of previous work on Navigable Small World (NSW) graphs. The NSW algorithm builds a graph with two key properties. The “small world” property is such that the number of edges in the shortest path between any pair of points grows poly-logarithmically with the number of points in the graph. The “navigable” property asserts that the greedy algorithm is likely to stay on this shortest path. Combining these two properties results in a graph structure so the greedy algorithm is likely to find the nearest data point to a query in logarithmic time.
 
-[Image: knn_graph_2.png]
+[Image: knn_graph_2.png](https://github.com/opendistro/for-elasticsearch/blob/master/assets/media/blog-images/knn_graph_2.png "k-NN Graph")
+
 > **Figure 1.** — A depiction of an NSW graph built on blue data points. The dark blue edges represent long-range connections that help ensure the small-world property. Starting at the entry point, at each iteration the greedy algorithm will move to the neighbor closest to the query point. The chosen path from the entry point to the query’s nearest neighbor is highlighted in magenta and, by the “navigable” property, is likely to be the shortest path from the entry point to the query’s nearest neighbor.
 
 
@@ -62,8 +63,8 @@ PUT /myindex
   "mappings": {
       "properties": {
         "my_vector": {
-          "type": "**knn_vector**",
-          "**dimension**": 2
+          "type": "knn_vector",
+          "dimension": 2
         }
       }
   }
@@ -184,7 +185,7 @@ The NSW graphs, created by the underlying NMSLIB C++ library, are loaded outside
 
 Our new k-NN solution enables you to build a scalable, distributed, and reliable framework for similarity searches. You can further enhance the results with strong analytics and query support from Elasticsearch. The current solution leverages Euclidean distance to calculate the nearest neighbors. We plan to add support for cosine similarity in the future.
 
-We encourage you to try out this solution on Open Distro for Elasticsearch or on Amazon Elasticsearch Service and provide your valuable feedback to our research and engineering team at https://github.com/opendistro-for-elasticsearch/k-NN.
+We encourage you to try out this solution on Open Distro for Elasticsearch or on Amazon Elasticsearch Service and provide your valuable feedback to our research and engineering team at [https://github.com/opendistro-for-elasticsearch/k-NN](https://github.com/opendistro-for-elasticsearch/k-NN).
 
 ## About the Authors
 
