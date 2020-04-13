@@ -11,7 +11,7 @@ intro:
   img: "https://i.ytimg.com/vi/wBXabz6q_L4/maxresdefault.jpg"
 
 miniNews:
-  - title: Building a k-NN Similarity Search Engine using Amazon Elasticsearch and SageMaker
+  - title: Building a k-NN Similarity Search Engine using AES and SageMaker
     content: "k-NN similarity search is powered by Open Distro for Elasticsearch, an Apache 2.0-licensed distribution of Elasticsearch."
     link: "https://towardsdatascience.com/building-a-k-nn-similarity-search-engine-using-amazon-elasticsearch-and-sagemaker-98df18d883bd"
     author: Yi Ai
@@ -72,7 +72,7 @@ miniNews:
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
 
-  - title: Improving Cauldron: now with Open Distro for Elasticsearch
+  - title: Improving Cauldron - Now with Open Distro for Elasticsearch
     content: "We have started working on a big update for Cauldron, that includes many new features, including Open Distro for Elascticsearch"
     link: "https://blog.bitergia.com/2019/07/30/cauldron-software-development-analytics-paas-proof-of-concept-poc-now-with-open-distro-for-elasticsearch/"
     author: JS Manrique
