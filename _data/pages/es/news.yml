@@ -12,7 +12,7 @@ intro:
 
 miniNews:
   - title: Building a k-NN Similarity Search Engine using AES and SageMaker
-    content: "k-NN similarity search is powered by Open Distro for Elasticsearch, an Apache 2.0-licensed distribution of Elasticsearch."
+    content: "k-NN similarity search is powered by Open Distro, an Apache 2.0-licensed distribution of Elasticsearch."
     link: "https://towardsdatascience.com/building-a-k-nn-similarity-search-engine-using-amazon-elasticsearch-and-sagemaker-98df18d883bd"
     author: Yi Ai
     author_link: https://towardsdatascience.com/building-a-k-nn-similarity-search-engine-using-amazon-elasticsearch-and-sagemaker-98df18d883bd
