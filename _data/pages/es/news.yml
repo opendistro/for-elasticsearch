@@ -35,6 +35,14 @@ miniNews:
     published: "Feb 13th, 2020"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "99%"
+  - title: Do you, take Open Distro, for Elasticsearch? I do
+    content: "The Open Distro Community Bet"
+    link: "https://www.chaossearch.io/blog/open-distro-elasticsearch"
+    author: Thomas Hazel
+    author_link: https://www.chaossearch.io/blog/open-distro-elasticsearch
+    published: "Aug 26th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "99%"
   - title: Open Distro for Elasticsearch 1.1.0 Released
     content: "Version 1.1.0 includes the upstream open source versions of Elasticsearch 7.1.1, Kibana 7.1.1, and the latest updates for Open Distro for Elasticsearch"
     link: "https://aws.amazon.com/blogs/opensource/open-distro-for-elasticsearch-1-1-0-released/"
@@ -59,6 +67,22 @@ miniNews:
     published: "Aug 2nd, 2019"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
+  - title: Improving Cauldron: now with Open Distro for Elasticsearch
+    content: "We have started working on a big update for Cauldron, that includes many new features, including Open Distro for Elascticsearch"
+    link: "https://blog.bitergia.com/2019/07/30/cauldron-software-development-analytics-paas-proof-of-concept-poc-now-with-open-distro-for-elasticsearch/"
+    author: JS Manrique
+    author_link: https://blog.bitergia.com/2019/07/30/cauldron-software-development-analytics-paas-proof-of-concept-poc-now-with-open-distro-for-elasticsearch/
+    published: "July 30th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "99%"
+  - title: Trying out Open Distro for Elasticsearch with Logstash
+    content: "The biggest advantage of Open Distro for Elasticsearch is the on-premise availability of Security, Alerting and Performance Analysis."
+    link: "https://medium.com/@sjoerdsmink/trying-out-open-distro-for-elasticsearch-with-logstash-8cc8be3e1e84"
+    author: Sjoerd Smink
+    author_link: https://medium.com/@sjoerdsmink/trying-out-open-distro-for-elasticsearch-with-logstash-8cc8be3e1e84
+    published: "July 20th, 2019"
+    img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "99%"
   - title: SearchBlox 9.0 now available – uses Open Distro for Elasticsearch
     content: "SearchBlox now uses Open Distro Elasticsearch a 100% Apache 2.0 licensed Elasticsearch & Kibana"
     link: "https://www.searchblox.com/blog/searchblox-90-now-available"
