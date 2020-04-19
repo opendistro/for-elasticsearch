@@ -10,7 +10,10 @@ feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a
 
 Distributed systems scale by coordinating and distributing their workloads horizontally, across several machines. In Elasticsearch, this is done by partitioning indexes into shards and distributing them across data nodes in the cluster.
 
-![The Elasticsearch Weight Function Image credit: Yuri Samoilov]({{ site.baseurl }}/assets/media/blog-images/es-weights-stone-tower-by-the-beach-by-yuri-samoilov-ccbysa3-0.jpg){: .blog-image }
+![The Elasticsearch Weight Function]({{ site.baseurl }}/assets/media/blog-images/es-weights-stone-tower-by-the-beach-by-yuri-samoilov-ccbysa3-0.jpg){: .blog-image }
+<p align="left">
+The Elasticsearch Weight Function <i>Image credit: [Yuri Samoilov](https://yuri.samoilov.online)</i>
+</p>
 
 Shards receive read and write traffic, and consume resources like disk, memory, JVM heap, and network. The overall resource consumption (workload) on a data node, depends on the shards it holds and the traffic they receive. Thus, a balanced distribution of shards corresponds to even workloads and efficient node utilization. In Elasticsearch, this responsibility belongs to the `ShardsAllocator` component.
 
@@ -54,7 +57,6 @@ The contribution of each factor can be controlled by [two dynamic settings](http
 There is another knob to control rebalancing — `cluster.routing.allocation.balance.threshold`. Shard balancing is an optimization problem. Moving a shard from one node to another demands system resources like CPU and network. At some point, the benefit achieved by rebalancing ceases to outweigh the cost of moving shards around. The threshold setting lets us fine-tune this tradeoff. Elasticsearch will rebalance only if the weight delta between nodes, is higher than configured threshold [[_code_](https://github.com/elastic/elasticsearch/blob/master/server/src/main/java/org/elasticsearch/cluster/routing/allocation/allocator/BalancedShardsAllocator.java#L405-L416)].
 
 Any non-negative float value is acceptable for the threshold variable. Elasticsearch will rebalance shards, if the weight difference after rebalance is more than this threshold. Deciding the right value for this threshold however, is involved. You could substitute the number of nodes, shards, and shards per index into the weight function above to get an idea. Or experiment with some values to see what works best.
-
 
 ## The Beauty of Using Shard Count
 
@@ -126,7 +128,7 @@ We are working on the ideas discussed above [3], and will keep the open-source c
 
 1. There are other functions that also consume node resources – like cluster coordination on master node, query coordination and result aggregation on coordinator node, or ingestion related tasks on ingest nodes. But since shards are at the center of any activity in Elasticsearch, shard footprint is the dominant resource utilization signal on data nodes.
 2. As of this writing, i.e. Elasticsearch v7.6.1
-3. Solving indexing hot spots with allocation constraints [Issue](https://github.com/elastic/elasticsearch/issues/43350)
+3. Solving indexing hot spots with allocation constraints. [See Issue](https://github.com/elastic/elasticsearch/issues/43350)
 
 
 ## About the Authors
@@ -134,4 +136,4 @@ We are working on the ideas discussed above [3], and will keep the open-source c
 Vigya Sharma is a Senior Software Engineer at Amazon Web Services. His projects focus on providing a managed service experience to AWS Elasticsearch customers. Vigya is passionate about distributed systems and likes to solve problems around large scale systems. Vigya holds a Masters degree in Computer Science from IIT Delhi.
 
 
-Jon Handler is a Principal Solutions Architect at Amazon Web Services based in Palo Alto, CA. Jon works closely with the CloudSearch and Elasticsearch teams, providing help and guidance to a broad range of customers who have search workloads that they want to move to the AWS Cloud. Prior to joining AWS, Jon's career as a software developer included four years of coding a large-scale, eCommerce search engine. Jon holds a Bachelor of the Arts from the University of Pennsylvania, and a Master of Science and a Ph. D. in Computer Science and Artificial Intelligence from Northwestern University. You can follow him on Twitter @_searchgeek.
+Jon Handler is a Principal Solutions Architect at Amazon Web Services based in Palo Alto, CA. Jon works closely with the CloudSearch and Elasticsearch teams, providing help and guidance to a broad range of customers who have search workloads that they want to move to the AWS Cloud. Prior to joining AWS, Jon's career as a software developer included four years of coding a large-scale, eCommerce search engine. Jon holds a Bachelor of the Arts from the University of Pennsylvania, and a Master of Science and a Ph.D. in Computer Science and Artificial Intelligence from Northwestern University. You can follow him on Twitter @_searchgeek.
