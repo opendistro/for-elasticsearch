@@ -8,9 +8,9 @@ categories:
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
 ---
 
-![The Elasticsearch Weight Function Image credit: Yuri Samoilov]({{ site.baseurl }}/assets/media/blog-images/es-weights-stone-tower-by-the-beach-by-yuri-samoilov-ccbysa3-0.jpg){: .blog-image }
-
 Distributed systems scale by coordinating and distributing their workloads horizontally, across several machines. In Elasticsearch, this is done by partitioning indexes into shards and distributing them across data nodes in the cluster.
+
+![The Elasticsearch Weight Function Image credit: Yuri Samoilov]({{ site.baseurl }}/assets/media/blog-images/es-weights-stone-tower-by-the-beach-by-yuri-samoilov-ccbysa3-0.jpg){: .blog-image }
 
 Shards receive read and write traffic, and consume resources like disk, memory, JVM heap, and network. The overall resource consumption (workload) on a data node, depends on the shards it holds and the traffic they receive. Thus, a balanced distribution of shards corresponds to even workloads and efficient node utilization. In Elasticsearch, this responsibility belongs to the `ShardsAllocator` component.
 
