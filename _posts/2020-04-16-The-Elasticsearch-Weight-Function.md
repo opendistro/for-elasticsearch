@@ -27,7 +27,7 @@ In this post, I will dive into the default weight function implementation to wei
 
 Weight function, in Elasticsearch, is a neat abstraction to process parameters that influence a shard’s resource footprint on a node, and assign measurable weight values to each shard - node combination. The node with lowest weight value is considered as the best destination for shard in question. Similarly, a high difference in weight values implies imbalance – shards must be moved from high to low weighted nodes.
 
-The [_default weight function_](https://github.com/elastic/elasticsearch/blob/master/server/src/main/java/org/elasticsearch/cluster/routing/allocation/allocator/BalancedShardsAllocator.java#L207-L243) uses two parameters to balance shards <sup id="a2">[2](#f2)</sup>
+The [_default weight function_](https://github.com/elastic/elasticsearch/blob/master/server/src/main/java/org/elasticsearch/cluster/routing/allocation/allocator/BalancedShardsAllocator.java#L207-L243) uses two parameters to balance shards [2](#f2)
 
 * Total number of shards on a node across all indexes.
 * Number of shards on a node for given index.
@@ -123,13 +123,13 @@ This is the index-level shard allocation hot spot problem. In any cluster of rea
 
 Customer obsession and diving deep, are guiding principles at AWS. The problems we discuss here, were realized working backwards from actual customer issues. Shard balancing is an involved multi-variable optimization problem. The default allocator implementations served as a good starting ground, it powers the distributed engine we all love today. But as we push the envelope with scale, we must innovate and re-imagine the future of these components.
 
-We are working on the ideas discussed above <sup id="a3">[3](#f3)</sup>, and will keep the open-source community involved in our progress. Suggestions, ideas and inputs from the OpenDistro for Elasticsearch community are welcome. You can post your suggestions [here](https://github.com/opendistro-for-elasticsearch/community/issues).
+We are working on the ideas discussed above [3](#f3), and will keep the open-source community involved in our progress. Suggestions, ideas and inputs from the OpenDistro for Elasticsearch community are welcome. You can post your suggestions [here](https://github.com/opendistro-for-elasticsearch/community/issues).
 
 ### Footnotes
 
-1. <small id="f1">There are other functions that also consume node resources – like cluster coordination on master node, query coordination and result aggregation on coordinator node, or ingestion related tasks on ingest nodes. But since shards are at the center of any activity in Elasticsearch, shard footprint is the dominant resource utilization signal on data nodes.</small>
-2. <small id="f2">As of this writing, i.e. Elasticsearch v7.6.1</small>
-3. <small id="f3">Solving indexing hot spots with allocation constraints. [See Issue](https://github.com/elastic/elasticsearch/issues/43350)</small>
+1. <a name="f1">There are other functions that also consume node resources – like cluster coordination on master node, query coordination and result aggregation on coordinator node, or ingestion related tasks on ingest nodes. But since shards are at the center of any activity in Elasticsearch, shard footprint is the dominant resource utilization signal on data nodes.
+2. <a name="f2">As of this writing, i.e. Elasticsearch v7.6.1
+3. <a name="f3">Solving indexing hot spots with allocation constraints. [See Issue](https://github.com/elastic/elasticsearch/issues/43350)
 
 
 ## About the Authors
