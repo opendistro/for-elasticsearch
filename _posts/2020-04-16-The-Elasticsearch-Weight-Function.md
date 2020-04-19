@@ -8,8 +8,6 @@ categories:
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
 ---
 
-# The Elasticsearch Weight Function
-
 ![The Elasticsearch Weight Function Image credit: Yuri Samoilov]({{ site.baseurl }}/assets/media/blog-images/es-weights-stone-tower-by-the-beach-by-yuri-samoilov-ccbysa3-0.jpg){: .blog-image }
 
 Distributed systems scale by coordinating and distributing their workloads horizontally, across several machines. In Elasticsearch, this is done by partitioning indexes into shards and distributing them across data nodes in the cluster.
@@ -124,15 +122,16 @@ Customer obsession and diving deep, are guiding principles at AWS. The problems 
 
 We are working on the ideas discussed above [3], and will keep the open-source community involved in our progress. Suggestions, ideas and inputs from the OpenDistro for Elasticsearch community are welcome. You can post your suggestions [here](https://github.com/opendistro-for-elasticsearch/community/issues).
 
-### Footnotes –
+### Footnotes
 
 1. There are other functions that also consume node resources – like cluster coordination on master node, query coordination and result aggregation on coordinator node, or ingestion related tasks on ingest nodes. But since shards are at the center of any activity in Elasticsearch, shard footprint is the dominant resource utilization signal on data nodes.
 2. As of this writing, i.e. Elasticsearch v7.6.1
-3. Solving indexing hot spots with allocation constraints — https://github.com/elastic/elasticsearch/issues/43350
+3. Solving indexing hot spots with allocation constraints [Issue](https://github.com/elastic/elasticsearch/issues/43350)
 
 
 ## About the Authors
 
 Vigya Sharma is a Senior Software Engineer at Amazon Web Services. His projects focus on providing a managed service experience to AWS Elasticsearch customers. Vigya is passionate about distributed systems and likes to solve problems around large scale systems. Vigya holds a Masters degree in Computer Science from IIT Delhi.
+
 
 Jon Handler is a Principal Solutions Architect at Amazon Web Services based in Palo Alto, CA. Jon works closely with the CloudSearch and Elasticsearch teams, providing help and guidance to a broad range of customers who have search workloads that they want to move to the AWS Cloud. Prior to joining AWS, Jon's career as a software developer included four years of coding a large-scale, eCommerce search engine. Jon holds a Bachelor of the Arts from the University of Pennsylvania, and a Master of Science and a Ph. D. in Computer Science and Artificial Intelligence from Northwestern University. You can follow him on Twitter @_searchgeek.
