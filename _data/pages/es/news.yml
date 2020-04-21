@@ -43,7 +43,7 @@ miniNews:
     published: "Feb 13th, 2020"
     img: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "99%"
-  - title: From scratch to search: setup Elasticsearch under 4 minutes
+  - title: From scratch to search - Setup Elasticsearch under 4 minutes
     content: "A short and simple guide on how to initially setup your first Elasticsearch development environment with Open Distro security."
     link: "https://towardsdatascience.com/from-scratch-to-search-setup-elasticsearch-under-4-minutes-load-a-csv-with-python-and-read-e31405d244f1"
     author: Stanislav Prihoda
