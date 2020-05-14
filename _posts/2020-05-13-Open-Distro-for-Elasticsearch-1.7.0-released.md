@@ -8,7 +8,7 @@ categories:
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
 ---
 
-Open Distro for Elasticsearch 1.7.0 is now available for [download](https://opendistro.github.io/for-elasticsearch/downloads.html).
+Open Distro for Elasticsearch 1.7.0 is now available for [download](https://opendistro.github.io/for-elasticsearch/downloads.html). [Upgrade to 1.7.0](https://opendistro.github.io/for-elasticsearch/downloads.html) to leverage the latest features and bug fixes.
 
 The release consists of Apache 2.0 licensed Elasticsearch version 7.6.1, Kibana version 7.6.1, new plugins for anomaly detection and SQL Kibana UI, a new SQL ODBC driver and SQL CLI client. Other plugins in the distribution include alerting, index management, performance analyzer, security, SQL and machine learning with k-NN. A SQL JDBC driver and PerfTop, a client for Performance Analyzer are also available for download.
 
@@ -28,7 +28,7 @@ You can download the latest versions of Open Distro for Elasticsearch’s [PerfT
 
 ## Release Highlights
 
-* The [anomaly detection](https://github.com/opendistro-for-elasticsearch/anomaly-detection) plugin has moved out of the preview phase and is now generally available. It comes with a easy-to-use [Kibana](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin) user interface.
+* The [anomaly detection](https://github.com/opendistro-for-elasticsearch/anomaly-detection) plugin has moved out of the preview phase and is now generally available. It comes with a easy-to-use [Kibana](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin) user interface and supports [real-time anomaly detection](https://opendistro.github.io/for-elasticsearch/blog/odfe-updates/2020/05/Real-time-Anomaly-Detection-is-now-available-in-Open-Distro-for-Elasticsearch-1.7.0/).
 * The SQL plugin has greatly expanded its supported operations, added a new [Kibana](https://github.com/opendistro-for-elasticsearch/sql-kibana-plugin) user interface, and now has an interactive [CLI](https://github.com/opendistro-for-elasticsearch/sql-cli)with autocomplete.
 * A new [SQL ODBC driver](https://github.com/opendistro-for-elasticsearch/sql-odbc) is also now available.
 * A new package, the [Open Distro for Elasticsearch 1.7.0 AMI](https://opendistro.github.io/for-elasticsearch-docs/docs/install/ami/), is now available for use with Amazon EC2. Search for “open distro” when you start a new instance.
