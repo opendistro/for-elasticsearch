@@ -319,3 +319,5 @@ A big takeaway for me as I evaluated the ISM plugin in Open Distro was that the 
 ## About the Author
 
 Satya Vajrapu is a DevOps Consultant at Amazon Web Services (AWS). He works with AWS customers to help design and develop various practices and tools in the DevOps toolchain.
+
+Special thanks to Alolita Sharma, Sriram Kosuri and Drew Baugher from the ISM search engineering team for their help on this post.
