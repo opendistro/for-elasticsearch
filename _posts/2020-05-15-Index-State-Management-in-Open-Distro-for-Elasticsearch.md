@@ -291,7 +291,7 @@ Notice that the delete state has two actions defined. The first action is self-e
 ```
 
 
-I have configured the notification endpoint to be on [Amazon Chime](https://aws.amazon.com/chime) <*CHIME_WEBHOOK_URL*>. More information on using webhooks for Amazon Chime can be found [here](https://docs.aws.amazon.com/chime/latest/dg/webhooks.html).
+I have configured the notification endpoint to be on [Amazon Chime](https://aws.amazon.com/chime) **CHIME_WEBHOOK_URL**. More information on using webhooks for Amazon Chime can be found [here](https://docs.aws.amazon.com/chime/latest/dg/webhooks.html).
 
 At this state, I have received the notification on the Chime webhook as seen in the figure below.
 
