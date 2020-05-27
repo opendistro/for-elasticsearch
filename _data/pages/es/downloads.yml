@@ -33,8 +33,10 @@ kibana:
   tar_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
 
 jdbc:
-  title: SQL JDBC
-  url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.7.0.0.jar"
+  title: JDBC and ODBC
+  jdbc_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.7.0.0.jar"
+  odbc_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/ODFE+SQL+ODBC+Driver-1.7.0.0-Darwin.pkg"
+  odbc_windows_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/ODFE+SQL+ODBC+Driver-1.7.0.0-Windows.msi"
 
 perftop:
   title: PerfTop CLI
