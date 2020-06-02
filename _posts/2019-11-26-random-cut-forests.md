@@ -25,9 +25,6 @@ There is a drawback, however, to the approach of combining a powerful partition 
 Random Cut Forests (RCF) are organized around this central tenet: updates are better served with simpler choices of partition. More advanced algorithms in the inference phase can compensate for simpler updates. There are two immediate benefits of following this tenet. First, it provides a general purpose framework that enables continuous learning over data streams. RCFs serve as sketches or synopses of evolving data streams and multiple different scoring functions or even different types of forests are supported with the same set of trees. Second, it frames streaming estimation algorithms as a small operation on a summarized multi-level local context. This enables one to review foundational premises in different statistical estimation algorithms and perhaps even invent new ones.
 
 
-Random Cut Forests (RCF) are organized around this central tenet: updates are better served with simpler choices of partition. More advanced algorithms in the inference phase can compensate for simpler updates. There are two immediate benefits of following this tenet. First, it provides a general purpose framework that enables continuous learning over data streams. RCFs serve as sketches or synopses of evolving data streams and multiple different scoring functions or even different types of forests are supported with the same set of trees. Second, it frames streaming estimation algorithms as a small operation on a summarized multi-level local context. This enables one to review foundational premises in different statistical estimation algorithms and perhaps even invent new ones.
-
-
 ## RCFs as Sketches
 
 
