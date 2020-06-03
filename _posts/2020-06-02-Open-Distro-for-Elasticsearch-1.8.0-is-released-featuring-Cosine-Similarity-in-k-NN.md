@@ -1,6 +1,6 @@
 ---
 layout: posts
-author: Viraj Phanse, Alolita Sharma
+author: Viraj Phanse, Pavani Baddepudi, Alolita Sharma
 comments: true
 title: "Open Distro for Elasticsearch 1.8.0 is released, featuring Cosine Similarity in k-NN"
 categories:
@@ -58,5 +58,7 @@ Thanks again for using and contributing to Open Distro for Elasticsearch and bei
 ## About the Authors
 
 Viraj Phanse is a Senior Product Manager at Amazon Web Services for Search Services. You can find him on GitHub or Twitter @vrphanse.
+
+Pavani Baddepudi is a senior product manager working on search services at Amazon Web Services.
 
 Alolita Sharma is a Principal Technologist at AWS focused on all things open source including Open Distro for Elasticsearch. You can find her on GitHub or Twitter @alolita.
