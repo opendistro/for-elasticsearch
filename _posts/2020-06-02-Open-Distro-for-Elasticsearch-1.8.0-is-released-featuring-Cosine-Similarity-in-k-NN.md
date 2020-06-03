@@ -55,7 +55,7 @@ You can also track upcoming features in Open Distro for Elasticsearch by watchin
 Thanks again for using and contributing to Open Distro for Elasticsearch and being part of the project’s growing community!
 
 
-## About the Authors
+## About the Author
 
 Viraj Phanse is a Senior Product Manager at Amazon Web Services for Search Services. You can find him on GitHub or Twitter @vrphanse.
 
