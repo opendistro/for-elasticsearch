@@ -7,7 +7,7 @@ categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
 ---
-We are happy to announce the release of Open Distro for Elasticsearch 1.4.0. Version 1.4.0 includes the upstream open source versions of Elasticsearch 7.4.2, Kibana 7.4.2 and the latest updates for the alerting, SQL, security, performance analyzer and Kibana plugins. We are also pleased to announce the general availability of Open Distro for Elasticsearch k-NN plugin, and installer for Windows deployments. We would like to thank the community for their contributions and support in testing out the new features.  Here are the full [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/release-notes-odfe-1.4.0.md). 
+We are happy to announce the release of Open Distro for Elasticsearch 1.4.0. Version 1.4.0 includes the upstream open source versions of Elasticsearch 7.4.2, Kibana 7.4.2 and the latest updates for the alerting, SQL, security, performance analyzer and Kibana plugins. We are also pleased to announce the general availability of Open Distro for Elasticsearch k-NN plugin, and installer for Windows deployments. We would like to thank the community for their contributions and support in testing out the new features.  Here are the full [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.4.0.md). 
 
 ## Download the latest packages
 
@@ -18,9 +18,9 @@ Note:  k-NN plugin is only available as part of docker image in this release.
 
 ## New Features
 
-### k-NN plugin 
+### k-NN plugin
 
-Our new k-NN search plugin enables high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Built using the [Non-Metric Space Library](https://github.com/nmslib/nmslib) (NMSLIB), this plugin can power use cases such as product recommendations, fraud detection, and image, video, and related document search. We have extended the Apache Lucene codec to introduce a new file format to store vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax —to designate a field as a k-NN vector you can simply map it to the new k-NN field type provided by the k-NN plugin. k-NN functionality integrates seamlessly with other Elasticsearch features. This provides users  the flexibility to use Elasticsearch’s extensive search features such as 
+Our new k-NN search plugin enables high scale, low latency nearest neighbor search on billions of documents across thousands of dimensions with the same ease as running any regular Elasticsearch query. Built using the [Non-Metric Space Library](https://github.com/nmslib/nmslib) (NMSLIB), this plugin can power use cases such as product recommendations, fraud detection, and image, video, and related document search. We have extended the Apache Lucene codec to introduce a new file format to store vector data. k-NN Search uses the standard Elasticsearch mapping and query syntax —to designate a field as a k-NN vector you can simply map it to the new k-NN field type provided by the k-NN plugin. k-NN functionality integrates seamlessly with other Elasticsearch features. This provides users  the flexibility to use Elasticsearch’s extensive search features such as
 aggregations and filtering with k-NN to further improve the search results. Learn more at [k-NN](https://github.com/opendistro-for-elasticsearch/k-NN)
 
 

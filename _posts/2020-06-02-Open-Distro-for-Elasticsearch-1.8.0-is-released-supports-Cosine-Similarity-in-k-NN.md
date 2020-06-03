@@ -33,7 +33,7 @@ You can download the latest versions of Open Distro for Elasticsearch’s [PerfT
 * Anomaly Detection plugin releases the new [count aggregation](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/169) feature to detect anomalies.
 * [PerfTop CLI](https://opendistro.github.io/for-elasticsearch/downloads.html#PerfTop), a client to interact with Performance Analyzer.
 
-Please take a look at the [1.8.0 release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/release-notes-odfe-1.7.0.md) for the latest features, enhancements, infra and documentation updates and bug fixes. [Upgrade to 1.8.0](https://opendistro.github.io/for-elasticsearch/downloads.html) to leverage the latest features and bug fixes.
+Please take a look at the [1.8.0 release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.8.0.md) for the latest features, enhancements, infra and documentation updates and bug fixes. [Upgrade to 1.8.0](https://opendistro.github.io/for-elasticsearch/downloads.html) to leverage the latest features and bug fixes.
 
 
 ## Come join our community!

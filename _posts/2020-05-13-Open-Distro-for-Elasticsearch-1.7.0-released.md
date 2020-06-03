@@ -33,7 +33,7 @@ You can download the latest versions of Open Distro for Elasticsearch’s [PerfT
 * A new [SQL ODBC driver](https://github.com/opendistro-for-elasticsearch/sql-odbc) is also now available.
 * A new package, the [Open Distro for Elasticsearch 1.7.0 AMI](https://opendistro.github.io/for-elasticsearch-docs/docs/install/ami/), is now available for use with Amazon EC2. Search for “open distro” when you start a new instance.
 
-Please take a look at the detailed 1.7.0 [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/release-notes-odfe-1.7.0.md) for the latest features, enhancements, infra and documentation updates and bug fixes.
+Please take a look at the detailed 1.7.0 [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.7.0.md) for the latest features, enhancements, infra and documentation updates and bug fixes.
 
 [Upgrade to 1.7.0](https://opendistro.github.io/for-elasticsearch/downloads.html) to leverage the latest features and bug fixes.
 
