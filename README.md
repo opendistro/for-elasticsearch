@@ -12,11 +12,19 @@ This code is licensed under the Apache 2.0 License.
 
 1. Navigate to the repository root.
 
-1. Install [Ruby](https://www.ruby-lang.org/en/) if you don't already have it.
+1. Install [Ruby](https://www.ruby-lang.org/en/) if you don't already have it. We recommend [RVM](https://rvm.io/), but use whatever method you prefer:
+
+   ```
+   curl -sSL https://get.rvm.io | bash -s stable
+   rvm install 2.6
+   ruby -v
+   ```
 
 1. Install [Jekyll](https://jekyllrb.com/) if you don't already have it:
 
-   `gem install bundler jekyll`
+   ```
+   gem install bundler jekyll
+   ```
 
 1. Install dependencies:
 
