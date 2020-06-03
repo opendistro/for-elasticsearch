@@ -59,6 +59,6 @@ Thanks again for using and contributing to Open Distro for Elasticsearch and bei
 
 Viraj Phanse is a Senior Product Manager at Amazon Web Services for Search Services. You can find him on GitHub or Twitter @vrphanse.
 
-Pavani Baddepudi is a senior product manager working on search services at Amazon Web Services.
+Pavani Baddepudi is a Senior Product Manager working in Search Services at Amazon Web Services.
 
 Alolita Sharma is a Principal Technologist at AWS focused on all things open source including Open Distro for Elasticsearch. You can find her on GitHub or Twitter @alolita.
