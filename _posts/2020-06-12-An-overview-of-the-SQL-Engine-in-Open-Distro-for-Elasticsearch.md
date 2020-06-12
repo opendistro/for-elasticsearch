@@ -42,7 +42,7 @@ Below is an overview of the features of the SQL engine in Open Distro for Elasti
 
 ## Functions and Operator Support
 
-* [Functions and Operators](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/functions/) Support for string functions and operators, numeric functions and operators, and date-time functions* *by enabling field data in the document mapping
+* [Functions and Operators](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/functions/) Support for string functions and operators, numeric functions and operators, and date-time functions by enabling field data in the document mapping
 
 ## Settings
 
