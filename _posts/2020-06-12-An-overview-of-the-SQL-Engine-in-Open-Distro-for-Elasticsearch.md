@@ -33,7 +33,7 @@ Below is an overview of the features of the SQL engine in Open Distro for Elasti
 * [Basic Queries](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/basic/) Support for SELECT clause, along with FROM, WHERE, GROUP BY, HAVING, ORDER BY, and LIMIT to search and aggregate data
 * [Complex Queries](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/complex/) Support for complex queries such as subquery, join, union, and minus operating on more than one Elasticsearch index
 * [Metadata Queries](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/metadata/) Support for querying basic metadata about Elasticsearch indices using SHOW and DESCRIBE commands
-* [Delete] (https://opendistro.github.io/for-elasticsearch-docs/docs/sql/delete/) Allows deleting of all the documents or documents that satisfy predicates in the WHERE clause from search results and not from the actual Elasticsearch index
+* [Delete](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/delete/) Allows deleting of all the documents or documents that satisfy predicates in the WHERE clause from search results and not from the actual Elasticsearch index
 
 ## JSON and Full-text search Support
 
@@ -50,7 +50,7 @@ Below is an overview of the features of the SQL engine in Open Distro for Elasti
 
 ##Interfaces
 
-* [End points](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/endpoints/) Explain end point allows translating SQL into Query DSL (Elasticsearch Query-Domain Specific Language), and cursor helps obtain a paginated response for the SQL query result
+* [End points](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/endpoints/) Explain shows the translated SQL query as Elasticsearch Query DSL, and cursor helps obtain a paginated response
 
 ## Monitoring
 
