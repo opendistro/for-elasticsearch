@@ -44,11 +44,11 @@ Below is an overview of the features of the SQL engine in Open Distro for Elasti
 
 * [Functions and Operators](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/functions/) Support for string functions and operators, numeric functions and operators, and date-time functions* *by enabling field data in the document mapping
 
-##Settings
+## Settings
 
 * [Settings](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/settings/) Allows viewing, configuring and modifying setting to control the behavior of SQL without need to restart/bounce the Elasticsearch cluster
 
-##Interfaces
+## Interfaces
 
 * [End points](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/endpoints/) Explain shows the translated SQL query as Elasticsearch Query DSL, and cursor helps obtain a paginated response
 
