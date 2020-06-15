@@ -1,7 +1,7 @@
 siteMap:
   sections:
     - title: 'FEATURES'
-      contents: 
+      contents:
        - menu_item: "Alerting"
          url: "/features/alerting.html"
        - menu_item: "Security"
@@ -11,7 +11,7 @@ siteMap:
        - menu_item: "Performance Analyzer"
          url: "/features/analyzer.html"
     - title: 'COMMUNITY'
-      contents: 
+      contents:
        - menu_item: "Partners"
          url: "/partners.html"
        - menu_item: "FAQ"
@@ -27,9 +27,9 @@ siteMap:
        - menu_item: "News"
          url: "/news.html"
     - title: 'DISCOVER'
-      contents: 
+      contents:
        - menu_item: "Documentation"
          url: "https://opendistro.github.io/for-elasticsearch-docs"
        - menu_item: "Download"
          url: "/downloads.html"
-  copyright: © 2019 Amazon Web Services, Inc. or its affiliates. All rights reserved.       
+  copyright: © 2019–2020 Amazon Web Services, Inc. or its affiliates. All rights reserved.       

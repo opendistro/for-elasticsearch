@@ -33,7 +33,7 @@ featuresLink:
     icon: "/assets/media/icons/index_management_64px.svg"
     url: "features/indexmanagement.html"
     color: "#0000FF"
-  - title: Coming soon
-    icon: "/assets/media/icons/comingsoon_64px.svg"
-    url: "features/comingsoon.html"
-    color: "#0a1f72"
+  # - title: Coming soon
+  #   icon: "/assets/media/icons/comingsoon_64px.svg"
+  #   url: "features/comingsoon.html"
+  #   color: "#0a1f72"

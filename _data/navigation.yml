@@ -13,8 +13,8 @@
         url: features/knn.html
       - title: Index Management
         url: features/indexmanagement.html
-      - title: Coming soon
-        url: features/comingsoon.html
+      # - title: Coming soon
+      #   url: features/comingsoon.html
   - title: Community
     sublinks:
       - title: Blog
