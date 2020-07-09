@@ -2,14 +2,14 @@
 layout: posts
 author: Viraj Phanse
 comments: true
-title: "Open Distro for Elasticsearch 1.9.0 is released"
+title: "Open Distro for Elasticsearch 1.9.0 is now available"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
 ---
 We are pleased to announce the release for [Open Distro for Elasticsearch 1.9.0](https://opendistro.github.io/for-elasticsearch/downloads.html) that introduces [Root Cause Analysis Engine in Performance Analyzer](https://github.com/opendistro-for-elasticsearch/performance-analyzer-rca), batch actions like [start, stop](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/195) and [delete](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/204) for anomaly detectors in Anomaly Detection, [support for remote cluster indexes](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/244) in Anomaly Detection, and an ability to [set index priority action](https://github.com/opendistro-for-elasticsearch/index-management/pull/241) in Index State Management feature. Open Distro for Elasticsearch 1.9.0 can be downloaded [here](https://opendistro.github.io/for-elasticsearch/downloads.html).
 
-The release consists of Apache 2.0 licensed Elasticsearch version 7.8.0, and Kibana version 7.8.0. This distribution also includes alerting, anomaly detection, index management, performance analyzer, security, SQL and k-NN plugins. Other components including SQL Workbench, SQL ODBC and JDBC drivers, SQL CLI client, and PerfTop, a client for Performance Analyzer are also available for download. 
+The release consists of Apache 2.0 licensed Elasticsearch version 7.8.0, and Kibana version 7.8.0. This distribution also includes alerting, anomaly detection, index management, performance analyzer, security, SQL and k-NN plugins. Other components including SQL Workbench, SQL ODBC and JDBC drivers, SQL CLI client, and PerfTop, a client for Performance Analyzer are also available for download.
 
 ## Download the latest packages
 
@@ -17,7 +17,7 @@ You can find [Docker Hub images Open Distro for Elasticsearch 1.9.0](https://hub
 If you’re using RPMs or DEBs, see our documentation on how to install [Open Distro for Elasticsearch with RPMs](https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/) and install [Open Distro for Elasticsearch with Debian packages](https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/). A [tarball](https://opendistro.github.io/for-elasticsearch-docs/docs/install/tar/) is also available for testing and other applications.
 A [Windows ready package](https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/) supporting version 1.9.0 enables users to easily install Elasticsearch and Kibana on Windows. If you’re using Kubernetes, check out the [Helm chart](https://opendistro.github.io/for-elasticsearch-docs/docs/install/helm/) to install Open Distro for Elasticsearch.
 You can find Open Distro for Elasticsearch security, alerting notification and job scheduler artifacts on [Maven Central](https://mvnrepository.com/artifact/com.amazon.opendistroforelasticsearch).
-You can download the latest versions of [Open Distro for Elasticsearch’s PerfTop client](https://www.npmjs.com/package/@aws/opendistro-for-elasticsearch-perftop) on npm.org, Open Distro for Elasticsearch’s latest [SQL CLI client](https://pypi.org/project/odfe-sql-cli/) on PyPi. SQL drivers supporting [ODBC](https://opendistro.github.io/for-elasticsearch-docs/docs/sql/odbc/) and [JDBC](https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.7.0.0.jar) are also available. 
+You can download the latest versions of [Open Distro for Elasticsearch’s PerfTop client](https://www.npmjs.com/package/@aws/opendistro-for-elasticsearch-perftop) on npm.org, Open Distro for Elasticsearch’s latest [SQL CLI client](https://pypi.org/project/odfe-sql-cli/) on PyPi. SQL drivers supporting [ODBC and JDBC](https://opendistro.github.io/for-elasticsearch/downloads.html#SQL) are also available.
 
 ## Release Highlights
 
