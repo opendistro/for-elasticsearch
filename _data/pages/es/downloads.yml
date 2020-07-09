@@ -15,8 +15,8 @@ images:
 
 elasticsearch:
   title: Elasticsearch
-  subtitle: Open Distro for Elasticsearch 1.8.0
-  description: "Elasticsearch (Apache 2.0 licensed code only) - 7.7.0 <br> Includes Security, Alerting, SQL, Index Management, k-NN, Anomaly Detection, and Performance Analyzer"
+  subtitle: Open Distro for Elasticsearch 1.9.0
+  description: "Elasticsearch (Apache 2.0 licensed code only) - 7.8.0 <br> Includes Security, Alerting, SQL, Index Management, k-NN, Anomaly Detection, and Performance Analyzer"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/"
@@ -25,8 +25,8 @@ elasticsearch:
 kibana:
   title: Kibana
 
-  subtitle: Open Distro for Elasticsearch 1.8.0
-  description: "Kibana (Apache 2.0 licensed code only) - 7.7.0 <br> Includes Security, Alerting, Index Management, and Anomaly Detection"
+  subtitle: Open Distro for Elasticsearch 1.9.0
+  description: "Kibana (Apache 2.0 licensed code only) - 7.8.0 <br> Includes Security, Alerting, Index Management, and Anomaly Detection"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
@@ -34,14 +34,14 @@ kibana:
 
 jdbc:
   title: JDBC and ODBC
-  jdbc_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.8.0.0.jar"
-  odbc_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/ODFE+SQL+ODBC+Driver-1.8.0.0-Darwin.pkg"
-  odbc_windows_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/ODFE+SQL+ODBC+Driver-1.8.0.0-Windows.msi"
+  jdbc_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.9.0.0.jar"
+  odbc_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/ODFE+SQL+ODBC+Driver-1.9.0.0-Darwin.pkg"
+  odbc_windows_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/ODFE+SQL+ODBC+Driver-1.9.0.0-Windows.msi"
 
 perftop:
   title: PerfTop CLI
-  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.8.0.0-MACOS.zip"
-  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.8.0.0-LINUX.zip"
+  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.9.0.0-MACOS.zip"
+  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.9.0.0-LINUX.zip"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
