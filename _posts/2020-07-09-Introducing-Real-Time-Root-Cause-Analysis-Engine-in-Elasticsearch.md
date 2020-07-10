@@ -1,6 +1,6 @@
 ---
 layout: posts
-author: Pavani Baddepudi, Joydeep Sinha, Karthik Kumarguru, Ruizhen Guo, Sid Narayan, Khushboo Rajput, Aditya Jindal, Balaji Kannan
+author: Joydeep Sinha, Karthik Kumarguru, Ruizhen Guo, Sid Narayan, Khushboo Rajput, Aditya Jindal, Balaji Kannan
 comments: true
 title: "Introducing Real Time Root Cause Analysis Engine in Elasticsearch " 
 categories:
