@@ -252,7 +252,7 @@ that collates RCA outputs and provides unified recommendations in the future.
 
 We encourage you to try out this solution on Open Distro for Elasticsearch and provide your valuable feedback to our 
 engineering team at https://github.com/opendistro-for-elasticsearch/performance-analyzer-rca. We also invite you to 
-contribute to this feature. Check out the contribution guidelines [here](https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin/blob/master/CONTRIBUTING.md) 
+contribute to this feature. Check out the contribution guidelines [here](https://github.com/opendistro-for-elasticsearch/performance-analyzer-rca/blob/master/CONTRIBUTING.md) 
 to get more involved in the project.
 
 ## About the Authors
