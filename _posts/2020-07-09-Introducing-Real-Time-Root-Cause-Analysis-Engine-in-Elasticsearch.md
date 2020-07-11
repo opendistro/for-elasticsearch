@@ -101,10 +101,10 @@ problem can be a simple change to the young generation size by altering
 
 RCA particularly shines at scale. Imagine the same problem discussed above in a larger, 100 node multi-tenant production 
 cluster. Manual diagnosis of the issue is like finding a needle in a haystack, but isolating the problem using RCA 
-follows the same basic steps: issue a query to the master, read the output, and take appropriate actions. RCA is an 
-incredibly powerful, lightweight and a highly extensible framework that enables you to write your own RCAs for the 
+follows the same basic steps: issue a query to the master, read the output, and take appropriate actions. RCA framework is 
+powerful, lightweight and highly extensible that enables you to write your own RCAs for the
 [resources](https://opendistro.github.io/for-elasticsearch-docs/docs/pa/reference/) or combination of resources that are
-important for your particular cluster. We plan to post a series of blogs with the RCAs that you can leverage and reduce 
+important for your particular cluster. We plan to release a series of blogs with the RCAs that you can leverage and reduce 
 the mean time to repair (MTTR) your cluster. 
 
 ## RCA Framework System Design  
