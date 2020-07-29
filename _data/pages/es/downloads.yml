@@ -34,10 +34,10 @@ kibana:
 
 jdbc:
   title: JDBC and ODBC
-  jdbc_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.9.0.0.jar"
-  odbc_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/ODFE+SQL+ODBC+Driver+64-bit-1.9.0.0-Darwin.pkg"
-  odbc_windows_64_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/ODFE+SQL+ODBC+Driver+64-bit-1.9.0.0-Windows.msi"
-  odbc_windows_32_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/ODFE+SQL+ODBC+Driver+32-bit-1.9.0.0-Windows.msi"
+  jdbc_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.9.0.1.jar"
+  odbc_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit-1.9.0.1-Darwin.pkg"
+  odbc_windows_64_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit-1.9.0.1-Windows.msi"
+  odbc_windows_32_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+32-bit-1.9.0.1-Windows.msi"
 
 perftop:
   title: PerfTop CLI
