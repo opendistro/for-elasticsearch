@@ -32,6 +32,7 @@ You can download the latest versions of Open Distro for Elasticsearch’s [PerfT
 * The updated Kibana Security Plugin streamlines security workflows, improves usability and adds audit and compliance logging configuration.     
 * Anomaly Detection supports a [command line interface](https://github.com/opendistro-for-elasticsearch/anomaly-detection/tree/master/cli) that allows users to create, start, stop and delete detectors, and work with multiple clusters using named profiles.
 * K-NN supports [warmup API](https://github.com/opendistro-for-elasticsearch/k-NN#warmup-api) that allows users to explicitly load indices’ graphs used for approximate k-NN search into memory before performing their search workload. With this API, users no longer need to run random queries to prevent initial latency penalties for loading graphs into the cache.
+
 See the 1.10.1 [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.10.1.md) for a complete list of new features, enhancements, and bug fixes. 
 
 
