@@ -1,4 +1,5 @@
-# Open Distro for Elasticsearch website
+
+# Open Distro for Elasticsearch website and amazing projects
 
 This repository contains the source code for https://opendistro.github.io/for-elasticsearch/.
 
