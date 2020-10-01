@@ -3,7 +3,7 @@ banner:
 
 intro:
   title: Ready to get started?
-  ext_content: We provide Docker images, RPM files, Debian packages and more. Jump to <a href="https://opendistro.github.io/for-elasticsearch-docs/">getting started guide</a> to dive deep in to Open distro for Elasticsearch.
+  ext_content: We provide Docker images, RPM files, Debian packages and more. See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro for Elasticsearch.
 
 version:
   odfe: "1.10.1"
