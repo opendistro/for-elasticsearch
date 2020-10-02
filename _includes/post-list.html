@@ -24,7 +24,7 @@
                         <h3 style="margin:0px;"><a href="{{ site.baseurl }}{{ page.url }}" style="font-weight: 400; color: #333; font-size: 20px;">{{ page.title }}</a></h3>
                         {% include post-meta.html %}
                         <div style="font-size: 13px; line-height: 18px; margin-top: 5px; color: #666; font-weight: 300;">
-                        {{ page.excerpt | markdownify | truncatewords: 75 }}
+                        {{ page.excerpt | markdownify | strip_html | truncatewords: 75 }}
                         </div>
                         <div style="width:100%; text-align: right;">
                         <a class="btn btn-block btn-outline-secondary" href="{{ site.baseurl }}{{ page.url }}" role="button" style="border: 1px solid #0a1f72; color: #0a1f72; width: 110px; display: inline-block; font-size: 13px; margin-bottom: 15px;">Read more <span > <i class="fas fa-angle-right" style="top: 1px; position: relative;"></i></span> </a>
