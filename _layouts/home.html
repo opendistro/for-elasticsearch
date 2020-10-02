@@ -14,7 +14,20 @@ layout: default
 {%- include text-icon-three-col.html features= site.data.pages.es.home.features -%}
 
 <div class="pt-5"/>
+
 <!-- Intro -->
+<div class="row">
+  <div class="container">
+    <h5 class="my-0">Latest</h5>
+    {% for post in site.posts limit:3 %}
+      <div>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      </div>
+    {% endfor %}
+  </div>
+  
+</div>
 {%- include intro-with-background.html intro=site.data.pages.es.home.intro -%}
 
 <!-- Features Descriptions -->
