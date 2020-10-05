@@ -27,4 +27,4 @@ faqs:
     content: Open Distro for Elasticsearch is powered by the Apache 2.0-licensed distributions of Elasticsearch and Kibana. All clients and tools that are compatible with the underlying version of Elasticsearch should work without modification.
 
   - title: What is your roadmap for Open Distro for Elasticsearch?
-    content: We are just getting started. There are many new features that we are excited to build, and we can’t wait to see what the community comes up with. You are invited to join us in creating innovative new features. To learn more about features in developement, see our [coming soon](https://opendistro.github.io/for-elasticsearch/features/comingsoon.html) page.
+    content: We are just getting started. There are many new features that we are excited to build, and we can’t wait to see what the community comes up with. You are invited to join us in creating innovative new features. To learn more about features in developement, see our [roadmap](https://github.com/orgs/opendistro-for-elasticsearch/projects/3).
