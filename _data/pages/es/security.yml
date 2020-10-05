@@ -1,0 +1,76 @@
+banner:
+  title: Security
+  subtitle: Open Distro for Elasticsearch
+
+intro:
+  title: Enterprise-grade security
+  ext_content: Open Distro for Elasticsearch gives you a comprehensive set of features to help you keep your data secure and stay compliant with regulations such as GDPR, HIPAA, PCI, and ISO. Whether you want to encrypt data in-transit, authenticate users against Active Directory, use Kerberos or JSON web tokens for single sign-on (SSO), or monitor and log any malicious access attempts, Open Distro for Elasticsearch has you covered.
+  style: features feature-security-link
+
+features:
+  - title: Encryption
+    content: Encryption in-transit is essential to prevent your data from being intercepted when in-transit from your clients or between nodes within your cluster. Open Distro for Elasticsearch supports OpenSSL and TLS 1.2, allowing you to meet stringent security and compliance requirements while providing easy integration with your PKI infrastructure.
+    img: "/assets/media/screenshots/encryption.png"
+    
+  - title: Authentication
+    content: With Open Distro for Elasticsearch, you can leverage your existing authentication infrastructure such as LDAP/Active Directory, SAML, Kerberos, JSON web tokens, TLS certificates, and Proxy authentication/SSO for user authentication. An internal user repository with support for basic HTTP authentication is also avaliable for easy setup and evaluation.
+    img: "/assets/media/screenshots/security_login_page.png"
+    
+  - title: Role-based access control
+    content: Granular, role-based access control enables you to control the actions a user can perform on your Elasticsearch cluster. Roles control cluster operations, access to indices, and even the fields and documents users can access. Open Distro for Elasticsearch also supports multi-tenant environments, allowing multiple teams to share the same cluster while only being able to access their team's data and dashboards.
+    img: "/assets/media/screenshots/security_roles.png"
+    
+  - title: Audit Logging
+    content: With audit logging, you can record and track all the actions performed by users in your Elasticsearch cluster and monitor any suspicious activity, which is essential for security incident response. Audit logging also helps you remain compliant with government and industry regulations such as GDPR, HIPAA, PCI, and ISO. 
+    img: "/assets/media/illustrations/audit.png"
+
+featureList:
+  title: Features
+  sections:
+    - content:
+       - feature_item: "REST - and Transport Layer encryption"
+       - feature_item: "Support for encryption at rest"
+       - feature_item: "Role-based access control"
+       - feature_item: "Index-Level security"
+       - feature_item: "Internal/Native authentication"
+       - feature_item: "HTTP Basic authentication"
+       - feature_item: "Proxy & PKI authentication"
+       - feature_item: "Pre-defined permission sets"
+       - feature_item: "Single permissions"
+       - feature_item: "Kibana Session Management"
+       - feature_item: "Anonymous access"
+       - feature_item: "Certificate Revocation Lists"
+  
+    - content:
+       - feature_item: "Configuration hot-reload"
+       - feature_item: "Cross Cluster Search support"
+       - feature_item: "Active Directory"
+       - feature_item: "LDAP"
+       - feature_item: "Kerberos / SPNEGO"
+       - feature_item: "JSON web token authentication"
+       - feature_item: "SAML"
+       - feature_item: "OpenID / JWKS"
+       - feature_item: "Custom authenticators"
+       - feature_item: "REST management API"
+       - feature_item: "Document-level security"
+       - feature_item: "Field-level security"
+  
+    - content:
+       - feature_item: "Audit Logging"
+       - feature_item: "Kibana SSO"
+       - feature_item: "Kibana multitenancy"
+       - feature_item: "Configuration GUI"
+       - feature_item: "Read history audit logging"
+       - feature_item: "Write history audit logging"
+       - feature_item: "Field anonymization"
+       - feature_item: "Immutable indices"
+       - feature_item: "Event routing"
+       - feature_item: "Elasticsearch installation monitoring"
+       - feature_item: "Search Guard configuration monitoring"
+
+bottomBanner:
+  class: '/assets/media/backgrounds/darkPurpleRec.svg'
+  text: 'Join our community of developers in advancing the future of Security'
+  color: "#9600ff"
+
+
