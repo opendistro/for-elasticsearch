@@ -47,6 +47,6 @@ For documentation on using Jekyll, visit https://jekyllrb.com/docs/.
 
 [Windows icon](http://www.softicons.com/application-icons/circle-icons-by-martz90) is used without modification under the [Creative Commons Attribution-NoDerivs 3.0 Unported License](https://creativecommons.org/licenses/by-nd/3.0/).
 
-[Zip icon](http://www.softicons.com/system-icons/imageboard-filetype-icons-by-lopagof) is used without modification under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
+[Zip icon](http://www.softicons.com/system-icons/nano-icon-set-by-freeman) is used without modification under the [Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)](https://creativecommons.org/licenses/by-nc-nd/3.0/).
 
 [ODBC icon](http://www.softicons.com/folder-icons/isuite-revoked-icons-by-prax-08) is used without modification under the [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
