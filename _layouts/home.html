@@ -9,12 +9,30 @@ layout: default
 <!-- End Banner -->
 
 <div class="pt-5"/>
+<div class="row">
 
+<div class="container">
+  <div class="row px-3 px-md-5 pt-md-3 pt-sm-1">
+    {%- include text-icon-one-col.html features= site.data.pages.es.home.features -%}
+    <div class="col-md-8 col-sm-12">
+      <h5 class="my-0">Latest</h5>
+      {% for post in site.posts limit:5 %}
+        <div>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <p>{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+        </div>
+      {% endfor %}
+      <p><small>Read more posts on our <a href="/for-elasticsearch/blog">blog</a>.</small></p>
+    </div>
+  </div>
+</div>
 <!-- Features Icons-->
-{%- include text-icon-three-col.html features= site.data.pages.es.home.features -%}
+
 
 <div class="pt-5"/>
+
 <!-- Intro -->
+
 {%- include intro-with-background.html intro=site.data.pages.es.home.intro -%}
 
 <!-- Features Descriptions -->
