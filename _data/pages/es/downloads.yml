@@ -1,9 +1,14 @@
 banner:
-  title: Download
+  title: Downloads
 
 intro:
-  title: Get started
-  ext_content: We provide Docker images, RPM files, Debian packages, and more.
+  title: Ready to get started?
+  ext_content: We provide Docker images, RPM files, Debian packages and more. See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro for Elasticsearch.
+
+version:
+  odfe: "1.10.1"
+  jdbc: "1.10.1.1"
+  perftop: "1.10.1.0"
 
 images:
   rpm: "/assets/media/icons/rpm.png"
@@ -12,6 +17,9 @@ images:
   tar: "/assets/media/icons/tar.png"
   jdbc: "/assets/media/icons/javajdbc.png"
   perftop: "/assets/media/icons/consol.png"
+  windows: "/assets/media/icons/windows.png"
+  zip: "/assets/media/icons/zip.png"
+  odbc: "/assets/media/icons/odbc.png"
 
 elasticsearch:
   title: Elasticsearch
@@ -20,29 +28,45 @@ elasticsearch:
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/"
-  tar_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/tar/"
+  tar_url: "https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistro-elasticsearch/opendistroforelasticsearch"
+  tar_checksum_url: "https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistro-elasticsearch/opendistroforelasticsearch"
+  tar_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/tar/"
+  exe_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch"
+  exe_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/#exe-install"
+  zip_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe"
+  zip_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/#zip-install"
 
 kibana:
   title: Kibana
-
   subtitle: Open Distro for Elasticsearch 1.10.1
   description: "Kibana (Apache 2.0 licensed code only) - 7.9.1 <br> Includes Security, Alerting, Index Management, and Anomaly Detection"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
   deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
-  tar_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
+  tar_url: "https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana"
+  tar_checksum_url: "https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana"
+  tar_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-using-the-tarball"
+  exe_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_Kibana"
+  exe_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-exe"
+  zip_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe"
+  zip_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-zip"
 
 jdbc:
-  title: JDBC and ODBC
-  jdbc_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.10.1.1.jar"
-  odbc_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit-1.10.1.1-Darwin.pkg"
-  odbc_windows_64_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit-1.10.1.1-Windows.msi"
-  odbc_windows_32_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+32-bit-1.10.1.1-Windows.msi"
+  title: SQL Drivers
+  jdbc_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc"
+  odbc_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit"
+  odbc_windows_64_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit"
+  odbc_windows_32_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+32-bit"
 
 perftop:
   title: PerfTop CLI
-  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.10.1.0-MACOS.zip"
-  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.10.1.0-LINUX.zip"
+  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
+  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
+
+misc:
+  previous_releases: "https://opendistro.github.io/for-elasticsearch-docs/version-history/"
+  release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes"
+  plugin_installation: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/plugins/"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
