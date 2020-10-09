@@ -19,7 +19,7 @@ images:
   perftop: "/assets/media/icons/consol.png"
   windows: "/assets/media/icons/windows.png"
   zip: "/assets/media/icons/zip.png"
-  odbc: "/assets/media/icons/odbc.png"
+  odbc: "/assets/media/icons/ODBC.png"
 
 elasticsearch:
   title: Elasticsearch
