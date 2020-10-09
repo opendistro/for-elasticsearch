@@ -9,13 +9,21 @@ upcomingEvent:
 
   - title: Open Distro for Elasticsearch - Community Meeting
     content: "Join us for our our biweekly online community meeting"
+    link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/thmcwrybcnbzb/"
+    location: "Online"
+    date: 2020-10-19
+    img:  "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
+
+pastEvent:
+  - title: Open Distro for Elasticsearch - Community Meeting
+    content: "Join us for our our biweekly online community meeting"
     link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/thmcwrybcnbhb/"
     location: "Online"
     date: 2020-10-05
     img:  "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
 
-pastEvent:
   - title: Open Distro for Elasticsearch - Deployment and Security
     content: "Join us at this in-person meetup to learn how to deploy Open Distro for Elasticsearch, its security plugin, and how you can contribute to the project"
     link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/263980142/"
