@@ -13,8 +13,6 @@
         url: features/knn.html
       - title: Index Management
         url: features/indexmanagement.html
-      # - title: Coming soon
-      #   url: features/comingsoon.html
   - title: Community
     sublinks:
       - title: Blog
@@ -25,8 +23,6 @@
         url: https://discuss.opendistrocommunity.dev/
       - title: Partners
         url: /partners.html
-  - title: News
-    url: /news.html
   - title: Contribute
     url: /contribute.html
   - title: Docs

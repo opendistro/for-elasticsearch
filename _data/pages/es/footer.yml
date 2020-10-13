@@ -24,8 +24,6 @@ siteMap:
          url: "https://www.github.com/opendistro-for-elasticsearch"
        - menu_item: "Forum"
          url: "https://discuss.opendistrocommunity.dev/"
-       - menu_item: "News"
-         url: "/news.html"
     - title: 'DISCOVER'
       contents:
        - menu_item: "Documentation"
