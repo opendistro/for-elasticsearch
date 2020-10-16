@@ -8,7 +8,7 @@ intro:
 upcomingEvent:
 
   - title: Open Distro for Elasticsearch - Community Meeting
-    content: "Join us for our our biweekly online community meeting"
+    content: "Join us for our our biweekly online community meeting."
     link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/thmcwrybcnbzb/"
     location: "Online"
     date: 2020-10-19
