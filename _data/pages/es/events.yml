@@ -6,7 +6,16 @@ intro:
   ext_content:  If you are interested in hosting a developer event to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>.
 
 upcomingEvent:
+  - title: Open Distro for Elasticsearch - Community Meeting
+    content: "Join us for our our biweekly online community meeting."
+    link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/thmcwrybcpbdb/"
+    location: "Online"
+    date: 2020-11-02
+    img:  "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+    img_width: "100%"
 
+
+pastEvent:
   - title: Open Distro for Elasticsearch - Community Meeting
     content: "Join us for our our biweekly online community meeting."
     link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/thmcwrybcnbzb/"
@@ -15,7 +24,6 @@ upcomingEvent:
     img:  "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
     img_width: "100%"
 
-pastEvent:
   - title: Open Distro for Elasticsearch - Community Meeting
     content: "Join us for our our biweekly online community meeting"
     link: "https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/thmcwrybcnbhb/"
