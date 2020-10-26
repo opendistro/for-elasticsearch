@@ -29,9 +29,9 @@ PUT ecommerce-items/_doc/brown-mug
     "description": "This mug features a large handle and a marbled, brown ceramic design.",
     "price" : 5.99,
     "private" : {
-    `    "cost" : 1,
+        "cost" : 1,
         "supplier" : "Mug World"
-    ` }
+     }
 }
 ```
 
