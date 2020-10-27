@@ -6,9 +6,9 @@ intro:
   ext_content: We provide Docker images, RPM files, Debian packages and more. See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro for Elasticsearch.
 
 version:
-  odfe: "1.10.1"
-  jdbc: "1.10.1.1"
-  perftop: "1.10.1.0"
+  odfe: "1.11.0"
+  jdbc: "1.11.0.0"
+  perftop: "1.11.0.0"
 
 images:
   rpm: "/assets/media/icons/rpm.png"
@@ -23,7 +23,7 @@ images:
 
 elasticsearch:
   title: Elasticsearch
-  subtitle: Open Distro for Elasticsearch 1.10.1
+  subtitle: Open Distro for Elasticsearch 1.11.0
   description: "Elasticsearch (Apache 2.0 licensed code only) - 7.9.1 <br> Includes Security, Alerting, SQL, Index Management, k-NN, Anomaly Detection, and Performance Analyzer"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
@@ -38,7 +38,7 @@ elasticsearch:
 
 kibana:
   title: Kibana
-  subtitle: Open Distro for Elasticsearch 1.10.1
+  subtitle: Open Distro for Elasticsearch 1.11.0
   description: "Kibana (Apache 2.0 licensed code only) - 7.9.1 <br> Includes Security, Alerting, Index Management, and Anomaly Detection"
   rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
   docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
