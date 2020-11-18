@@ -9,7 +9,7 @@ version:
   odfe: "1.11.0"
   jdbc: "1.11.0.0"
   perftop: "1.11.0.0"
-  odfe_cli: "1.0"
+  odfe_cli: "1.0.0"
 
 images:
   rpm: "/assets/media/icons/rpm.png"
@@ -61,8 +61,11 @@ jdbc:
 
 perftop:
   title: Command Line
-  odfe_cli_mac_url: ""
-  odfe_cli_linux_url: ""
+  odfe_cli_mac_url: "odfe-cli"
+  odfe_cli_linux_arm_url: "odfe-cli"
+  odfe_cli_linux_x64_url: "odfe-cli"
+  odfe_cli_win_x86_url: "odfe-cli"
+  odfe_cli_win_x64_url: "odfe-cli"
   pt_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
   pt_linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
 
