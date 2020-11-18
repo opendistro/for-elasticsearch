@@ -9,6 +9,7 @@ version:
   odfe: "1.11.0"
   jdbc: "1.11.0.0"
   perftop: "1.11.0.0"
+  odfe_cli: "1.0"
 
 images:
   rpm: "/assets/media/icons/rpm.png"
@@ -59,9 +60,11 @@ jdbc:
   odbc_windows_32_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+32-bit"
 
 perftop:
-  title: PerfTop CLI
-  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
-  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
+  title: Command Line
+  odfe_cli_mac_url: ""
+  odfe_cli_linux_url: ""
+  pt_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
+  pt_linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
 
 misc:
   previous_releases: "https://opendistro.github.io/for-elasticsearch-docs/version-history/"
