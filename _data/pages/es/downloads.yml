@@ -72,3 +72,199 @@ bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
   text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0'
   color: "#0a1f72"
+
+try:
+  dockercompose: '#dockercompose'
+
+
+drivers:
+  id: 'drivers'
+  arch:
+    -
+      title: 'x64'
+      id: 'x64'
+      platforms:
+        java:
+          parts:
+            java:
+              title: 'Java'
+              artifacts:
+                jar:
+                  title: 'JDBC Driver'
+                  uri: '#jdbc'
+        windows:
+          parts:
+            windows:
+              title: 'Windows'
+              artifacts:
+                msi:
+                  title: 'ODBC Driver'
+                  uri: '#odbc'
+        macos:
+          parts:
+            macOS:
+              title: 'macOS'
+              artifacts:
+                pkg:
+                  title: 'ODBC Driver'
+                  uri: '#macodbc'
+    -
+      title: 'x86'
+      id: 'x86'
+      platforms:
+        java:
+          parts:
+            java:
+              title: 'Java'
+              artifacts:
+                jar:
+                  title: 'JDBC Driver'
+                  uri: '#jdbc'
+        windows:
+          parts:
+            windows:
+              title: 'Windows'
+              artifacts:
+                msi:
+                  title: 'ODBC Driver'
+                  uri: '#odbc'
+
+odfecli:
+  id: 'odfecli'
+  arch:
+    -
+      title: 'x64'
+      id: 'x64'
+      platforms:
+        windows:
+          parts:
+            windows:
+              title: 'Windows'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: '#zip'
+        linux:
+          parts:
+            linux:
+              title: 'Linux'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: '#zip'
+        macos:
+          parts:
+            macOS:
+              title: 'macOS'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: '#zip'
+    -
+      title: 'x86'
+      id: 'x86'
+      platforms:
+        windows:
+          parts:
+            windows:
+              title: 'Windows'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: '#zip'
+    -
+      title: 'arm64'
+      id: 'arm64'
+      platforms:
+        linux:
+          parts:
+            linux:
+              title: 'Linux'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: '#zip'
+
+perftop:
+  id: 'perftop'
+  arch:
+    -
+      title: 'x64'
+      id: 'x64'
+      platforms:
+        linux:
+          parts:
+            linux:
+              title: 'Linux'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: '#zip'
+        macos:
+          parts:
+            macos:
+              title: 'macOS'
+              artifacts:
+                msi:
+                  title: '.zip Archive'
+                  uri: '#odbc'
+
+develop:
+  id: 'develop'
+  description: 'develop description'
+  title: 'Develop with Open Distro for Elasticsearch'
+  tagline: 'All you need to start developing on Open Distro for Elasticsearch'
+  arch:
+    -
+      title: 'x64'
+      id: 'x64'
+      platforms: 
+        windows:
+          title: 'Windows'
+          parts: 
+            elasticsearch:
+              title: 'Elasticsearch'
+              artifacts:
+                exe:
+                  title : '.exe Installer'
+                  uri: '#winexeinstaller'
+                zip:
+                  title: '.zip Archive'
+                  uri: '#winziparchive'
+            kibana:
+              title: 'Kibana'
+              artifacts:
+                exe:
+                  title : '.exe Installer'
+                  uri: '#winexeinstaller'
+                zip:
+                  title: '.zip Archive'
+                  uri: '#winziparchive'
+        linux:
+          title: 'Linux'
+          parts:
+            elasticsearch:
+              title: 'Elasticsearch'
+              artifacts:
+                exe:
+                  title : '.zip Archive'
+                  uri: '#linuxexeinstaller'
+            kibana:
+              title: 'Elasticsearch'
+              artifacts:
+                exe:
+                  title : '.zip Archive'
+                  uri: '#linuxexeinstaller'
+    -
+      title: 'arm64'
+      id: 'arm64'
+      platforms:
+        linux:
+          title: 'Linux'
+          parts:
+            elasticsearch:
+              title: 'Elasticsearch'
+              artifacts:
+                exe:
+                  title : '.zip Archive'
+                  uri: '#linuxexeinstaller'

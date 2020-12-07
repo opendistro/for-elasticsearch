@@ -1,0 +1,37 @@
+<ul class="nav nav-tabs" id="{{include.downloadsection.id}}Tabs" role="tablist">
+    {% for arch in include.downloadsection.arch %}
+    <li class="nav-item">
+        <a class="nav-link {%if forloop.first == true %}active{%endif%}" 
+        id="{{include.downloadsection.id | append: arch.id}}-tab" 
+        data-toggle="tab" 
+        href="#{{include.downloadsection.id | append: arch.id}}" 
+        role="tab" 
+        aria-controls="{{include.downloadsection.id | append: arch.id}}"  
+        aria-selected="true">{{arch.title}}</a>
+    </li>
+    {% endfor %}
+</ul>
+<div class="tab-content" id="{{include.downloadsection.id}}TabsContent">
+    {% for arch in include.downloadsection.arch %}
+    <div class="tab-pane fade show  {%if forloop.first == true %}active{%endif%}" id="{{include.downloadsection.id | append: arch.id}}" role="tabpanel" aria-labelledby="{{include.downloadsection.id | append: arch.id}}-tab">
+        <div class="row">  
+        {% for platform in arch.platforms %}
+        <div class="col-sm">
+            <h4>{{ platform[1].title }}</h4>
+            {% for part in platform[1].parts %}
+            <ul class="tree">
+                <li>{{part[1].title}}
+                <ul>
+                    {% for artifact in part[1].artifacts %}
+                    <li><a href="{{artifact[1].uri}}">{{artifact[1].title}}</a></li>
+                    {% endfor %}
+                </ul>
+                </li>
+            </ul>
+            {% endfor %} 
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

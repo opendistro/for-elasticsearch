@@ -1,7 +1,59 @@
 ---
 layout: default
 ---
+<style>
+  .tree, .tree ul {
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.tree ul {
+    margin-left:1em;
+    position:relative
+}
+.tree ul ul {
+    margin-left:.5em
+}
 
+.tree ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid
+}
+.tree li {
+    margin:0;
+    /*padding:0 1em;*/
+    line-height:2em;
+    position:relative
+}
+.tree li li {
+  padding:0 1em;
+}
+.tree ul li:before {
+    content:"";
+    display:block;
+    width:10px;
+    height:0;
+    border-top:1px solid;
+    margin-top:-1px;
+    position:absolute;
+    top:1em;
+    left:0
+}
+.tree ul li:last-child:before {
+    background:#fff;
+    height:auto;
+    top:1em;
+    bottom:0
+}
+
+
+</style>
 <div class="container-fluid homeBanner"
      style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
   {%- include banner.html banner=site.data.pages.es.downloads.banner -%}
@@ -11,10 +63,132 @@ layout: default
 {%- include intro.html intro=site.data.pages.es.downloads.intro -%}
 
 
+<div class="container-fluid" style="background-color: #f3f6fc; padding: 1em;">
+  <div class="container download-intent">
+    <p>I want to...</p>
+    <h3><a href="#try">Try Open Distro for Elasticsearch</a></h3>
+    <p>Learn how to try out Open Distro for Elasticsearch</p>
+
+    <h3><a href="#prod">Install Open Distro for Elasticsearch for production</a></h3>
+    <p>Get the required binaries to install the Open Distro for Elasticsearch in a production environment</p>
+
+    <h3><a href="{{site.data.pages.es.downloads.develop.id}}">{{site.data.pages.es.downloads.develop.title}}</a></h3>
+    <p>{{site.data.pages.es.downloads.develop.tagline}}</p>
+
+    <h3><a href="#connect">Get tools to help run, tune, and connect to Open Distro for Elasticsearch</a></h3>
+    <p>Download and install tools from the Open Distro project.</p>
+
+    <h3><a href="#ingest">Ingest data to Open Distro for Elasticsearch</a></h3>
+    <p>Tools that help you get data from various sources to Open Distro</p>
+
+    <h3><a href="#">Find out what’s included in an installation of Open Distro for Elasticsearch</a></h3>
+    <p>Learn about the components included in our downloads</p>
+
+    <h3><a href="#">Get a list of all the Open Distro for Elasticsearch downloads</a></h3>
+    <p>Learn about the components included in our downloads</p>
+  </div>
+
+  <div class="container download-detail">
+    <h3  id="try">Try Open Distro for Elasticsearch</h3>
+    <p>The best way to try out Open Distro for Elasticsearch is to use <a href="https://docs.docker.com/compose/install/" target="_blank">Docker Compose</a>. These steps will setup a two node cluster of Elasticsearch plus Kibana:</p>
+    <ol>
+      <li>Download <a href="#"><code>docker-compose.yml</code></a></li>
+      <li>Run <code>docker-compose up</code></li>
+      <li>Have a nice coffee while everything is downloading and starting up</li>
+      <li>Navigate to <a href="http://localhost:5601/">http://localhost:5601/</a> for Kibana</li>
+      <li>Login with the default username (<code>admin</code>) and password (<code>admin</code>)</li>
+    </ol>
+
+    <p>For further details about using Open Distro on Docker, see our <a href="#">documentation</a>.</p>
+
+    <p>You can find the standalone docker images on Docker Hub:</p>
+    <ul>
+      <li><a href="#">Open Distro for Elasticsearch - Elasticsearch v1.11 Docker</a></li>
+      <li><a href="#">Open Distro for Elasticsearch - Kibana v1.11 Docker</a></li>
+    </ul>
+  </div>
+
+  <div class="container download-detail">
+    <h3  id="prod">Install Open Distro for Elasticsearch for production</h3>
+    <p>For production we recommend using Docker or a package manger.</p>
+    <div class="row">
+      <div class="col-sm">
+        <ul class="tree">
+          <li>RPM-Based Package Managers
+            <ul>
+              <li><a href="#">Elasticsearch Install Guide</a></li>
+              <li><a href="#">Kibana Install Guide</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <ul class="tree">
+          <li>DEB-Based Package Managers
+            <ul>
+              <li><a href="#">Elasticsearch Install Guide</a></li>
+              <li><a href="#">Kibana Install Guide</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <ul class="tree">
+          <li>Docker
+            <ul>
+              <li><a href="#">Elasticsearch</a></li>
+              <li><a href="#">Kibana</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container download-detail">
+    <h3  id="{{site.data.pages.es.downloads.develop.id}}">{{site.data.pages.es.downloads.develop.title}}</h3>
+    <p>{{site.data.pages.es.downloads.develop.description}}</p>
+
+    {% include download-section.html downloadsection=site.data.pages.es.downloads.develop %}
+
+  </div>
+
+  <div class="container download-detail">
+    <h3  id="connect">Get tools to help run, tune, and connect to Open Distro for Elasticsearch</h3>
+    <p>Lorem ipsum</p>
+
+    <div class="border-top pt-2 mt-1">
+      <h4>Drivers</h4>
+      <div class="pl-4">
+        <p>Open Distro for Elasticsearch has a built in REST API that can run Query DSL, SQL and PPL queries, but you can also connect with any ODBC or JDBC compatible tool.</p>
+        {% include download-section.html downloadsection=site.data.pages.es.downloads.drivers %}
+      </div>
+    </div>
+    <div class="border-top pt-2 mt-5">
+      <h4>Command line management / <code>odfe-cli</code></h4>
+      <div class="pl-4">
+        <p>Parts of Open Distro for Elasticsearch can be managed from the command line directly using <code>odfe-cli</code>. </p>
+        {% include download-section.html downloadsection=site.data.pages.es.downloads.odfecli %}
+      </div> 
+    </div>
+
+    <div class="border-top pt-2 mt-5">
+      <h4>Performance Monitoring / <code>PerfTop</code></h4>
+      <div class="pl-4">
+        <p>Open Distro ships with Performance Analyzer that helps you understand the cluster performance dynamics. PerfTop allows you to get a command-line visual dashboard of cluster performance metrics based on these data. </p>
+        {% include download-section.html downloadsection=site.data.pages.es.downloads.perftop %}
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
 <div class="container-fluid" style="background-color: #f3f6fc; padding: 80px 30px;">
   <div class="container">
-    <!-- Elasticsearch -->
-
     <div class="row px-3 justify-content-center text-center">
 
       <div class="col-12 col-md-6 vcenter"
