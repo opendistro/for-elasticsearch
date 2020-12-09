@@ -49,7 +49,7 @@ perftop:
   linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
 
 misc:
-  release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes"
+  release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.12.0.md"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
@@ -89,7 +89,7 @@ connect:
 
 ingest:
   id: 'ingest'
-  description: 'Open Distro for Elasticsearch is compatible a variety of ingestion and processing tools including [beats](#), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](#) and [fluentd](#). The also project maintains a specific set of tools. '
+  description: 'Open Distro for Elasticsearch is compatible a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The also project maintains a specific set of tools. '
   title: 'Ingest data to Open Distro for Elasticsearch'
   tagline: 'Tools that help you get data from various sources to Open Distro'
 
@@ -376,7 +376,7 @@ perftop:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: '#zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.11.0.0-LINUX.zip'
         macos:
           parts:
             macos:
@@ -384,7 +384,7 @@ perftop:
               artifacts:
                 msi:
                   title: '.zip Archive'
-                  uri: '#odbc'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.11.0.0-MACOS.zip'
 
 develop:
   id: 'develop'

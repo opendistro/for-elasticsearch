@@ -288,7 +288,7 @@ services:
     <p>
       Latest: {{site.data.pages.es.downloads.version.odfe}} / 
       Date: {{site.data.pages.es.downloads.lastreleasedate }} /
-      <a href="{{site.data.pages.es.downloads.release_notes}}">Release Notes</a></p>
+      <a href="{{site.data.pages.es.downloads.misc.release_notes}}">Release Notes</a></p>
     {% assign components = site.data.pages.es.downloads.included.components %}
     {% for component in components  %}
     <ul class="tree">
@@ -317,7 +317,7 @@ services:
     <ul>
       {% assign alldownloads = site.data.pages.es.downloads.alldownloads.downloadlist | sort %}
       {% for download in alldownloads  %}
-      <li><code><a href="{{site.data.pages.es.downloads.alldownloads.base}}{{download}}" onclick="trackOutboundLink('{{site.data.pages.es.downloads.alldownloads.base}}{{download}}');">{{download}}</a></code></li>
+      <li><code><a href="{{site.data.pages.es.downloads.alldownloads.base}}{{download}}" target="_blank" onclick="trackOutboundLink('{{site.data.pages.es.downloads.alldownloads.base}}{{download}}');">{{download}}</a></code></li>
       {% endfor %}
     </ul>
     
