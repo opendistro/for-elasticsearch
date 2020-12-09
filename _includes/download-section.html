@@ -11,7 +11,7 @@
     </li>
     {% endfor %}
 </ul>
-<div class="tab-content" id="{{include.downloadsection.id}}TabsContent">
+<div class="tab-content mt-1" id="{{include.downloadsection.id}}TabsContent">
     {% for arch in include.downloadsection.arch %}
     <div class="tab-pane fade show  {%if forloop.first == true %}active{%endif%}" id="{{include.downloadsection.id | append: arch.id}}" role="tabpanel" aria-labelledby="{{include.downloadsection.id | append: arch.id}}-tab">
         <div class="row">  
@@ -23,8 +23,21 @@
                 <li>{{part[1].title}}
                 <ul>
                     {% for artifact in part[1].artifacts %}
-                    <li><a href="{{artifact[1].uri}}">{{artifact[1].title}}</a></li>
-                    {% endfor %}
+                    <li><a 
+                        onclick="trackOutboundLink('{{artifact[1].uri}}');"
+                        href="{{artifact[1].uri}}"
+                        target="_blank"
+                        >{{artifact[1].title}}</a>
+                        <ul>
+                        {% for sub in artifact[1].subs %}
+                            <li><small><a 
+                                onclick="trackOutboundLink('{{sub.uri}}');"
+                                target="_blank"
+                                href="{{sub.uri}}"
+                                >{{sub.title}}</a></small></li>
+                        {% endfor %}
+                        </ul>
+                    {% endfor %}</li>
                 </ul>
                 </li>
             </ul>
@@ -35,3 +48,7 @@
     </div>
     {% endfor %}
 </div>
+<div class="pt-2">
+    <small><em>{{ include.downloadsection.notes | markdownify }}</em></small>
+</div>
+

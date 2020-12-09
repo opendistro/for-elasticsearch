@@ -1,25 +1,16 @@
 banner:
-  title: Downloads
+  title: Getting Started & Downloads
 
 intro:
   title: Ready to get started?
   ext_content: We provide Docker images, RPM files, Debian packages and more. See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro for Elasticsearch.
 
 version:
-  odfe: "1.11.0"
-  jdbc: "1.11.0.0"
-  perftop: "1.11.0.0"
+  odfe: "1.12.0"
+  jdbc: "1.12.0.0"
+  perftop: "1.12.0.0"
 
-images:
-  rpm: "/assets/media/icons/rpm.png"
-  docker: "/assets/media/icons/docker.png"
-  deb: "/assets/media/icons/Application-x-deb.svg"
-  tar: "/assets/media/icons/tar.png"
-  jdbc: "/assets/media/icons/javajdbc.png"
-  perftop: "/assets/media/icons/consol.png"
-  windows: "/assets/media/icons/windows.png"
-  zip: "/assets/media/icons/zip.png"
-  odbc: "/assets/media/icons/ODBC.png"
+lastreleasedate: 'December 14, 2020'
 
 elasticsearch:
   title: Elasticsearch
@@ -51,12 +42,6 @@ kibana:
   zip_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe"
   zip_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-zip"
 
-jdbc:
-  title: SQL Drivers
-  jdbc_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc"
-  odbc_mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit"
-  odbc_windows_64_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit"
-  odbc_windows_32_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+32-bit"
 
 perftop:
   title: PerfTop CLI
@@ -64,9 +49,7 @@ perftop:
   linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
 
 misc:
-  previous_releases: "https://opendistro.github.io/for-elasticsearch-docs/version-history/"
   release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes"
-  plugin_installation: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/plugins/"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
@@ -74,11 +57,201 @@ bottomBanner:
   color: "#0a1f72"
 
 try:
-  dockercompose: '#dockercompose'
+  id: 'try'
+  title: 'Try Open Distro for Elasticsearch'
+  tagline: 'Learn how to try out Open Distro for Elasticsearch'
+  description: 'The best way to try out Open Distro for Elasticsearch is to use [Docker Compose](https://docs.docker.com/compose/install/). These steps will setup a two node cluster of Elasticsearch plus Kibana:'
+  steps:
+    - 'Download <a href="#" id="downloadDockerCompose"><code>docker-compose.yml</code></a> into your desired directory'
+    - 'Run <code>docker-compose up</code>'
+    - 'Have a nice coffee while everything is downloading and starting up'
+    - 'Navigate to <a href="http://localhost:5601/">http://localhost:5601/</a> for Kibana'
+    - 'Login with the default username (<code>admin</code>) and password (<code>admin</code>)'
+  doclink: 'For further details about using Open Distro on Docker, see our [documentation](https://opendistro.github.io/for-elasticsearch-docs/docs/install/docker/#start-a-cluster).'
+  docker:
+    description: 'You can also find the standalone docker images on Docker Hub:'
+    images:
+      -
+        title: 'Open Distro for Elasticsearch - Elasticsearch Docker'
+        link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch'
+      -
+        title: 'Open Distro for Elasticsearch - Kibana Docker'
+        link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana'
 
 
+
+
+connect:
+  id: 'connect'
+  title: 'Get tools to help run, tune, and connect to Open Distro for Elasticsearch'
+  description: 'These tools are not packed in with Open Distro for Elasticsearch but are designed to specifically work with the distribution.'
+  tagline: 'Download and install tools from the Open Distro project.'
+
+ingest:
+  id: 'ingest'
+  description: 'Open Distro for Elasticsearch is compatible a variety of ingestion and processing tools including [beats](#), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](#) and [fluentd](#). The also project maintains a specific set of tools. '
+  title: 'Ingest data to Open Distro for Elasticsearch'
+  tagline: 'Tools that help you get data from various sources to Open Distro'
+
+
+included:
+  id: 'included'
+  title: 'Find out what’s included in an installation of Open Distro for Elasticsearch'
+  tagline: 'Learn about the components included in our downloads'
+  description: 'Open Distro for Elasticsearch is made up of two primary components - Elasticsearch and Kibana. Each component consists of the core binaries plus plugins, everything licensed under Apache 2.0. We also provide [previous releases](https://opendistro.github.io/for-elasticsearch-docs/version-history/) and [standalone plugins](https://opendistro.github.io/for-elasticsearch-docs/docs/install/plugins/).'
+  components:
+      -
+        title: 'Elasticsearch'
+        link: '#prod'
+        subcomponents: 
+          - 
+            title: 'Elasticsearch (Apache 2.0 licensed code only)'
+            version: '7.10.0'
+          -
+            title: 'Security Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/security'
+          -
+            title: 'Alerting Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/alerting'
+          -
+            title: 'SQL & Piped Processing Language Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/sql'
+          -
+            title: 'Index Management Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/index-management'
+          -
+            title: 'k-NN Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/k-NN'
+          -
+            title: 'Anomaly Detection Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/anomaly-detection'
+          -
+            title: 'Performance Analyzer'
+            link: 'https://github.com/opendistro-for-elasticsearch/performance-analyzer'
+      -
+        title: 'Kibana'
+        link: '#prod'
+        subcomponents: 
+          - 
+            title: 'Kibana (Apache 2.0 licensed code only)'
+            version: '7.10.0'
+          -
+            title: 'Security Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/security-kibana-plugin'
+          -
+            title: 'Alerting Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/alerting-kibana-plugin'
+          -
+            title: 'Query Workbench'
+            link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/sql/workbench/'
+          -
+            title: 'Index Management Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin'
+          -
+            title: 'Kibana Notebooks Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/kibana-notebooks'
+
+
+      
+alldownloads:
+  id: 'all'
+  title: 'Get a list of all the Open Distro for Elasticsearch downloads'
+  description: 'A comprehensive list of all artifacts associated with the Open Distro for Elasticsearch project.'
+  base: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/'
+  tagline: 'Everything we build as part of the Open Distro for Elasticsearch project'
+  downloadlist:
+    - '...'
+    - 'data-prepper/data-prepper-v0.1.0-linux-x64.tar.gz'
+    - 'data-prepper/data-prepper-v0.1.0-linux-x64.zip'
+    - 'data-prepper/data-prepper-jdk-v0.1.0-linux-x64.tar.gz'
+    - 'data-prepper/data-prepper-jdk-v0.1.0-linux-x64.zip'
+    - 'data-prepper/data-prepper-v0.1.0-macos-x64.tar.gz'
+    - 'data-prepper/data-prepper-v0.1.0-macos-x64.zip'
+    - 'data-prepper/data-prepper-jdk-v0.1.0-macos-x64.tar.gz'
+    - 'data-prepper/data-prepper-jdk-v0.1.0-macos-x64.zip'
+    - 'odfe-cli/odfe-cli-v1.0.0-linux-x64'
+    - 'odfe-cli/odfe-cli-v1.0.0-macos-x64'
+    - 'odfe-cli/odfe-cli-v1.0.0-linux-arm64'
+    - 'odfe-cli/odfe-cli-v1.0.0-windows-x64'
+    - 'odfe-cli/odfe-cli-v1.0.0-windows-x86'
+    - '...'
+
+dataprepper:
+  id: 'dataprepper'
+  title: 'Data Prepper'
+  description: 'Data Prepper allows you to build a data collection pipeline for as trace analytics and more. '
+  notes: 'Also available without the bundled JDK in the [full downloads list](#all)'
+
+  arch:
+    -
+      title: 'x64'
+      id: 'x64'
+      platforms:
+        linux:
+          parts:
+            linux:
+              title: 'Linux'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: 'data-prepper-jdk-v0.1.0-linux-x64.zip'
+        macos:
+          parts:
+            macos:
+              title: 'macOS'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: 'data-prepper-jdk-v0.1.0-macos-x64.zip'
+            
+
+
+prod:
+  id: 'prod'
+  title: 'Install Open Distro for Elasticsearch for production'
+  tagline: 'Get the required binaries to install the Open Distro for Elasticsearch in a production environment'
+  description: 'For production we recommend using Docker or a package manager.'
+  methods:
+    - 
+      title: 'RPM-Based Package Managers'
+      packages:
+        -
+          title: 'Elasticsearch Install Guide'
+          link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/'
+          target: '_blank'
+        -
+          title: 'Kibana Install Guide'
+          link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/'
+          target: '_blank'
+    -
+      title: 'DEB-Based Package Managers'
+      packages:
+        -
+          title: 'Elasticsearch Install Guide'
+          link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/'
+          target: '_blank'
+        -
+          title: 'Kibana Install Guide'
+          link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/'
+          target: '_blank'
+    -
+      title: 'Docker'
+      packages:
+        -
+          title: 'Elasticsearch'
+          link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch'
+          target: '_blank'
+        -
+          title: 'Kibana'
+          link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana'
+          target: '_blank'
+
+
+        
 drivers:
   id: 'drivers'
+  title: 'Drivers'
+  description: 'Open Distro for Elasticsearch has a built in REST API that can run Query DSL, SQL and PPL queries, but you can also connect with any ODBC or JDBC compatible tool.'
   arch:
     -
       title: 'x64'
@@ -91,7 +264,7 @@ drivers:
               artifacts:
                 jar:
                   title: 'JDBC Driver'
-                  uri: '#jdbc'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.11.0.0.jar'
         windows:
           parts:
             windows:
@@ -99,7 +272,7 @@ drivers:
               artifacts:
                 msi:
                   title: 'ODBC Driver'
-                  uri: '#odbc'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit-1.11.0.0-Windows.msi'
         macos:
           parts:
             macOS:
@@ -107,7 +280,7 @@ drivers:
               artifacts:
                 pkg:
                   title: 'ODBC Driver'
-                  uri: '#macodbc'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit-1.11.0.0-Darwin.pkg'
     -
       title: 'x86'
       id: 'x86'
@@ -119,7 +292,7 @@ drivers:
               artifacts:
                 jar:
                   title: 'JDBC Driver'
-                  uri: '#jdbc'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.11.0.0.jar'
         windows:
           parts:
             windows:
@@ -127,10 +300,12 @@ drivers:
               artifacts:
                 msi:
                   title: 'ODBC Driver'
-                  uri: '#odbc'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+32-bit-1.11.0.0-Windows.msi'
 
 odfecli:
   id: 'odfecli'
+  title: 'Command line management / `odfe-cli`'
+  description: 'Parts of Open Distro for Elasticsearch can be managed from the command line directly using `odfe-cli`.'
   arch:
     -
       title: 'x64'
@@ -187,6 +362,8 @@ odfecli:
 
 perftop:
   id: 'perftop'
+  title: 'Performance Monitoring / `PerfTop`'
+  description: 'Open Distro ships with Performance Analyzer that helps you understand the cluster performance dynamics. PerfTop allows you to get a command-line visual dashboard of cluster performance metrics based on these data. '
   arch:
     -
       title: 'x64'
@@ -211,7 +388,7 @@ perftop:
 
 develop:
   id: 'develop'
-  description: 'develop description'
+  description: 'If you want to run Open Distro for Elasticsearch in a non-production environment, these artifacts are a great place to start. On a Mac, we suggest using [Docker](#try).'
   title: 'Develop with Open Distro for Elasticsearch'
   tagline: 'All you need to start developing on Open Distro for Elasticsearch'
   arch:
@@ -227,44 +404,75 @@ develop:
               artifacts:
                 exe:
                   title : '.exe Installer'
-                  uri: '#winexeinstaller'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_1.11.0.exe'
+                  subs:
+                    -
+                      title: 'Install Guide'
+                      uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/#exe-install'
                 zip:
                   title: '.zip Archive'
-                  uri: '#winziparchive'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe-1.11.0.zip'
+                  subs:
+                    -
+                      title: 'Install Guide'
+                      uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/#zip-install'
+
             kibana:
               title: 'Kibana'
               artifacts:
                 exe:
                   title : '.exe Installer'
-                  uri: '#winexeinstaller'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_Kibana_1.11.0.exe'
+                  subs:
+                    -
+                      title: 'Install Guide'
+                      uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-exe'
                 zip:
                   title: '.zip Archive'
-                  uri: '#winziparchive'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe-1.11.0-kibana.zip'
+                  subs:
+                    -
+                      title: 'Install Guide'
+                      uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-zip'
         linux:
           title: 'Linux'
           parts:
             elasticsearch:
               title: 'Elasticsearch'
               artifacts:
-                exe:
-                  title : '.zip Archive'
+                targz:
+                  title : '.tar.gz Archive'
                   uri: '#linuxexeinstaller'
+                  subs:
+                    -
+                      title: 'SHA'
+                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.11.0.tar.gz.sha512'
+                    -
+                      title: 'Install Guide'
+                      uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/tar/'
             kibana:
-              title: 'Elasticsearch'
+              title: 'Kibana'
               artifacts:
-                exe:
-                  title : '.zip Archive'
+                targz:
+                  title : '.tar.gz Archive'
                   uri: '#linuxexeinstaller'
-    -
-      title: 'arm64'
-      id: 'arm64'
-      platforms:
-        linux:
-          title: 'Linux'
-          parts:
-            elasticsearch:
-              title: 'Elasticsearch'
-              artifacts:
-                exe:
-                  title : '.zip Archive'
-                  uri: '#linuxexeinstaller'
+                  subs:
+                    -
+                      title: 'SHA'
+                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.11.0.tar.gz.sha512'
+                    -
+                      title: 'Install Guide'
+                      uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-using-the-tarball'
+#    -
+#      title: 'arm64'
+#      id: 'arm64'
+#      platforms:
+#        linux:
+#          title: 'Linux'
+#          parts:
+#            elasticsearch:
+#              title: 'Elasticsearch'
+#              artifacts:
+#                exe:
+#                  title : '.zip Archive'
+#                  uri: '#linuxexeinstaller'
