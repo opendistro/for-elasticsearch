@@ -7,46 +7,8 @@ intro:
 
 version:
   odfe: "1.12.0"
-  jdbc: "1.12.0.0"
-  perftop: "1.12.0.0"
 
 lastreleasedate: 'December 14, 2020'
-
-elasticsearch:
-  title: Elasticsearch
-  subtitle: Open Distro for Elasticsearch 1.11.0
-  description: "Elasticsearch (Apache 2.0 licensed code only) - 7.9.1 <br> Includes Security, Alerting, SQL, Index Management, k-NN, Anomaly Detection, and Performance Analyzer"
-  rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/"
-  docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch"
-  deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/"
-  tar_url: "https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistro-elasticsearch/opendistroforelasticsearch"
-  tar_checksum_url: "https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistro-elasticsearch/opendistroforelasticsearch"
-  tar_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/tar/"
-  exe_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch"
-  exe_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/#exe-install"
-  zip_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe"
-  zip_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/#zip-install"
-
-kibana:
-  title: Kibana
-  subtitle: Open Distro for Elasticsearch 1.11.0
-  description: "Kibana (Apache 2.0 licensed code only) - 7.9.1 <br> Includes Security, Alerting, Index Management, and Anomaly Detection"
-  rpm_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
-  docker_url: "https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana"
-  deb_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/"
-  tar_url: "https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana"
-  tar_checksum_url: "https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana"
-  tar_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-using-the-tarball"
-  exe_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_Kibana"
-  exe_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-exe"
-  zip_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe"
-  zip_guide_url: "https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-zip"
-
-
-perftop:
-  title: PerfTop CLI
-  mac_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
-  linux_url: "https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top"
 
 misc:
   release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.12.0.md"
@@ -78,9 +40,6 @@ try:
         title: 'Open Distro for Elasticsearch - Kibana Docker'
         link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana'
 
-
-
-
 connect:
   id: 'connect'
   title: 'Get tools to help run, tune, and connect to Open Distro for Elasticsearch'
@@ -92,7 +51,6 @@ ingest:
   description: 'Open Distro for Elasticsearch is compatible a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The also project maintains a specific set of tools. '
   title: 'Ingest data to Open Distro for Elasticsearch'
   tagline: 'Tools that help you get data from various sources to Open Distro'
-
 
 included:
   id: 'included'
@@ -150,8 +108,6 @@ included:
           -
             title: 'Kibana Notebooks Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/kibana-notebooks'
-
-
       
 alldownloads:
   id: 'all'
@@ -204,8 +160,6 @@ dataprepper:
                   title: '.zip Archive'
                   uri: 'data-prepper-jdk-v0.1.0-macos-x64.zip'
             
-
-
 prod:
   id: 'prod'
   title: 'Install Open Distro for Elasticsearch for production'
@@ -246,8 +200,7 @@ prod:
           link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana'
           target: '_blank'
 
-
-        
+     
 drivers:
   id: 'drivers'
   title: 'Drivers'
