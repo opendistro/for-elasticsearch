@@ -50,7 +50,7 @@ ingest:
   id: 'ingest'
   description: 'Open Distro for Elasticsearch is compatible a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The also project maintains a specific set of tools. '
   title: 'Ingest data to Open Distro for Elasticsearch'
-  tagline: 'Tools that help you get data from various sources to Open Distro'
+  tagline: 'Tools that ease ingestion and processing of various data into Open Distro For Elasticsearch'
 
 included:
   id: 'included'
@@ -113,30 +113,48 @@ alldownloads:
   id: 'all'
   title: 'Get a list of all the Open Distro for Elasticsearch downloads'
   description: 'A comprehensive list of all artifacts associated with the Open Distro for Elasticsearch project.'
-  base: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/'
+  base: 'https://d3g5vo6xdbdb9a.cloudfront.net/'
   tagline: 'Everything we build as part of the Open Distro for Elasticsearch project'
   downloadlist:
-    - '...'
-    - 'data-prepper/data-prepper-v0.1.0-linux-x64.tar.gz'
-    - 'data-prepper/data-prepper-v0.1.0-linux-x64.zip'
-    - 'data-prepper/data-prepper-jdk-v0.1.0-linux-x64.tar.gz'
-    - 'data-prepper/data-prepper-jdk-v0.1.0-linux-x64.zip'
-    - 'data-prepper/data-prepper-v0.1.0-macos-x64.tar.gz'
-    - 'data-prepper/data-prepper-v0.1.0-macos-x64.zip'
-    - 'data-prepper/data-prepper-jdk-v0.1.0-macos-x64.tar.gz'
-    - 'data-prepper/data-prepper-jdk-v0.1.0-macos-x64.zip'
-    - 'odfe-cli/odfe-cli-v1.0.0-linux-x64'
-    - 'odfe-cli/odfe-cli-v1.0.0-macos-x64'
-    - 'odfe-cli/odfe-cli-v1.0.0-linux-arm64'
-    - 'odfe-cli/odfe-cli-v1.0.0-windows-x64'
-    - 'odfe-cli/odfe-cli-v1.0.0-windows-x86'
-    - '...'
+    - 'downloads/perftop/perf-top-1.12.0.0-MACOS.zip'
+    - 'downloads/perftop/perf-top-1.12.0.0-LINUX.zip'
+    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz'
+    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz.sha512'
+    - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz'
+    - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz.sha512'
+    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.tar.gz'
+    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
+    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.tar.gz'
+    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
+    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.zip'
+    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.tar.gz'
+    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.zip'
+    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.tar.gz'
+    - 'downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.12.0.0.jar'
+    - 'downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Darwin.pkg'
+    - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 32-bit-1.12.0.0-Windows.msi'
+    - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Windows.msi'
+    - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-linux-arm64.zip'
+    - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-linux-x64.zip'
+    - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-macos-x64.zip'
+    - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-windows-x64.zip'
+    - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-windows-x86.zip'
+
 
 dataprepper:
   id: 'dataprepper'
   title: 'Data Prepper'
-  description: 'Data Prepper allows you to build a data collection pipeline for as trace analytics and more. '
+  description: 'Data Prepper is an alpha component of Open Distro for Elasticsearch that receives trace data from the OpenTelemetry collector, and aggregates, transforms, and normalizes it for analysis and visualization in Kibana.'
   notes: 'Also available without the bundled JDK in the [full downloads list](#all)'
+  demo:
+    title: 'Trace Analytics Demo'
+    description: 'The best way to try trace analytics with Data Prepper is to use [Docker Compose](https://docs.docker.com/compose/install/). '
+    steps:
+      - 'Git clone the Data Prepper github project: `git clone https://github.com/opendistro-for-elasticsearch/Data-Prepper.git`'
+      - 'Change to example `odfe-pipes-trace-app` directory: `cd Data-Prepper/examples/odfe-pipes-trace-app`'
+      - 'Launch Docker Compose: `docker-compose up -d`'
+      - 'Access the sample application: Point your browser at [http://localhost:8089/](http://localhost:8089/)'
+    post: 'From here you can follow the instructions on the [Introduction to Trace Analytics announcement blog post](#missing).'
 
   arch:
     -
@@ -150,7 +168,7 @@ dataprepper:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'data-prepper-jdk-v0.1.0-linux-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
         macos:
           parts:
             macos:
@@ -158,7 +176,7 @@ dataprepper:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'data-prepper-jdk-v0.1.0-macos-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
             
 prod:
   id: 'prod'
@@ -217,7 +235,7 @@ drivers:
               artifacts:
                 jar:
                   title: 'JDBC Driver'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.11.0.0.jar'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.12.0.0.jar'
         windows:
           parts:
             windows:
@@ -225,7 +243,7 @@ drivers:
               artifacts:
                 msi:
                   title: 'ODBC Driver'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit-1.11.0.0-Windows.msi'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Windows.msi'
         macos:
           parts:
             macOS:
@@ -233,7 +251,7 @@ drivers:
               artifacts:
                 pkg:
                   title: 'ODBC Driver'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+64-bit-1.11.0.0-Darwin.pkg'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Darwin.pkg'
     -
       title: 'x86'
       id: 'x86'
@@ -245,7 +263,7 @@ drivers:
               artifacts:
                 jar:
                   title: 'JDBC Driver'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.11.0.0.jar'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.12.0.0.jar'
         windows:
           parts:
             windows:
@@ -253,7 +271,7 @@ drivers:
               artifacts:
                 msi:
                   title: 'ODBC Driver'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open+Distro+for+Elasticsearch+SQL+ODBC+Driver+32-bit-1.11.0.0-Windows.msi'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 32-bit-1.12.0.0-Windows.msi'
 
 odfecli:
   id: 'odfecli'
@@ -271,7 +289,7 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: '#zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-windows-x64.zip'
         linux:
           parts:
             linux:
@@ -279,7 +297,7 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: '#zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-linux-x64.zip'
         macos:
           parts:
             macOS:
@@ -287,7 +305,7 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: '#zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-macos-x64.zip'
     -
       title: 'x86'
       id: 'x86'
@@ -299,7 +317,7 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: '#zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-windows-x86.zip'
     -
       title: 'arm64'
       id: 'arm64'
@@ -311,7 +329,7 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: '#zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-linux-arm64.zip'
 
 perftop:
   id: 'perftop'
@@ -329,7 +347,7 @@ perftop:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.11.0.0-LINUX.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.12.0.0-LINUX.zip'
         macos:
           parts:
             macos:
@@ -337,7 +355,7 @@ perftop:
               artifacts:
                 msi:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.11.0.0-MACOS.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/perftop/perf-top-1.12.0.0-MACOS.zip'
 
 develop:
   id: 'develop'
@@ -357,14 +375,14 @@ develop:
               artifacts:
                 exe:
                   title : '.exe Installer'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_1.11.0.exe'
+                  uri: '#missing'
                   subs:
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/#exe-install'
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe-1.11.0.zip'
+                  uri: '#missing'
                   subs:
                     -
                       title: 'Install Guide'
@@ -375,14 +393,14 @@ develop:
               artifacts:
                 exe:
                   title : '.exe Installer'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_Kibana_1.11.0.exe'
+                  uri: '#missing'
                   subs:
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-exe'
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe-1.11.0-kibana.zip'
+                  uri: '#missing'
                   subs:
                     -
                       title: 'Install Guide'
@@ -395,11 +413,11 @@ develop:
               artifacts:
                 targz:
                   title : '.tar.gz Archive'
-                  uri: '#linuxexeinstaller'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/download/tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz'
                   subs:
                     -
                       title: 'SHA'
-                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.11.0.tar.gz.sha512'
+                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/download/tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz.sha512'
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/tar/'
@@ -408,11 +426,11 @@ develop:
               artifacts:
                 targz:
                   title : '.tar.gz Archive'
-                  uri: '#linuxexeinstaller'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/download/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz'
                   subs:
                     -
                       title: 'SHA'
-                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.11.0.tar.gz.sha512'
+                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/download/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz.sha512'
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-using-the-tarball'

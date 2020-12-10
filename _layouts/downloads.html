@@ -269,14 +269,14 @@ services:
       <div class="pl-4">
         <p>{{site.data.pages.es.downloads.dataprepper.description | markdownify}}</p>
         {% include download-section.html downloadsection=site.data.pages.es.downloads.dataprepper %}
-        <strong>Demo</strong>
-        <p>The best way to try Data Prepper is with <a href="https://docs.docker.com/compose/install/" target="_blank">Docker Compose</a>. These steps will setup a Data Prepper demo:</p>
+        <strong>{{site.data.pages.es.downloads.dataprepper.demo.title}}</strong>
+        {{site.data.pages.es.downloads.dataprepper.demo.description | markdownify}}
         <ol>
-          <li>Download <a href="#"><code>docker-compose.yml</code></a></li>
-          <li>Run <code>docker-compose up</code></li>
-          <li>Wait patiently to for downloads and setups to complete</li>
-          <li>?</li>
+          {% for step in site.data.pages.es.downloads.dataprepper.demo.steps  %}
+            <li>{{ step | markdownify }}</li>
+          {% endfor %}
         </ol>
+        {{site.data.pages.es.downloads.dataprepper.demo.post | markdownify }}
       </div>
     </div>
   </div>
