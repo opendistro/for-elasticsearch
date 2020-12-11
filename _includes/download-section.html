@@ -20,7 +20,7 @@
             <h4>{{ platform[1].title }}</h4>
             {% for part in platform[1].parts %}
             <ul class="tree">
-                <li>{{part[1].title}}
+                <li><span class="tree-root">{{part[1].title}}</span>
                 <ul>
                     {% for artifact in part[1].artifacts %}
                     <li><a 
