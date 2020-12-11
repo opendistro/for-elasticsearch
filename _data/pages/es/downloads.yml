@@ -134,12 +134,17 @@ alldownloads:
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Darwin.pkg'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 32-bit-1.12.0.0-Windows.msi'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Windows.msi'
+    - 'downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_1.12.0.exe'
+    - 'downloads/odfe-windows/ode-windows-zip/odfe-1.12.0.zip'
+    - 'downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_Kibana_1.12.0.exe'
+    - 'downloads/odfe-windows/ode-windows-zip/odfe-1.12.0-kibana.zip'
+
+  downloadsnext:
     - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-linux-arm64.zip'
     - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-linux-x64.zip'
     - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-macos-x64.zip'
     - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-windows-x64.zip'
     - 'downloads/elasticsearch-clients/opendistro-cli/odfe-cli-1.0.0-windows-x86.zip'
-
 
 dataprepper:
   id: 'dataprepper'
@@ -375,14 +380,14 @@ develop:
               artifacts:
                 exe:
                   title : '.exe Installer'
-                  uri: '#missing'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_1.12.0.exe'
                   subs:
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/windows/#exe-install'
                 zip:
                   title: '.zip Archive'
-                  uri: '#missing'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe-1.12.0.zip'
                   subs:
                     -
                       title: 'Install Guide'
@@ -393,14 +398,14 @@ develop:
               artifacts:
                 exe:
                   title : '.exe Installer'
-                  uri: '#missing'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/Open_Distro_For_Elasticsearch_Kibana_1.12.0.exe'
                   subs:
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-exe'
                 zip:
                   title: '.zip Archive'
-                  uri: '#missing'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/odfe-1.12.0-kibana.zip'
                   subs:
                     -
                       title: 'Install Guide'
@@ -413,11 +418,11 @@ develop:
               artifacts:
                 targz:
                   title : '.tar.gz Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/download/tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz'
                   subs:
                     -
                       title: 'SHA'
-                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/download/tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz.sha512'
+                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz.sha512'
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/tar/'
@@ -426,11 +431,11 @@ develop:
               artifacts:
                 targz:
                   title : '.tar.gz Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/download/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz'
                   subs:
                     -
                       title: 'SHA'
-                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/download/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz.sha512'
+                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz.sha512'
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-using-the-tarball'
