@@ -48,7 +48,7 @@ connect:
 
 ingest:
   id: 'ingest'
-  description: 'Open Distro for Elasticsearch is compatible a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The also project maintains a specific set of tools. '
+  description: 'Open Distro for Elasticsearch is compatible with a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The project also maintains specific ingestion tools:'
   title: 'Ingest data to Open Distro for Elasticsearch'
   tagline: 'Tools that ease ingestion and processing of various data into Open Distro For Elasticsearch'
 
