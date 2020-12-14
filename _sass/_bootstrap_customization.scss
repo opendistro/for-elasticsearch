@@ -254,3 +254,10 @@ padding:0 1em;
   top:1em;
   bottom:0
 }
+
+.download-detail h3 .float-right {
+  visibility: hidden;
+}
+.download-detail:hover h3 .float-right {
+  visibility: visible;
+}

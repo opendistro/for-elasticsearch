@@ -68,24 +68,31 @@ included:
           -
             title: 'Security Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/security'
+            version: '1.12.0.0'
           -
             title: 'Alerting Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/alerting'
+            version: '1.12.0.2'
           -
             title: 'SQL & Piped Processing Language Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/sql'
+            version: '1.12.0.0'
           -
             title: 'Index Management Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/index-management'
+            version: '1.12.0.1'
           -
             title: 'k-NN Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/k-NN'
+            version: '1.12.0.0'
           -
             title: 'Anomaly Detection Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/anomaly-detection'
+            version: '1.12.0.0'
           -
             title: 'Performance Analyzer'
             link: 'https://github.com/opendistro-for-elasticsearch/performance-analyzer'
+            version: '1.12.0.0'
       -
         title: 'Kibana'
         link: '#prod'
@@ -96,18 +103,23 @@ included:
           -
             title: 'Security Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/security-kibana-plugin'
+            version: '1.12.0.0'
           -
             title: 'Alerting Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/alerting-kibana-plugin'
+            version: '1.12.0.2'
           -
             title: 'Query Workbench'
             link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/sql/workbench/'
+            version: '1.12.0.0'
           -
             title: 'Index Management Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin'
+            version: '1.12.0.0'
           -
             title: 'Kibana Notebooks Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/kibana-notebooks'
+            version: '1.12.0.0'
       
 alldownloads:
   id: 'all'
@@ -122,14 +134,14 @@ alldownloads:
     - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz.sha512'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz.sha512'
-    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.tar.gz'
-    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
-    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.tar.gz'
-    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
-    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.zip'
-    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.tar.gz'
-    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.zip'
-    - 'downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.tar.gz'
     - 'downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.12.0.0.jar'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Darwin.pkg'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 32-bit-1.12.0.0-Windows.msi'
@@ -144,7 +156,7 @@ dataprepper:
   id: 'dataprepper'
   title: 'Data Prepper'
   description: 'Data Prepper is an alpha component of Open Distro for Elasticsearch that receives trace data from the OpenTelemetry collector, and aggregates, transforms, and normalizes it for analysis and visualization in Kibana.'
-  notes: 'Also available without the bundled JDK in the [full downloads list](#all)'
+  notes: 'Also available on [Docker](https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-data-prepper). A version without the bundled JDK is in the [full downloads list](#all)'
   demo:
     title: 'Trace Analytics Demo'
     description: 'The best way to try trace analytics with Data Prepper is to use [Docker Compose](https://docs.docker.com/compose/install/). '
@@ -167,7 +179,7 @@ dataprepper:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
         macos:
           parts:
             macos:
@@ -175,7 +187,7 @@ dataprepper:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
             
 prod:
   id: 'prod'
