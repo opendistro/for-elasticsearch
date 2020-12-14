@@ -1,6 +1,6 @@
 ---
 layout: posts
-author: Kyle Davis
+author: Viraj Phanse
 comments: true
 title: "Open Distro for Elasticsearch 1.12.0 is now available"
 categories:
