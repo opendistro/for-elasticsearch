@@ -1,6 +1,6 @@
 ---
 layout: posts
-author: Kyle Davis
+author: Rajiv Taori 
 comments: true
 title: "Announcing alpha availability of Trace Analytics for distributed tracing"
 categories:
