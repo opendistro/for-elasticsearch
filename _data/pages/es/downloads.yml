@@ -121,6 +121,10 @@ included:
             link: 'https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin'
             version: '1.12.0.0'
           -
+            title: 'Anomaly Detection Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin'
+            version: '1.12.0.0'
+          -
             title: 'Kibana Notebooks Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/kibana-notebooks'
             version: '1.12.0.0'
