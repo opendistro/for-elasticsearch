@@ -75,11 +75,11 @@ document.addEventListener("DOMContentLoaded", function() {
     </ul>
 
 
-    <pre id="dockercompose" class="d-none">
+    <pre id="dockercompose" >
 version: '3'
 services:
   odfe-node1:
-    image: amazon/opendistro-for-elasticsearch:{{site.data.pages.es.downloads.versions.odfe}}
+    image: amazon/opendistro-for-elasticsearch:{{site.data.pages.es.downloads.version.odfe}}
     container_name: odfe-node1
     environment:
       - cluster.name=odfe-cluster
@@ -103,7 +103,7 @@ services:
     networks:
       - odfe-net
   odfe-node2:
-    image: amazon/opendistro-for-elasticsearch:{{site.data.pages.es.downloads.versions.odfe}}
+    image: amazon/opendistro-for-elasticsearch:{{site.data.pages.es.downloads.version.odfe}}
     container_name: odfe-node2
     environment:
       - cluster.name=odfe-cluster
@@ -124,7 +124,7 @@ services:
     networks:
       - odfe-net
   kibana:
-    image: amazon/opendistro-for-elasticsearch-kibana:{{site.data.pages.es.downloads.versions.odfe}}
+    image: amazon/opendistro-for-elasticsearch-kibana:{{site.data.pages.es.downloads.version.odfe}}
     container_name: odfe-kibana
     ports:
       - 5601:5601
@@ -136,13 +136,12 @@ services:
     networks:
       - odfe-net
 
-  volumes:
-    odfe-data1:
-    odfe-data2:
+volumes:
+  odfe-data1:
+  odfe-data2:
 
-  networks:
-    odfe-net:
-    </pre>
+networks:
+  odfe-net:</pre>
   </div>
 
   <!-- run in production -->
