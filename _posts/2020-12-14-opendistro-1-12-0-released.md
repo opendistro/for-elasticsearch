@@ -19,7 +19,7 @@ Open Distro for Elasticsearch 1.12.0 includes version 7.10 of open source Elasti
 * As time-series data grows to considerable sizes over time, it can slow down your aggregations, and incur a substantial storage cost. Also, the usefulness of high granularity data reduces with time. [Rollups](https://github.com/opendistro-for-elasticsearch/index-management/tree/rollup-dev) lets you summarize the data and helps you preserve useful aggregations that can be leveraged for analytics while drastically reducing storage costs. 
 * [Hamming distance](https://github.com/opendistro-for-elasticsearch/k-NN/issues/264) can now be used as a distance metric for similarity search. Hamming distance measures similarity by comparing two binary data strings and is commonly used in image retrieval, fraud detection, and recognizing duplicate webpages. 
 
-See the [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.11.0.md) for a complete list of new features, enhancements, and bug fixes.
+See the [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.12.0.md) for a complete list of new features, enhancements, and bug fixes.
 
 **Download the latest packages**
 
