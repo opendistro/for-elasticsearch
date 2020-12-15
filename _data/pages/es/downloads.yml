@@ -93,6 +93,10 @@ included:
             title: 'Performance Analyzer'
             link: 'https://github.com/opendistro-for-elasticsearch/performance-analyzer'
             version: '1.12.0.0'
+          -
+            title: 'Reports Scheduler Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/kibana-reports/tree/dev/reports-scheduler'
+            version: '1.12.0.0'
       -
         title: 'Kibana'
         link: '#prod'
@@ -109,7 +113,7 @@ included:
             link: 'https://github.com/opendistro-for-elasticsearch/alerting-kibana-plugin'
             version: '1.12.0.2'
           -
-            title: 'Query Workbench'
+            title: 'Query Workbench Plugin'
             link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/sql/workbench/'
             version: '1.12.0.0'
           -
@@ -120,7 +124,14 @@ included:
             title: 'Kibana Notebooks Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/kibana-notebooks'
             version: '1.12.0.0'
-      
+          -
+            title: 'Kibana Reports Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/kibana-reports'
+            version: '1.12.0.0'
+          -
+            title: 'Kibana Visualizations Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/kibana-visualizations'
+            version: '1.12.0.0'
 alldownloads:
   id: 'all'
   title: 'Get a list of all the Open Distro for Elasticsearch downloads'
