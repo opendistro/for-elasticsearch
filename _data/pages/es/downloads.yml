@@ -177,10 +177,10 @@ dataprepper:
     description: 'The best way to try trace analytics with Data Prepper is to use [Docker Compose](https://docs.docker.com/compose/install/). '
     steps:
       - 'Git clone the Data Prepper github project: `git clone https://github.com/opendistro-for-elasticsearch/Data-Prepper.git`'
-      - 'Change to example `odfe-pipes-trace-app` directory: `cd Data-Prepper/examples/odfe-pipes-trace-app`'
+      - 'Change to example `trace-analytics-sample-app` directory: `cd Data-Prepper/examples/trace-analytics-sample-app`'
       - 'Launch Docker Compose: `docker-compose up -d`'
       - 'Access the sample application: Point your browser at [http://localhost:8089/](http://localhost:8089/)'
-    post: 'From here you can follow the instructions on the [Introduction to Trace Analytics announcement blog post](https://opendistro.github.io/for-elasticsearch/blog/releases/2020/12/announcing-trace-analytics/).'
+    post: 'From here you can follow the instructions on the [Introduction to Trace Analytics announcement blog post](/for-elasticsearch/blog/releases/2020/12/announcing-trace-analytics/).'
   arch:
     -
       title: 'x64'
