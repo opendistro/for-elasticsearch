@@ -59,7 +59,7 @@ Note: This step could take 10-15 minutes and to complete
 
 ### Step 4: Access sample application
 
-The sample application docker setup also launched Elasticsearch and Kibana, so it takes about 5 minutes for everything to be available. The sample application has simple UI which has 5 actions which produce traces. To use this UI navigate to  `http://localhost:8089/`` `.  
+The sample application docker setup also launched Elasticsearch and Kibana, so it takes about 5 minutes for everything to be available. The sample application has simple UI which has 5 actions which produce traces. To use this UI navigate to  `http://localhost:8089/`.  
 You should see a page like the image below. You can click on any of the buttons to generate transactions which will be captured as traces by Trace Analytics.
 
 ![Screenshot of Demo](/for-elasticsearch/assets/media/blog-images/2020-12-14-announcing-trace-analytics-1.png){: .img-fluid}
