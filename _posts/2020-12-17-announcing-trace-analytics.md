@@ -43,7 +43,7 @@ Let’s walk through the steps of installing a Docker image with a sample app th
 git clone https://github.com/opendistro-for-elasticsearch/Data-Prepper.git 
 ```
 
-### Step 2: Change to example `odfe-pipes-trace-app` directory
+### Step 2: Change to example `trace-analytics-sample-app` directory
 
 ```
 cd Data-Prepper/examples/trace-analytics-sample-app 
