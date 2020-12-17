@@ -46,11 +46,11 @@ connect:
   description: 'These tools are not packed in with Open Distro for Elasticsearch but are designed to specifically work with the distribution.'
   tagline: 'Download and install tools from the Open Distro project.'
 
-#ingest:
-#  id: 'ingest'
-#  description: 'Open Distro for Elasticsearch is compatible with a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The project also maintains specific ingestion tools:'
-#  title: 'Ingest data to Open Distro for Elasticsearch'
-#  tagline: 'Tools that ease ingestion and processing of various data into Open Distro For Elasticsearch'
+ingest:
+  id: 'ingest'
+  description: 'Open Distro for Elasticsearch is compatible with a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The project also maintains specific ingestion tools:'
+  title: 'Ingest data to Open Distro for Elasticsearch'
+  tagline: 'Tools that ease ingestion and processing of various data into Open Distro For Elasticsearch'
 
 included:
   id: 'included'
@@ -149,14 +149,14 @@ alldownloads:
     - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz.sha512'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz.sha512'
-#    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.tar.gz'
-#    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
-#    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.tar.gz'
-#    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
-#    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.zip'
-#    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.tar.gz'
-#    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.zip'
-#    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.tar.gz'
     - 'downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.12.0.0.jar'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Darwin.pkg'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 32-bit-1.12.0.0-Windows.msi'
@@ -167,42 +167,41 @@ alldownloads:
     - 'downloads/odfe-windows/ode-windows-zip/odfe-1.12.0-kibana.zip'
 
 
-#dataprepper:
-#  id: 'dataprepper'
-#  title: 'Data Prepper'
-#  description: 'Data Prepper is an alpha component of Open Distro for Elasticsearch that receives trace data from the OpenTelemetry collector, and aggregates, transforms, and normalizes it for analysis and visualization in Kibana.'
-#  notes: 'Also available on [Docker](https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-data-prepper). A version without the bundled JDK is in the [full downloads list](#all)'
-#  demo:
-#    title: 'Trace Analytics Demo'
-#    description: 'The best way to try trace analytics with Data Prepper is to use [Docker Compose](https://docs.docker.com/compose/install/). '
-#    steps:
-#      - 'Git clone the Data Prepper github project: `git clone https://github.com/opendistro-for-elasticsearch/Data-Prepper.git`'
-#      - 'Change to example `odfe-pipes-trace-app` directory: `cd Data-Prepper/examples/odfe-pipes-trace-app`'
-#      - 'Launch Docker Compose: `docker-compose up -d`'
-#      - 'Access the sample application: Point your browser at [http://localhost:8089/](http://localhost:8089/)'
-#    post: 'From here you can follow the instructions on the [Introduction to Trace Analytics announcement blog post](https://opendistro.github.io/for-elasticsearch/blog/releases/2020/12/announcing-trace-analytics/).'
-#
-#  arch:
-#    -
-#      title: 'x64'
-#      id: 'x64'
-#      platforms:
-#        linux:
-#          parts:
-#            linux:
-#              title: 'Linux'
-#              artifacts:
-#                zip:
-#                  title: '.zip Archive'
-#                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
-#        macos:
-#          parts:
-#            macos:
-#              title: 'macOS'
-#              artifacts:
-#                zip:
-#                  title: '.zip Archive'
-#                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
+dataprepper:
+  id: 'dataprepper'
+  title: 'Data Prepper'
+  description: 'Data Prepper is an alpha component of Open Distro for Elasticsearch that receives trace data from the OpenTelemetry collector, and aggregates, transforms, and normalizes it for analysis and visualization in Kibana.'
+  notes: 'Also available on [Docker](https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-data-prepper). A version without the bundled JDK is in the [full downloads list](#all)'
+  demo:
+    title: 'Trace Analytics Demo'
+    description: 'The best way to try trace analytics with Data Prepper is to use [Docker Compose](https://docs.docker.com/compose/install/). '
+    steps:
+      - 'Git clone the Data Prepper github project: `git clone https://github.com/opendistro-for-elasticsearch/Data-Prepper.git`'
+      - 'Change to example `trace-analytics-sample-app` directory: `cd Data-Prepper/examples/trace-analytics-sample-app`'
+      - 'Launch Docker Compose: `docker-compose up -d`'
+      - 'Access the sample application: Point your browser at [http://localhost:8089/](http://localhost:8089/)'
+    post: 'From here you can follow the instructions on the [Introduction to Trace Analytics announcement blog post](/for-elasticsearch/blog/releases/2020/12/announcing-trace-analytics/).'
+  arch:
+    -
+      title: 'x64'
+      id: 'x64'
+      platforms:
+        linux:
+          parts:
+            linux:
+              title: 'Linux'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
+        macos:
+          parts:
+            macos:
+              title: 'macOS'
+              artifacts:
+                zip:
+                  title: '.zip Archive'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
             
 prod:
   id: 'prod'
