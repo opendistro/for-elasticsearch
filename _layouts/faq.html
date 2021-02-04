@@ -10,16 +10,21 @@ layout: default
 <div class="pt-5"/>
 
 <!-- Paragraphs -->
-<div class="container px-5">
-  {% for faq in site.data.pages.es.faq.faqs %}
-	   <div class="pt-5"></div>
-	    
-	    <!-- Title -->
-	    <h5 style="font-weight: 600;">{{faq.title | markdownify}}</h5>
-	    
-	    <!-- Content -->
-	    <div class="link-on-white-paragraph text">{{faq.content | markdownify }}</div>
-  {% endfor %}
+{% for section in site.data.pages.es.faq.sections %}
+<div class="container px-5 pb-5">
+	<h2>{{section.title}}</h2>
+	{% for faq in section.faqs %}
+		<div class="container px-5">
+			<div class="pt-5"></div>
+			
+			<!-- Title -->
+			<h5 style="font-weight: 600;">{{faq.title | markdownify}}</h5>
+			
+			<!-- Content -->
+			<div class="link-on-white-paragraph text">{{faq.content | markdownify }}</div>
+		</div>
+	{% endfor %}
 </div>
+{% endfor %}
 
 <div class="pt-5"></div>

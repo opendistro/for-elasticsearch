@@ -2,6 +2,22 @@
 layout: default
 ---
 
+<script src="https://cdn.jsdelivr.net/npm/web-streams-polyfill@2.0.2/dist/ponyfill.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/streamsaver@2.0.3/StreamSaver.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById('downloadDockerCompose').addEventListener('click', function (event) {
+    event.preventDefault();
+    const uInt8 = new TextEncoder().encode(document.getElementById('dockercompose').textContent);
+    const fileStream = streamSaver.createWriteStream('docker-compose.yml');
+
+    const writer = fileStream.getWriter();
+    writer.write(uInt8);
+    writer.close();
+  }, false);
+});
+</script>
+
 <div class="container-fluid homeBanner"
      style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
   {%- include banner.html banner=site.data.pages.es.downloads.banner -%}
@@ -11,451 +27,247 @@ layout: default
 {%- include intro.html intro=site.data.pages.es.downloads.intro -%}
 
 
-<div class="container-fluid" style="background-color: #f3f6fc; padding: 80px 30px;">
-  <div class="container">
-    <!-- Elasticsearch -->
+<div class="container-fluid" style="background-color: #f3f6fc; padding: 1em;">
+  <!-- toc -->
+  <div class="container download-intent">
+    <p>I want to...</p>
+    <h3><a href="#{{site.data.pages.es.downloads.try.id}}">{{site.data.pages.es.downloads.try.title}}</a></h3>
+    <p>{{site.data.pages.es.downloads.try.tagline}}</p>
 
-    <div class="row px-3 justify-content-center text-center">
+    <h3><a href="#{{site.data.pages.es.downloads.prod.id}}">{{site.data.pages.es.downloads.prod.title}}</a></h3>
+    <p>{{site.data.pages.es.downloads.prod.tagline}}</p>
 
-      <div class="col-12 col-md-6 vcenter"
-           style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
+    <h3><a href="#{{site.data.pages.es.downloads.develop.id}}">{{site.data.pages.es.downloads.develop.title}}</a></h3>
+    <p>{{site.data.pages.es.downloads.develop.tagline}}</p>
 
-        <!-- Subtitle -->
-        <div class="pt-4">{{site.data.pages.es.downloads.elasticsearch.subtitle}}</div>
+    <h3><a href="#{{site.data.pages.es.downloads.connect.id}}">{{site.data.pages.es.downloads.connect.title}}</a></h3>
+    <p>{{site.data.pages.es.downloads.connect.tagline}}</p>
+  
+    <h3><a href="#{{site.data.pages.es.downloads.ingest.id}}">{{site.data.pages.es.downloads.ingest.title}}</a></h3>
+    <p>{{site.data.pages.es.downloads.ingest.tagline}}</p>
 
-        <!-- Title -->
-        <a class="anchor" id=""></a>
-        <h1 class="title-bg">{{site.data.pages.es.downloads.elasticsearch.title}}</h1>
+    <h3><a href="#{{site.data.pages.es.downloads.included.id}}">{{site.data.pages.es.downloads.included.title}}</a></h3>
+    <p>{{site.data.pages.es.downloads.included.tagline}}</p>
 
-        <!-- First row of images -->
-        <div class="row justify-content-center text-center downloadsContainer">
+    <h3><a href="#{{site.data.pages.es.downloads.alldownloads.id}}">{{site.data.pages.es.downloads.alldownloads.title}}</a></h3>
+    <p>{{site.data.pages.es.downloads.alldownloads.tagline}}</p>
 
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.rpm}}"
-                                           class="download-img"></div>
+  </div>
 
-          <div class="col-6 col-md-4"><img
-                  src="{{site.baseurl}}{{site.data.pages.es.downloads.images.docker}}" class="download-img">
-          </div>
+  <!-- try open distro -->
+  <div class="container download-detail">
+    <h3  id="{{site.data.pages.es.downloads.try.id}}">{{site.data.pages.es.downloads.try.title }} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.try.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <p>{{site.data.pages.es.downloads.try.description | markdownify }}</p>
+    
+    <ol>
+      {% for step in site.data.pages.es.downloads.try.steps %}
+      <li>{{step }}</li>
+      {% endfor %}
+    </ol>
+    
+    {{site.data.pages.es.downloads.try.doclink | markdownify }}
 
-        </div>
-
-        <!-- First row of downloads -->
-        <div class="row justify-content-center text-center px-2">
-          <div class="col-12 col-md-10"></div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.elasticsearch.rpm_url}}" class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.rpm_url}}');">
-              <h7 style="font-weight:bold;">RPM install guide</h7>
-            </a>
-          </div>
-
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.elasticsearch.docker_url}}" class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.docker_url}}');">
-              <h7 style="font-weight:bold;">Docker</h7>
-            </a>
-          </div>
-        </div>
-
-        <!-- Second row of images -->
-        <div class="row justify-content-center text-center downloadsContainer">
-
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.deb}}"
-                                           class="download-img" style="width:60%;"></div>
-
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.tar}}"
-                                           class="download-img" style="width:60%;"></div>
+    {{site.data.pages.es.downloads.try.docker.description}}
+    <ul>
+      {% for image in site.data.pages.es.downloads.try.docker.images %}
+      <li><a href="{{image.link}}" target="_blank" onclick="trackOutboundLink('{{image.link}}');">{{image.title}} v{{site.data.pages.es.downloads.version.odfe}}</a></li>
+      {% endfor %}
+    </ul>
 
 
-        </div>
+    <pre id="dockercompose" class="d-none">
+version: '3'
+services:
+  odfe-node1:
+    image: amazon/opendistro-for-elasticsearch:{{site.data.pages.es.downloads.version.odfe}}
+    container_name: odfe-node1
+    environment:
+      - cluster.name=odfe-cluster
+      - node.name=odfe-node1
+      - discovery.seed_hosts=odfe-node1,odfe-node2
+      - cluster.initial_master_nodes=odfe-node1,odfe-node2
+      - bootstrap.memory_lock=true # along with the memlock settings below, disables swapping
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m" # minimum and maximum Java heap size, recommend setting both to 50% of system RAM
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536 # maximum number of open files for the Elasticsearch user, set to at least 65536 on modern systems
+        hard: 65536
+    volumes:
+      - odfe-data1:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+      - 9600:9600 # required for Performance Analyzer
+    networks:
+      - odfe-net
+  odfe-node2:
+    image: amazon/opendistro-for-elasticsearch:{{site.data.pages.es.downloads.version.odfe}}
+    container_name: odfe-node2
+    environment:
+      - cluster.name=odfe-cluster
+      - node.name=odfe-node2
+      - discovery.seed_hosts=odfe-node1,odfe-node2
+      - cluster.initial_master_nodes=odfe-node1,odfe-node2
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - odfe-data2:/usr/share/elasticsearch/data
+    networks:
+      - odfe-net
+  kibana:
+    image: amazon/opendistro-for-elasticsearch-kibana:{{site.data.pages.es.downloads.version.odfe}}
+    container_name: odfe-kibana
+    ports:
+      - 5601:5601
+    expose:
+      - "5601"
+    environment:
+      ELASTICSEARCH_URL: https://odfe-node1:9200
+      ELASTICSEARCH_HOSTS: https://odfe-node1:9200
+    networks:
+      - odfe-net
 
-        <!-- Second row of downloads -->
-        <div class="row justify-content-center text-center px-2">
-          <div class="col-12 col-md-10"></div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.elasticsearch.deb_url}}" class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.deb_url}}');">
-              <h7 style="font-weight:bold;">DEB install guide</h7>
-            </a>
-          </div>
+volumes:
+  odfe-data1:
+  odfe-data2:
 
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.elasticsearch.tar_url}}-{{site.data.pages.es.downloads.version.odfe}}.tar.gz"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.tar_url}}-{{site.data.pages.es.downloads.version.odfe}}.tar.gz');">
-              <i class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">TGZ</h7>
-            </a>
-            <div>
-              <a href="{{site.data.pages.es.downloads.elasticsearch.tar_checksum_url}}-{{site.data.pages.es.downloads.version.odfe}}.tar.gz.sha512"
-                 class="software-download"
-                 target="about:blank"
-                 onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.tar_checksum_url}}-{{site.data.pages.es.downloads.version.odfe}}.tar.gz.sha512');">
-                <h7 style="color:#2070C4;font-size:12px;">SHA</h7>
-              </a>
-              <h7 class="vertical-line"></h7>
-              <a href="{{site.data.pages.es.downloads.elasticsearch.tar_guide_url}}"
-                 class="software-download"
-                 target="about:blank"
-                 onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.tar_guide_url}}');">
+networks:
+  odfe-net:</pre>
+  </div>
 
-                <h7 style="color:#2070C4;font-size:12px;">Install guide</h7>
-              </a></div>
-          </div>
-        </div>
-
-        <!-- Third row of images -->
-        <div class="row justify-content-center text-center downloadsContainer">
-          <div class="col-6 col-md-4"><img
-                  src="{{site.baseurl}}{{site.data.pages.es.downloads.images.windows}}" class="download-img custom-img"></div>
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.zip}}"
-                                           class="download-img custom-img"></div>
-        </div>
-
-        <!-- Third row of downloads -->
-        <div class="row justify-content-center text-center px-2">
-          <div class="col-12 col-md-10"></div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.elasticsearch.exe_url}}_{{site.data.pages.es.downloads.version.odfe}}.exe"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.exe_url}}_{{site.data.pages.es.downloads.version.odfe}}.exe');">
-              <i
-                      class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">Windows installer (.exe)</h7>
-            </a>
-            <div><a href="{{site.data.pages.es.downloads.elasticsearch.exe_guide_url}}"
-                    class="software-download"
-                    target="about:blank"
-                    onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.exe_guide_url}}');">
-              <h7 style="color:#2070C4;font-size:12px;">Install guide</h7>
-            </a></div>
-          </div>
-
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.elasticsearch.zip_url}}-{{site.data.pages.es.downloads.version.odfe}}.zip"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.zip_url}}-{{site.data.pages.es.downloads.version.odfe}}.zip');">
-              <i class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">Windows installer (.zip)</h7>
-            </a>
-            <div><a href="{{site.data.pages.es.downloads.elasticsearch.zip_guide_url}}"
-                    class="software-download"
-                    target="about:blank"
-                    onclick="trackOutboundLink('{{site.data.pages.es.downloads.elasticsearch.zip_guide_url}}');">
-              <h7 style="color:#2070C4;font-size:12px;">Install guide</h7>
-            </a></div>
-          </div>
-        </div>
-
-
-        <div class="row justify-content-center text-center py-3 px-2">
-          <div class="text-small">{{site.data.pages.es.downloads.elasticsearch.description}}</div>
-        </div>
-
+  <!-- run in production -->
+  <div class="container download-detail">
+    <h3  id="{{site.data.pages.es.downloads.prod.id}}">{{site.data.pages.es.downloads.prod.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.prod.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <p>{{site.data.pages.es.downloads.prod.description | markdownify}}</p>
+    <div class="row">
+      {% for method in site.data.pages.es.downloads.prod.methods  %}
+      <div class="col-sm">
+        <ul class="tree">
+          <li>{{method.title}}
+            <ul>
+              {% for package in method.packages  %}
+              <li><a href="{{package.link}}" target="{{package.target}}" onclick="trackOutboundLink('{{package.link}}');">{{package.title}}</a></li>
+              {% endfor %}
+            </ul>
+          
+          </li>
+        </ul>
       </div>
+      {% endfor %}
+    </div>
 
-      <!-- Kibana -->
+  </div>
 
-      <div class="col-12 col-md-6 vcenter"
-           style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
-        <!-- Subtitle -->
-        <div class="pt-4">{{site.data.pages.es.downloads.kibana.subtitle}}</div>
-        <!-- Title -->
-        <a class="anchor" id=""></a>
-        <h1 class="title-bg">{{site.data.pages.es.downloads.kibana.title}}</h1>
+  <!-- develop with Open Distro -->
+  <div class="container download-detail">
+    <h3  id="{{site.data.pages.es.downloads.develop.id}}">{{site.data.pages.es.downloads.develop.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.develop.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <p>{{site.data.pages.es.downloads.develop.description | markdownify}}</p>
 
-        <!-- First row of images -->
-        <div class="row justify-content-center text-center downloadsContainer">
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.rpm}}"
-                                           class="download-img"></div>
-          <div class="col-6 col-md-4"><img
-                  src="{{site.baseurl}}{{site.data.pages.es.downloads.images.docker}}" class="download-img">
-          </div>
-        </div>
-        <!-- First row of downloads -->
-        <div class="row justify-content-center text-center px-2">
-          <div class="col-12 col-md-10"></div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
+    {% include download-section.html downloadsection=site.data.pages.es.downloads.develop %}
 
-            <a href="{{site.data.pages.es.downloads.kibana.rpm_url}}" class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.rpm_url}}');">
-              <h7 style="font-weight:bold;">RPM install guide</h7>
-            </a>
-          </div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
+  </div>
 
-            <a href="{{site.data.pages.es.downloads.kibana.docker_url}}" class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.docker_url}}');">
-              <h7 style="font-weight:bold;">Docker</h7>
-            </a>
-          </div>
-        </div>
+  <!-- connect to open distro -->
+  <div class="container download-detail">
+    <h3  id="{{site.data.pages.es.downloads.connect.id}}">{{site.data.pages.es.downloads.connect.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.connect.id}}"><i class="fas fa-link"></i></a></div></h3>
+    {{site.data.pages.es.downloads.connect.description | markdownify }}
 
-        <!-- Second row of images -->
-        <div class="row justify-content-center text-center downloadsContainer">
+    <div class="border-top pt-2 mt-1" id="{{site.data.pages.es.downloads.drivers.id}}">
+      <h4>{{site.data.pages.es.downloads.drivers.title}}</h4>
+      <div class="pl-4">
+        <p>{{site.data.pages.es.downloads.drivers.description}}</p>
+        {% include download-section.html downloadsection=site.data.pages.es.downloads.drivers %}
+      </div>
+    </div>
+    <div class="border-top pt-2 mt-5" id="{{site.data.pages.es.downloads.odfecli.id}}">
+      <h4>{{site.data.pages.es.downloads.odfecli.title | markdownify}}</h4>
+      <div class="pl-4">
+        <p>{{site.data.pages.es.downloads.odfecli.description | markdownify}}</p>
+        {% include download-section.html downloadsection=site.data.pages.es.downloads.odfecli %}
+      </div> 
+    </div>
 
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.deb}}"
-                                           class="download-img" style="width:60%;"></div>
-
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.tar}}"
-                                           class="download-img" style="width:60%;"></div>
-
-        </div>
-
-        <!-- Second row of downloads -->
-        <div class="row justify-content-center text-center px-2">
-          <div class="col-12 col-md-10"></div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.kibana.deb_url}}" class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.deb_url}}');">
-              <h7 style="font-weight:bold;">DEB install guide</h7>
-            </a>
-          </div>
-
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.kibana.tar_url}}-{{site.data.pages.es.downloads.version.odfe}}.tar.gz"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.tar_url}}-{{site.data.pages.es.downloads.version.odfe}}.tar.gz');">
-              <i class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">TGZ</h7>
-            </a>
-            <div>
-              <a href="{{site.data.pages.es.downloads.kibana.tar_checksum_url}}-{{site.data.pages.es.downloads.version.odfe}}.tar.gz.sha512"
-                 class="software-download"
-                 target="about:blank"
-                 onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.tar_checksum_url}}-{{site.data.pages.es.downloads.version.odfe}}.tar.gz.sha512');">
-                <h7 style="color:#2070C4;font-size:12px;">SHA</h7>
-              </a>
-              <h7 class="vertical-line"></h7>
-              <a href="{{site.data.pages.es.downloads.kibana.tar_guide_url}}" class="software-download"
-                 target="about:blank"
-                 onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.tar_guide_url}}');">
-
-                <h7 style="color:#2070C4;font-size:12px;">Install guide</h7>
-              </a></div>
-          </div>
-        </div>
-
-
-        <!-- Third row of images -->
-        <div class="row justify-content-center text-center downloadsContainer">
-          <div class="col-6 col-md-4"><img
-                  src="{{site.baseurl}}{{site.data.pages.es.downloads.images.windows}}" class="download-img"
-                  style="width:60%;"></div>
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.zip}}"
-                                           class="download-img" style="width:60%;"></div>
-        </div>
-
-        <!-- Third row of downloads -->
-        <div class="row justify-content-center text-center px-2">
-          <div class="col-12 col-md-10"></div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.kibana.exe_url}}_{{site.data.pages.es.downloads.version.odfe}}.exe"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.exe_url}}_{{site.data.pages.es.downloads.version.odfe}}.exe');">
-              <i class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">Windows installer (.exe)</h7>
-            </a>
-
-            <div><a href="{{site.data.pages.es.downloads.kibana.exe_guide_url}}" class="software-download"
-                    target="about:blank"
-                    onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.exe_guide_url}}');">
-              <h7 style="color:#2070C4;font-size:12px;">Install guide</h7>
-            </a></div>
-          </div>
-
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.kibana.zip_url}}-{{site.data.pages.es.downloads.version.odfe}}-kibana.zip"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.zip_url}}-{{site.data.pages.es.downloads.version.odfe}}-kibana.zip');">
-              <i class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">Windows installer (.zip)</h7>
-            </a>
-            <div><a href="{{site.data.pages.es.downloads.kibana.zip_guide_url}}" class="software-download"
-                    target="about:blank"
-                    onclick="trackOutboundLink('{{site.data.pages.es.downloads.kibana.zip_guide_url}}');">
-              <h7 style="color:#2070C4;font-size:12px;">Install guide</h7>
-            </a></div>
-          </div>
-        </div>
-
-
-        <!-- Descriptions -->
-        <div class="row justify-content-center text-center py-3 px-2">
-          <div class="text-small">{{site.data.pages.es.downloads.kibana.description}}</div>
-        </div>
-
-
+    <div class="border-top pt-2 mt-5" id="{{site.data.pages.es.downloads.perftop.id}}">
+      <h4>{{site.data.pages.es.downloads.perftop.title | markdownify}}</h4>
+      <div class="pl-4">
+        <p>{{site.data.pages.es.downloads.perftop.description | markdownify}}</p>
+        {% include download-section.html downloadsection=site.data.pages.es.downloads.perftop %}
       </div>
     </div>
 
+  </div>
 
-    <!-- JDBC -->
-
-    <div class="row px-3 justify-content-center text-center">
-
-      <div class="col-12 col-md-6 vcenter"
-           style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
-
-        <!-- Subtitle -->
-
-        <div class="pt-5"></div>
-
-
-        <!-- Title -->
-        <a class="anchor" id="SQL"></a>
-        <h1 class="title-bg">{{site.data.pages.es.downloads.jdbc.title}}</h1>
-
-        <!-- Images -->
-        <div class="row justify-content-center text-center downloadsContainer">
-
-          <div class="col-6 col-md-4"><img src="{{site.baseurl}}{{site.data.pages.es.downloads.images.jdbc}}"
-                                           class="download-img"></div>
-          <!-- Downloads -->
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-
-            <a href="{{site.data.pages.es.downloads.jdbc.jdbc_url}}-{{site.data.pages.es.downloads.version.jdbc}}.jar"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.jdbc.jdbc_url}}-{{site.data.pages.es.downloads.version.jdbc}}.jar');">
-
-              <i class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">JDBC driver</h7>
-            </a>
-          </div>
-
-          <div class="row justify-content-center text-center downloadsContainer">
-            <div class="col-6 col-md-4"><img
-                    src="{{site.baseurl}}{{site.data.pages.es.downloads.images.odbc}}"
-                    class="download-img custom-img"></div>
-            <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-              <a href="{{site.data.pages.es.downloads.jdbc.odbc_mac_url}}-{{site.data.pages.es.downloads.version.jdbc}}-Darwin.pkg"
-                 class="software-download"
-                 target="about:blank"
-                 onclick="trackOutboundLink('{{site.data.pages.es.downloads.jdbc.odbc_mac_url}}-{{site.data.pages.es.downloads.version.jdbc}}-Darwin.pkg');">
-                <i class="fa fa-download"></i>
-                <h7 style="font-weight:bold;">ODBC driver (macOS)</h7>
-              </a><br/>
-              <a href="{{site.data.pages.es.downloads.jdbc.odbc_windows_64_url}}-{{site.data.pages.es.downloads.version.jdbc}}-Windows.msi"
-                 class="software-download"
-                 target="about:blank"
-                 onclick="trackOutboundLink('{{site.data.pages.es.downloads.jdbc.odbc_windows_64_url}}-{{site.data.pages.es.downloads.version.jdbc}}-Windows.msi');">
-                <i class="fa fa-download"></i>
-                <h7 style="font-weight:bold;">ODBC driver (64-bit Windows)</h7>
-              </a><br/>
-              <a href="{{site.data.pages.es.downloads.jdbc.odbc_windows_32_url}}-{{site.data.pages.es.downloads.version.jdbc}}-Windows.msi"
-                 class="software-download"
-                 target="about:blank"
-                 onclick="trackOutboundLink('{{site.data.pages.es.downloads.jdbc.odbc_windows_32_url}}-{{site.data.pages.es.downloads.version.jdbc}}-Windows.msi');">
-                <i class="fa fa-download"></i>
-                <h7 style="font-weight:bold;">ODBC driver (32-bit Windows)</h7>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Descriptions -->
-        <div class="row justify-content-center text-center py-3 px-2">
-          <div class="text-small"></div>
-        </div>
-
-
-      </div>
-
-
-      <!-- PerfTop -->
-
-      <div class="col-12 col-md-6 vcenter"
-           style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;">
-
-        <!-- Subtitle -->
-
-        <div class="pt-5"></div>
-
-        <!-- Title -->
-        <a class="anchor" id="PerfTop"></a>
-        <h1 class="title-bg">{{site.data.pages.es.downloads.perftop.title}}</h1>
-
-        <!-- Images -->
-        <div class="row justify-content-center text-center downloadsContainer">
-          <div class="col-6 col-md-4"><img
-                  src="{{site.baseurl}}{{site.data.pages.es.downloads.images.perftop}}" class="download-img">
-          </div>
-        </div>
-
-        <!-- Downloads -->
-        <div class="row justify-content-center text-center px-2">
-          <div class="col-12 col-md-10"></div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.perftop.mac_url}}-{{site.data.pages.es.downloads.version.perftop}}-MACOS.zip"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.perftop.mac_url}}-{{site.data.pages.es.downloads.version.perftop}}-MACOS.zip');">
-              <i class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">PerfTop CLI macOS</h7>
-            </a>
-          </div>
-          <div class="col-6 col-md-4 pt-3 pb-5 link-on-white-paragraph">
-            <a href="{{site.data.pages.es.downloads.perftop.linux_url}}-{{site.data.pages.es.downloads.version.perftop}}-LINUX.zip"
-               class="software-download"
-               target="about:blank"
-               onclick="trackOutboundLink('{{site.data.pages.es.downloads.perftop.linux_url}}-{{site.data.pages.es.downloads.version.perftop}}-LINUX.zip');">
-              <i class="fa fa-download"></i>
-              <h7 style="font-weight:bold;">PerfTop CLI Linux</h7>
-            </a>
-          </div>
-        </div>
-
-        <!-- Descriptions -->
-        <div class="row justify-content-center text-center py-3 px-2">
-          <div class="text-small"></div>
-        </div>
+  <!-- ingest data to open distro -->
+  <div class="container download-detail">
+    <h3  id="{{site.data.pages.es.downloads.ingest.id}}">{{site.data.pages.es.downloads.ingest.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.ingest.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <p>{{site.data.pages.es.downloads.ingest.description | markdownify }}</p>
+    
+    <div class="border-top pt-2 mt-1">
+      <h4>{{site.data.pages.es.downloads.dataprepper.title}}</h4>
+      <div class="pl-4">
+        <p>{{site.data.pages.es.downloads.dataprepper.description | markdownify}}</p>
+        {% include download-section.html downloadsection=site.data.pages.es.downloads.dataprepper %}
+        <strong>{{site.data.pages.es.downloads.dataprepper.demo.title}}</strong>
+        {{site.data.pages.es.downloads.dataprepper.demo.description | markdownify}}
+        <ol>
+          {% for step in site.data.pages.es.downloads.dataprepper.demo.steps  %}
+            <li>{{ step | markdownify }}</li>
+          {% endfor %}
+        </ol>
+        {{site.data.pages.es.downloads.dataprepper.demo.post | markdownify }}
       </div>
     </div>
+  </div>
 
+  <!-- What's included -->
+  <div class="container download-detail">
+    <h3  id="{{site.data.pages.es.downloads.included.id}}">{{site.data.pages.es.downloads.included.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.included.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <p>{{site.data.pages.es.downloads.included.description | markdownify }}</p>
+    <p>
+      Latest: {{site.data.pages.es.downloads.version.odfe}} / 
+      Date: {{site.data.pages.es.downloads.lastreleasedate }} /
+      <a href="{{site.data.pages.es.downloads.misc.release_notes}}">Release Notes</a></p>
+    {% assign components = site.data.pages.es.downloads.included.components %}
+    {% for component in components  %}
+    <ul class="tree">
+      <li><a href="{{component.link}}">{{component.title}}</a>
+        <ul>
+          {% for subcomponent in component.subcomponents  %} 
+          <li>
+            {% if subcomponent.link %}
+            <a href="{{subcomponent.link}}" target="_blank" onclick="trackOutboundLink('{{subcomponent.link}}');">{{subcomponent.title}}</a>
+            {% else %}
+            {{subcomponent.title}}
+            {% endif %}
+            v{% if subcomponent.version %}{{ subcomponent.version }}{% else %}{{ site.data.pages.es.downloads.version.odfe }}{% endif %}</li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+    {% endfor %}
 
-    <!-- Misc section -->
-    <div class="row px-3 justify-content-center text-center px-2">
-      <div class="col-12 col-md-12"
-           style="background-color:white; border-style: solid; border-color:#b4bcc2; border-width: 1px;"></br>
-        <div class="link-on-white-paragraph">
-          What's new in this release? See the
-          <a href="{{site.data.pages.es.downloads.misc.release_notes}}-{{site.data.pages.es.downloads.version.odfe}}.md"
-             target="about:blank"
-             onclick="trackOutboundLink('{{site.data.pages.es.downloads.misc.release_notes}}-{{site.data.pages.es.downloads.version.odfe}}.md');">
-            <h7 style="font-weight:bold;">release notes.</h7>
-          </a>
-        </div>
-        <div class="link-on-white-paragraph">
-          Looking for an older version? View
-          <a href="{{site.data.pages.es.downloads.misc.previous_releases}}"
-             target="about:blank"
-             onclick="trackOutboundLink('{{site.data.pages.es.downloads.misc.previous_releases}}');">
-            <h7 style="font-weight:bold;"> previous releases.</h7>
-          </a></div>
-        <div class="link-on-white-paragraph">Prefer the standalone plugins? See the
-          plugin
-          <a href="{{site.data.pages.es.downloads.misc.plugin_installation}}"
-             target="about:blank"
-             onclick="trackOutboundLink('{{site.data.pages.es.downloads.misc.plugin_installation}}');">
-            <h7 style="font-weight:bold;">installation guide.</h7>
-          </a>
-        </div>
-        </br>
-      </div>
-    </div>
+  </div>
+  <!-- all downloads -->
+  <div class="container download-detail">
+    <h3  id="{{site.data.pages.es.downloads.alldownloads.id}}">{{site.data.pages.es.downloads.alldownloads.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.alldownloads.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <p>{{site.data.pages.es.downloads.alldownloads.description | markdownify }}</p>
+
+    <ul>
+      {% assign alldownloads = site.data.pages.es.downloads.alldownloads.downloadlist | sort %}
+      {% for download in alldownloads  %}
+      <li><code><a href="{{site.data.pages.es.downloads.alldownloads.base}}{{download}}" target="_blank" onclick="trackOutboundLink('{{site.data.pages.es.downloads.alldownloads.base}}{{download}}');">{{download}}</a></code></li>
+      {% endfor %}
+    </ul>
+    
   </div>
 </div>
 
