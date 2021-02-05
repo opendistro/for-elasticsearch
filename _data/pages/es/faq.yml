@@ -1,56 +1,73 @@
 banner:
   title: FAQ
 
+lastupdated: '2021-02-05'
+
 sections:
   - title: 'Forking Elasticsearch & Kibana'
     faqs: 
       - title: Why are you forking Elasticsearch and Kibana?
         content: The upstream versions of Elasticsearch and Kibana have changed to a non-open source license. You can read a detailed explanation of the situation on the [AWS Open Source Blog](https://aws.amazon.com/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/).
-      
+        id: "why-fork"
+
       - title: 'Where can I get news and updates on the forking process and development?'
         content: 'We will be centralizing updates to the [Open Distro forums](https://discuss.opendistrocommunity.dev/c/forking-elasticsearch-kibana/50).'
+        id: "fork-updates"
 
       - title: 'Will the project still be called ‘Open Distro for Elasticsearch’?'
         content: 'No. The current name of the project is no longer descriptive. We are currently in the process of selecting a new name.'
+        id: 'new-name' 
 
       - title: 'I want to contribute, what can I do?'
         content: 'We are very early in the process and have not released forked code so there is no place to contribute to yet (we’re working on it!). Posting on the [Open Distro forums](https://discuss.opendistrocommunity.dev/c/forking-elasticsearch-kibana/50) about your interests is a great way we can help organize once we have the repos ready.'
+        id: 'fork-contribute'
 
       - title: 'What will your governance model be? Are you looking at any foundations?'
         content: 'We are interested in adopting a shared governance model, but it’s too early to define exactly how that would look or what particular organizations we’d be pursuing. We want to do this in consultation with the community, so stay tuned as the project progresses.'
+        id: 'governance-foundation'
 
       - title: 'What’s the relationship between the existing Open Distro for Elasticsearch project and the forks of Elasticsearch and Kibana?'
-        content: 'The new forks are part of the Open Distro for Elasticsearch project. We will be renaming the project be more descriptive of these new inclusions. Additionally, the forks as well as the existing plugins and tools will be governed under the new model once adopted.'
-
+        content: 'The new forks are part of the Open Distro for Elasticsearch project. We will be renaming the project to be more descriptive of these new inclusions. Additionally, the forks as well as the existing plugins and tools will be governed under the new model once adopted.'
+        id: 'open-distro-forks-relationship'
+        
       - title: 'Are you forking Logstash and Beats?'
         content: 'At the moment, we are not considering forking these projects. '
-
+        id: 'fork-logstash-beats'
       
   - title : 'General'
     faqs:
       - title: Why Open Distro for Elasticsearch?
         content: 'Elasticsearch is an increasingly important technology for search and analytics on machine-generated data. Developers and engineers rely on open source Elasticsearch to gain timely insights into their applications, infrastructure, and security. However, Elasticsearch development has shifted to non-open source licenses. Open Distro for Elasticsearch provides an open source, community-driven distribution with advanced features that makes it easy for everyone to use, collaborate, and contribute to. We are maintaining forks based on Elasticsearch and Kibana 7.10 while continuing to build functionality into plugins and tools.'
+        id: 'why-open-distro'
 
       - title: Are you forking Elasticsearch?
         content: 'Originally our answer was “No." However, due to the upstream Elasticsearch and Kibana projects changing to non-open source licenses in January 2021, we have decided to fork the Elasticsearch and Kibana 7.10 Apache 2.0 licensed code.'
+        id: 'forking-elasticsearch-question'
 
       - title: Are you going to keep pace with the upstream Elasticsearch releases?
         content: 'We have forked Elasticsearch and Kibana 7.10 due to license changes in the upstream projects. We will build upon this base as we move forward with new functionality.'
+        id: 'upstream-pace'
 
       - title: How is Open Distro for Elasticsearch licensed?
         content: All of the plugins included in Open Distro for Elasticsearch are licensed under the Apache License, Version 2.0.
+        id: 'open-distro-licensed'
 
       - title: Will you be making contributions back to Elasticsearch open-source?
         content: 'Upstream open source Elasticsearch development ended with 7.10 when the announcement was made that it would move to a non-open source license. We will continue to build upon a forked Elasticsearch and Kibana 7.10 base under the Apache 2.0 license.'
+        id: 'es-oss-contributions'
 
       - title: Can Open Distro for Elasticsearch components be installed as standalone plugins?
         content: Yes. Open Distro for Elasticsearch is an Elasticsearch-compatible stack that is made up of several projects. Each of these projects can be built and installed independently of Open Distro for Elasticsearch on the corresponding version of open source Elasticsearch.
+        id: 'standalone'
 
       - title: Can I use Open Distro for Elasticsearch plugins with the proprietary Elastic Stack?
         content: Our plugins are tested to work with Open Distro for Elasticsearch and the OSS-only downloads from Elastic. They have not been tested with the default download from Elastic, which includes proprietary software, but we welcome the community to test and enhance individual plugins for compatibility with the Elastic Stack.
+        id: 'elastic-stack'
 
       - title: Is Open Distro for Elasticsearch fully-compatible with Elasticsearch?
         content: 'Open Distro for Elasticsearch is powered by the Apache 2.0-licensed Elasticsearch and Kibana 7.10. All clients and tools that are compatible with this underlying version of Elasticsearch should work without modification.'
+        id: 'fully-compatible-es'
 
       - title: What is your roadmap for Open Distro for Elasticsearch?
         content: We are just getting started. There are many new features that we are excited to build, and we can’t wait to see what the community comes up with. You are invited to join us in creating innovative new features. To learn more about features in developement, see our [roadmap](https://github.com/orgs/opendistro-for-elasticsearch/projects/3).
+        id: 'roadmap'
