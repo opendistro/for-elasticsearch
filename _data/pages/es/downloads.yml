@@ -61,8 +61,8 @@ included:
       -
         title: 'Elasticsearch'
         link: '#prod'
-        subcomponents: 
-          - 
+        subcomponents:
+          -
             title: 'Elasticsearch (Apache 2.0 licensed code only)'
             version: '7.10.0'
           -
@@ -100,8 +100,8 @@ included:
       -
         title: 'Kibana'
         link: '#prod'
-        subcomponents: 
-          - 
+        subcomponents:
+          -
             title: 'Kibana (Apache 2.0 licensed code only)'
             version: '7.10.0'
           -
@@ -149,14 +149,14 @@ alldownloads:
     - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.12.0.tar.gz.sha512'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.12.0.tar.gz.sha512'
-    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.tar.gz'
-    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
-    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.tar.gz'
-    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
-    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.zip'
-    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-linux-x64.tar.gz'
-    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.zip'
-    - 'tarball/opendistroforelasticsearch-data-prepper/data-prepper-v0.7.0-alpha-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-0.7.1-alpha-linux-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-0.7.1-alpha-linux-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-0.7.1-alpha-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-0.7.1-alpha-macos-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-0.7.1-alpha-linux-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-0.7.1-alpha-linux-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-0.7.1-alpha-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-0.7.1-alpha-macos-x64.zip'
     - 'downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.12.0.0.jar'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/mac/Open Distro for Elasticsearch SQL ODBC Driver 64-bit-1.12.0.0-Darwin.pkg'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/Open Distro for Elasticsearch SQL ODBC Driver 32-bit-1.12.0.0-Windows.msi'
@@ -198,7 +198,7 @@ dataprepper:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-linux-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-0.7.1-alpha-linux-x64.zip'
         macos:
           parts:
             macos:
@@ -206,15 +206,15 @@ dataprepper:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/data-prepper-jdk-v0.7.0-alpha-macos-x64.zip'
-            
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-0.7.1-alpha-macos-x64.zip'
+
 prod:
   id: 'prod'
   title: 'Install Open Distro for Elasticsearch for production'
   tagline: 'Get the required binaries to install the Open Distro for Elasticsearch in a production environment'
   description: 'For production we recommend using Docker or a package manager.'
   methods:
-    - 
+    -
       title: 'RPM-Based Package Managers'
       packages:
         -
@@ -248,7 +248,7 @@ prod:
           link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana'
           target: '_blank'
 
-     
+
 drivers:
   id: 'drivers'
   title: 'Drivers'
@@ -396,10 +396,10 @@ develop:
     -
       title: 'x64'
       id: 'x64'
-      platforms: 
+      platforms:
         windows:
           title: 'Windows'
-          parts: 
+          parts:
             elasticsearch:
               title: 'Elasticsearch'
               artifacts:
