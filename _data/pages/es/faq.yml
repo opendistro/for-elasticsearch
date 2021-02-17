@@ -1,7 +1,7 @@
 banner:
   title: FAQ
 
-lastupdated: '2021-02-05'
+lastupdated: '2021-02-17'
 
 sections:
   - title: 'Forking Elasticsearch & Kibana'
