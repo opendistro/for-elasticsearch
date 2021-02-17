@@ -1,7 +1,7 @@
 banner:
   title: FAQ
 
-lastupdated: '2021-02-05'
+lastupdated: '2021-02-17'
 
 sections:
   - title: 'Forking Elasticsearch & Kibana'
@@ -15,7 +15,7 @@ sections:
         id: "fork-updates"
 
       - title: 'Will the project still be called ‘Open Distro for Elasticsearch’?'
-        content: 'No. The current name of the project is no longer descriptive. We are currently in the process of selecting a new name.'
+        content: 'No. We are currently in the process of selecting a new name.'
         id: 'new-name' 
 
       - title: 'I want to contribute, what can I do?'
@@ -27,7 +27,7 @@ sections:
         id: 'governance-foundation'
 
       - title: 'What’s the relationship between the existing Open Distro for Elasticsearch project and the forks of Elasticsearch and Kibana?'
-        content: 'The new forks are part of the Open Distro for Elasticsearch project. We will be renaming the project to be more descriptive of these new inclusions. Additionally, the forks as well as the existing plugins and tools will be governed under the new model once adopted.'
+        content: 'The new forks are part of the Open Distro for Elasticsearch project. Additionally, the forks as well as the existing plugins and tools will be governed under the new model once adopted.'
         id: 'open-distro-forks-relationship'
         
       - title: 'Are you forking Logstash and Beats?'
