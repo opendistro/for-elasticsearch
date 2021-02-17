@@ -61,8 +61,8 @@ included:
       -
         title: 'Elasticsearch'
         link: '#prod'
-        subcomponents: 
-          - 
+        subcomponents:
+          -
             title: 'Elasticsearch (Apache 2.0 licensed code only)'
             version: '7.10.2'
           -
@@ -108,8 +108,8 @@ included:
       -
         title: 'Kibana'
         link: '#prod'
-        subcomponents: 
-          - 
+        subcomponents:
+          -
             title: 'Kibana (Apache 2.0 licensed code only)'
             version: '7.10.2'
           -
@@ -219,7 +219,7 @@ dataprepper:
                 zip:
                   title: '.zip Archive'
                   uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-0.7.1-alpha-macos-x64.zip'
-            
+
 prod:
   id: 'prod'
   title: 'Install Open Distro for Elasticsearch for production'
@@ -260,7 +260,7 @@ prod:
           link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana'
           target: '_blank'
 
-     
+
 drivers:
   id: 'drivers'
   title: 'Drivers'
@@ -408,10 +408,10 @@ develop:
     -
       title: 'x64'
       id: 'x64'
-      platforms: 
+      platforms:
         windows:
           title: 'Windows'
-          parts: 
+          parts:
             elasticsearch:
               title: 'Elasticsearch'
               artifacts:

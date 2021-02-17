@@ -1,24 +1,37 @@
 ---
 layout: default
 ---
-
+<style>
+	.question h5::before {
+		display: block;
+		content: " ";
+		margin-top: -120px;
+		height: 120px;
+		visibility: hidden;
+		pointer-events: none;
+	}
+</style>
 <!-- Banner -->
 <div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
   {%- include banner.html banner=site.data.pages.es.faq.banner -%} 
 </div>  
 
 <div class="pt-5"/>
+<div class="container px-5">
+	<h6>Last Updated: {{site.data.pages.es.faq.lastupdated}}</h6>
+</div>
 
 <!-- Paragraphs -->
 {% for section in site.data.pages.es.faq.sections %}
 <div class="container px-5 pb-5">
-	<h2>{{section.title}}</h2>
+	{% assign sectionNumber = forloop.index %}
+	<h2>{{sectionNumber}}. {{section.title}}</h2>
 	{% for faq in section.faqs %}
-		<div class="container px-5">
+		<div class="question container px-5">
 			<div class="pt-5"></div>
-			
+			{% assign questionIndex = sectionNumber | append: "." | append: forloop.index %}
 			<!-- Title -->
-			<h5 style="font-weight: 600;">{{faq.title | markdownify}}</h5>
+			<h5 id="{{ faq.id }}" style="font-weight: 600;">{{questionIndex | append: " " | append: faq.title | markdownify}}</h5>
 			
 			<!-- Content -->
 			<div class="link-on-white-paragraph text">{{faq.content | markdownify }}</div>
