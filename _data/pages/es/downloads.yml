@@ -6,12 +6,12 @@ intro:
   ext_content: We provide Docker images, RPM files, Debian packages and more. See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro for Elasticsearch.
 
 version:
-  odfe: "1.12.0"
+  odfe: "1.13.0"
 
-lastreleasedate: 'December 14, 2020'
+lastreleasedate: 'Feb 17, 2021'
 
 misc:
-  release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.12.0.md"
+  release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.13.0.md"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
@@ -64,78 +64,82 @@ included:
         subcomponents: 
           - 
             title: 'Elasticsearch (Apache 2.0 licensed code only)'
-            version: '7.10.0'
+            version: '7.10.2'
           -
             title: 'Security Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/security'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Alerting Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/alerting'
-            version: '1.12.0.2'
+            version: '1.13.0.0'
           -
             title: 'SQL & Piped Processing Language Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/sql'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Index Management Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/index-management'
-            version: '1.12.0.1'
+            version: '1.13.0.0'
           -
             title: 'k-NN Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/k-NN'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Anomaly Detection Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/anomaly-detection'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Performance Analyzer'
             link: 'https://github.com/opendistro-for-elasticsearch/performance-analyzer'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Reports Scheduler Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/kibana-reports/tree/dev/reports-scheduler'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
+          -
+            title: 'Asynchronous Search Plugin'
+            link: 'https://github.com/opendistro-for-elasticsearch/asynchronous-search'
+            version: '1.13.0.1'
       -
         title: 'Kibana'
         link: '#prod'
         subcomponents: 
           - 
             title: 'Kibana (Apache 2.0 licensed code only)'
-            version: '7.10.0'
+            version: '7.10.2'
           -
             title: 'Security Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/security-kibana-plugin'
-            version: '1.12.0.0'
+            version: '1.13.0.1'
           -
             title: 'Alerting Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/alerting-kibana-plugin'
-            version: '1.12.0.2'
+            version: '1.13.0.0'
           -
             title: 'Query Workbench Plugin'
             link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/sql/workbench/'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Index Management Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/index-management-kibana-plugin'
-            version: '1.12.0.0'
+            version: '1.13.0.1'
           -
             title: 'Anomaly Detection Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Kibana Notebooks Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/kibana-notebooks'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Kibana Reports Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/kibana-reports'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
           -
             title: 'Kibana Visualizations Plugin'
             link: 'https://github.com/opendistro-for-elasticsearch/kibana-visualizations'
-            version: '1.12.0.0'
+            version: '1.13.0.0'
 alldownloads:
   id: 'all'
   title: 'Get a list of all the Open Distro for Elasticsearch downloads'
