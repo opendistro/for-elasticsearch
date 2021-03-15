@@ -67,7 +67,7 @@ Asynchronous Search supports APIs for submitting, fetching partial results incre
     Sample Request:
     ```
     GET _opendistro/_asynchronous_search/
-    FklfVlU4eFdIUTh1Q1hyM3ZnT19fUVEUd29KLWZYUUI3TzRpdU5wMjRYOHgAAAAAAAAABg****==**
+    FklfVlU4eFdIUTh1Q1hyM3ZnT19fUVEUd29KLWZYUUI3TzRpdU5wMjRYOHgAAAAAAAAABg==
     ```
 
     Sample Response with state RUNNING:
@@ -124,8 +124,10 @@ Asynchronous Search supports APIs for submitting, fetching partial results incre
     Sample Request:
     ```
     DELETE _opendistro/_asynchronous_search/Fk9lQk5aWHJIUUltR2xGWnpVcWtFdVEURUN1SWZYUUJBVkFVMEJCTUlZUUoAAAAAAAAAAg==
+    ```
 
     **Sample Response**
+    ```
     {
       "acknowledged": "true"
     }
@@ -197,7 +199,7 @@ Asynchronous Search supports APIs for submitting, fetching partial results incre
 
 ## Conclusion
 
-Asynchronous Search is useful when querying large data sets across many shards or multiple clusters. The Asynchronous Search queries continue to gather results in the background and the result set is updated and persisted for a user specified configurable time interval. The queries will eventually return the complete result set and* **** *can be stored in an index for later analysis.
+Asynchronous Search is useful when querying large data sets across many shards or multiple clusters. The Asynchronous Search queries continue to gather results in the background and the result set is updated and persisted for a user specified configurable time interval. The queries will eventually return the complete result set and can be stored in an index for later analysis.
 
 We encourage you to try these new APIs on Open Distro for Elasticsearch and provide your valuable feedback to our engineering team on the [Github repo for Asynchronous Search](https://github.com/opendistro-for-elasticsearch/asynchronous-search). We also welcome community contributions and invite you to check out the [contribution guidelines](https://github.com/opendistro-for-elasticsearch/asynchronous-search/blob/master/CONTRIBUTING.md) to get more involved.
 
