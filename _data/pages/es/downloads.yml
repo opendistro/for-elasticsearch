@@ -318,7 +318,7 @@ drivers:
 odfecli:
   id: 'odfecli'
   title: 'Command line management / `odfe-cli`'
-  description: 'Parts of Open Distro for Elasticsearch can be managed from the command line directly using `odfe-cli`.'
+  description: 'Parts of Open Distro for Elasticsearch can be managed from the command line directly using `odfe-cli`. Current Version: 1.1.0'
   arch:
     -
       title: 'x64'
@@ -331,15 +331,13 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-windows-x64.zip'
-        linux:
-          parts:
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-windows-x64.zip'
             linux:
               title: 'Linux'
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-linux-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-linux-x64.zip'
         macos:
           parts:
             macOS:
@@ -347,7 +345,7 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-macos-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-macos-x64.zip'
     -
       title: 'x86'
       id: 'x86'
@@ -359,7 +357,7 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-windows-x86.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-windows-x86.zip'
     -
       title: 'arm64'
       id: 'arm64'
@@ -371,7 +369,7 @@ odfecli:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.0.0-linux-arm64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-linux-arm64.zip'
 
 perftop:
   id: 'perftop'
