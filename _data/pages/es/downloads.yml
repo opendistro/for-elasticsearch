@@ -175,8 +175,8 @@ alldownloads:
     - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-0.8.0-beta-macos-x64.zip'
     - 'downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.13.0.0.jar'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/mac/opendistro-sql-odbc-1.13.0.0-macos-x64.pkg'
-    - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.0-windows-x86.msi'
-    - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.0-windows-x64.msi'
+    - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.1-windows-x86.msi'
+    - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.1-windows-x64.msi'
     - 'downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-linux-arm64.zip'
     - 'downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-linux-x64.zip'
     - 'downloads/elasticsearch-clients/opendistro-cli/opendistro-odfe-cli-1.1.0-macos-x64.zip'
@@ -285,7 +285,7 @@ drivers:
               artifacts:
                 msi:
                   title: 'ODBC Driver'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.0-windows-x64.msi'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.1-windows-x64.msi'
         macos:
           parts:
             macOS:
@@ -313,7 +313,7 @@ drivers:
               artifacts:
                 msi:
                   title: 'ODBC Driver'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.0-windows-x86.msi'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.1-windows-x86.msi'
 
 odfecli:
   id: 'odfecli'
