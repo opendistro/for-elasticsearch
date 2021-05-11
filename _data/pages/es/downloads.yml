@@ -187,7 +187,7 @@ alldownloads:
 dataprepper:
   id: 'dataprepper'
   title: 'Data Prepper'
-  description: 'Data Prepper is an beta component of Open Distro for Elasticsearch that receives trace data from the OpenTelemetry collector, and aggregates, transforms, and normalizes it for analysis and visualization in Kibana.'
+  description: 'Data Prepper is a component of Open Distro for Elasticsearch that receives trace data from the OpenTelemetry collector, and aggregates, transforms, and normalizes it for analysis and visualization in Kibana.'
   notes: 'Also available on [Docker](https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-data-prepper). A version without the bundled JDK is in the [full downloads list](#all)'
   demo:
     title: 'Trace Analytics Demo'
