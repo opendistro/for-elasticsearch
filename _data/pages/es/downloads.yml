@@ -224,30 +224,30 @@ prod:
   id: 'prod'
   title: 'Install Open Distro for Elasticsearch for production'
   tagline: 'Get the required binaries to install the Open Distro for Elasticsearch in a production environment'
-  description: 'For production we recommend using Docker or a package manager.'
+  description: 'For production we recommend using Docker.'
   methods:
-    - 
-      title: 'RPM-Based Package Managers (x64 / arm64)'
-      packages:
-        -
-          title: 'Elasticsearch Install Guide'
-          link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/'
-          target: '_blank'
-        -
-          title: 'Kibana Install Guide'
-          link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/'
-          target: '_blank'
-    -
-      title: 'DEB-Based Package Managers (x64 / arm64)'
-      packages:
-        -
-          title: 'Elasticsearch Install Guide'
-          link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/'
-          target: '_blank'
-        -
-          title: 'Kibana Install Guide'
-          link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/'
-          target: '_blank'
+    #- 
+    #  title: 'RPM-Based Package Managers (x64 / arm64)'
+    #  packages:
+    #    -
+    #      title: 'Elasticsearch Install Guide'
+    #      link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/'
+    #      target: '_blank'
+    #    -
+    #      title: 'Kibana Install Guide'
+    #      link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/'
+    #      target: '_blank'
+    #-
+    #  title: 'DEB-Based Package Managers (x64 / arm64)'
+    #  packages:
+    #    -
+    #      title: 'Elasticsearch Install Guide'
+    #      link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/install/deb/'
+    #      target: '_blank'
+    #    -
+    #      title: 'Kibana Install Guide'
+    #      link: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/'
+    #      target: '_blank'
     -
       title: 'Docker (x64 Only)'
       packages:
