@@ -34,10 +34,10 @@ try:
     description: 'You can also find the standalone docker images on Docker Hub:'
     images:
       -
-        title: 'Open Distro for Elasticsearch - Elasticsearch Docker'
+        title: 'Open Distro for Elasticsearch - Elasticsearch Docker - v1.13.3'
         link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch'
       -
-        title: 'Open Distro for Elasticsearch - Kibana Docker'
+        title: 'Open Distro for Elasticsearch - Kibana Docker - v1.13.2'
         link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana'
 
 connect:

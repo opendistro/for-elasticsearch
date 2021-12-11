@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
     {{site.data.pages.es.downloads.try.docker.description}}
     <ul>
       {% for image in site.data.pages.es.downloads.try.docker.images %}
-      <li><a href="{{image.link}}" target="_blank" onclick="trackOutboundLink('{{image.link}}');">{{image.title}} v{{site.data.pages.es.downloads.version.odfe}}</a></li>
+      <li><a href="{{image.link}}" target="_blank" onclick="trackOutboundLink('{{image.link}}');">{{image.title}}</a></li>
       {% endfor %}
     </ul>
 
