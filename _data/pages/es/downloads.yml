@@ -8,10 +8,10 @@ intro:
 version:
   odfe: "1.13.3"
 
-lastreleasedate: 'Dec 10, 2021'
+lastreleasedate: 'Dec 11, 2021'
 
 misc:
-  release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.13.2.md"
+  release_notes: "https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.13.3.md"
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
