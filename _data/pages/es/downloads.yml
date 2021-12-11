@@ -3,7 +3,7 @@ banner:
 
 intro:
   title: Ready to get started?
-  ext_content: We provide Docker images, RPM files, Debian packages and more. See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro for Elasticsearch.
+  ext_content: See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro for Elasticsearch.
 
 version:
   odfe: "1.13.3"
@@ -153,16 +153,16 @@ alldownloads:
   downloadlist:
     - 'downloads/perftop/opendistro-perf-top-1.13.0.0-linux-x64.zip'
     - 'downloads/perftop/opendistro-perf-top-1.13.0.0-macos-x64.zip'
-    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.13.2-linux-x64.tar.gz'
-    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.13.2-linux-x64.tar.gz.sha512'
-    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.13.2-linux-arm64.tar.gz'
-    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.13.2-linux-arm64.tar.gz.sha512'
+    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.13.3-linux-x64.tar.gz'
+    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.13.3-linux-x64.tar.gz.sha512'
+    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.13.3-linux-arm64.tar.gz'
+    - 'tarball/opendistro-elasticsearch/opendistroforelasticsearch-1.13.3-linux-arm64.tar.gz.sha512'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.2-linux-x64.tar.gz'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.2-linux-x64.tar.gz.sha512'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.2-linux-arm64.tar.gz'
     - 'tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.2-linux-arm64.tar.gz.sha512'
-    - 'downloads/odfe-windows/odfe-executables/opendistroforelasticsearch-1.13.2-windows-x64.exe'
-    - 'downloads/odfe-windows/ode-windows-zip/opendistroforelasticsearch-1.13.2-windows-x64.zip'
+    - 'downloads/odfe-windows/odfe-executables/opendistroforelasticsearch-1.13.3-windows-x64.exe'
+    - 'downloads/odfe-windows/ode-windows-zip/opendistroforelasticsearch-1.13.3-windows-x64.zip'
     - 'downloads/odfe-windows/odfe-executables/opendistroforelasticsearch-kibana-1.13.2-windows-x64.exe'
     - 'downloads/odfe-windows/ode-windows-zip/opendistroforelasticsearch-kibana-1.13.2-windows-x64.zip'
     - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.1-linux-x64.tar.gz'
@@ -433,14 +433,14 @@ develop:
               artifacts:
                 exe:
                   title : '.exe Installer'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/opendistroforelasticsearch-kibana-1.13.3-windows-x64.exe'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/odfe-executables/opendistroforelasticsearch-kibana-1.13.2-windows-x64.exe'
                   subs:
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-on-windows-exe'
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/opendistroforelasticsearch-kibana-1.13.3-windows-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/downloads/odfe-windows/ode-windows-zip/opendistroforelasticsearch-kibana-1.13.2-windows-x64.zip'
                   subs:
                     -
                       title: 'Install Guide'
@@ -466,11 +466,11 @@ develop:
               artifacts:
                 targz:
                   title : '.tar.gz Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.3-linux-x64.tar.gz'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.2-linux-x64.tar.gz'
                   subs:
                     -
                       title: 'SHA'
-                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.3-linux-x64.tar.gz.sha512'
+                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.2-linux-x64.tar.gz.sha512'
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-using-the-tarball'
@@ -500,11 +500,11 @@ develop:
               artifacts:
                 targz:
                   title : '.tar.gz Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.3-linux-arm64.tar.gz'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.2-linux-arm64.tar.gz'
                   subs:
                     -
                       title: 'SHA'
-                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.3-linux-arm64.tar.gz.sha512'
+                      uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/opendistroforelasticsearch-kibana-1.13.2-linux-arm64.tar.gz.sha512'
                     -
                       title: 'Install Guide'
                       uri: 'https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/#run-kibana-using-the-tarball'
