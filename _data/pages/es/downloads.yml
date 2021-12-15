@@ -165,14 +165,14 @@ alldownloads:
     - 'downloads/odfe-windows/ode-windows-zip/opendistroforelasticsearch-1.13.3-windows-x64.zip'
     - 'downloads/odfe-windows/odfe-executables/opendistroforelasticsearch-kibana-1.13.2-windows-x64.exe'
     - 'downloads/odfe-windows/ode-windows-zip/opendistroforelasticsearch-kibana-1.13.2-windows-x64.zip'
-    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.1-linux-x64.tar.gz'
-    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.1-linux-x64.zip'
-    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.1-macos-x64.tar.gz'
-    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.1-macos-x64.zip'
-    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-1.0.1-linux-x64.tar.gz'
-    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-1.0.1-linux-x64.zip'
-    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-1.0.1-macos-x64.tar.gz'
-    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-1.0.1-macos-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.2-linux-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.2-linux-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.2-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.2-macos-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-1.0.2-linux-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-1.0.2-linux-x64.zip'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-1.0.2-macos-x64.tar.gz'
+    - 'tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-1.0.2-macos-x64.zip'
     - 'downloads/elasticsearch-clients/opendistro-sql-jdbc/opendistro-sql-jdbc-1.13.0.0.jar'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/mac/opendistro-sql-odbc-1.13.0.0-macos-x64.pkg'
     - 'downloads/elasticsearch-clients/opendistro-sql-odbc/windows/opendistro-sql-odbc-1.13.0.1-windows-x86.msi'
@@ -210,7 +210,7 @@ dataprepper:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.1-linux-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.2-linux-x64.zip'
         macos:
           parts:
             macos:
@@ -218,7 +218,7 @@ dataprepper:
               artifacts:
                 zip:
                   title: '.zip Archive'
-                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.1-macos-x64.zip'
+                  uri: 'https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-data-prepper/opendistroforelasticsearch-data-prepper-jdk-1.0.2-macos-x64.zip'
 
 prod:
   id: 'prod'
