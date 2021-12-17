@@ -22,6 +22,17 @@ document.addEventListener("DOMContentLoaded", function() {
   <div class="row">
     <div class="container">
       <div class="row px-3 px-md-5 pt-md-3 pt-sm-1">
+        <div class="col-sm-12">
+          <div class="notice">
+            {{ site.data.notice.message | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container">
+      <div class="row px-3 px-md-5 pt-md-3 pt-sm-1">
         <div class="col-md-4 col-sm-12">
           <h5 class="my-0" style="font-weight: 600;"><p>Latest News</p></h5>
           {% for post in site.posts limit:3 %}
