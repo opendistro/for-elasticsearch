@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Pavani Baddepudi
 comments: true
-title: "Open Distro for Elasticsearch 1.4.0 with K-nearest neighbor (k-NN) search support is now available"
+title: "Open Distro 1.4.0 with K-nearest neighbor (k-NN) search support is now available"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/02/Open-Distro-for-Elasticsearch-1.4.0-with-K-nearest-neighbor-(k-NN)-search-support-is-now-available/
 ---
 We are happy to announce the release of Open Distro for Elasticsearch 1.4.0. Version 1.4.0 includes the upstream open source versions of Elasticsearch 7.4.2, Kibana 7.4.2 and the latest updates for the alerting, SQL, security, performance analyzer and Kibana plugins. We are also pleased to announce the general availability of Open Distro for Elasticsearch k-NN plugin, and installer for Windows deployments. We would like to thank the community for their contributions and support in testing out the new features.  Here are the full [release notes](https://github.com/opendistro-for-elasticsearch/opendistro-build/blob/master/release-notes/opendistro-for-elasticsearch-release-notes-1.4.0.md). 
 

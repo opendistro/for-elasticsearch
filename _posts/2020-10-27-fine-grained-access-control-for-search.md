@@ -1,11 +1,12 @@
 ---
-layout: posts
+layout: redirect
 author: Kyle Davis
 comments: true
 title: "Using fine grained access control for search"
 categories:
 - technical-posts
 feature_image: "/for-elasticsearch/assets/media/blog-images/fgac-fields.png"
+new_url: https://opensearch.org/blog/technical-posts/2020/10/fine-grained-access-control-for-search/
 ---
 
 Open Distro for Elasticsearch has extensive access control capabilities built right in. Of course, access control can prevent access to sensitive information, but it can also help you build applications that depend on Open Distro for Elasticsearch for search. Let’s explore this a little more.

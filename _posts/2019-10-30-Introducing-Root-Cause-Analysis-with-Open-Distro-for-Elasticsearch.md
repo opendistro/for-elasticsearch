@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Alolita Sharma, Partha Kanuparthy and Balaji Kannan
 comments: true
-title: "Introducing Root Cause Analysis with Open Distro for Elasticsearch"
+title: "Introducing Root Cause Analysis with Open Distro"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2019/10/Introducing-Root-Cause-Analysis-with-Open-Distro-for-Elasticsearch/
 ---
 If you’re interested in the operational behavior of your Elasticsearch cluster, then root cause analysis can help you identify fundamental issues that affect availability and performance of the cluster. Root cause analysis (RCA) is a problem solving technique used to examine symptoms of problems you’re interested in solving and to work backwards from those symptoms to the causes of the problems.
 

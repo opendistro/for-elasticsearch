@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: mute
 author: Vijayan Balasubramanian
 comments: true
 title: "Getting involved with ODFE-CLI"

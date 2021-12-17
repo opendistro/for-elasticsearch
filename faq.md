@@ -1,4 +1,4 @@
 ---
-layout: faq
-title: FAQ
+layout: redirect
+new_url: https://opensearch.org/faq/
 ---

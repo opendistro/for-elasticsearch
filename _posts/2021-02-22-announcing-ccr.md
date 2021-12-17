@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: mute
 author: Pallavi Priyadarshini
 comments: true
 title: "Announcing the experimental release of Cross-Cluster Replication"

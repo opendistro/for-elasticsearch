@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Alolita Sharma and Jon Handler
 comments: true
-title: "Welcome to the Open Distro for Elasticsearch Blog!"
+title: "Welcome to the Open Distro Blog!"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2019/09/Welcome-to-the-Open-Distro-for-Elasticsearch-Blog/
 ---
 Welcome to the new Open Distro for Elasticsearch blog. Open Distro for Elasticsearch is an Apache 2.0-licensed distribution of Elasticsearch and Kibana. This blog will be a source for in-depth, technical content on the project. You’ll find how-tos, release notes, case studies, event announcements, and if you’re inspired, your own content, too! Or you can join the conversation by commenting on blog posts in the [discussion forum](https://discuss.opendistrocommunity.dev/).
 

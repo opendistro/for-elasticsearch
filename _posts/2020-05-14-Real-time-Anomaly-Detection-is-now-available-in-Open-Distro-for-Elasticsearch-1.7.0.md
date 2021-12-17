@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Pavani Baddepudi
 comments: true
-title: "Real-time Anomaly Detection is now available in Open Distro for Elasticsearch 1.7.0"
+title: "Real-time Anomaly Detection is now available in Open Distro 1.7.0"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/05/Real-time-Anomaly-Detection-is-now-available-in-Open-Distro-for-Elasticsearch-1.7.0/
 ---
 
 We are excited to announce the general availability of real-time [anomaly detection](https://github.com/opendistro-for-elasticsearch/anomaly-detection) for streaming applications in this [release](https://opendistro.github.io/for-elasticsearch/blog/odfe-updates/2020/05/Open-Distro-for-Elasticsearch-1.7.0-released/). We would like to thank the community for their feedback on the preview release of the feature. The anomaly detection feature is built on [RCF](https://github.com/aws/random-cut-forest-by-aws) (Random Cut Forest), an unsupervised algorithm, that detects anomalies on live data and identifies issues as they evolve in real time. RCF is a proven algorithm built on years of academic and industry research. We are glad to announce the general availability of the open source RCF libraries for the greater benefit of our data science community. 

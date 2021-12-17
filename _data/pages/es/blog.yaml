@@ -1,5 +1,5 @@
 banner:
-  title: Open Distro for Elasticsearch Blog
+  title: Open Distro Blog
 
 intro:
   title: Engaging with The Community
@@ -25,11 +25,11 @@ forum:
 meetups:
   img: "/assets/media/icons/meetups.png"
   title: Events and Meetups
-  content: "If you are interested in hosting a developer event or meetup to present and discuss about any component of Open Distro for Elasticsearch, please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>." 
+  content: "If you are interested in hosting a developer event or meetup to present and discuss about any component of Open Distro , please <a href='mailto:opendistroforelasticsearch@amazon.com'>email us</a>." 
 
 codeOfConduct:
   title: Code of Conduct
-  text: "The Open Distro for Elasticsearch community values respect and being professional in interacting with everyone on the project whether on PRs, comments in code. We enforce a <a href='codeofconduct.html'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. <a href='mailto:opensource-codeofconduct@amazon.com'>Contact us</a>"
+  text: "The Open Distro  community values respect and being professional in interacting with everyone on the project whether on PRs, comments in code. We enforce a <a href='codeofconduct.html'>Code of Conduct</a> in all project interactions. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. <a href='mailto:opensource-codeofconduct@amazon.com'>Contact us</a>"
 
 githubLinks:
     - title: Alerting

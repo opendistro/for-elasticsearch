@@ -1,30 +1,30 @@
 
-  - title: Features
-    sublinks:
-      - title: Security
-        url: features/security.html
-      - title: Alerting
-        url: features/alerting.html
-      - title: SQL
-        url: features/SQL%20Support.html
-      - title: Performance Analyzer
-        url: features/analyzer.html
-      - title: k-NN
-        url: features/knn.html
-      - title: Index Management
-        url: features/indexmanagement.html
-  - title: Community
-    sublinks:
-      - title: Blog
-        url: /blog/
-      - title: Events
-        url: events.html
-      - title: Forums
-        url: https://discuss.opendistrocommunity.dev/
-      - title: Partners
-        url: /partners.html
-  - title: Contribute
-    url: /contribute.html
+#  - title: Features
+#    sublinks:
+#      - title: Security
+#        url: features/security.html
+#      - title: Alerting
+#        url: features/alerting.html
+#      - title: SQL
+#        url: features/SQL%20Support.html
+#      - title: Performance Analyzer
+#        url: features/analyzer.html
+#      - title: k-NN
+#        url: features/knn.html
+#      - title: Index Management
+#        url: features/indexmanagement.html
+#  - title: Community
+#    sublinks:
+#      - title: Blog
+#        url: /blog/
+#      - title: Events
+#        url: events.html
+#      - title: Forums
+#        url: https://discuss.opendistrocommunity.dev/
+#      - title: Partners
+#        url: /partners.html
+#  - title: Contribute
+#    url: /contribute.html
   - title: Docs
     url: https://opendistro.github.io/for-elasticsearch-docs
   - title: GitHub

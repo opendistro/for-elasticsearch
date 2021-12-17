@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Viraj Phanse
 comments: true
-title: "Open Distro for Elasticsearch 1.10.1 is now available"
+title: "Open Distro 1.10.1 is now available"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/09/Open-Distro-for-Elasticsearch-1.10.1-is-released/
 ---
 We are pleased to announce the release of [Open Distro for Elasticsearch 1.10.1](https://opendistro.github.io/for-elasticsearch/downloads.html). With this release we are adding support for several new features including a new [command line interface](https://github.com/opendistro-for-elasticsearch/anomaly-detection/tree/master/cli) and [sample data](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/272) for Anomaly Detection, an [email destination](https://github.com/opendistro-for-elasticsearch/alerting/pull/244) in Alerting, a [warmup API](https://github.com/opendistro-for-elasticsearch/k-NN#warmup-api) in k-NN, and an overhauled Kibana plugin for Security. Open Distro for Elasticsearch 1.10.1 and Open Distro for Elasticsearch Kibana 1.10.1 can be downloaded [here](https://opendistro.github.io/for-elasticsearch/downloads.html).
 

@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Open Distro
-subtitle: for Elasticsearch
+
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  Open Distro for Elasticsearch
+  Open Distro
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: opendistro
@@ -29,7 +29,7 @@ disqus: "open-distro-for-elasticsearch" # Blog post comments, uncomment the opti
 
 # Build settings
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-sitemap
 
 # A list of the pages to display in the navigation bar
@@ -78,7 +78,3 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
 
 twitter:
   username: # jekyll-seo-tag > Owners twitter username
-
-feed:
-  categories:
-    - releases

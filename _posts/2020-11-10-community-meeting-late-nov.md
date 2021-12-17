@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: mute
 author: Kyle Davis
 comments: true
 title: "Late November Community Meeting"

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: mute
 author: Rajiv Taori
 comments: true
 title: "Data Prepper enhancements for monitoring and horizontal scalability"

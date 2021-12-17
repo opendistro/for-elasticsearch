@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Pavani Baddepudi
 comments: true
-title: "Announcing Open Distro for Elasticsearch 1.3.0, Helm chart for Kubernetes and Windows support"
+title: "Announcing Open Distro 1.3.0, Helm chart for Kubernetes and Windows support"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2019/12/announcing-open-distro-for-elasticsearch-1-3-0-w-helm-chart-for-kubernetes-and-windows-support/
 ---
 We are pleased to announce the release of Open Distro for Elasticsearch 1.3.0.  Version 1.3.0 includes the upstream open source versions of Elasticsearch 7.3.2, Kibana 7.3.2 and the latest updates for the alerting, SQL, security, performance analyzer and Kibana plugins. We are excited to announce the general availability of Open Distro for Elasticsearch Index Management, installer for Windows deployments, Helm chart support for Kubernetes and cloud formation templates for Elasticsearch deployments. We would like to thank the community for their contributions and support that enabled us to release some of these new features.  Here are the full [release notes](https://discuss.opendistrocommunity.dev/t/open-distro-for-elasticsearch-1-3-0-released-with-helm-chart-for-kubernetes-and-windows-support/2028).
 

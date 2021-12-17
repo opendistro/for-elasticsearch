@@ -1,4 +1,4 @@
 ---
-layout: partners
-title: Partners
+layout: redirect
+new_url: https://opensearch.org/partners/
 ---

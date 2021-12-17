@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Sudipto Guha and Joshua Tokle
 comments: true
 title: "Random Cut Forests"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2019/11/random-cut-forests/
 ---
 We plan to publish a series of blogs discussing the science and math behind Random Cut Forests (RCF). In this first post we begin with a brief overview of Random Forests as a class of Machine Learning model. Next, we introduce RCFs and highlight their relevance to streaming data. Finally, we close with a look to the future, giving ideas for how RCFs support an Online Learning approach to a variety of statistical problems.
 

@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   <!-- try open distro -->
   <div class="container download-detail">
-    <h3  id="{{site.data.pages.es.downloads.try.id}}">{{site.data.pages.es.downloads.try.title }} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.try.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <h3  id="{{site.data.pages.es.downloads.try.id}}">{{site.data.pages.es.downloads.try.title }} </h3>
     <p>{{site.data.pages.es.downloads.try.description | markdownify }}</p>
     
     <ol>
@@ -146,7 +146,7 @@ networks:
 
   <!-- run in production -->
   <div class="container download-detail">
-    <h3  id="{{site.data.pages.es.downloads.prod.id}}">{{site.data.pages.es.downloads.prod.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.prod.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <h3  id="{{site.data.pages.es.downloads.prod.id}}">{{site.data.pages.es.downloads.prod.title}} </h3>
     <p>{{site.data.pages.es.downloads.prod.description | markdownify}}</p>
     <div class="row">
       {% for method in site.data.pages.es.downloads.prod.methods  %}
@@ -169,7 +169,7 @@ networks:
 
   <!-- develop with Open Distro -->
   <div class="container download-detail">
-    <h3  id="{{site.data.pages.es.downloads.develop.id}}">{{site.data.pages.es.downloads.develop.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.develop.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <h3  id="{{site.data.pages.es.downloads.develop.id}}">{{site.data.pages.es.downloads.develop.title}} </h3>
     <p>{{site.data.pages.es.downloads.develop.description | markdownify}}</p>
 
     {% include download-section.html downloadsection=site.data.pages.es.downloads.develop %}
@@ -178,7 +178,7 @@ networks:
 
   <!-- connect to open distro -->
   <div class="container download-detail">
-    <h3  id="{{site.data.pages.es.downloads.connect.id}}">{{site.data.pages.es.downloads.connect.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.connect.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <h3  id="{{site.data.pages.es.downloads.connect.id}}">{{site.data.pages.es.downloads.connect.title}} </h3>
     {{site.data.pages.es.downloads.connect.description | markdownify }}
 
     <div class="border-top pt-2 mt-1" id="{{site.data.pages.es.downloads.drivers.id}}">
@@ -208,7 +208,7 @@ networks:
 
   <!-- ingest data to open distro -->
   <div class="container download-detail">
-    <h3  id="{{site.data.pages.es.downloads.ingest.id}}">{{site.data.pages.es.downloads.ingest.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.ingest.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <h3  id="{{site.data.pages.es.downloads.ingest.id}}">{{site.data.pages.es.downloads.ingest.title}} </h3>
     <p>{{site.data.pages.es.downloads.ingest.description | markdownify }}</p>
     
     <div class="border-top pt-2 mt-1">
@@ -230,7 +230,7 @@ networks:
 
   <!-- What's included -->
   <div class="container download-detail">
-    <h3  id="{{site.data.pages.es.downloads.included.id}}">{{site.data.pages.es.downloads.included.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.included.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <h3  id="{{site.data.pages.es.downloads.included.id}}">{{site.data.pages.es.downloads.included.title}} </h3>
     <p>{{site.data.pages.es.downloads.included.description | markdownify }}</p>
     <p>
       Latest: {{site.data.pages.es.downloads.version.odfe}} / 
@@ -258,7 +258,7 @@ networks:
   </div>
   <!-- all downloads -->
   <div class="container download-detail">
-    <h3  id="{{site.data.pages.es.downloads.alldownloads.id}}">{{site.data.pages.es.downloads.alldownloads.title}} <div class="float-right"><a class="text-secondary" href="#{{site.data.pages.es.downloads.alldownloads.id}}"><i class="fas fa-link"></i></a></div></h3>
+    <h3  id="{{site.data.pages.es.downloads.alldownloads.id}}">{{site.data.pages.es.downloads.alldownloads.title}} </h3>
     <p>{{site.data.pages.es.downloads.alldownloads.description | markdownify }}</p>
 
     <ul>
