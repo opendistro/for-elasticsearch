@@ -4,7 +4,7 @@ banner:
 intro:
   title: Come together
   content: 
-    - paragraph: Open Distro for Elasticsearch is and will remain 100% open source under the Apache 2.0 license. As the project grows, we hope you will join us and contribute. We want to make it easy for you to get started and remove friction—no lengthy Contributor License Agreement—so you can focus on writing great code.
+    - paragraph: Open Distro  is and will remain 100% open source under the Apache 2.0 license. As the project grows, we hope you will join us and contribute. We want to make it easy for you to get started and remove friction—no lengthy Contributor License Agreement—so you can focus on writing great code.
 
 contributeDoc:
   title: Write the docs
@@ -25,7 +25,7 @@ contributeBlog:
 upstream:    
   title: Supporting upstream
   content:
-    - paragraph: While we build new capabilities into Open Distro for Elasticsearch, we will contribute features and fixes to the upstream Elasticsearch project to support its continued advancement. Open Distro for Elasticsearch is not a fork. Our goal is to help ensure the health of a thriving ecosystem.
+    - paragraph: While we build new capabilities into Open Distro , we will contribute features and fixes to the upstream Elasticsearch project to support its continued advancement. Open Distro  is not a fork. Our goal is to help ensure the health of a thriving ecosystem.
   buttons:
     label_primary: Review the FAQ
     url_primary: "/faq.html"
@@ -33,7 +33,7 @@ upstream:
 plugin:    
   title: Plug it in
   content:
-    - paragraph: Already have a great plugin? Reach out to us. We're always looking for new ways to make Open Distro for Elasticsearch even better.
+    - paragraph: Already have a great plugin? Reach out to us. We're always looking for new ways to make Open Distro  even better.
   buttons:
     label_primary: View GitHub issues
     url_primary: "https://www.github.com/opendistro-for-elasticsearch"    

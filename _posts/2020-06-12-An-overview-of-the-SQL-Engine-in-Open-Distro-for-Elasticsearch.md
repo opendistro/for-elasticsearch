@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Viraj Phanse
 comments: true
-title: "An overview of the SQL Engine in Open Distro for Elasticsearch" 
+title: "An overview of the SQL Engine in Open Distro" 
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/06/An-overview-of-the-SQL-Engine-in-Open-Distro-for-Elasticsearch/
 ---
 Open Distro for Elasticsearch is a popular choice for use cases such as log analytics, search, real-time application monitoring and click-stream analysis and more. One commonality among the various use cases is the need to write and run queries to obtain search results at lightning speed, and that in turn, requires the user to have expertise in the JSON based Elasticsearch query domain-specific language (Query DSL). Although Query DSL is powerful, it has a steep learning curve, and was not designed as a human interface to easily create ad hoc queries and explore user data. In order to solve this problem, we provided a SQL engine with Open Distro for Elasticsearch, which we have been expanding since the initial release. As part of this continued investment, we are happy to announce new capabilities we are adding including a Kibana-based SQL Workbench and a new SQL CLI that will make it easier than ever for Open Distro for Elasticsearch users to use the SQL engine to work with their data.
 

@@ -1,23 +1,23 @@
 siteMap:
   sections:
-    - title: 'FEATURES'
-      contents:
-       - menu_item: "Alerting"
-         url: "/features/alerting.html"
-       - menu_item: "Security"
-         url: "/features/security.html"
-       - menu_item: "SQL Support"
-         url: "/features/SQL%20Support.html"
-       - menu_item: "Performance Analyzer"
-         url: "/features/analyzer.html"
+#    - title: 'FEATURES'
+#      contents:
+#       - menu_item: "Alerting"
+#         url: "/features/alerting.html"
+#       - menu_item: "Security"
+#         url: "/features/security.html"
+#       - menu_item: "SQL Support"
+#         url: "/features/SQL%20Support.html"
+#       - menu_item: "Performance Analyzer"
+#         url: "/features/analyzer.html"
     - title: 'COMMUNITY'
       contents:
-       - menu_item: "Partners"
-         url: "/partners.html"
-       - menu_item: "FAQ"
-         url: "/faq.html"
-       - menu_item: "Contribute"
-         url: "/contribute.html"
+#       - menu_item: "Partners"
+#         url: "/partners.html"
+#       - menu_item: "FAQ"
+#         url: "/faq.html"
+#       - menu_item: "Contribute"
+#         url: "/contribute.html"
        - menu_item: "Code of Conduct"
          url: "/codeofconduct.html"
        - menu_item: "GitHub"
@@ -30,4 +30,4 @@ siteMap:
          url: "https://opendistro.github.io/for-elasticsearch-docs"
        - menu_item: "Download"
          url: "/downloads.html"
-  copyright: © 2019–2020 Amazon Web Services, Inc. or its affiliates. All rights reserved.       
+  copyright: © 2019–2021 Amazon Web Services, Inc. or its affiliates. All rights reserved.       

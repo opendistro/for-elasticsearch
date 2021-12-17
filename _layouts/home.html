@@ -1,50 +1,230 @@
 ---
 layout: default
 ---
+<script src="https://cdn.jsdelivr.net/npm/web-streams-polyfill@2.0.2/dist/ponyfill.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/streamsaver@2.0.3/StreamSaver.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById('downloadDockerCompose').addEventListener('click', function (event) {
+    event.preventDefault();
+    const uInt8 = new TextEncoder().encode(document.getElementById('dockercompose').textContent);
+    const fileStream = streamSaver.createWriteStream('docker-compose.yml');
 
-<!-- Banner -->
-<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
-  {%- include banner-with-buttons.html banner=site.data.pages.es.home.banner -%} 
-</div>  
-<!-- End Banner -->
+    const writer = fileStream.getWriter();
+    writer.write(uInt8);
+    writer.close();
+  }, false);
+});
+</script>
 
-<div class="pt-5"/>
-<div class="row">
 
-<div class="container">
-  <div class="row px-3 px-md-5 pt-md-3 pt-sm-1">
-    {%- include text-icon-one-col.html features= site.data.pages.es.home.features -%}
-    <div class="col-md-8 col-sm-12">
-      <h5 class="my-0" style="font-weight: 600;"><p>Latest</p></h5>
-      {% for post in site.posts limit:5 %}
-        <div>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          <p>{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+<div style="padding-top:90px;">
+  <div class="row">
+    <div class="container">
+      <div class="row px-3 px-md-5 pt-md-3 pt-sm-1">
+        <div class="col-md-4 col-sm-12">
+          <h5 class="my-0" style="font-weight: 600;"><p>Latest News</p></h5>
+          {% for post in site.posts limit:3 %}
+            <div>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              <p>{{ post.excerpt | strip_html | truncatewords: 35 }}</p>
+            </div>
+          {% endfor %}
+          <p>Read more posts on our <a href="/for-elasticsearch/blog">blog</a>.</p>
         </div>
-      {% endfor %}
-      <p>Read more posts on our <a href="/for-elasticsearch/blog">blog</a>.</p>
+        <div class="col-md-8 col-sm-12">
+          <h5 class="my-0" style="font-weight: 600;"><p>Download</p></h5>
+          <div class="row">
+            <div class="container download-detail">
+              <h3  id="{{site.data.pages.es.downloads.try.id}}">{{site.data.pages.es.downloads.try.title }} </h3>
+              <p>{{site.data.pages.es.downloads.try.description | markdownify }}</p>
+              
+              <ol>
+                {% for step in site.data.pages.es.downloads.try.steps %}
+                <li>{{step }}</li>
+                {% endfor %}
+              </ol>
+              
+              {{site.data.pages.es.downloads.try.doclink | markdownify }}
+          
+              {{site.data.pages.es.downloads.try.docker.description}}
+              <ul>
+                {% for image in site.data.pages.es.downloads.try.docker.images %}
+                <li><a href="{{image.link}}" target="_blank" onclick="trackOutboundLink('{{image.link}}');">{{image.title}}</a></li>
+                {% endfor %}
+              </ul>
+          
+          
+              <pre id="dockercompose" class="d-none">
+          version: '3'
+          services:
+            odfe-node1:
+              image: amazon/opendistro-for-elasticsearch:{{site.data.pages.es.downloads.version.odfe}}
+              container_name: odfe-node1
+              environment:
+                - cluster.name=odfe-cluster
+                - node.name=odfe-node1
+                - discovery.seed_hosts=odfe-node1,odfe-node2
+                - cluster.initial_master_nodes=odfe-node1,odfe-node2
+                - bootstrap.memory_lock=true # along with the memlock settings below, disables swapping
+                - "ES_JAVA_OPTS=-Xms512m -Xmx512m" # minimum and maximum Java heap size, recommend setting both to 50% of system RAM
+              ulimits:
+                memlock:
+                  soft: -1
+                  hard: -1
+                nofile:
+                  soft: 65536 # maximum number of open files for the Elasticsearch user, set to at least 65536 on modern systems
+                  hard: 65536
+              volumes:
+                - odfe-data1:/usr/share/elasticsearch/data
+              ports:
+                - 9200:9200
+                - 9600:9600 # required for Performance Analyzer
+              networks:
+                - odfe-net
+            odfe-node2:
+              image: amazon/opendistro-for-elasticsearch:{{site.data.pages.es.downloads.version.odfe}}
+              container_name: odfe-node2
+              environment:
+                - cluster.name=odfe-cluster
+                - node.name=odfe-node2
+                - discovery.seed_hosts=odfe-node1,odfe-node2
+                - cluster.initial_master_nodes=odfe-node1,odfe-node2
+                - bootstrap.memory_lock=true
+                - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+              ulimits:
+                memlock:
+                  soft: -1
+                  hard: -1
+                nofile:
+                  soft: 65536
+                  hard: 65536
+              volumes:
+                - odfe-data2:/usr/share/elasticsearch/data
+              networks:
+                - odfe-net
+            kibana:
+              image: amazon/opendistro-for-elasticsearch-kibana:{{site.data.pages.es.downloads.version.odfe}}
+              container_name: odfe-kibana
+              ports:
+                - 5601:5601
+              expose:
+                - "5601"
+              environment:
+                ELASTICSEARCH_URL: https://odfe-node1:9200
+                ELASTICSEARCH_HOSTS: https://odfe-node1:9200
+              networks:
+                - odfe-net
+          
+          volumes:
+            odfe-data1:
+            odfe-data2:
+          
+          networks:
+            odfe-net:</pre>
+            </div>
+      
+            <div class="container download-detail">
+              <h3  id="{{site.data.pages.es.downloads.prod.id}}">{{site.data.pages.es.downloads.prod.title}} </h3>
+              <p>{{site.data.pages.es.downloads.prod.description | markdownify}}</p>
+              <div class="row">
+                {% for method in site.data.pages.es.downloads.prod.methods  %}
+                <div class="col-sm">
+                  <ul class="tree">
+                    <li>{{method.title}}
+                      <ul>
+                        {% for package in method.packages  %}
+                        <li><a href="{{package.link}}" target="{{package.target}}" onclick="trackOutboundLink('{{package.link}}');">{{package.title}}</a></li>
+                        {% endfor %}
+                      </ul>
+                    
+                    </li>
+                  </ul>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+      
+            <div class="container download-detail">
+              <h3  id="{{site.data.pages.es.downloads.develop.id}}">{{site.data.pages.es.downloads.develop.title}} </h3>
+              <p>{{site.data.pages.es.downloads.develop.description | markdownify}}</p>
+          
+              {% include download-section.html downloadsection=site.data.pages.es.downloads.develop %}
+          
+            </div>
+      
+            <div class="container download-detail">
+              <h3  id="{{site.data.pages.es.downloads.ingest.id}}">{{site.data.pages.es.downloads.ingest.title}} </h3>
+              <p>{{site.data.pages.es.downloads.ingest.description | markdownify }}</p>
+              
+              <div class="border-top pt-2 mt-1">
+                <h4>{{site.data.pages.es.downloads.dataprepper.title}}</h4>
+                <div class="pl-4">
+                  <p>{{site.data.pages.es.downloads.dataprepper.description | markdownify}}</p>
+                  {% include download-section.html downloadsection=site.data.pages.es.downloads.dataprepper %}
+                  <strong>{{site.data.pages.es.downloads.dataprepper.demo.title}}</strong>
+                  {{site.data.pages.es.downloads.dataprepper.demo.description | markdownify}}
+                  <ol>
+                    {% for step in site.data.pages.es.downloads.dataprepper.demo.steps  %}
+                      <li>{{ step | markdownify }}</li>
+                    {% endfor %}
+                  </ol>
+                  {{site.data.pages.es.downloads.dataprepper.demo.post | markdownify }}
+                </div>
+              </div>
+            </div>
+        
+            <div class="container download-detail">
+              <h3  id="{{site.data.pages.es.downloads.included.id}}">{{site.data.pages.es.downloads.included.title}} </h3>
+              <p>{{site.data.pages.es.downloads.included.description | markdownify }}</p>
+              <p>
+                Latest: {{site.data.pages.es.downloads.version.odfe}} / 
+                Date: {{site.data.pages.es.downloads.lastreleasedate }} /
+                <a href="{{site.data.pages.es.downloads.misc.release_notes}}">Release Notes</a></p>
+              {% assign components = site.data.pages.es.downloads.included.components %}
+              {% for component in components  %}
+              <ul class="tree">
+                <li><a href="{{component.link}}">{{component.title}}</a>
+                  <ul>
+                    {% for subcomponent in component.subcomponents  %} 
+                    <li>
+                      {% if subcomponent.link %}
+                      <a href="{{subcomponent.link}}" target="_blank" onclick="trackOutboundLink('{{subcomponent.link}}');">{{subcomponent.title}}</a>
+                      {% else %}
+                      {{subcomponent.title}}
+                      {% endif %}
+                      v{% if subcomponent.version %}{{ subcomponent.version }}{% else %}{{ site.data.pages.es.downloads.version.odfe }}{% endif %}</li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              </ul>
+              {% endfor %}
+          
+            </div>
+      
+            <div class="container download-detail">
+              <h3  id="{{site.data.pages.es.downloads.alldownloads.id}}">{{site.data.pages.es.downloads.alldownloads.title}} </h3>
+              <p>{{site.data.pages.es.downloads.alldownloads.description | markdownify }}</p>
+          
+              <ul>
+                {% assign alldownloads = site.data.pages.es.downloads.alldownloads.downloadlist | sort %}
+                {% for download in alldownloads  %}
+                <li><code><a href="{{site.data.pages.es.downloads.alldownloads.base}}{{download}}" target="_blank" onclick="trackOutboundLink('{{site.data.pages.es.downloads.alldownloads.base}}{{download}}');">{{download}}</a></code></li>
+                {% endfor %}
+              </ul>
+              
+            </div>
+        </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<!-- Features Icons-->
 
 
 <div class="pt-5"/>
 
-<!-- Intro -->
-
-{%- include intro-with-background.html intro=site.data.pages.es.home.intro -%}
-
-<!-- Features Descriptions -->
-{%- include text-img-without-background.html features=site.data.pages.es.home.descriptions -%}
-
-<!-- Partners Starts-->
-{%- include intro-without-background.html intro=site.data.pages.es.home.partners -%} 
-<!-- Partners Ends-->
-
-<!-- Community -->
-{%- include communities/es.html community=site.data.pages.es.home.bottomBanner github=site.data.links.github.home forum= site.data.links.forum.home-%}
-<!-- Community Ends -->
+</div>
 
 
  

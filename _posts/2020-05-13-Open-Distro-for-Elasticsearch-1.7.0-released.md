@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Alolita Sharma
 comments: true
-title: "Open Distro for Elasticsearch 1.7.0 Released"
+title: "Open Distro 1.7.0 Released"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/05/Open-Distro-for-Elasticsearch-1.7.0-released/
 ---
 
 Open Distro for Elasticsearch 1.7.0 is now available for [download](https://opendistro.github.io/for-elasticsearch/downloads.html). [Upgrade to 1.7.0](https://opendistro.github.io/for-elasticsearch/downloads.html) to leverage the latest features and bug fixes.

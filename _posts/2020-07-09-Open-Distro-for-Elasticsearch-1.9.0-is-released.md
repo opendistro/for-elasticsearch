@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Viraj Phanse
 comments: true
-title: "Open Distro for Elasticsearch 1.9.0 is now available"
+title: "Open Distro is now available"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/07/Open-Distro-for-Elasticsearch-1.9.0-is-released/
 ---
 We are pleased to announce the release for [Open Distro for Elasticsearch 1.9.0](https://opendistro.github.io/for-elasticsearch/downloads.html) that introduces [Root Cause Analysis Engine in Performance Analyzer](https://github.com/opendistro-for-elasticsearch/performance-analyzer-rca), batch actions like [start, stop](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/195) and [delete](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/204) for anomaly detectors in Anomaly Detection, [support for remote cluster indexes](https://github.com/opendistro-for-elasticsearch/anomaly-detection-kibana-plugin/pull/244) in Anomaly Detection, and an ability to [set index priority action](https://github.com/opendistro-for-elasticsearch/index-management/pull/241) in Index State Management feature. Open Distro for Elasticsearch 1.9.0 can be downloaded [here](https://opendistro.github.io/for-elasticsearch/downloads.html).
 

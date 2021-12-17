@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Viraj Phanse, Pavani Baddepudi, Alolita Sharma
 comments: true
-title: "Open Distro for Elasticsearch 1.8.0 is released, supports Cosine Similarity in k-NN"
+title: "Open Distro 1.8.0 is released, supports Cosine Similarity in k-NN"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/06/Open-Distro-for-Elasticsearch-1.8.0-is-released-supports-Cosine-Similarity-in-k-NN/
 ---
 
 We are pleased to announce the release for Open Distro for Elasticsearch 1.8.0. that now supports cosine similarity distance metric with k-NN. We released k-NN similarity search feature in Open Distro for Elasticsearch 1.4.0 with support for Euclidean distance to calculate similarity between the vectors. With cosine similarity, you can now measure the orientation between two vectors while Euclidean distance is used to measure the magnitude. We would also like to thank our community for contributing snapshot support in Index Management. This feature enables users to define snapshot action in Index State Management for retention and to migrate indices from one cluster to another. Open Distro for Elasticsearch 1.8.0 can be downloaded [here](https://opendistro.github.io/for-elasticsearch/downloads.html).

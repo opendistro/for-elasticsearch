@@ -1,4 +1,4 @@
 ---
-layout: downloads
-title: Download
+layout: redirect
+new_url: '/for-elasticsearch/'
 ---

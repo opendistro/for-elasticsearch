@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Satya Vajrapu
 comments: true
-title: "Index State Management in Open Distro for Elasticsearch"
+title: "Index State Management in Open Distro"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/05/Index-State-Management-in-Open-Distro-for-Elasticsearch/
 ---
 
 Elasticsearch is an open source distributed search and analytics engine based on [Apache Lucene](https://lucene.apache.org/). After adding your data to Elasticsearch, you can perform full-text searches on the data with all of the features you may expect: search by field, search multiple indices, boost fields, rank results by score, sort results by field, and aggregate results. You can also use [Kibana](https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/) to build visualizations for data in Elasticsearch.

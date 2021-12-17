@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Viraj Phanse, Anirudha Jadhav
 comments: true
-title: "Open Distro for Elasticsearch now Supports integration with Tableau and Microsoft Excel" 
+title: "Open Distro now Supports integration with Tableau and Microsoft Excel" 
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/07/Open-Distro-for-Elasticsearch-now-supports-integration-with-Tableau-and-Microsoft-Excel/
 ---
 We now facilitate connecting Elasticsearch with two of the most powerful business intelligence and data visualization applications, Tableau and Microsoft Excel. To achieve this, we introduce the Open Distro for Elastic Search - Tableau integration and the Open Distro for Elastic Search - Excel integration in Open Distro for Elasticsearch SQL Engine . 
 

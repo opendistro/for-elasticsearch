@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Kyle Davis
 comments: true
 title: "Late October Community Meeting"
 categories:
 - meetings
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/meetings/2020/10/community-meeting/
 ---
 
 Join us on Monday, October 19th at 10am Pacific (UTC-7) on [Zoom](https://www.meetup.com/Open-Distro-for-Elasticsearch-Meetup-Group/events/thmcwrybcnbzb/) for our biweekly community meeting.

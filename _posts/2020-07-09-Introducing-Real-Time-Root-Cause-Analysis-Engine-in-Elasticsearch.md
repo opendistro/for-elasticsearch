@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Joydeep Sinha, Karthik Kumarguru, Ruizhen Guo, Sid Narayan, Khushboo Rajput, Aditya Jindal, Balaji Kannan
 comments: true
 title: "Introducing real-time Root Cause Analysis Engine in Elasticsearch " 
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/07/Introducing-Real-Time-Root-Cause-Analysis-Engine-in-Elasticsearch/
 ---
 
 We are excited to release the real-time Root Cause Analysis engine for Elasticsearch in 

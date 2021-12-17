@@ -1,7 +1,7 @@
 banner:
-  title: Open Distro for Elasticsearch
-  product: Elasticsearch
-  content: An Apache 2.0-licensed distribution of Elasticsearch enhanced with enterprise security, alerting, SQL, and more
+  title: Open Distro
+  #product: Elasticsearch
+  #content: An Apache 2.0-licensed distribution of Elasticsearch enhanced with enterprise security, alerting, SQL, and more
   actions:
     primary:
       text: 'Download'
@@ -12,15 +12,15 @@ banner:
   color: "#0a1f72"
 
 features:
-  - title: 100% open source
-    content: "Providing the freedoms that make open source great: view, use, change, and distribute code, as you wish"
-    img: "/assets/media/icons/brackets.svg"
-  - title: Enterprise-grade
-    content: Delivering security and advanced capabilities such as alerting, SQL, and cluster diagnostics
-    img: "/assets/media/icons/globe.svg"
-  - title: Community-driven
-    content: Providing individuals and organizations the freedom to easily contribute changes to the distribution
-    img: "/assets/media/icons/community.svg"
+  #- title: 100% open source
+  #  content: "Providing the freedoms that make open source great: view, use, change, and distribute code, as you wish"
+  #  img: "/assets/media/icons/brackets.svg"
+  #- title: Enterprise-grade
+  #  content: Delivering security and advanced capabilities such as alerting, SQL, and cluster diagnostics
+  #  img: "/assets/media/icons/globe.svg"
+  #- title: Community-driven
+  #  content: Providing individuals and organizations the freedom to easily contribute changes to the distribution
+  #  img: "/assets/media/icons/community.svg"
 
 descriptions:
   - title: Keep your data secure
@@ -121,5 +121,5 @@ partners:
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
-  text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0.'
+  text: 'Open Distro is open source software and licensed under Apache 2.0.'
   color: "#0a1f72"

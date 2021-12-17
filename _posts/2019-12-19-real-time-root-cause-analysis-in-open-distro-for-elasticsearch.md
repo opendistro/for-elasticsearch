@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Partha Kanuparthy, Joydeep Sinha, Karthik Kumarguru, Adithya Chandra, Balaji Kannan
 comments: true
-title: "Real Time Root Cause Analysis in Open Distro for Elasticsearch"
+title: "Real Time Root Cause Analysis in Open Distro"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2019/12/real-time-root-cause-analysis-in-open-distro-for-elasticsearch/
 ---
 
 The Open Distro for Elasticsearch Performance Analyzer captures Elasticsearch and JVM activity, as well as lower-level resource usage (e.g. disk, network, CPU and memory) of these activities. Based on this instrumentation, Performance Analyzer computes and exposes diagnostic metrics, with the goal of enabling Elasticsearch users and administrators to measure and understand bottlenecks in their Elasticsearch clusters. The Open Distro for Elasticsearch PerfTop client provides real-time visualization of these diagnostic metrics to surface bottlenecks to Elasticsearch users and operators.

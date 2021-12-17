@@ -171,21 +171,13 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,7
 }
 .download-intent, .download-detail {
   background-color:white; 
-  border: solid 1px #b4bcc2;
+}
+.download-detail + .download-detail {
+  padding-top: 2em;
 }
 .download-detail {
-  padding: 2em 4.5em;
-  margin-top: 4em;
-
-
-  h3::before { 
-    display: block; 
-    content: " "; 
-    margin-top: -120px; 
-    height: 120px; 
-    visibility: hidden; 
-    pointer-events: none;
-  }
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
 }
 
 .download-intent {

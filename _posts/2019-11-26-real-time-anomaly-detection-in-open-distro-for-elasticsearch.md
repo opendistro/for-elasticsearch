@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Partha Kanuparthy
 comments: true
-title: "Real Time Anomaly Detection in Open Distro for Elasticsearch"
+title: "Real Time Anomaly Detection in Open Distro"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2019/11/real-time-anomaly-detection-in-open-distro-for-elasticsearch/
 ---
 Today, we released Anomaly Detection (preview) on Open Distro for Elasticsearch. We are excited to continue our work on anomaly detection as a part of Open Distro for Elasticsearch in the coming months, and invite developers in the larger search community to join in and co-develop some parts. The feature includes a nice mix of machine learning algorithms, statistics methods, systems work, visualization and UI, and enterprise primitives (for working on anomalies).
 

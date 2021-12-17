@@ -3,7 +3,7 @@ banner:
 
 intro:
   title: Ready to get started?
-  ext_content: See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro for Elasticsearch.
+  ext_content: See the <a href="https://opendistro.github.io/for-elasticsearch-docs/">documentation</a> for a deep dive into Open Distro.
 
 version:
   odfe: "1.13.3"
@@ -15,14 +15,14 @@ misc:
 
 bottomBanner:
   class: '/assets/media/backgrounds/homehero.svg'
-  text: 'Open Distro for Elasticsearch is open source software and licensed under Apache 2.0'
+  text: 'Open Distro is open source software and licensed under Apache 2.0'
   color: "#0a1f72"
 
 try:
   id: 'try'
-  title: 'Try Open Distro for Elasticsearch'
-  tagline: 'Learn how to try out Open Distro for Elasticsearch'
-  description: 'The best way to try out Open Distro for Elasticsearch is to use [Docker Compose](https://docs.docker.com/compose/install/). These steps will setup a two node cluster of Elasticsearch plus Kibana:'
+  title: 'Try Open Distro'
+  tagline: 'Learn how to try out Open Distro'
+  description: 'The best way to try out Open Distro is to use [Docker Compose](https://docs.docker.com/compose/install/). These steps will setup a two node cluster of Elasticsearch plus Kibana:'
   steps:
     - 'Download <a href="#" id="downloadDockerCompose"><code>docker-compose.yml</code></a> into your desired directory'
     - 'Run <code>docker-compose up</code>'
@@ -34,29 +34,29 @@ try:
     description: 'You can also find the standalone docker images on Docker Hub:'
     images:
       -
-        title: 'Open Distro for Elasticsearch - Elasticsearch Docker - v1.13.3'
+        title: 'Open Distro - Elasticsearch Docker - v1.13.3'
         link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch'
       -
-        title: 'Open Distro for Elasticsearch - Kibana Docker - v1.13.2'
+        title: 'Open Distro - Kibana Docker - v1.13.2'
         link: 'https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-kibana'
 
 connect:
   id: 'connect'
-  title: 'Get tools to help run, tune, and connect to Open Distro for Elasticsearch'
-  description: 'These tools are not packed in with Open Distro for Elasticsearch but are designed to specifically work with the distribution.'
+  title: 'Get tools to help run, tune, and connect to Open Distro'
+  description: 'These tools are not packed in with Open Distro but are designed to specifically work with the distribution.'
   tagline: 'Download and install tools from the Open Distro project.'
 
 ingest:
   id: 'ingest'
-  description: 'Open Distro for Elasticsearch is compatible with a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The project also maintains specific ingestion tools:'
-  title: 'Ingest data to Open Distro for Elasticsearch'
-  tagline: 'Tools that ease ingestion and processing of various data into Open Distro For Elasticsearch'
+  description: 'Open Distro is compatible with a variety of ingestion and processing tools including [beats](https://opendistro.github.io/for-elasticsearch-docs/docs/troubleshoot/#beats), [logstash](https://aws.amazon.com/elasticsearch-service/the-elk-stack/logstash/), [fluentbit](https://fluentbit.io/) and [fluentd](https://www.fluentd.org/). The project also maintains specific ingestion tools:'
+  title: 'Ingest data to Open Distro'
+  tagline: 'Tools that ease ingestion and processing of various data into Open Distro'
 
 included:
   id: 'included'
-  title: 'Find out what’s included in an installation of Open Distro for Elasticsearch'
+  title: 'Find out what’s included in an installation of Open Distro'
   tagline: 'Learn about the components included in our downloads'
-  description: 'Open Distro for Elasticsearch is made up of two primary components - Elasticsearch and Kibana. Each component consists of the core binaries plus plugins, everything licensed under Apache 2.0. We also provide [previous releases](https://opendistro.github.io/for-elasticsearch-docs/version-history/) and [standalone plugins](https://opendistro.github.io/for-elasticsearch-docs/docs/install/plugins/).'
+  description: 'Open Distro is made up of two primary components - Elasticsearch and Kibana. Each component consists of the core binaries plus plugins, everything licensed under Apache 2.0. We also provide [previous releases](https://opendistro.github.io/for-elasticsearch-docs/version-history/) and [standalone plugins](https://opendistro.github.io/for-elasticsearch-docs/docs/install/plugins/).'
   components:
       -
         title: 'Elasticsearch'
@@ -146,10 +146,10 @@ included:
             version: '1.13.0.1'
 alldownloads:
   id: 'all'
-  title: 'Get a list of all the Open Distro for Elasticsearch downloads'
-  description: 'A comprehensive list of all artifacts associated with the Open Distro for Elasticsearch project.'
+  title: 'Get a list of all the Open Distro downloads'
+  description: 'A comprehensive list of all artifacts associated with the Open Distro project.'
   base: 'https://d3g5vo6xdbdb9a.cloudfront.net/'
-  tagline: 'Everything we build as part of the Open Distro for Elasticsearch project'
+  tagline: 'Everything we build as part of the Open Distro project'
   downloadlist:
     - 'downloads/perftop/opendistro-perf-top-1.13.0.0-linux-x64.zip'
     - 'downloads/perftop/opendistro-perf-top-1.13.0.0-macos-x64.zip'
@@ -187,7 +187,7 @@ alldownloads:
 dataprepper:
   id: 'dataprepper'
   title: 'Data Prepper'
-  description: 'Data Prepper is a component of Open Distro for Elasticsearch that receives trace data from the OpenTelemetry collector, and aggregates, transforms, and normalizes it for analysis and visualization in Kibana.'
+  description: 'Data Prepper is a component of Open Distro that receives trace data from the OpenTelemetry collector, and aggregates, transforms, and normalizes it for analysis and visualization in Kibana.'
   notes: 'Also available on [Docker](https://hub.docker.com/r/amazon/opendistro-for-elasticsearch-data-prepper). A version without the bundled JDK is in the [full downloads list](#all)'
   demo:
     title: 'Trace Analytics Demo'
@@ -222,8 +222,8 @@ dataprepper:
 
 prod:
   id: 'prod'
-  title: 'Install Open Distro for Elasticsearch for production'
-  tagline: 'Get the required binaries to install the Open Distro for Elasticsearch in a production environment'
+  title: 'Install Open Distro for production'
+  tagline: 'Get the required binaries to install the Open Distro in a production environment'
   description: 'For production we recommend using Docker.'
   methods:
     #- 
@@ -264,7 +264,7 @@ prod:
 drivers:
   id: 'drivers'
   title: 'Drivers'
-  description: 'Open Distro for Elasticsearch has a built in REST API that can run Query DSL, SQL and PPL queries, but you can also connect with any ODBC or JDBC compatible tool.'
+  description: 'Open Distro has a built in REST API that can run Query DSL, SQL and PPL queries, but you can also connect with any ODBC or JDBC compatible tool.'
   arch:
     -
       title: 'x64'
@@ -318,7 +318,7 @@ drivers:
 odfecli:
   id: 'odfecli'
   title: 'Command line management / `odfe-cli`'
-  description: 'Parts of Open Distro for Elasticsearch can be managed from the command line directly using `odfe-cli`. Current Version: 1.1.0'
+  description: 'Parts of Open Distro can be managed from the command line directly using `odfe-cli`. Current Version: 1.1.0'
   arch:
     -
       title: 'x64'
@@ -399,9 +399,9 @@ perftop:
 
 develop:
   id: 'develop'
-  description: 'If you want to run Open Distro for Elasticsearch in a non-production environment, these artifacts are a great place to start. On a Mac, we suggest using [Docker](#try).'
-  title: 'Develop with Open Distro for Elasticsearch'
-  tagline: 'All you need to start developing on Open Distro for Elasticsearch'
+  description: 'If you want to run Open Distro in a non-production environment, these artifacts are a great place to start. On a Mac, we suggest using [Docker](#try).'
+  title: 'Develop with Open Distro'
+  tagline: 'All you need to start developing on Open Distro'
   arch:
     -
       title: 'x64'

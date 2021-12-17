@@ -1,11 +1,13 @@
 ---
-layout: posts
+layout: redirect
+excerpt: " "
 author: Vamshi Vijay Nakkirtha, Lai Jiang, Chris Swierczewski, Jack Mazanec
 comments: true
 title: "Build K-Nearest Neighbor (k-NN) Similarity Search Engine with Elasticsearch"
 categories:
 - odfe-updates
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"
+new_url: https://opensearch.org/blog/odfe-updates/2020/04/Building-k-Nearest-Neighbor-(k-NN)-Similarity-Search-Engine-with-Elasticsearch/
 ---
 
 Recently, we launched k-NN similarity search feature on Open Distro for Elasticsearch. We are excited for the community to try out this feature and welcome you to come join in and contribute in building additional capabilities into Open Distro for Elasticsearch.

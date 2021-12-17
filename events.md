@@ -1,4 +1,4 @@
 ---
-layout: events
-title: Events
+layout: redirect
+new_url: https://opensearch.org/events/
 ---

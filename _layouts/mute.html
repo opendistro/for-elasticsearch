@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+<div class="container-fluid homeBanner" style="background: url('{{site.baseurl}}/assets/media/backgrounds/homehero.svg') no-repeat; background-size: cover;">
+  {%- include banner.html banner=site.data.pages.es.blog.null -%}
+</div>
+
+<div class="container-fluid" style="background-color: #f3f6fc;">
+
+<main class="main container">
+	<div class="row blogpost justify-content-center" style="background:#fff;">
+
+    <div class="col-10" style="text-align: right; padding: 15px 10px 0 0;">
+    <span style="float:left; font-size: 12px; font-weight: 400; color: #6a6a6a; top: 5px; left: 17px; display: inline-block; position: relative;"><a href="/for-elasticsearch/blog/">blog</a></span>
+      <span style="position: relative;top: -8px; font-size: 12px; right: 3px; color: #666;"> Share:</span>
+      <div style="display: inline-block;"> {% include nav-share.html %}</div>
+    </div>
+
+	<div class="col-10">
+
+
+  <article class="article  article--post  content  typeset">
+
+
+    <h1 style="font-size: 32px; font-weight: 600; padding: 0; margin: 0;">Content Moving</h1>
+    This content will move to a new home shortly.
+	</div>
+  </article>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+</div>
+</div>
+</main>
+
+</div>

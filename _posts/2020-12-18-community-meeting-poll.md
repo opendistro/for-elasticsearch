@@ -1,8 +1,8 @@
 ---
-layout: posts
+layout: mute
 author: Kyle Davis
 comments: true
-title: "2021 Open Distro for Elasticsearch Community Meetings"
+title: "2021 Open Distro Community Meetings"
 categories:
 - meetings
 feature_image: "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2019/03/26/open_disto-elasticsearch-logo-800x400.jpg"

@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: mute
 author: Rajiv Taori 
 comments: true
 title: "Announcing alpha availability of Trace Analytics for distributed tracing"
