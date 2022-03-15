@@ -30,4 +30,4 @@ siteMap:
          url: "https://opendistro.github.io/for-elasticsearch-docs"
        - menu_item: "Download"
          url: "/downloads.html"
-  copyright: © 2019–2021 Amazon Web Services, Inc. or its affiliates. All rights reserved.       
+  copyright: © 2019–2021 Amazon Web Services, Inc. or its affiliates. All rights reserved.  <br /><br /> OpenSearch includes certain Apache-licensed Elasticsearch code from Elasticsearch B.V. and other source code. Elasticsearch B.V. is not the source of that other source code. ELASTICSEARCH is a registered trademark of Elasticsearch B.V.     
